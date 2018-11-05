@@ -1,0 +1,1624 @@
+{
+    "items": [
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Allzweckreiniger",
+            "type": "household",
+            "uid": "20174291496048655268",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Alufolie",
+            "type": "household",
+            "uid": "20174291496048655277",
+            "unit": "-"
+        },
+        {
+            "amount": 4,
+            "howMany": 0,
+            "name": "Apfel",
+            "type": "food",
+            "uid": "20174291496048654128",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Apfelessig",
+            "type": "food",
+            "uid": "20174291496048654147",
+            "unit": "ml"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Asiatische Nudeln",
+            "type": "food",
+            "uid": "20174291496048654171",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Avocado",
+            "type": "food",
+            "uid": "20174291496048654186",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Backerbsen",
+            "type": "food",
+            "uid": "20174291496048654198",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Backpapier",
+            "type": "household",
+            "uid": "20174291496048655287",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Badreiniger",
+            "type": "household",
+            "uid": "20174291496048655297",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Balsamico Essig",
+            "type": "food",
+            "uid": "20174291496048654210",
+            "unit": "ml"
+        },
+        {
+            "amount": 4,
+            "howMany": 0,
+            "name": "Banane",
+            "type": "food",
+            "uid": "20174291496048654222",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Basmatireis",
+            "type": "food",
+            "uid": "20174291496048654233",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Birkenzucker",
+            "type": "food",
+            "uid": "20174291496048654243",
+            "unit": "g"
+        },
+        {
+            "amount": 4,
+            "howMany": 0,
+            "name": "Birne",
+            "type": "food",
+            "uid": "20174291496048654254",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Blätterteig",
+            "type": "food",
+            "uid": "20174291496048654264",
+            "unit": "-"
+        },
+        {
+            "amount": 100,
+            "howMany": 0,
+            "name": "Bohnschotten",
+            "type": "food",
+            "uid": "20174291496048654275",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Brot",
+            "type": "food",
+            "uid": "20174291496048654295",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Brotpapier",
+            "type": "household",
+            "uid": "20174291496048655307",
+            "unit": "-"
+        },
+        {
+            "amount": 500,
+            "howMany": 0,
+            "name": "Brösel",
+            "type": "food",
+            "uid": "20174291496048654285",
+            "unit": "g"
+        },
+        {
+            "amount": 250,
+            "howMany": 0,
+            "name": "Champingnons",
+            "type": "food",
+            "uid": "20174291496048654307",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Dinkelmehl",
+            "type": "food",
+            "uid": "20174291496048654317",
+            "unit": "g"
+        },
+        {
+            "amount": 400,
+            "howMany": 0,
+            "name": "Dosentomaten",
+            "type": "food",
+            "uid": "20174291496048654328",
+            "unit": "g"
+        },
+        {
+            "amount": 10,
+            "howMany": 0,
+            "name": "Ei",
+            "type": "food",
+            "uid": "20174291496048654338",
+            "unit": "-"
+        },
+        {
+            "amount": 100,
+            "howMany": 0,
+            "name": "Ementaler",
+            "type": "food",
+            "uid": "20174291496048654348",
+            "unit": "g"
+        },
+        {
+            "amount": 300,
+            "howMany": 0,
+            "name": "Erbsen",
+            "type": "food",
+            "uid": "20174291496048654358",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Erdbeeren",
+            "type": "food",
+            "uid": "20174291496048654369",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Essiggurkerl",
+            "type": "food",
+            "uid": "20174291496048654378",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Feinwaschmittel",
+            "type": "household",
+            "uid": "20174291496048655317",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Fenchel",
+            "type": "food",
+            "uid": "20174291496048654388",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Fensterreiniger",
+            "type": "household",
+            "uid": "20174291496048655327",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Feta",
+            "type": "food",
+            "uid": "20174291496048654398",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Feuchtes Klopapier",
+            "type": "household",
+            "uid": "20174291496048655336",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Feuerzeug",
+            "type": "household",
+            "uid": "20174291496048655346",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Flüssigseife",
+            "type": "household",
+            "uid": "20174291496048655355",
+            "unit": "-"
+        },
+        {
+            "amount": 4,
+            "howMany": 0,
+            "name": "Frankfurter",
+            "type": "food",
+            "uid": "20174291496048654409",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Früchtetee",
+            "type": "food",
+            "uid": "20174291496048654419",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Gefrierbeutel",
+            "type": "household",
+            "uid": "20174291496048655365",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Gemüsebrühe",
+            "type": "food",
+            "uid": "20174291496048654429",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Germ",
+            "type": "food",
+            "uid": "20174291496048654438",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Geschirrspüler - Klarspüler",
+            "type": "household",
+            "uid": "20174291496048655375",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Geschirrspüler - Salz",
+            "type": "household",
+            "uid": "20174291496048655384",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Geschirrspüler - Tabs",
+            "type": "household",
+            "uid": "20174291496048655394",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Geschirrspüllmittel",
+            "type": "household",
+            "uid": "20174291496048655404",
+            "unit": "-"
+        },
+        {
+            "amount": 500,
+            "howMany": 0,
+            "name": "Ghee",
+            "type": "food",
+            "uid": "20174291496048654448",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Glitzi",
+            "type": "household",
+            "uid": "20174291496048655413",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Gummiringerl",
+            "type": "household",
+            "uid": "20174291496048655423",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Gurke",
+            "type": "food",
+            "uid": "20174291496048654457",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Hafermilch",
+            "type": "food",
+            "uid": "20174291496048654468",
+            "unit": "ml"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Hirse",
+            "type": "food",
+            "uid": "20174291496048654477",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Honig",
+            "type": "food",
+            "uid": "20174291496048654493",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Hygienespüler",
+            "type": "household",
+            "uid": "20174291496048655439",
+            "unit": "-"
+        },
+        {
+            "amount": 100,
+            "howMany": 0,
+            "name": "Ingwer",
+            "type": "food",
+            "uid": "20174291496048654504",
+            "unit": "g"
+        },
+        {
+            "amount": 150,
+            "howMany": 0,
+            "name": "Joghurt",
+            "type": "food",
+            "uid": "20174291496048654513",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Kaffee",
+            "type": "food",
+            "uid": "20174291496048654526",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Kaffee koffeinfrei",
+            "type": "food",
+            "uid": "20174291496048654543",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Kapern",
+            "type": "food",
+            "uid": "20174291496048654554",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Karfiol",
+            "type": "food",
+            "uid": "20174291496048654566",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Karotten",
+            "type": "food",
+            "uid": "20174291496048654579",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Kartoffel",
+            "type": "food",
+            "uid": "20174291496048654588",
+            "unit": "g"
+        },
+        {
+            "amount": 300,
+            "howMany": 0,
+            "name": "Kichererbsen",
+            "type": "food",
+            "uid": "20174291496048654598",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Kichererbsenmehl",
+            "type": "food",
+            "uid": "20174291496048654608",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Kinderzahncreme",
+            "type": "household",
+            "uid": "20174291496048655449",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Klopapier",
+            "type": "household",
+            "uid": "20174291496048655459",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Knoblauch",
+            "type": "food",
+            "uid": "20174291496048654619",
+            "unit": "-"
+        },
+        {
+            "amount": 500,
+            "howMany": 0,
+            "name": "Knödelbrot",
+            "type": "food",
+            "uid": "20174291496048654634",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Kohlrabi",
+            "type": "food",
+            "uid": "20174291496048654645",
+            "unit": "-"
+        },
+        {
+            "amount": 10,
+            "howMany": 0,
+            "name": "Kondom",
+            "type": "household",
+            "uid": "2017571496860042905",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Kraut",
+            "type": "food",
+            "uid": "20174291496048654655",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Küchenreiniger",
+            "type": "household",
+            "uid": "20174291496048655470",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Küchenrolle",
+            "type": "household",
+            "uid": "20174291496048655480",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Kürbis",
+            "type": "food",
+            "uid": "20174291496048654666",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Labyrinth ",
+            "type": "household",
+            "uid": "2017571496863817423",
+            "unit": "-"
+        },
+        {
+            "amount": 250,
+            "howMany": 0,
+            "name": "Lasagneblätter",
+            "type": "food",
+            "uid": "20174291496048654676",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Lauch",
+            "type": "food",
+            "uid": "20174291496048654686",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Limette",
+            "type": "food",
+            "uid": "20174291496048654697",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Linsen indisch",
+            "type": "food",
+            "uid": "20174291496048654707",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Linsen steirisch",
+            "type": "food",
+            "uid": "20174291496048654718",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Linsenmittel",
+            "type": "household",
+            "uid": "20174291496048655492",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Mais",
+            "type": "food",
+            "uid": "20174291496048654729",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Maisstärke",
+            "type": "food",
+            "uid": "20174291496048654738",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Mandeln",
+            "type": "food",
+            "uid": "20174291496048654748",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Mango",
+            "type": "food",
+            "uid": "20174291496048654758",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Melanzani",
+            "type": "food",
+            "uid": "20174291496048654769",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Milch",
+            "type": "food",
+            "uid": "20174291496048654778",
+            "unit": "ml"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Milchreis",
+            "type": "food",
+            "uid": "20174291496048654788",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Müllbeutel",
+            "type": "household",
+            "uid": "20174291496048655503",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Müllbeutel Kosmetik",
+            "type": "household",
+            "uid": "20174291496048655515",
+            "unit": "-"
+        },
+        {
+            "amount": 500,
+            "howMany": 0,
+            "name": "Müsli",
+            "type": "food",
+            "uid": "20174291496048654798",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Nudeln",
+            "type": "food",
+            "uid": "20174291496048654808",
+            "unit": "g"
+        },
+        {
+            "amount": 100,
+            "howMany": 0,
+            "name": "Nüsse",
+            "type": "food",
+            "uid": "20174291496048654828",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Offenanzünder",
+            "type": "household",
+            "uid": "20174291496048655526",
+            "unit": "-"
+        },
+        {
+            "amount": 250,
+            "howMany": 0,
+            "name": "Oliven",
+            "type": "food",
+            "uid": "20174291496048654838",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Olivenöl",
+            "type": "food",
+            "uid": "20174291496048654848",
+            "unit": "ml"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Orangen",
+            "type": "food",
+            "uid": "20174291496048654858",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Paprika",
+            "type": "food",
+            "uid": "20174291496048654869",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Parboiled Reis",
+            "type": "food",
+            "uid": "20174291496048654878",
+            "unit": "g"
+        },
+        {
+            "amount": 100,
+            "howMany": 0,
+            "name": "Parmesan",
+            "type": "food",
+            "uid": "20174291496048654888",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Pesto",
+            "type": "food",
+            "uid": "20174291496048654897",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Pfeffer bunt",
+            "type": "food",
+            "uid": "20174291496048654905",
+            "unit": "g"
+        },
+        {
+            "amount": 50,
+            "howMany": 0,
+            "name": "Pfeffer grün",
+            "type": "food",
+            "uid": "20174291496048654915",
+            "unit": "g"
+        },
+        {
+            "amount": 50,
+            "howMany": 0,
+            "name": "Pfeffer rosa",
+            "type": "food",
+            "uid": "20174291496048654925",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Pfeffer schwarz",
+            "type": "food",
+            "uid": "20174291496048654934",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Polenta",
+            "type": "food",
+            "uid": "20174291496048654944",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Quinoa",
+            "type": "food",
+            "uid": "20174291496048654953",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Rapsöl",
+            "type": "food",
+            "uid": "20174291496048654962",
+            "unit": "ml"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Rasierschaum",
+            "type": "household",
+            "uid": "20174291496048655537",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Retsina",
+            "type": "food",
+            "uid": "20175161497598453539",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Rindfleisch",
+            "type": "food",
+            "uid": "20174291496048654971",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Roggenmehl",
+            "type": "food",
+            "uid": "20174291496048654981",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Rosinen",
+            "type": "food",
+            "uid": "20174291496048654990",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Salat",
+            "type": "food",
+            "uid": "20174291496048655000",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Salz fein",
+            "type": "food",
+            "uid": "20174291496048655010",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Salz grob",
+            "type": "food",
+            "uid": "20174291496048655019",
+            "unit": "g"
+        },
+        {
+            "amount": 250,
+            "howMany": 0,
+            "name": "Sauerkraut",
+            "type": "food",
+            "uid": "20174291496048655029",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Sauerrahm",
+            "type": "food",
+            "uid": "20174291496048655039",
+            "unit": "ml"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Schampoo",
+            "type": "household",
+            "uid": "20174291496048655548",
+            "unit": "-"
+        },
+        {
+            "amount": 100,
+            "howMany": 0,
+            "name": "Schinken",
+            "type": "food",
+            "uid": "20174291496048655048",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Schlagobers",
+            "type": "food",
+            "uid": "20174291496048655057",
+            "unit": "ml"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Schwammtücher",
+            "type": "household",
+            "uid": "20174291496048655559",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Seife",
+            "type": "household",
+            "uid": "20174291496048655571",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Semmel",
+            "type": "food",
+            "uid": "20174291496048655068",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Silberzwiebeln",
+            "type": "food",
+            "uid": "20174291496048655077",
+            "unit": "ml"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Slipeinlagen",
+            "type": "household",
+            "uid": "20174291496048655583",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Soja Sauce",
+            "type": "food",
+            "uid": "20174291496048655087",
+            "unit": "ml"
+        },
+        {
+            "amount": 500,
+            "howMany": 0,
+            "name": "Sojawürfel",
+            "type": "food",
+            "uid": "20174291496048655097",
+            "unit": "g"
+        },
+        {
+            "amount": 500,
+            "howMany": 0,
+            "name": "Sojagranulat",
+            "type": "food",
+            "uid": "20174291496048655107",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Speck",
+            "type": "food",
+            "uid": "20174291496048655120",
+            "unit": "g"
+        },
+        {
+            "amount": 400,
+            "howMany": 0,
+            "name": "Spinat",
+            "type": "food",
+            "uid": "20174291496048655135",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Sticky Reis",
+            "type": "food",
+            "uid": "20174291496048655145",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Strudelteig",
+            "type": "food",
+            "uid": "20174291496048655155",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Suppennudeln",
+            "type": "food",
+            "uid": "20174291496048655164",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Tampons",
+            "type": "household",
+            "uid": "20174291496048655593",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Taschentücher",
+            "type": "household",
+            "uid": "20174291496048655605",
+            "unit": "-"
+        },
+        {
+            "amount": 4,
+            "howMany": 0,
+            "name": "Tomaten",
+            "type": "food",
+            "uid": "20174291496048655174",
+            "unit": "-"
+        },
+        {
+            "amount": 250,
+            "howMany": 0,
+            "name": "Topfen",
+            "type": "food",
+            "uid": "20174291496048655184",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Tortillas",
+            "type": "food",
+            "uid": "20174291496048655193",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Waschmittel",
+            "type": "household",
+            "uid": "20174291496048655616",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "howMany": 0,
+            "name": "Weintrauben",
+            "type": "food",
+            "uid": "20174291496048655203",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Weizenmehl",
+            "type": "food",
+            "uid": "20174291496048655218",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Zahnbürste",
+            "type": "household",
+            "uid": "20174291496048655627",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Zahncreme",
+            "type": "household",
+            "uid": "20174291496048655639",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Zitrone",
+            "type": "food",
+            "uid": "20174291496048655228",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Zucchini",
+            "type": "food",
+            "uid": "20174291496048655237",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Zucker",
+            "type": "food",
+            "uid": "20174291496048655247",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "howMany": 0,
+            "name": "Zwiebel",
+            "type": "food",
+            "uid": "20174291496048655257",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "howMany": 0,
+            "name": "Zündhölzer",
+            "type": "household",
+            "uid": "20174291496048655650",
+            "unit": "-"
+        }
+    ],
+    "recipes": [
+        {
+            "howMany": 0,
+            "ingredients": "null",
+            "instruction": "-",
+            "name": "Butterchicken",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921871"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":500,\"name\":\"Asiatische Nudeln\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":75,\"name\":\"Karotten\",\"unit\":\"g\"},{\"amount\":125,\"name\":\"Champignons\",\"unit\":\"g\"},{\"amount\":125,\"name\":\"Zuckerschoten\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Gurke\",\"unit\":\"g\"},{\"amount\":125,\"name\":\"Spinat\",\"unit\":\"g\"},{\"amount\":125,\"name\":\"Sojabohnensprossen\",\"unit\":\"g\"},{\"amount\":10,\"name\":\"Maisstärke\",\"unit\":\"g\"},{\"amount\":10,\"name\":\"Sesamöl\",\"unit\":\"g\"},{\"amount\":10,\"name\":\"Reiswein\",\"unit\":\"ml\"},{\"amount\":10,\"name\":\"Sojasauce\",\"unit\":\"ml\"}]",
+            "instruction": "-",
+            "name": "Chow Mein",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921882"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Indische Linsen\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Tomate\",\"unit\":\"Stk.\"}]",
+            "instruction": "-",
+            "name": "Dhal",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921893"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":300,\"name\":\"Weizenmehl\",\"unit\":\"g\"},{\"amount\":4,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"}]",
+            "instruction": "-",
+            "name": "Eiernockerl",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921904"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1,\"name\":\"Karotte\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Sellerie\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Knoblauch\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Gemüsebrühe\",\"unit\":\"Stk.\"},{\"amount\":500,\"name\":\"Kartoffel\",\"unit\":\"g\"},{\"amount\":5,\"name\":\"Majoran\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Lorbeer\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Pilze\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Sauerrahm\",\"unit\":\"ml\"},{\"amount\":1,\"name\":\"Petersilie\",\"unit\":\"Stk.\"}]",
+            "instruction": "-",
+            "name": "Erdäpfelsuppe",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921915"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":500,\"name\":\"Rindfleisch faschiert\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":50,\"name\":\"Brösel\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"}]",
+            "instruction": "-",
+            "name": "Faschierte Leibchen",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921926"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1,\"name\":\"Karfiol\",\"unit\":\"Stk.\"},{\"amount\":50,\"name\":\"Weizenmehl\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Brösel\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Rapsöl\",\"unit\":\"ml\"}]",
+            "instruction": "-",
+            "name": "Gebackener Karfiol",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921938"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":300,\"name\":\"Käse\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Weizenmehl\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":100,\"name\":\"Brösel\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Rapsöl\",\"unit\":\"ml\"}]",
+            "instruction": "done",
+            "name": "Gebackener Käse",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921948"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":4,\"name\":\"Melanzani\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Reis\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":150,\"name\":\"Sojakrümmel\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Tomatenmark\",\"unit\":\"g\"},{\"amount\":100,\"name\":\"Sauerrahm\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Gefüllte Melanzani",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921959"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":4,\"name\":\"Zucchini\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Reis\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":150,\"name\":\"Sojakrümmel\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Tomatenmark\",\"unit\":\"g\"},{\"amount\":100,\"name\":\"Sauerrahm\",\"unit\":\"g\"}]",
+            "instruction": "-",
+            "name": "Gefüllte Zucchini",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921969"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":100,\"name\":\"Kartoffeln\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Melanzani\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Karotten\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Bohnschotten\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Ghee\",\"unit\":\"g\"},{\"amount\":2,\"name\":\"Zwiebeln\",\"unit\":\"Stk.\"},{\"amount\":175,\"name\":\"Joghurt\",\"unit\":\"g\"},{\"amount\":10,\"name\":\"Ingwer\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Knoblauch\",\"unit\":\"Stk.\"},{\"amount\":300,\"name\":\"Milch\",\"unit\":\"ml\"},{\"amount\":600,\"name\":\"Basmati Reis\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zitrone\",\"unit\":\"Stk.\"},{\"amount\":0,\"name\":\"Garam Masala\",\"unit\":\"g\"},{\"amount\":10,\"name\":\"Cumin\",\"unit\":\"g\"},{\"amount\":3,\"name\":\"Kurkuma\",\"unit\":\"g\"},{\"amount\":3,\"name\":\"Kardamon\",\"unit\":\"Stk.\"},{\"amount\":3,\"name\":\"Zimtstange\",\"unit\":\"Stk.\"},{\"amount\":5,\"name\":\"Chillipulver\",\"unit\":\"g\"}]",
+            "instruction": "-",
+            "name": "Gemüse Pulao",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921980"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":10,\"name\":\"Cumin\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Chillischote\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Knoblauch\",\"unit\":\"Stk.\"},{\"amount\":400,\"name\":\"Dosentomaten\",\"unit\":\"g\"},{\"amount\":75,\"name\":\"Kokosnusspulver\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Karfiol\",\"unit\":\"Stk.\"},{\"amount\":2,\"name\":\"Zucchini\",\"unit\":\"Stk.\"},{\"amount\":2,\"name\":\"Karotten\",\"unit\":\"Stk.\"},{\"amount\":50,\"name\":\"Kartoffel\",\"unit\":\"g\"},{\"amount\":400,\"name\":\"Kirchererbsen\",\"unit\":\"g\"},{\"amount\":150,\"name\":\"Joghurt\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Mango Chutney\",\"unit\":\"g\"},{\"amount\":20,\"name\":\"Koriander\",\"unit\":\"g\"}]",
+            "instruction": "-",
+            "name": "Gemüsecurry",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822921990"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1,\"name\":\"Karfiol\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Frühlingszwiebel\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Ingwer\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Knoblauch\",\"unit\":\"Stk.\"},{\"amount\":400,\"name\":\"Dosentomaten\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Chilliisauce\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Kichererbsenmehl\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Weizenmehl\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Korriander grün\",\"unit\":\"Stk.\"}]",
+            "instruction": "done",
+            "name": "Ghobi Manchurian",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922015"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":120,\"name\":\"Gries\",\"unit\":\"g\"},{\"amount\":60,\"name\":\"Butter\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":0,\"name\":\"Muskatnuss\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Schnittlauch\",\"unit\":\"Stk.\"},{\"amount\":0,\"name\":\"Gemüsebrühe\",\"unit\":\"Stk.\"}]",
+            "instruction": "done",
+            "name": "Griesknödelsuppe",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922028"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":4,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":500,\"name\":\"Rindfleisch\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Paprika\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Tomatenmark\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Gulasch",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922040"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":200,\"name\":\"Hirse\",\"unit\":\"g\"},{\"amount\":10,\"name\":\"Gemüsebrühe\",\"unit\":\"g\"},{\"amount\":100,\"name\":\"Speck\",\"unit\":\"g\"},{\"amount\":150,\"name\":\"Käse\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":50,\"name\":\"Brösel\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Hirsekrapfen",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922052"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":0,\"name\":\"Karfiolsuppe\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Kartoffeln\",\"unit\":\"g\"},{\"amount\":100,\"name\":\"Karotten\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":20,\"name\":\"Gemüsebrühe\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Karfiolsuppe",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922063"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":500,\"name\":\"Kartoffeln\",\"unit\":\"g\"},{\"amount\":4,\"name\":\"Frankfurter\",\"unit\":\"Stk.\"},{\"amount\":3,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":250,\"name\":\"Nudeln\",\"unit\":\"g\"},{\"amount\":100,\"name\":\"Sauerrahm\",\"unit\":\"g\"},{\"amount\":3,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":0,\"name\":\"Paprikapulver\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Essiggurkel\",\"unit\":\"Stk.\"}]",
+            "instruction": "done",
+            "name": "Kartoffelgulasch",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922075"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":500,\"name\":\"Kartoffeln\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":100,\"name\":\"Griess\",\"unit\":\"g\"},{\"amount\":10,\"name\":\"Muskatnuss\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Kartoffelknödel",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922087"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1000,\"name\":\"Kartoffeln\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Majoran\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":50,\"name\":\"Mehl\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Kartoffelpuffer",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922098"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1,\"name\":\"Blätterteig\",\"unit\":\"Stk.\"},{\"amount\":500,\"name\":\"Kartoffeln\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":150,\"name\":\"Speck\",\"unit\":\"g\"},{\"amount\":100,\"name\":\"Sauerrahm\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Kartoffelstrudel",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922110"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1000,\"name\":\"Weizenmehl\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Germ\",\"unit\":\"Stk.\"},{\"amount\":100,\"name\":\"Milch\",\"unit\":\"ml\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"}]",
+            "instruction": "done",
+            "name": "Knödel",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922121"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":4,\"name\":\"Knödel\",\"unit\":\"Stk.\"},{\"amount\":3,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":0,\"name\":\"Essiggurkeln\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"}]",
+            "instruction": "done",
+            "name": "Knödel mit Ei",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922132"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1,\"name\":\"Blätterteig\",\"unit\":\"Stk.\"},{\"amount\":0,\"name\":\"Kraut\",\"unit\":\"Stk.\"},{\"amount\":150,\"name\":\"Faschiertes\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"}]",
+            "instruction": "done",
+            "name": "Krautstrudel",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922143"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":400,\"name\":\"Kichererbsen\",\"unit\":\"g\"},{\"amount\":500,\"name\":\"Kürbis\",\"unit\":\"g\"},{\"amount\":200,\"name\":\"Kartoffeln\",\"unit\":\"g\"},{\"amount\":2,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":2,\"name\":\"Knoblauch\",\"unit\":\"Stk.\"}]",
+            "instruction": "Gemüse aus aller Welt S.142",
+            "name": "Kürbis Kichererbsen Curry",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922156"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":500,\"name\":\"Kürbis\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Gemüsebrühe\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"}]",
+            "instruction": "done",
+            "name": "Kürbissuppe",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922167"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":335,\"name\":\"Roggenmehl\",\"unit\":\"g\"},{\"amount\":335,\"name\":\"Topfen\",\"unit\":\"g\"},{\"amount\":167,\"name\":\"Butter\",\"unit\":\"g\"},{\"amount\":500,\"name\":\"Lauch\",\"unit\":\"g\"},{\"amount\":3,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Schlagobers\",\"unit\":\"ml\"}]",
+            "instruction": "done",
+            "name": "Lauchkuchen",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922179"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":400,\"name\":\"Dosentomaten\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ingwer\",\"unit\":\"Stk.\"},{\"amount\":20,\"name\":\"Ghee\",\"unit\":\"g\"},{\"amount\":2,\"name\":\"Chillischote\",\"unit\":\"Stk.\"},{\"amount\":5,\"name\":\"Cumin\",\"unit\":\"g\"},{\"amount\":5,\"name\":\"Kurkuma\",\"unit\":\"g\"},{\"amount\":200,\"name\":\"Joghurt\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Karfiol\",\"unit\":\"Stk.\"},{\"amount\":450,\"name\":\"Kartoffeln\",\"unit\":\"g\"},{\"amount\":40,\"name\":\"Koriander grün\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Kichererbsenmehl\",\"unit\":\"g\"},{\"amount\":5,\"name\":\"Garam Masala\",\"unit\":\"g\"}]",
+            "instruction": "Alle Welt S.182",
+            "name": "Malai Kofta",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922190"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":500,\"name\":\"Schweinefleisch\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Limette\",\"unit\":\"Stk.\"},{\"amount\":50,\"name\":\"Sojasauce\",\"unit\":\"ml\"},{\"amount\":10,\"name\":\"Zucker braun\",\"unit\":\"g\"},{\"amount\":2,\"name\":\"Knoblauch\",\"unit\":\"Stk.\"},{\"amount\":400,\"name\":\"Lauch\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Mango\",\"unit\":\"Stk.\"},{\"amount\":0,\"name\":\"Korriander\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Gemüsebrühe\",\"unit\":\"g\"}]",
+            "instruction": "Wok S.12",
+            "name": "Mangosau",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922201"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":400,\"name\":\"Faschiertes\",\"unit\":\"g\"},{\"amount\":3,\"name\":\"Melanzani\",\"unit\":\"Stk.\"},{\"amount\":500,\"name\":\"Kartoffeln\",\"unit\":\"g\"},{\"amount\":2,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Weizenmehl\",\"unit\":\"g\"},{\"amount\":500,\"name\":\"Milch\",\"unit\":\"ml\"},{\"amount\":5,\"name\":\"Zimt\",\"unit\":\"g\"},{\"amount\":5,\"name\":\"Muskatnuss\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Knoblauch\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Käse\",\"unit\":\"g\"},{\"amount\":400,\"name\":\"Dosentomaten\",\"unit\":\"g\"},{\"amount\":20,\"name\":\"Oregano\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Moussaka",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922213"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":400,\"name\":\"Nudeln\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Pesto\",\"unit\":\"Stk.\"},{\"amount\":100,\"name\":\"Parmesan\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Nudeln mit Pesto",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922224"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "null",
+            "instruction": null,
+            "name": "Pizza",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922235"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":250,\"name\":\"Polenta\",\"unit\":\"g\"},{\"amount\":500,\"name\":\"Karotten\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Knoblauch\",\"unit\":\"Stk.\"},{\"amount\":25,\"name\":\"Butter\",\"unit\":\"g\"},{\"amount\":10,\"name\":\"Gemüsebrühe\",\"unit\":\"g\"},{\"amount\":250,\"name\":\"Milch\",\"unit\":\"ml\"},{\"amount\":100,\"name\":\"Sauerrahm\",\"unit\":\"g\"},{\"amount\":150,\"name\":\"Käse\",\"unit\":\"g\"}]",
+            "instruction": "Kochvergnügen S.103",
+            "name": "Polenta Karottenkuchen",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922247"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "null",
+            "instruction": null,
+            "name": "Quiche mit Lauch",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922260"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":2,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":300,\"name\":\"Rindfleisch\",\"unit\":\"g\"},{\"amount\":200,\"name\":\"Reis\",\"unit\":\"g\"},{\"amount\":200,\"name\":\"Karotten\",\"unit\":\"g\"},{\"amount\":150,\"name\":\"Erbsen\",\"unit\":\"g\"},{\"amount\":150,\"name\":\"Sauerrahm\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Reisfleisch",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922271"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":400,\"name\":\"Rind faschiert\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Cumin\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Zimt\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zitrone\",\"unit\":\"Stk.\"},{\"amount\":400,\"name\":\"Staudenselleries\",\"unit\":\"g\"},{\"amount\":4,\"name\":\"Tomaten\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Knoblauch\",\"unit\":\"Stk.\"},{\"amount\":1,\"name\":\"Ingwer\",\"unit\":\"Stk.\"},{\"amount\":0,\"name\":\"Marillen\",\"unit\":\"Stk.\"},{\"amount\":0,\"name\":\"Gemüsebrühe\",\"unit\":\"g\"},{\"amount\":5,\"name\":\"Maisstärke\",\"unit\":\"g\"}]",
+            "instruction": "Wok S.12",
+            "name": "Rind mit Marillen",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922282"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "null",
+            "instruction": null,
+            "name": "Rindsroulade",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922295"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":300,\"name\":\"Bohnen\",\"unit\":\"g\"},{\"amount\":200,\"name\":\"Rollgerste\",\"unit\":\"g\"},{\"amount\":300,\"name\":\"Selchfleisch\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Majoran\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Thymian\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":10,\"name\":\"Weizenmehl\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Suppengemüse\",\"unit\":\"Stk.\"}]",
+            "instruction": "St. Martiner Kochbuch S.103",
+            "name": "Ritschert",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922306"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "null",
+            "instruction": null,
+            "name": "Röstgemüse",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922318"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":250,\"name\":\"Topfen\",\"unit\":\"g\"},{\"amount\":300,\"name\":\"Nudeln\",\"unit\":\"g\"},{\"amount\":100,\"name\":\"Speck\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Majoran\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":0,\"name\":\"Butterbrösel\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Schlagobers\",\"unit\":\"ml\"}]",
+            "instruction": "done",
+            "name": "Russischer Nudelauflauf",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922329"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "null",
+            "instruction": null,
+            "name": "Schinken Käse Röllchen",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922340"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":250,\"name\":\"Knödelbrot\",\"unit\":\"g\"},{\"amount\":2,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":250,\"name\":\"Milch\",\"unit\":\"ml\"},{\"amount\":50,\"name\":\"Weizenmehl\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Serviettenknödel",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922351"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":450,\"name\":\"Spinat\",\"unit\":\"g\"},{\"amount\":300,\"name\":\"Roggenmehl\",\"unit\":\"g\"},{\"amount\":2,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":150,\"name\":\"Gorgonzola\",\"unit\":\"g\"},{\"amount\":120,\"name\":\"Schinken\",\"unit\":\"g\"},{\"amount\":200,\"name\":\"Schlagobers\",\"unit\":\"ml\"}]",
+            "instruction": "done",
+            "name": "Spinalspätzle mit Gorgonzola",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922370"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1,\"name\":\"Blätterteig\",\"unit\":\"Stk.\"},{\"amount\":300,\"name\":\"Spinat\",\"unit\":\"g\"},{\"amount\":1,\"name\":\"Zwiebel\",\"unit\":\"Stk.\"},{\"amount\":200,\"name\":\"Feta\",\"unit\":\"g\"}]",
+            "instruction": "partly",
+            "name": "Spinalstrudel",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922381"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":400,\"name\":\"Spinat\",\"unit\":\"g\"},{\"amount\":4,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":500,\"name\":\"Kartoffel\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Spinat, Kartoffel und Ei",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922398"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":500,\"name\":\"Rindfleisch\",\"unit\":\"g\"},{\"amount\":150,\"name\":\"Schlagobers\",\"unit\":\"ml\"},{\"amount\":0,\"name\":\"Pfeffer rosa\",\"unit\":\"g\"},{\"amount\":20,\"name\":\"Pfeffer grün\",\"unit\":\"g\"},{\"amount\":500,\"name\":\"Kroketten\",\"unit\":\"g\"}]",
+            "instruction": "done",
+            "name": "Steak mit Pfefferrahmsauce",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922413"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1000,\"name\":\"Rindfleisch\",\"unit\":\"g\"},{\"amount\":2,\"name\":\"Suppengemüse\",\"unit\":\"Stk.\"},{\"amount\":100,\"name\":\"Schlagobers\",\"unit\":\"ml\"},{\"amount\":0,\"name\":\"Preiselbeeren\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Knödel\",\"unit\":\"Stk.\"}]",
+            "instruction": "done",
+            "name": "Svickova",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922425"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "[{\"amount\":1,\"name\":\"Paprika\",\"unit\":\"Stk.\"},{\"amount\":3,\"name\":\"Ei\",\"unit\":\"Stk.\"},{\"amount\":500,\"name\":\"Topfen\",\"unit\":\"g\"},{\"amount\":120,\"name\":\"Griess\",\"unit\":\"g\"},{\"amount\":0,\"name\":\"Backpulver\",\"unit\":\"g\"},{\"amount\":120,\"name\":\"Haferflocken\",\"unit\":\"g\"},{\"amount\":5,\"name\":\"Paprikapulver\",\"unit\":\"g\"},{\"amount\":50,\"name\":\"Milch\",\"unit\":\"ml\"}]",
+            "instruction": "Kochvergnügen S.161",
+            "name": "Topfenküchlein",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922437"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "null",
+            "instruction": null,
+            "name": "Tortillas mit Chilli",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922449"
+        },
+        {
+            "howMany": 0,
+            "ingredients": "null",
+            "instruction": null,
+            "name": "Tortillas mit Röstgemüse",
+            "servings": 4,
+            "type": "food",
+            "uid": "20174261495822922460"
+        }
+    ]
+}
