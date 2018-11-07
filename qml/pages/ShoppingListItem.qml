@@ -46,6 +46,7 @@ MouseArea {
     property int amount_
     property alias unit_: unitLabel.text
     property bool checked
+    property alias category : categoryLabel.text
 
     property real leftMargin
     property real rightMargin: Theme.paddingLarge
@@ -190,9 +191,16 @@ MouseArea {
             color: highlighted ? Theme.highlightColor : (checked ? Theme.primaryColor : Theme.secondaryColor)
         }
 
+        Label {
+            id: categoryLabel
+            anchors.top : unitLabel.top
+            anchors.left : unitLabel.right
+            //text: unit_
+            color: highlighted ? Theme.highlightColor : (checked ? Theme.primaryColor : Theme.secondaryColor)
+        }
     }
 
-    Label {
+  /*  Label {
         id: unit
         height: text.height
         opacity: root.checked ? 1.0 : 0.4
@@ -207,7 +215,7 @@ MouseArea {
         color: highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor
         truncationMode: TruncationMode.Elide
     }
-
+*/
     Component {
         id: removalComponent
         RemorseItem {
@@ -226,7 +234,8 @@ MouseArea {
 
     onClicked: {
         checked = !checked
-        DB.setShoppingListItem(uid_,name,amount,unit,checked)
+        // DB.setShoppingListItem(uid_,name,amount,unit,checked,category)
+        DB.updateShoppingListItemChecked(uid_, checked)
         parent.parent.parent.updatePage()
     }
 
@@ -240,7 +249,7 @@ MouseArea {
         removal.execute(shoppingListItem, "Deleting", function() {
             var dbItem = DB.getItemPerName(name)
             if (dbItem.length > 0) {
-              DB.setItem(dbItem[0].uid,name,dbItem[0].amount,dbItem[0].unit,dbItem[0].type,0)
+              DB.setItem(dbItem[0].uid,name,dbItem[0].amount,dbItem[0].unit,dbItem[0].type,0,dbItem[0].category)
             }
             DB.removeShoppingListItem(uid_,name,0,unit,false)
             parent.parent.parent.initPage()}

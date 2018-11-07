@@ -53,8 +53,9 @@ CoverBackground {
             var amount = items.get(i).amount
             var unit = items.get(i).unit
             var done = items.get(i).done
+            var category = items.get(i).category
             if (!done) shoppingListModel.append({"uid": uid, "name": name, "amount": amount, "unit": unit, "done":done });
-            print(uid + " " + name + " " + amount + " " + unit + " " + done)
+            console.debug(uid + " " + name + " " + amount + " " + unit + " " + done + " " + category)
             if (shoppingListModel.count == maxcount) break
         }
         if (shoppingListModel.count > 0) {
@@ -146,9 +147,15 @@ goes
             onTriggered: markFirstAsDone()
         }
 
-        /*CoverAction {
-            iconSource: "image://theme/icon-cover-pause"
-        }*/
+        CoverAction {
+            iconSource: "image://theme/icon-cover-new"
+            onTriggered: {
+                if (controller == null)
+                    controller = applicationWindow.page
+                applicationWindow.activate()
+                controller.invokeAddDialog()
+            }
+        }
     }
 }
 

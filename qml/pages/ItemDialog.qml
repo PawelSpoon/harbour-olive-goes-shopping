@@ -1,6 +1,6 @@
 //<license>
 
-import QtQuick 2.0
+import QtQuick 2.2
 import Sailfish.Silica 1.0
 //import QtQuick.Controls 2.0
 
@@ -17,6 +17,7 @@ Dialog {
     property alias name_ : itemName.text
     property alias amount_ : defaultAmount.text
     property string unit_
+    property alias category_ : categoryName.text
 
     SilicaFlickable{
 
@@ -42,7 +43,7 @@ Dialog {
 
             Label {
                 text: { if (uid_ === "") qsTr("New item")
-                        else qsTr("Edit item") }
+                    else qsTr("Edit item") }
                 font.pixelSize: Theme.fontSizeLarge
                 anchors.left: parent.left
                 anchors.leftMargin: Theme.paddingLarge
@@ -85,29 +86,76 @@ Dialog {
                 }
             }
 
+            TextField {
+                id: categoryName
+                width: parent.width
+                inputMethodHints: Qt.ImhSensitiveData
+                label: qsTr("Item category")
+                property string orgText: ""
+                text: ""
+                readOnly: true
+                placeholderText: qsTr("Set category")
+                errorHighlight: text.length === 0
+                EnterKey.enabled: !errorHighlight
+                EnterKey.iconSource: "image://theme/icon-m-enter-next"
+                font.capitalization: Font.MixedCase
+                EnterKey.onClicked: defaultAmount.focus = true
+            }
+            Button {
+                id: changeCategory
+                text: qsTr("Change Category")
+                anchors.left: parent.left
+                anchors.leftMargin: Theme.paddingLarge
+                onClicked: {
+                    console.log("Browse for ingredient clicked ")
+                    var dialog = pageStack.push(Qt.resolvedUrl("EnumPicker.qml"), {itemType: "category", recipeDialog: settings} )
+                    dialog.accepted.connect(function() {
+                        categoryName.text = dialog.itemName});
+                }
+            }
+            // nearly working combobox solution with an listmodel, only the loading into the listmodel is missing
+            /*ComboBox {
+                        id: categoryCombo
+                        width: parent.width
+                        x: Theme.paddingMedium
+                        label: "Category"
+                        menu: ContextMenu {
+                            Repeater {
+                                model: ListModel {
+                                    id: cbItems
+                                    ListElement { text: "Banana"; color: "Yellow" }
+                                    ListElement { text: "Apple"; color: "Green" }
+                                    ListElement { text: "Coconut"; color: "Brown" }
+                                }
+                                MenuItem { text: model.text
+                                }
+                            }
+                        }
+                    }*/
         }
     }
 
     Component.onCompleted: {
-       if (uid_ === "") {
-           print (uid_)
-       }
-       else {
-           print("i am here")
-           print("unit:" + unit_)
-           if (unit_ == "-") {
-               print("-")
-               unit.currentIndex = 0
-           }
-           else if (unit_ == "g") {
-               print("g")
-               unit.currentIndex = 1
-           }
-           else if (unit_ == "ml") {
-               print("ml")
-               unit.currentIndex = 2
-           }
-       }
+        if (uid_ === "") {
+            print (uid_)
+        }
+        else {
+            print("i am here")
+            print(category_)
+            print("unit:" + unit_)
+            if (unit_ == "-") {
+                print("-")
+                unit.currentIndex = 0
+            }
+            else if (unit_ == "g") {
+                print("g")
+                unit.currentIndex = 1
+            }
+            else if (unit_ == "ml") {
+                print("ml")
+                unit.currentIndex = 2
+            }
+        }
     }
 
     Component.onDestruction: {
@@ -117,7 +165,7 @@ Dialog {
     onAccepted: {
         // save to db and reload the prev page to make the new item visible
         if (uid_ == "" ) uid_ = DB.getUniqueId()
-        DB.setItem(uid_,itemName.text,parseInt(defaultAmount.text),unit.value,itemType,0);
+        DB.setItem(uid_,itemName.text,parseInt(defaultAmount.text),unit.value,itemType,0,categoryName.text);
         itemsPage.initPage()
     }
     // user has rejected editing entry data, check if there are unsaved details

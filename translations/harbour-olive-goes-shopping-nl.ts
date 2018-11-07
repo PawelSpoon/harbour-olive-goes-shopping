@@ -4,57 +4,72 @@
 <context>
     <name>AnyItemDialog</name>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="41"/>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="42"/>
         <source>Add</source>
         <translation>Toevoegen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="42"/>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="43"/>
         <source>Discard</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="46"/>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="47"/>
         <source>Item</source>
         <translation>Voorwerp</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="56"/>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="57"/>
         <source>Item name</source>
         <translation>Voorwerpsnaam</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="58"/>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="59"/>
         <source>Set item name</source>
         <translation>Stel voorwerpsnaam in</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="68"/>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="95"/>
         <source>All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.</source>
         <translation>Volgende velden zijn enkel vereist als je dit voorwerp ook aan je database wil toevoegen, zoniet veeg je naar links om te aanvaarden.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="75"/>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="102"/>
         <source>Standard package size</source>
         <translation>Standaardpakketgrootte</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="77"/>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="104"/>
         <source>Set standard package size</source>
         <translation>Stel standaardpakketgrootte in</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="86"/>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="112"/>
         <source>Unit</source>
         <translation>Eenheid</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="95"/>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="121"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="103"/>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="70"/>
+        <source>Item category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="73"/>
+        <source>Set category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="83"/>
+        <source>Change Category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="130"/>
         <source>Add this item to DB</source>
         <translation>Toevoegen aan database</translation>
     </message>
@@ -62,11 +77,57 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <location filename="../qml/cover/CoverPage.qml" line="95"/>
+        <location filename="../qml/cover/CoverPage.qml" line="96"/>
         <source>Olive
 goes
  shoppin&apos;</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>EnumDialog</name>
+    <message>
+        <location filename="../qml/pages/EnumDialog.qml" line="37"/>
+        <source>Save</source>
+        <translation type="unfinished">Opslaan</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EnumDialog.qml" line="38"/>
+        <source>Discard</source>
+        <translation type="unfinished">Verwijderen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EnumDialog.qml" line="42"/>
+        <source>New item</source>
+        <translation type="unfinished">Nieuw voorwerp</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EnumDialog.qml" line="43"/>
+        <source>Edit item</source>
+        <translation type="unfinished">Voorwerp bewerken</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EnumDialog.qml" line="53"/>
+        <source>Item name</source>
+        <translation type="unfinished">Voorwerpsnaam</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EnumDialog.qml" line="55"/>
+        <source>Set item name</source>
+        <translation type="unfinished">Stel voorwerpsnaam in</translation>
+    </message>
+</context>
+<context>
+    <name>EnumPicker</name>
+    <message>
+        <location filename="../qml/pages/EnumPicker.qml" line="91"/>
+        <source>Press &amp; hold to accept</source>
+        <translation type="unfinished">Hou ingedrukt om te aanvaarden</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EnumPicker.qml" line="96"/>
+        <source>No items</source>
+        <translation type="unfinished">Geen voorwerpen</translation>
     </message>
 </context>
 <context>
@@ -186,55 +247,55 @@ goes
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="107"/>
+        <location filename="../qml/pages/FirstPage.qml" line="129"/>
         <source>Clear</source>
         <translation>Wissen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="119"/>
+        <location filename="../qml/pages/FirstPage.qml" line="141"/>
         <source>Anything</source>
         <translation>Alles</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="123"/>
+        <location filename="../qml/pages/FirstPage.qml" line="145"/>
         <source>Recipes</source>
         <translation>Recepten</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="127"/>
+        <location filename="../qml/pages/FirstPage.qml" line="149"/>
         <source>Household</source>
         <translation>Huishouden</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="131"/>
+        <location filename="../qml/pages/FirstPage.qml" line="153"/>
         <source>Food</source>
         <translation>Eten</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="139"/>
+        <location filename="../qml/pages/FirstPage.qml" line="161"/>
         <source>Share</source>
         <translation>Delen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="153"/>
+        <location filename="../qml/pages/FirstPage.qml" line="175"/>
+        <source>Manage</source>
+        <translation type="unfinished">Beheren</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FirstPage.qml" line="195"/>
+        <source>Oh dear,
+nothing to shop ?!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FirstPage.qml" line="181"/>
         <source>Help</source>
         <translation>Hulp</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="159"/>
-        <source>Import Export</source>
-        <translation>Importeren / exporteren</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="167"/>
+        <location filename="../qml/pages/FirstPage.qml" line="189"/>
         <source>Shopping List</source>
         <translation>Boodschappenlijst</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="173"/>
-        <source>Oh dear,
-nothing to shop ?!</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -261,785 +322,887 @@ nothing to shop ?!</source>
 <context>
     <name>ItemDialog</name>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="39"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="40"/>
         <source>Save</source>
         <translation>Opslaan</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="40"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="41"/>
         <source>Discard</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="44"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="45"/>
         <source>New item</source>
         <translation>Nieuw voorwerp</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="45"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="46"/>
         <source>Edit item</source>
         <translation>Voorwerp bewerken</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="55"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="56"/>
         <source>Item name</source>
         <translation>Voorwerpsnaam</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="57"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="58"/>
         <source>Set item name</source>
         <translation>Stel voorwerpsnaam in</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="69"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="70"/>
         <source>Standard package size</source>
         <translation>Standaardpakketgrootte</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="71"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="72"/>
         <source>Set standard package size</source>
         <translation>Stel standaardpakketgrootte in</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="80"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="81"/>
         <source>Unit</source>
         <translation>Eenheid</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ItemDialog.qml" line="93"/>
+        <source>Item category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ItemDialog.qml" line="97"/>
+        <source>Set category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ItemDialog.qml" line="106"/>
+        <source>Change Category</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Items</name>
     <message>
-        <location filename="../qml/Items.js" line="10"/>
+        <location filename="../qml/Items.js" line="32"/>
         <source>apple</source>
         <translation>appels</translation>
     </message>
     <message>
-        <location filename="../qml/Items.js" line="11"/>
+        <location filename="../qml/Items.js" line="33"/>
         <source>apple cider vinegar</source>
         <translation>appelciderazijn</translation>
     </message>
     <message>
-        <location filename="../qml/Items.js" line="13"/>
+        <location filename="../qml/Items.js" line="35"/>
         <source>avocado</source>
         <translation>avocado’s</translation>
     </message>
     <message>
-        <location filename="../qml/Items.js" line="12"/>
+        <location filename="../qml/Items.js" line="34"/>
         <source>asian noodels</source>
         <translation>Aziatische noedels</translation>
     </message>
     <message>
+        <location filename="../qml/Items.js" line="11"/>
+        <source>dairy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="12"/>
+        <source>meat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="13"/>
+        <location filename="../qml/Items.js" line="32"/>
+        <location filename="../qml/Items.js" line="35"/>
+        <location filename="../qml/Items.js" line="38"/>
+        <location filename="../qml/Items.js" line="40"/>
+        <location filename="../qml/Items.js" line="42"/>
+        <location filename="../qml/Items.js" line="45"/>
+        <location filename="../qml/Items.js" line="50"/>
+        <location filename="../qml/Items.js" line="51"/>
+        <location filename="../qml/Items.js" line="53"/>
+        <location filename="../qml/Items.js" line="60"/>
+        <location filename="../qml/Items.js" line="64"/>
+        <location filename="../qml/Items.js" line="69"/>
+        <location filename="../qml/Items.js" line="70"/>
+        <location filename="../qml/Items.js" line="71"/>
+        <location filename="../qml/Items.js" line="74"/>
+        <location filename="../qml/Items.js" line="76"/>
+        <location filename="../qml/Items.js" line="85"/>
+        <location filename="../qml/Items.js" line="88"/>
+        <location filename="../qml/Items.js" line="89"/>
+        <location filename="../qml/Items.js" line="98"/>
+        <location filename="../qml/Items.js" line="99"/>
+        <location filename="../qml/Items.js" line="113"/>
+        <location filename="../qml/Items.js" line="126"/>
+        <location filename="../qml/Items.js" line="130"/>
+        <location filename="../qml/Items.js" line="133"/>
+        <location filename="../qml/Items.js" line="135"/>
+        <location filename="../qml/Items.js" line="138"/>
+        <source>fresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../qml/Items.js" line="14"/>
-        <source>soup peas</source>
-        <translation>soeperwten</translation>
+        <source>bakery</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="15"/>
-        <source>balsamic vinegar</source>
-        <translation>balsamicoazijn</translation>
+        <source>frosted</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="16"/>
-        <source>banana</source>
-        <translation>bananen</translation>
+        <source>canned</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="17"/>
-        <source>basmati rice</source>
-        <translation>basmatirijst</translation>
+        <source>hygiene</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="18"/>
-        <source>pear</source>
-        <translation>peren</translation>
+        <source>cleaning</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="19"/>
-        <source>puff pastry</source>
+        <source>magazines</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="20"/>
-        <source>string beans</source>
+        <source>hardware</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="21"/>
-        <source>bread crumbs</source>
-        <translation>broodkruimels</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="22"/>
-        <source>bread</source>
-        <translation>brood</translation>
+        <source>automotive</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="23"/>
-        <source>button mushrooms</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="24"/>
-        <source>spelled flour</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="25"/>
-        <source>caned tomatoes</source>
-        <translation>tomaten in blik</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="26"/>
-        <source>eg</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="27"/>
-        <source>emmental cheese</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="28"/>
-        <source>peas</source>
-        <translation>erwten</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="29"/>
-        <source>strawberries</source>
-        <translation>aardbeien</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="30"/>
-        <source>pickled cucumbers</source>
-        <translation>augurken</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="31"/>
-        <source>fennel</source>
-        <translation>venkel</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="32"/>
-        <source>feta cheese</source>
-        <translation>fetakaas</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="33"/>
-        <source>frankfurters</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="34"/>
-        <source>fruit tea</source>
-        <translation>fruitthee</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="35"/>
-        <source>vegetable stock</source>
+        <source>others</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="36"/>
-        <source>yeast</source>
-        <translation>gist</translation>
+        <source>soup peas</source>
+        <translation>soeperwten</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="37"/>
-        <source>ghee</source>
-        <translation type="unfinished"></translation>
+        <source>balsamic vinegar</source>
+        <translation>balsamicoazijn</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="38"/>
-        <source>cucumber</source>
-        <translation>komkommer</translation>
+        <source>banana</source>
+        <translation>bananen</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="39"/>
-        <source>oat milk</source>
-        <translation type="unfinished"></translation>
+        <source>basmati rice</source>
+        <translation>basmatirijst</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="40"/>
-        <source>millet</source>
-        <translation type="unfinished"></translation>
+        <source>pear</source>
+        <translation>peren</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="41"/>
-        <source>honey</source>
-        <translation>honing</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="42"/>
-        <source>ginger</source>
-        <translation>gember</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="43"/>
-        <source>curd</source>
+        <source>puff pastry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/Items.js" line="42"/>
+        <source>string beans</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="43"/>
+        <source>bread crumbs</source>
+        <translation>broodkruimels</translation>
+    </message>
+    <message>
         <location filename="../qml/Items.js" line="44"/>
-        <source>coffee</source>
-        <translation>koffie</translation>
+        <source>bread</source>
+        <translation>brood</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="45"/>
-        <source>coffe decaf</source>
+        <source>button mushrooms</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="46"/>
-        <source>capers berries</source>
+        <source>spelled flour</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="47"/>
-        <source>cauliflower</source>
-        <translation>bloemkool</translation>
+        <source>caned tomatoes</source>
+        <translation>tomaten in blik</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="48"/>
-        <source>carrots</source>
-        <translation>wortels</translation>
+        <source>eg</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="49"/>
-        <source>potatoes</source>
-        <translation>aardappelen</translation>
+        <source>emmental cheese</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="50"/>
-        <source>chickpeas</source>
-        <translation>kikkererwten</translation>
+        <source>peas</source>
+        <translation>erwten</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="51"/>
-        <source>chickpea flour</source>
-        <translation type="unfinished"></translation>
+        <source>strawberries</source>
+        <translation>aardbeien</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="52"/>
-        <source>garlic</source>
-        <translation>look</translation>
+        <source>pickled cucumbers</source>
+        <translation>augurken</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="53"/>
-        <source>dumpling bread</source>
-        <translation type="unfinished"></translation>
+        <source>fennel</source>
+        <translation>venkel</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="54"/>
-        <source>kohlrabi</source>
-        <translation>kohlrabi</translation>
+        <source>feta cheese</source>
+        <translation>fetakaas</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="55"/>
-        <source>cabbage</source>
-        <translation>kool</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="56"/>
-        <source>pumpkin</source>
-        <translation>pompoen</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="57"/>
-        <source>lassagne noodles</source>
-        <translation>lasagnenoedels</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="58"/>
-        <source>leek</source>
-        <translation>prei</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="59"/>
-        <source>lime</source>
-        <translation>limoen</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="60"/>
-        <source>lentils yellow</source>
-        <translation>linzen geel</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="61"/>
-        <source>lentils red</source>
-        <translation>linzen rood</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="62"/>
-        <source>lentils green</source>
-        <translation>linzen groen</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="63"/>
-        <source>corn</source>
-        <translation>maïs</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="64"/>
-        <source>cornstarch</source>
+        <source>frankfurters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/Items.js" line="56"/>
+        <source>fruit tea</source>
+        <translation>fruitthee</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="57"/>
+        <source>vegetable stock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="58"/>
+        <source>yeast</source>
+        <translation>gist</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="59"/>
+        <source>ghee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="60"/>
+        <source>cucumber</source>
+        <translation>komkommer</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="61"/>
+        <source>oat milk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="62"/>
+        <source>millet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="63"/>
+        <source>honey</source>
+        <translation>honing</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="64"/>
+        <source>ginger</source>
+        <translation>gember</translation>
+    </message>
+    <message>
         <location filename="../qml/Items.js" line="65"/>
-        <source>almonds</source>
-        <translation>amandelen</translation>
+        <source>curd</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="66"/>
-        <source>mango</source>
-        <translation>mango</translation>
+        <source>coffee</source>
+        <translation>koffie</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="67"/>
-        <source>melanzani</source>
+        <source>coffe decaf</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="68"/>
-        <source>milk</source>
-        <translation>melk</translation>
+        <source>capers berries</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="69"/>
-        <source>italian rice</source>
-        <translation>Italiaanse rijst</translation>
+        <source>cauliflower</source>
+        <translation>bloemkool</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="70"/>
-        <source>cereal</source>
-        <translation>ontbijtgranen</translation>
+        <source>carrots</source>
+        <translation>wortels</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="71"/>
-        <source>noodels</source>
-        <translation>noedels</translation>
+        <source>potatoes</source>
+        <translation>aardappelen</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="72"/>
-        <source>walnuts</source>
-        <translation>walnoten</translation>
+        <source>chickpeas</source>
+        <translation>kikkererwten</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="73"/>
-        <source>hazelnuts</source>
-        <translation>hazelnoten</translation>
+        <source>chickpea flour</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="74"/>
-        <source>olives</source>
-        <translation>olijven</translation>
+        <source>garlic</source>
+        <translation>look</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="75"/>
-        <source>olive oil</source>
-        <translation>olijfolie</translation>
+        <source>dumpling bread</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="76"/>
-        <source>oranges</source>
-        <translation>sinaasappelen</translation>
+        <source>kohlrabi</source>
+        <translation>kohlrabi</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="77"/>
-        <source>bell pepper</source>
-        <translation>paprika’s</translation>
+        <source>cabbage</source>
+        <translation>kool</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="78"/>
-        <source>parboiled rice</source>
-        <translation type="unfinished"></translation>
+        <source>pumpkin</source>
+        <translation>pompoen</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="79"/>
-        <source>parmesan cheese</source>
-        <translation type="unfinished"></translation>
+        <source>lassagne noodles</source>
+        <translation>lasagnenoedels</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="80"/>
-        <source>pesto</source>
-        <translation>pesto</translation>
+        <source>leek</source>
+        <translation>prei</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="81"/>
-        <source>pepper mix</source>
-        <translation>peper mix</translation>
+        <source>lime</source>
+        <translation>limoen</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="82"/>
-        <source>pepper green</source>
-        <translation>peper groen</translation>
+        <source>lentils yellow</source>
+        <translation>linzen geel</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="83"/>
-        <source>pepper pink</source>
-        <translation>peper roze</translation>
+        <source>lentils red</source>
+        <translation>linzen rood</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="84"/>
-        <source>pepper black</source>
-        <translation>peper zwart</translation>
+        <source>lentils green</source>
+        <translation>linzen groen</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="85"/>
-        <source>polenta</source>
-        <translation>polenta</translation>
+        <source>corn</source>
+        <translation>maïs</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="86"/>
-        <source>quinoa</source>
-        <translation>quinoa</translation>
+        <source>cornstarch</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="87"/>
-        <source>rapeseed oil</source>
-        <translation type="unfinished"></translation>
+        <source>almonds</source>
+        <translation>amandelen</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="88"/>
-        <source>beef</source>
-        <translation type="unfinished"></translation>
+        <source>mango</source>
+        <translation>mango</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="89"/>
-        <source>rye flour</source>
+        <source>melanzani</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="90"/>
-        <source>raisins</source>
-        <translation>rozijntjes</translation>
+        <source>milk</source>
+        <translation>melk</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="91"/>
-        <source>salad</source>
-        <translation>sla</translation>
+        <source>italian rice</source>
+        <translation>Italiaanse rijst</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="92"/>
-        <source>salt</source>
-        <translation>zout</translation>
+        <source>cereal</source>
+        <translation>ontbijtgranen</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="93"/>
-        <source>salt coarse</source>
-        <translation type="unfinished"></translation>
+        <source>noodels</source>
+        <translation>noedels</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="94"/>
-        <source>pickled cabbage</source>
-        <translation type="unfinished"></translation>
+        <source>walnuts</source>
+        <translation>walnoten</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="95"/>
-        <source>sour cream</source>
-        <translation>zure room</translation>
+        <source>hazelnuts</source>
+        <translation>hazelnoten</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="96"/>
-        <source>ham</source>
-        <translation>ham</translation>
+        <source>olives</source>
+        <translation>olijven</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="97"/>
-        <source>sweet cream</source>
-        <translation>zoete room</translation>
+        <source>olive oil</source>
+        <translation>olijfolie</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="98"/>
-        <source>roll</source>
-        <translation type="unfinished"></translation>
+        <source>oranges</source>
+        <translation>sinaasappelen</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="99"/>
-        <source>pickeled onions</source>
-        <translation>gepekelde ajuinen</translation>
+        <source>bell pepper</source>
+        <translation>paprika’s</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="100"/>
-        <source>soy sauce</source>
-        <translation>sojasaus</translation>
+        <source>parboiled rice</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="101"/>
-        <source>soy cubes</source>
-        <translation>sojablokjes</translation>
+        <source>parmesan cheese</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="102"/>
-        <source>soy granules</source>
-        <translation type="unfinished"></translation>
+        <source>pesto</source>
+        <translation>pesto</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="103"/>
-        <source>bacon</source>
-        <translation>spek</translation>
+        <source>pepper mix</source>
+        <translation>peper mix</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="104"/>
-        <source>spinach</source>
-        <translation>spinazie</translation>
+        <source>pepper green</source>
+        <translation>peper groen</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="105"/>
-        <source>sticky rice</source>
-        <translation>plakrijst</translation>
+        <source>pepper pink</source>
+        <translation>peper roze</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="106"/>
-        <source>pastry</source>
-        <translation type="unfinished"></translation>
+        <source>pepper black</source>
+        <translation>peper zwart</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="107"/>
-        <source>soup noodles</source>
-        <translation>soepnoedels</translation>
+        <source>polenta</source>
+        <translation>polenta</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="108"/>
-        <source>tomatoes</source>
-        <translation>tomaten</translation>
+        <source>quinoa</source>
+        <translation>quinoa</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="109"/>
-        <source>curd cheese</source>
+        <source>rapeseed oil</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="110"/>
-        <source>tortillas</source>
-        <translation>tortilla’s</translation>
+        <source>beef</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="111"/>
-        <source>grapes</source>
-        <translation>druiven</translation>
+        <source>rye flour</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="112"/>
-        <source>wheat flour</source>
-        <translation type="unfinished"></translation>
+        <source>raisins</source>
+        <translation>rozijntjes</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="113"/>
-        <source>lemon</source>
-        <translation>citroen</translation>
+        <source>salad</source>
+        <translation>sla</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="114"/>
-        <source>zucchini</source>
-        <translation>courgette</translation>
+        <source>salt</source>
+        <translation>zout</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="115"/>
-        <source>sugar</source>
-        <translation>suiker</translation>
+        <source>salt coarse</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="116"/>
-        <source>onion</source>
-        <translation>ajuin</translation>
+        <source>pickled cabbage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="117"/>
+        <source>sour cream</source>
+        <translation>zure room</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="118"/>
+        <source>ham</source>
+        <translation>ham</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="119"/>
-        <source>all purpose cleaner</source>
-        <translation type="unfinished"></translation>
+        <source>sweet cream</source>
+        <translation>zoete room</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="120"/>
-        <source>aluminum foil</source>
-        <translation>aluminiumfolie</translation>
+        <source>roll</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="121"/>
-        <source>baking paper</source>
-        <translation>bakpapier</translation>
+        <source>pickeled onions</source>
+        <translation>gepekelde ajuinen</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="122"/>
-        <source>bathroom cleaner</source>
-        <translation type="unfinished"></translation>
+        <source>soy sauce</source>
+        <translation>sojasaus</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="123"/>
-        <source>greaseproof paper</source>
-        <translation type="unfinished"></translation>
+        <source>soy cubes</source>
+        <translation>sojablokjes</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="124"/>
-        <source>fine detergent</source>
+        <source>soy granules</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="125"/>
-        <source>window cleaner</source>
-        <translation type="unfinished"></translation>
+        <source>bacon</source>
+        <translation>spek</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="126"/>
-        <source>moist toilet paper</source>
-        <translation>nat wc-papier</translation>
+        <source>spinach</source>
+        <translation>spinazie</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="127"/>
-        <source>lighter</source>
-        <translation>aansteker</translation>
+        <source>sticky rice</source>
+        <translation>plakrijst</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="128"/>
-        <source>liquid soap</source>
-        <translation>vloeibare zeep</translation>
+        <source>pastry</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="129"/>
-        <source>freeze bag</source>
-        <translation type="unfinished"></translation>
+        <source>soup noodles</source>
+        <translation>soepnoedels</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="130"/>
-        <source>dishwasher - rinse aid</source>
-        <translation type="unfinished"></translation>
+        <source>tomatoes</source>
+        <translation>tomaten</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="131"/>
-        <source>dishwasher - salt</source>
+        <source>curd cheese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="132"/>
-        <source>dishwasher - tabs</source>
-        <translation type="unfinished"></translation>
+        <source>tortillas</source>
+        <translation>tortilla’s</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="133"/>
-        <source>dishwashing liquid</source>
-        <translation type="unfinished"></translation>
+        <source>grapes</source>
+        <translation>druiven</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="134"/>
-        <source>dishwashing sponge</source>
+        <source>wheat flour</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="135"/>
-        <source>rubber rings</source>
-        <translation type="unfinished"></translation>
+        <source>lemon</source>
+        <translation>citroen</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="136"/>
-        <source>hygienic rinse</source>
-        <translation type="unfinished"></translation>
+        <source>zucchini</source>
+        <translation>courgette</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="137"/>
-        <source>children&apos;s toothpaste</source>
-        <translation>kindertandpasta</translation>
+        <source>sugar</source>
+        <translation>suiker</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="138"/>
-        <source>toilet paper</source>
-        <translation>wc-papier</translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="139"/>
-        <source>kitchen cleaner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/Items.js" line="140"/>
-        <source>kitchen roll</source>
-        <translation type="unfinished"></translation>
+        <source>onion</source>
+        <translation>ajuin</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="141"/>
-        <source>lens cleaner</source>
+        <source>all purpose cleaner</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="142"/>
-        <source>trash bags</source>
-        <translation>vuilniszakken</translation>
+        <source>aluminum foil</source>
+        <translation>aluminiumfolie</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="143"/>
-        <source>trash bags - small</source>
-        <translation>vuilniszakken klein</translation>
+        <source>baking paper</source>
+        <translation>bakpapier</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="144"/>
-        <source>over fire starter</source>
+        <source>bathroom cleaner</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="145"/>
-        <source>shaving cream</source>
-        <translation>scheercrème</translation>
+        <source>greaseproof paper</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="146"/>
-        <source>shampoo</source>
-        <translation>shampoo</translation>
+        <source>fine detergent</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="147"/>
-        <source>sponge wipes</source>
+        <source>window cleaner</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="148"/>
-        <source>soap</source>
-        <translation>zeep</translation>
+        <source>moist toilet paper</source>
+        <translation>nat wc-papier</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="149"/>
-        <source>panty liners</source>
-        <translation type="unfinished"></translation>
+        <source>lighter</source>
+        <translation>aansteker</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="150"/>
-        <source>tampons</source>
-        <translation>tampons</translation>
+        <source>liquid soap</source>
+        <translation>vloeibare zeep</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="151"/>
-        <source>condoms</source>
-        <translation>condooms</translation>
+        <source>freeze bag</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="152"/>
-        <source>piles</source>
+        <source>dishwasher - rinse aid</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="153"/>
-        <source>handkerchiefs</source>
-        <translation>zakdoekjes</translation>
+        <source>dishwasher - salt</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="154"/>
-        <source>laundry detergent</source>
+        <source>dishwasher - tabs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="155"/>
+        <source>dishwashing liquid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="156"/>
+        <source>dishwashing sponge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="157"/>
+        <source>rubber rings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="158"/>
+        <source>hygienic rinse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="159"/>
+        <source>children&apos;s toothpaste</source>
+        <translation>kindertandpasta</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="160"/>
+        <source>toilet paper</source>
+        <translation>wc-papier</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="161"/>
+        <source>kitchen cleaner</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="162"/>
+        <source>kitchen roll</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="163"/>
+        <source>lens cleaner</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="164"/>
+        <source>trash bags</source>
+        <translation>vuilniszakken</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="165"/>
+        <source>trash bags - small</source>
+        <translation>vuilniszakken klein</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="166"/>
+        <source>over fire starter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="167"/>
+        <source>shaving cream</source>
+        <translation>scheercrème</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="168"/>
+        <source>shampoo</source>
+        <translation>shampoo</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="169"/>
+        <source>sponge wipes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="170"/>
+        <source>soap</source>
+        <translation>zeep</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="171"/>
+        <source>panty liners</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="172"/>
+        <source>tampons</source>
+        <translation>tampons</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="173"/>
+        <source>condoms</source>
+        <translation>condooms</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="174"/>
+        <source>piles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="175"/>
+        <source>handkerchiefs</source>
+        <translation>zakdoekjes</translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="176"/>
+        <source>laundry detergent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/Items.js" line="177"/>
         <source>toothbrush</source>
         <translation>tandenborstel</translation>
     </message>
     <message>
-        <location filename="../qml/Items.js" line="156"/>
+        <location filename="../qml/Items.js" line="178"/>
         <source>toothpaste</source>
         <translation>tandpasta</translation>
     </message>
     <message>
-        <location filename="../qml/Items.js" line="157"/>
+        <location filename="../qml/Items.js" line="179"/>
         <source>matches</source>
         <translation>lucifers</translation>
     </message>
     <message>
-        <location filename="../qml/Items.js" line="158"/>
+        <location filename="../qml/Items.js" line="180"/>
         <source>razor blades</source>
         <translation>scheermesjes</translation>
     </message>
@@ -1068,6 +1231,29 @@ nothing to shop ?!</source>
     </message>
 </context>
 <context>
+    <name>ManageEnumsPage</name>
+    <message>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="78"/>
+        <source>Please fill store with items</source>
+        <translation type="unfinished">Vul je opslag met voorwerpen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="84"/>
+        <source>Clear Categories Db</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="97"/>
+        <source>Import Categories Db</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="108"/>
+        <source>Add</source>
+        <translation type="unfinished">Toevoegen</translation>
+    </message>
+</context>
+<context>
     <name>ManageItemsPage</name>
     <message>
         <location filename="../qml/pages/ManageItemsPage.qml" line="78"/>
@@ -1080,14 +1266,52 @@ nothing to shop ?!</source>
         <translation>Voorwerpendatabase wissen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageItemsPage.qml" line="92"/>
+        <location filename="../qml/pages/ManageItemsPage.qml" line="96"/>
         <source>Import Items Db</source>
         <translation>Voorwerpendatabase importeren</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageItemsPage.qml" line="103"/>
+        <location filename="../qml/pages/ManageItemsPage.qml" line="107"/>
         <source>Add</source>
         <translation>Toevoegen</translation>
+    </message>
+</context>
+<context>
+    <name>ManageMainPage</name>
+    <message>
+        <location filename="../qml/pages/ManageMainPage.qml" line="56"/>
+        <source>Help</source>
+        <translation type="unfinished">Hulp</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageMainPage.qml" line="100"/>
+        <source>Food</source>
+        <translation type="unfinished">Eten</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageMainPage.qml" line="107"/>
+        <source>Household</source>
+        <translation type="unfinished">Huishouden</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageMainPage.qml" line="113"/>
+        <source>Categories</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageMainPage.qml" line="88"/>
+        <source>Recipes</source>
+        <translation type="unfinished">Recepten</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageMainPage.qml" line="119"/>
+        <source>Import Export</source>
+        <translation type="unfinished">Importeren / exporteren</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageMainPage.qml" line="66"/>
+        <source>Manage Application</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1103,12 +1327,12 @@ nothing to shop ?!</source>
         <translation>Receptendatabase wissen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageRecipesPage.qml" line="91"/>
+        <location filename="../qml/pages/ManageRecipesPage.qml" line="97"/>
         <source>Import Recipes Db</source>
         <translation>Receptendatabase importeren</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageRecipesPage.qml" line="102"/>
+        <location filename="../qml/pages/ManageRecipesPage.qml" line="108"/>
         <source>Add</source>
         <translation>Toevoegen</translation>
     </message>

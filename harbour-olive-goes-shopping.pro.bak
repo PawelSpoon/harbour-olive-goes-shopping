@@ -67,11 +67,7 @@ DISTFILES += \
     qml/pages/ExportPage.qml \
     qml/pages/RecipeItemDialog.qml \
     qml/pages/ShareWithPage.qml \
-    qml/pages/RecipeItemPicker.qml \
-    qml/pages/ManageMainPage.qml \
-    qml/pages/ManageEnumsPage.qml \
-    qml/pages/EnumPicker.qml \
-    qml/pages/EnumDialog.qml
+    qml/pages/RecipeItemPicker.qml
 
 HEADERS += \
     src/importexport.h

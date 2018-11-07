@@ -221,10 +221,12 @@ MouseArea {
             var dbItem = DB.getItemPerName(ing.name);
             var uid = DB.getUniqueId()
             var unit = ing.unit
+            var category = ""
             if (dbItem.length > 0) // to make it stable while no sync between recipes->ingredients and items
             {
                 uid = dbItem[0].uid
                 unit = dbItem[0].unit
+                category = dbItem[0].category
             }
             //if (dbItem == null) continue
             //if (dbItem.length == 0) continue
@@ -236,10 +238,10 @@ MouseArea {
                 var menge = shopIngres[0].amount
                 // check for unit is missing
                 menge = menge + ing.amount
-                DB.setShoppingListItem(uid,ing.name,menge,unit,false);
+                DB.setShoppingListItem(uid,ing.name,menge,unit,false,category);
             }
             else {
-              DB.setShoppingListItem(uid,ing.name,ing.amount,unit,false);
+              DB.setShoppingListItem(uid,ing.name,ing.amount,unit,false,category);
             }
         }
     }

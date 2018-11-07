@@ -52,6 +52,7 @@ MouseArea {
     property alias unit_: unitLabel.text
     property alias type_: typeLabel.text
     property int howMany_
+    property string category_
 
     property bool checked : (howMany_ > 0)
     property real leftMargin
@@ -174,22 +175,25 @@ MouseArea {
     onClicked: {
         howMany_ ++
         checked = (howMany_ > 0)
-        print(uid + " " + name + " " + howMany_ + " " + type)
-        DB.setItem(uid,name,amount,unit,type,howMany_)
+        print(uid + " " + name + " " + howMany_ + " " + type + " " + category_)
+        //DB.setItem(uid,name,amount,unit,type,howMany_,category_)
+        DB.updateItemSetHowMany(uid,howMany_)
         var shopListItems = DB.getShoppingListItemPerName(name)
         if (shopListItems.length > 0) {
             var newAmount = shopListItems[0].amount + amount
-          DB.setShoppingListItem(uid,name,newAmount,unit,false)
+            DB.updateShoppingListItemSetAmount(shopListItems[0].uid,newAmount);
+            //DB.setShoppingListItem(uid,name,newAmount,unit,false,category_)
         }
         else {
-          DB.setShoppingListItem(uid,name,amount,unit,false)
+            DB.setShoppingListItem(uid,name,amount,unit,false,category_)
         }
     }
 
     onPressAndHold: {
         howMany_ = 0
         checked = false
-        DB.setItem(uid,name,amount,unit,type,howMany_)
+        DB.updateItemSetHowMany(uid,howMany_);
+        //DB.setItem(uid,name,amount,unit,type,howMany_,category)
         DB.removeShoppingListItem(uid,name,amount,unit,false)
     }
 

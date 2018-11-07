@@ -55,9 +55,9 @@ Page {
         // shoppinglistitem does update the value in db but not in the model
         // as a workaround i need to initpage
 
-       // print('updatePage')
+        // print('updatePage')
         // i might need to update the item too
-       // applicationWindow.updateCoverList(shoppingModel)
+        // applicationWindow.updateCoverList(shoppingModel)
         initPage()
     }
 
@@ -66,6 +66,11 @@ Page {
     {
         DB.setShoppingListItem(uid,name,amount,unit,true)
         initPage()
+    }
+
+    function invokeAddDialog()
+    {
+         pageStack.push(Qt.resolvedUrl("AnyItemDialog.qml"), {shoppingListPage: firstPage, itemType: "-"})
     }
 
     function initPage()
@@ -86,9 +91,26 @@ Page {
             var amount = items[i].amount
             var unit = items[i].unit
             var done = items[i].done
+            var category = items[i].category
+            print(items[i].uid + " " + items[i].name + " " + items[i].amount + " " + items[i].unit + " " + items[i].done + " " + items[i].category)
+            shoppingModel.append({"uid": uid, "name": name, "amount": amount, "unit": unit, "done":done, "category":category })
+        }
 
-            print(items[i].uid + " " + items[i].name + " " + items[i].amount + " " + items[i].unit + " " + items[i].done)
-            shoppingModel.append({"uid": uid, "name": name, "amount": amount, "unit": unit, "done":done })
+        sortModel();
+    }
+
+    function sortModel()
+    {
+        print("sorting")
+        for(var i=0; i< shoppingModel.count; i++)
+        {
+            for(var j=0; j<i; j++)
+            {
+                // console.debug(shoppingModel.get(i).category)
+                if(shoppingModel.get(i).category === shoppingModel.get(j).category)
+                   shoppingModel.move(i,j,1)
+                // break
+            }
         }
     }
 
@@ -107,7 +129,7 @@ Page {
                 text: qsTr("Clear")
                 onClicked: {
                     remorse.execute("Deleting shopping list", deleteShoppingList);
-                }              
+                }
                 RemorsePopup {id: remorse }
                 function deleteShoppingList()
                 {
@@ -140,25 +162,25 @@ Page {
                 onClicked: {
                     if (shoppingModel.count > 0)
                     {
-                      var listToShare = "";
-                      for (var i=0; i< shoppingModel.count; i++) {
-                          var oneItemAsString = shoppingModel.get(i).name + " " + shoppingModel.get(i).amount
-                          listToShare += "\n" + oneItemAsString // here newline instead
-                      }
-                      pageStack.push(Qt.resolvedUrl("ShareWithPage.qml"), {destroyOnPop:true, mainPage: firstPage, sharedName: "My shopping list", sharedContent: listToShare, sharedType:"text/x-url" })
+                        var listToShare = "";
+                        for (var i=0; i< shoppingModel.count; i++) {
+                            var oneItemAsString = shoppingModel.get(i).name + " " + shoppingModel.get(i).amount
+                            listToShare += "\n" + oneItemAsString // here newline instead
+                        }
+                        pageStack.push(Qt.resolvedUrl("ShareWithPage.qml"), {destroyOnPop:true, mainPage: firstPage, sharedName: "My shopping list", sharedContent: listToShare, sharedType:"text/x-url" })
                     }
+                }
+            }
+            MenuItem {
+                text: qsTr("Manage")
+                onClicked: {
+                    pageStack.push(Qt.resolvedUrl("ManageMainPage.qml"))
                 }
             }
             MenuItem {
                 text: qsTr("Help")
                 onClicked: {
                     pageStack.push(Qt.resolvedUrl("HelpMainPage.qml"))
-                }
-            }
-            MenuItem {
-                text: qsTr("Import Export")
-                onClicked: {
-                    pageStack.push(Qt.resolvedUrl("ExportPage.qml"))
                 }
             }
         }
@@ -174,20 +196,42 @@ Page {
 nothing to shop ?!")
         }
 
+        // try to have sections by date
+        section {
+            property: "category"
+            criteria: ViewSection.FullString
+            delegate: Rectangle {
+                color: Theme.highlightColor
+                opacity: 0.4
+                width: parent.width
+                height: childrenRect.height + 10
+                Text {
+                    id: childrenRect
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.verticalCenter: parent.verticalCenter
+                    // anchors.leftMargin: Theme.paddingLarge
+                    font.pixelSize: Theme.fontSizeMedium
+                    font.bold: true
+                    text: section
+                }
+            }
+        }
+
         delegate:
             ShoppingListItem {
-                id: shoppingListItem
-                uid_: uid
-                text: name
-                amount_: amount
-                unit_: unit
-                checked: done
-            }
+            id: shoppingListItem
+            uid_: uid
+            text: name
+            amount_: amount
+            unit_: unit
+            checked: done
+            category: category
+        }
 
 
         ListModel {
             id: shoppingModel
-            ListElement {uid:""; name: "dummy"; amount: 1; unit: "g"; done: false}
+            ListElement {uid:""; name: "dummy"; amount: 1; unit: "g"; done: false; category: ""}
 
             function contains(uid) {
                 for (var i=0; i<count; i++) {
