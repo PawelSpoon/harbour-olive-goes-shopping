@@ -5,9 +5,9 @@ import "../Persistance.js" as DB
 Dialog {
 
     id: page
-    property ItemsPage itemsPage
-    property FirstPage mainPage
-    property string itemType
+    // property ItemsPage itemsPage
+    // property FirstPage mainPage
+    property string enumType
 
     allowedOrientations: defaultAllowedOrientations
 
@@ -17,17 +17,17 @@ Dialog {
     }
 
     onAccepted: {
-        itemsPage.initPage()
+        // itemsPage.initPage()
     }
 
     // user has rejected editing entry data, check if there are unsaved details
     onRejected: {
-        itemsPage.initPage()
+        // itemsPage.initPage()
     }
 
     function initPage()
     {
-        var items = DB.getRecipes()
+        var items = DB.getEnums(enumType)
         itemModel.clear()
         fillItemsModel(items)
     }
@@ -37,18 +37,18 @@ Dialog {
         print('number of items: ' +  items.length)
         for (var i = 0; i < items.length; i++)
         {
-            print(items[i].uid + " " + items[i].name + " " + items[i].type + " " + items[i].ingredients)
-            itemModel.append({"uid": items[i].uid, "name": items[i].name, "servings": items[i].servings, "instruction": items[i].instruction, "ingredients": items[i].ingredients, "howMany": items[i].howMany, "type": items[i].type })
+            print(items[i].uid + " " + items[i].name)
+            itemModel.append({"uid": items[i].uid, "name": items[i].name})
         }
     }
 
     ListModel {
         id: itemModel
-        ListElement {uid: "123"; name: "dummy"; instruction:""; howMany: 0; ingredients:""; servings:0; type:"dummy"}
+        ListElement {uid: "123"; name: "dummy"}
 
         function contains(uid) {
             for (var i=0; i<count; i++) {
-                if (get(i).uid == uid)  {
+                if (get(i).uid === uid)  {
                     return [true, i];
                 }
             }
@@ -56,7 +56,7 @@ Dialog {
         }
         function containsTitle(name) {
             for (var i=0; i<count; i++) {
-                if (get(i).name == name)  {
+                if (get(i).name === name)  {
                     return true;
                 }
             }
@@ -72,31 +72,31 @@ Dialog {
         height: page.height
         anchors.top: parent.top
         model: itemModel
-        header: PageHeader { title: "Manage Recipes" }
+        header: PageHeader { title: "Manage Store" }
         ViewPlaceholder {
             enabled: itemList.count == 0
             text: qsTr("Please fill store with items")
         }
 
         PushUpMenu {
+
             MenuItem {
-                text: qsTr("Clear Recipes Db")
-                onClicked:
-                {
-                    remorse.execute("Deleting items db", deleteRecipesDb);
+                text: qsTr("Clear Categories Db")
+                onClicked: {
+                    remorse.execute("Deleting Categories db", cleanEnumsTable);
                 }
                 RemorsePopup {id: remorse }
-                function deleteRecipesDb()
+                function cleanEnumsTable()
                 {
-                    DB.cleanTable("recipes")
+                    DB.cleanTable("category")
                     initPage()
                 }
             }
 
             MenuItem {
-                text: qsTr("Import Recipes Db")
+                text: qsTr("Import Categories Db")
                 onClicked: {
-                    DB.importRecipesFromJson()
+                    DB.importCategoriesFromJson()
                     initPage()
                 }
             }
@@ -106,7 +106,7 @@ Dialog {
 
             MenuItem {
                 text: qsTr("Add")
-                onClicked: pageStack.push(Qt.resolvedUrl("RecipeDialog.qml"), {itemType:itemType, itemsPage: page})
+                onClicked: pageStack.push(Qt.resolvedUrl("EnumDialog.qml"), {itemType:enumType, itemsPage: page})
             }
         }
         VerticalScrollDecorator {}
@@ -125,7 +125,7 @@ Dialog {
                 ListView.remove.connect(removal.deleteAnimation.start)
                 removal.execute(contentItem, "Deleting", function() {
                     print("u:" + uid + ",n:"+name)
-                    DB.removeRecipe(uid,name);
+                    DB.removeEnum(enumType, uid);
                     itemModel.remove(index); }
                 )
             }
@@ -140,16 +140,17 @@ Dialog {
                     contextMenu.show(myListItem)
                 }
                 onClicked: {
-                    console.log("Clicked " + name + servings)
-                    pageStack.push(Qt.resolvedUrl("RecipeDialog.qml"),
-                                   {uid_: uid, name_: name, servings_: servings, ingredients_: ingredients, itemType: type, itemsPage: page} )
+                    //console.log("Clicked " + title)
+                    //todo: edit already existing item
+                    //pageStack.push(Qt.resolvedUrl("ItemDialog.qml"),
+                    //               {uid_: uid, name_: name, itemType: type, itemsPage: page} )
                 }
                 Image {
                     id: typeIcon
                     anchors.left: parent.left
                     anchors.leftMargin: Theme.paddingSmall
                     source: {
-                        if (type === "note") "image://theme/icon-l-copy"
+                        if (true) "image://theme/icon-l-copy"
                         else "image://theme/icon-m-levels"
                     }
                     height: parent.height

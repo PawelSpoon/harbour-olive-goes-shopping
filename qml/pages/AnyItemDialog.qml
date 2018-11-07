@@ -20,6 +20,7 @@ Dialog {
     property alias name_ : itemName.text
     property alias amount_ : defaultAmount.text
     property string unit_
+    property alias category_ : categoryName.text
 
     SilicaFlickable{
 
@@ -60,7 +61,33 @@ Dialog {
                 EnterKey.enabled: !errorHighlight
                 EnterKey.iconSource: "image://theme/icon-m-enter-next"
                 font.capitalization: Font.MixedCase
+                EnterKey.onClicked: changeCategory.focus = true
+            }
+            TextField {
+                id: categoryName
+                width: parent.width
+                readOnly: true
+                label: qsTr("Item category")
+                property string orgText: ""
+                text: ""
+                placeholderText: qsTr("Set category")
+                errorHighlight: text.length === 0
+                EnterKey.enabled: !errorHighlight
+                EnterKey.iconSource: "image://theme/icon-m-enter-next"
+                font.capitalization: Font.MixedCase
                 EnterKey.onClicked: defaultAmount.focus = true
+            }
+
+            Button {
+                id: changeCategory
+                text: qsTr("Change Category")
+                anchors.left: parent.left
+                anchors.leftMargin: Theme.paddingLarge
+                  onClicked: {
+                   var dialog = pageStack.push(Qt.resolvedUrl("EnumPicker.qml"), {itemType: "category"} )
+                   dialog.accepted.connect(function() {
+                       categoryName.text = dialog.itemName});
+                }
             }
             TextArea {
                 id: explain
@@ -80,7 +107,6 @@ Dialog {
                 EnterKey.iconSource: "image://theme/icon-m-enter-next"
                 EnterKey.onClicked: unit.focus = true
             }
-
             ComboBox {
                 id: unit
                 label: qsTr("Unit")
@@ -98,21 +124,29 @@ Dialog {
                     MenuItem { text: "food" }
                 }
             }
+
             Button {
                 id: addButton
                 text: qsTr("Add this item to DB")
                 anchors.left: parent.left
                 anchors.leftMargin: Theme.paddingLarge
                 onClicked: {
+                    // adds item to household/food db !
                     var isThereAny = DB.getItemPerName(itemName.text)
                     if (isThereAny.length < 1)
                     {
                       var freshUid = DB.getUniqueId()
-                      DB.setItem(freshUid,itemName.text,parseInt(defaultAmount.text), unit.value,type.value,0);
+                      DB.setItem(freshUid,itemName.text,parseInt(defaultAmount.text), unit.value,type.value,0,categoryName.text);
                       uid_ = freshUid
                     }
                     //todo: show pop up error that aready there
                 }
+            }
+            TextArea {
+                id: empty
+                width: parent.width
+                text: "  "
+                readOnly: true
             }
         }
     }
@@ -140,6 +174,7 @@ Dialog {
     }
 
     onAccepted: {
+        // adds item to shopping list !
         // ignore accept if no name was entered
         if (itemName.text == null || itemName.text == "") return;
         // make sure that this 'new' item is really new, if not, use uid from db
@@ -154,7 +189,7 @@ Dialog {
           // in case of the unlikely usecase, that item exists in db AND in shoppinglist an new add will reset the counter in shoppinglist
         }
         // save to db and reload the prev page to make the new item visible
-        DB.setShoppingListItem(uid_,itemName.text,parseInt(defaultAmount.text),unit.value,0)
+        DB.setShoppingListItem(uid_,itemName.text,parseInt(defaultAmount.text),unit.value,0,categoryName.text)
         shoppingListPage.initPage()
     }
     // user has rejected editing entry data, check if there are unsaved details

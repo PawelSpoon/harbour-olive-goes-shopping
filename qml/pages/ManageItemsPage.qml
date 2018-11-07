@@ -37,18 +37,18 @@ Dialog {
         print('number of items: ' +  items.length)
         for (var i = 0; i < items.length; i++)
         {
-            print(items[i].uid + " " + items[i].name + " " + items[i].unit + " " + items[i].type)
-            itemModel.append({"uid": items[i].uid, "name": items[i].name, "amount": items[i].amount, "unit": items[i].unit, "howMany": items[i].howMany, "type": items[i].type })
+            print(items[i].uid + " " + items[i].name + " " + items[i].unit + " " + items[i].type + " " + items[i].category )
+            itemModel.append({"uid": items[i].uid, "name": items[i].name, "amount": items[i].amount, "unit": items[i].unit, "howMany": items[i].howMany, "type": items[i].type, "category": items[i].category })
         }
     }
 
     ListModel {
         id: itemModel
-        ListElement {uid: "123"; name: "dummy"; amount: 0; unit:""; howMany:0; type:"dummy"}
+        ListElement {uid: "123"; name: "dummy"; amount: 0; unit:""; howMany:0; type:"dummy"; category:""}
 
         function contains(uid) {
             for (var i=0; i<count; i++) {
-                if (get(i).uid == uid)  {
+                if (get(i).uid === uid)  {
                     return [true, i];
                 }
             }
@@ -56,7 +56,7 @@ Dialog {
         }
         function containsTitle(name) {
             for (var i=0; i<count; i++) {
-                if (get(i).name == name)  {
+                if (get(i).name === name)  {
                     return true;
                 }
             }
@@ -83,11 +83,15 @@ Dialog {
             MenuItem {
                 text: qsTr("Clear Items Db")
                 onClicked: {
+                    remorse.execute("Deleting items db", deleteItemsDb);
+                }
+                RemorsePopup {id: remorse }
+                function deleteItemsDb()
+                {
                     DB.cleanTable("items")
                     initPage()
                 }
             }
-
             MenuItem {
                 text: qsTr("Import Items Db")
                 onClicked: {
@@ -137,7 +141,7 @@ Dialog {
                 onClicked: {
                     //console.log("Clicked " + title)
                     pageStack.push(Qt.resolvedUrl("ItemDialog.qml"),
-                                   {uid_: uid, name_: name, amount_: amount, unit_: unit, itemType: type, itemsPage: page} )
+                                   {uid_: uid, name_: name, amount_: amount, unit_: unit, itemType: type, category_: category, itemsPage: page} )
                 }
                 Image {
                     id: typeIcon
