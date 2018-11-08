@@ -4,7 +4,7 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 
 HelpPage {
-    text: qsTr("A native shopping list app supporting recipes.<br><br>\
+    text: qsTr("A native shopping list app with recipe support.<br>\
 \
 <h1>The idea</h1>\
 Navigate to 'Recipes page' and click on a recipe: all needed ingredients will be added to your shopping list.\
@@ -17,14 +17,13 @@ Swipe back to check the shopping list.\
 You do not need an igredient, cause it's already in house ?\
 Press and hold it to remove it from shopping list.\
 \
-Want to buy some other stuff ?\
+Want to buy some other stuff ? \
 Navigate to 'Food' or 'Household' page and select further items from your db.\
 \
-Want to buy something so rare that is not in your db ?\
+Want to buy something so rare that is not in your db ? \
 Navigate to 'Anything', type in the text and amount, done.\
-\
 <h1>Getting started</h1>\
-Populate local storage with demo items:<br>\
+Import demo items:<br>\
 Select 'Manage' from PushUp menu, click on 'Category' button to reach 'Manage Category' page. Select 'Import Category Db' from PushUp. <br>\
 Swipe back to 'Manage Application' page then click on 'Food' button to reach 'Manage Store' page. Select 'Import Items Db' from PushUp. <br>\
 This will import food and household items into your db.<br>\
@@ -42,7 +41,6 @@ Go back to shopping list page and select 'Export Import' from push up menu.\
 Select location (internal / external storage), define a file name and click export.\
 Navigate to the path, copy file to your pc, modify it according to your needs (it is self explaining), copy back to your phone.\
 Now drop the database, select the file and click import.\
-\
 <h1>Pages</h1>\
 <h2>Shopping list</h2>\
 This page shows the current shopping list. Items are grouped by categories.<br>\
