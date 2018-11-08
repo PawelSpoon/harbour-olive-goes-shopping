@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Tue Nov 07 2018 Jack Tar <pawel@ich-habe-fertig.com> 0.1.5-2
+- updated help page
+
 * Tue Nov 07 2018 Jack Tar <pawel@ich-habe-fertig.com> 0.1.5-1
 - remorse timer on clear items db
 
