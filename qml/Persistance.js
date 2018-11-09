@@ -236,8 +236,12 @@ function tryGetCategory(item)
 {
     if (item === undefined)
         return ""
-    if (item.category === undefined)
+    if (item.category === undefined) {
         return ""
+    }
+    if (item.category === null) {
+        return ""
+    }
     return item.category
 }
 
@@ -478,12 +482,16 @@ function dropDB()
 function dumpData() {
     var db = getDatabase()
 
+    var categories = []
+    categories = getEnums("category")
+
     var items = []
     items = getItems("")
     var recipes = []
     recipes = getRecipes()
 
     var data = {
+        "categories": categories,
         "items": items,
         "recipes" : recipes
     };
@@ -501,22 +509,37 @@ function importData(json) {
         return false;
     }
 
-    if (parsed.items !== null)
+    if (parsed.categories !== null && parsed.categories !== undefined)
     {
-        if (parsed.items.length > 0)
+        if (parsed.categories.length > 0)
         {
-            for (var i = 0; i < parsed.items.length; i++)
+            for (var i = 0; i < parsed.categories.length; i++)
             {
-                var item = parsed.items[i]
+                var item = parsed.categories[i]
                 var uid = getUniqueId()
                 if (item.uid !== null)
                     uid = item.uid;
-                setItem(uid,item.name,item.amount,item.unit,item.type,tryGetCategory(item))
+                setEnum("category",uid,item.name)
             }
         }
     }
 
-    if (parsed.recipes !== null)
+    if (parsed.items !== null && parsed.items !== undefined)
+    {
+        if (parsed.items.length > 0)
+        {
+            for (i = 0; i < parsed.items.length; i++)
+            {
+                item = parsed.items[i]
+                uid = getUniqueId()
+                if (item.uid !== null)
+                    uid = item.uid;
+                setItem(uid,item.name,item.amount,item.unit,item.type,item.howMany,tryGetCategory(item))
+            }
+        }
+    }
+
+    if (parsed.recipes !== null && parsed.recipes !== undefined)
     {
         if (parsed.recipes.length > 0)
         {
