@@ -408,12 +408,12 @@ nothing to shop ?!</source>
     </message>
     <message>
         <location filename="../qml/Items.js" line="11"/>
-        <source>dairy</source>
+        <source>dairy products</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="12"/>
-        <source>meat</source>
+        <source>meat products</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -434,6 +434,10 @@ nothing to shop ?!</source>
         <location filename="../qml/Items.js" line="71"/>
         <location filename="../qml/Items.js" line="74"/>
         <location filename="../qml/Items.js" line="76"/>
+        <location filename="../qml/Items.js" line="77"/>
+        <location filename="../qml/Items.js" line="78"/>
+        <location filename="../qml/Items.js" line="80"/>
+        <location filename="../qml/Items.js" line="81"/>
         <location filename="../qml/Items.js" line="85"/>
         <location filename="../qml/Items.js" line="88"/>
         <location filename="../qml/Items.js" line="89"/>
@@ -445,32 +449,32 @@ nothing to shop ?!</source>
         <location filename="../qml/Items.js" line="133"/>
         <location filename="../qml/Items.js" line="135"/>
         <location filename="../qml/Items.js" line="138"/>
-        <source>fresh</source>
+        <source>fresh produce</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="14"/>
-        <source>bakery</source>
+        <source>bakery products</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="15"/>
-        <source>frosted</source>
+        <source>frozen food</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="16"/>
-        <source>canned</source>
+        <source>canned food</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="17"/>
-        <source>hygiene</source>
+        <source>personal hygiene</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="18"/>
-        <source>cleaning</source>
+        <source>cleaning supplies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
