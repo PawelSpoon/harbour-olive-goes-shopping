@@ -2,6 +2,34 @@
 <!DOCTYPE TS>
 <TS version="2.1">
 <context>
+    <name>About</name>
+    <message>
+        <location filename="../qml/pages/About.qml" line="27"/>
+        <source>a native shopping list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="34"/>
+        <source>License</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="44"/>
+        <source>Source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="55"/>
+        <source>Localization</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="66"/>
+        <source>Translators</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>AnyItemDialog</name>
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="42"/>
@@ -282,7 +310,7 @@ goes
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="195"/>
+        <location filename="../qml/pages/FirstPage.qml" line="201"/>
         <source>Oh dear,
 nothing to shop ?!</source>
         <translation type="unfinished"></translation>
@@ -293,7 +321,12 @@ nothing to shop ?!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="189"/>
+        <location filename="../qml/pages/FirstPage.qml" line="187"/>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FirstPage.qml" line="195"/>
         <source>Shopping List</source>
         <translation type="unfinished"></translation>
     </message>

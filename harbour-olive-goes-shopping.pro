@@ -71,7 +71,8 @@ DISTFILES += \
     qml/pages/ManageMainPage.qml \
     qml/pages/ManageEnumsPage.qml \
     qml/pages/EnumPicker.qml \
-    qml/pages/EnumDialog.qml
+    qml/pages/EnumDialog.qml \
+    qml/pages/About.qml
 
 HEADERS += \
     src/importexport.h
