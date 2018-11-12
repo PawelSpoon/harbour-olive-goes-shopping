@@ -71,7 +71,7 @@ function getShoppingListItemPerName(itemName)
     var items = []
     var db = getDatabase();
     var respath="";
-    var sql = "SELECT DISTINCT uid, name, amount, unit, done, category from shoppingList";
+    var sql = "SELECT DISTINCT uid, name, amount, unit, done, category from shoppingList order by category";
     if (itemName !== "") sql = "SELECT DISTINCT uid, name, amount, unit, done, category from shoppingList where name='" + itemName + "'";
 
     db.transaction(function(tx) {
@@ -309,9 +309,9 @@ function getEnums(enumTable)
     var items = []
     var db = getDatabase();
     var respath="";
-    var sql = "SELECT DISTINCT uid, name from category"; // default value
+    var sql = "SELECT DISTINCT uid, name from category order by name"; // default value
     if (enumTable !== "") {
-        sql = "SELECT DISTINCT uid, name from " + enumTable;
+        sql = "SELECT DISTINCT uid, name from " + enumTable + " order by name";
     }
 
     db.transaction(function(tx) {

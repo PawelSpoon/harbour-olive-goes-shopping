@@ -276,59 +276,59 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="129"/>
+        <location filename="../qml/pages/FirstPage.qml" line="137"/>
         <source>Clear</source>
         <translation>Liste löschen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="141"/>
+        <location filename="../qml/pages/FirstPage.qml" line="149"/>
         <source>Anything</source>
         <translation>Irgendetwas</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="145"/>
+        <location filename="../qml/pages/FirstPage.qml" line="153"/>
         <source>Recipes</source>
         <translation>Rezepte</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="149"/>
+        <location filename="../qml/pages/FirstPage.qml" line="157"/>
         <source>Household</source>
         <translation>Haushalt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="153"/>
+        <location filename="../qml/pages/FirstPage.qml" line="161"/>
         <source>Food</source>
         <translation>Lebensmittel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="161"/>
+        <location filename="../qml/pages/FirstPage.qml" line="169"/>
         <source>Share</source>
         <translation>Teilen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="175"/>
+        <location filename="../qml/pages/FirstPage.qml" line="183"/>
         <source>Manage</source>
         <translation>Verwalten</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="201"/>
+        <location filename="../qml/pages/FirstPage.qml" line="209"/>
         <source>Oh dear,
 nothing to shop ?!</source>
         <translation>Ach je,
 nichts zum Einkaufen !?</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="181"/>
+        <location filename="../qml/pages/FirstPage.qml" line="189"/>
         <source>Help</source>
         <translation>Hilfe</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="187"/>
+        <location filename="../qml/pages/FirstPage.qml" line="195"/>
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="195"/>
+        <location filename="../qml/pages/FirstPage.qml" line="203"/>
         <source>Shopping List</source>
         <translation>Einkaufsliste</translation>
     </message>

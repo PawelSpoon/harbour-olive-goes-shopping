@@ -61,6 +61,14 @@ Page {
         initPage()
     }
 
+    function editCurrent(name)
+    {
+        var current = DB.getShoppingListItemPerName(name)
+        pageStack.push(Qt.resolvedUrl("AnyItemDialog.qml"),
+                        {shoppingListPage: firstPage, uid_: current[0].uid , name_: current[0].name, amount_: current[0].howMany, unit_: current[0].unit, category_: current[0].category })
+ //       property string itemType
+    }
+
 
     function markAsDone(uid,name,amount,unit,done)
     {

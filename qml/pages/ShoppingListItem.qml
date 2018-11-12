@@ -50,8 +50,8 @@ MouseArea {
 
     property real leftMargin
     property real rightMargin: Theme.paddingLarge
-    property bool highlighted: blinker.isOn || (pressed && containsMouse)
-    property bool blinking: blinker.remainingBlinks > 0
+    property bool highlighted //: blinker.isOn || (pressed && containsMouse)
+    // property bool blinking: blinker.remainingBlinks > 0
     property bool busy
 
     width: parent ? parent.width : Screen.width
@@ -84,66 +84,6 @@ MouseArea {
                 NumberAnimation { duration: busy ? 450 : 50; easing.type: Easing.InOutQuad }
             }
             color: highlighted ? Theme.highlightColor : Theme.primaryColor
-        }
-        states: State {
-            when: root.busy
-            PropertyChanges { target: indicator; brightness: busyTimer.brightness; dimmed: false; falloffRadius: busyTimer.falloffRadius; opacity: 1.0 }
-        }
-        Timer {
-            id: busyTimer
-            property real brightness: 0.4
-            property real falloffRadius: 0.075
-            running: busy && Qt.application.active
-            interval: 500
-            repeat: true
-            onRunningChanged: {
-                brightness = checked ? 0.4 : 1.0
-                falloffRadius = checked ? indicator.defaultFalloffRadius : 0.075
-            }
-            onTriggered: {
-                falloffRadius = falloffRadius === 0.075 ? indicator.defaultFalloffRadius : 0.075
-                brightness = brightness == 0.4 ? 1.0 : 0.4
-            }
-        }
-    }
-
-    /* @blinks has to be an odd number */
-    function startBlink(duration, blinks) {
-        blinker.launch(duration, blinks)
-    }
-
-    function stopBlink() {
-        blinker.reset()
-    }
-
-    Timer {
-        id: blinker
-        triggeredOnStart: false
-
-        property int remainingBlinks: 0
-        property bool isOn: false   /* has to be false, when an even number of blinks remains */
-
-        function launch(duration, blinks) {
-            interval = duration / blinks
-            remainingBlinks = blinks
-            isOn = true
-            start()
-        }
-
-        function reset() {
-            stop()
-            isOn = false
-            remainingBlinks = 0
-        }
-
-        onTriggered: {
-            --remainingBlinks
-            if (remainingBlinks <= 0) {
-                reset()
-                return
-            }
-            isOn = !isOn
-            restart()
         }
     }
 
@@ -200,22 +140,6 @@ MouseArea {
         }
     }
 
-  /*  Label {
-        id: unit
-        height: text.height
-        opacity: root.checked ? 1.0 : 0.4
-        anchors {
-            top: label.bottom
-            //left: desc.right
-            right: parent.right
-            rightMargin: Theme.paddingLarge
-        }
-        wrapMode: Text.NoWrap
-        font.pixelSize: Theme.fontSizeExtraSmall
-        color: highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor
-        truncationMode: TruncationMode.Elide
-    }
-*/
     Component {
         id: removalComponent
         RemorseItem {
@@ -240,7 +164,14 @@ MouseArea {
     }
 
     onPressAndHold: {
-        remove();
+        if (checked) {
+          print('remove')
+          remove();
+        }
+        else {
+           print('edit')
+           parent.parent.parent.editCurrent(text)
+        }
     }
 
     function remove() {
