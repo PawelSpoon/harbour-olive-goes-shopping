@@ -12,7 +12,7 @@ Page {
     SilicaFlickable {
         anchors.fill: parent
         contentWidth: parent.width
-        // contentHeight: col.height
+        contentHeight: col.height
 
         // Show a scollbar when the view is flicked, place this over all other content
         VerticalScrollDecorator {}

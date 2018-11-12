@@ -8,6 +8,16 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Wed Nov 08 2018 Jack Tar <pawel@ich-habe-fertig.com> 0.1.5-5
+- edit shopping list item
+
+* Wed Nov 08 2018 Jack Tar <pawel@ich-habe-fertig.com> 0.1.5-4
+- german translation
+- info page
+
+* Wed Nov 08 2018 Jack Tar <pawel@ich-habe-fertig.com> 0.1.5-3
+- import export
+
 * Tue Nov 07 2018 Jack Tar <pawel@ich-habe-fertig.com> 0.1.5-2
 - updated help page
 
