@@ -183,6 +183,12 @@ Page {
                     pageStack.push(Qt.resolvedUrl("HelpMainPage.qml"))
                 }
             }
+            MenuItem {
+                text: qsTr("About")
+                onClicked: {
+                    pageStack.push(Qt.resolvedUrl("About.qml"))
+                }
+            }
         }
 
         header: PageHeader {

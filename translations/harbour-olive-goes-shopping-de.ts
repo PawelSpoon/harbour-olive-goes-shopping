@@ -1,6 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
+<context>
+    <name>About</name>
+    <message>
+        <location filename="../qml/pages/About.qml" line="27"/>
+        <source>a native shopping list</source>
+        <translation>Eine native Einkaufsliste</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="34"/>
+        <source>License</source>
+        <translation>Lizenz</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="44"/>
+        <source>Source</source>
+        <translation>Quellcode</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="55"/>
+        <source>Localization</source>
+        <translation>Lokalisierung</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="66"/>
+        <source>Translators</source>
+        <translation>Übersetzer</translation>
+    </message>
+</context>
 <context>
     <name>AnyItemDialog</name>
     <message>
@@ -56,17 +82,17 @@
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="70"/>
         <source>Item category</source>
-        <translation type="unfinished"></translation>
+        <translation>Artikel Kategorie</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="73"/>
         <source>Set category</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorie festlegen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="83"/>
         <source>Change Category</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorie ändern</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="130"/>
@@ -81,7 +107,9 @@
         <source>Olive
 goes
  shoppin&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Olive
+goes
+ shoppin&apos;</translation>
     </message>
 </context>
 <context>
@@ -89,32 +117,32 @@ goes
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="37"/>
         <source>Save</source>
-        <translation type="unfinished">Speichern</translation>
+        <translation>Speichern</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="38"/>
         <source>Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwerfen</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="42"/>
         <source>New item</source>
-        <translation type="unfinished">Neuer Artikel</translation>
+        <translation>Neuer Artikel</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="43"/>
         <source>Edit item</source>
-        <translation type="unfinished">Artikel ändern</translation>
+        <translation>Artikel ändern</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="53"/>
         <source>Item name</source>
-        <translation type="unfinished">Artikelname</translation>
+        <translation>Artikelname</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="55"/>
         <source>Set item name</source>
-        <translation type="unfinished">Artikelname festlegen</translation>
+        <translation>Artikelname festlegen</translation>
     </message>
 </context>
 <context>
@@ -122,12 +150,12 @@ goes
     <message>
         <location filename="../qml/pages/EnumPicker.qml" line="91"/>
         <source>Press &amp; hold to accept</source>
-        <translation type="unfinished">Drücken &amp; Halten zum Akzeptieren</translation>
+        <translation>Drücken &amp; Halten zum Akzeptieren</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumPicker.qml" line="96"/>
         <source>No items</source>
-        <translation type="unfinished">Keine Artikel</translation>
+        <translation>Keine Artikel</translation>
     </message>
 </context>
 <context>
@@ -280,13 +308,14 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="175"/>
         <source>Manage</source>
-        <translation type="unfinished">Verwalten</translation>
+        <translation>Verwalten</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="195"/>
+        <location filename="../qml/pages/FirstPage.qml" line="201"/>
         <source>Oh dear,
 nothing to shop ?!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ach je,
+nichts zum Einkaufen !?</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="181"/>
@@ -294,7 +323,12 @@ nothing to shop ?!</source>
         <translation>Hilfe</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="189"/>
+        <location filename="../qml/pages/FirstPage.qml" line="187"/>
+        <source>About</source>
+        <translation>Über</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FirstPage.qml" line="195"/>
         <source>Shopping List</source>
         <translation>Einkaufsliste</translation>
     </message>
@@ -303,10 +337,11 @@ nothing to shop ?!</source>
     <name>HelpMainPage</name>
     <message>
         <location filename="../qml/pages/HelpMainPage.qml" line="7"/>
-        <source>A native shopping list app with recipe support.&lt;br&gt;&lt;h1&gt;The idea&lt;/h1&gt;Navigate to &apos;Recipes page&apos; and click on a recipe: all needed ingredients will be added to your shopping list.Click again on the same recipe and shopping list will now show the needed amount for two dishes.Clicked on the wrong recipe ?Press and hold the recipe to remove all the ingredients again.Swipe back to check the shopping list.You do not need an igredient, cause it&apos;s already in house ?Press and hold it to remove it from shopping list.Want to buy some other stuff ? Navigate to &apos;Food&apos; or &apos;Household&apos; page and select further items from your db.Want to buy something so rare that is not in your db ? Navigate to &apos;Anything&apos;, type in the text and amount, done.&lt;h1&gt;Getting started&lt;/h1&gt;Import demo items:&lt;br&gt;Select &apos;Manage&apos; from PushUp menu, click on &apos;Category&apos; button to reach &apos;Manage Category&apos; page. Select &apos;Import Category Db&apos; from PushUp. &lt;br&gt;Swipe back to &apos;Manage Application&apos; page then click on &apos;Food&apos; button to reach &apos;Manage Store&apos; page. Select &apos;Import Items Db&apos; from PushUp. &lt;br&gt;This will import food and household items into your db.&lt;br&gt;Swipe back or forward to go back to &apos;Manage Application&apos; page and click on &apos;Recipes&apos; button. Select &apos;Import Recipes Db&apos; from PushUp. &lt;br&gt;This will import demo recipes. The correct order is important, as recipes do depend on items.Demo items language depends on phone language. Translations do exist for german, spanish..  Default language is english.If you run your phone i.e. in english, but want german db, switch phone to german before import. You can switch back to english afterwards&lt;br&gt;You can remove demo items from local storage using &apos;Clear&apos; PushUp menu item on &apos;Manage&apos; pages. You can also remove single Food/Household and Recipes with a long press.It is possible to Add/Remove Food and Household items on &apos;Manage Items&apos; page.It is possible to Add/Edit/Remove &apos;Recipes&apos; on &apos;Manage Recipes&apos; page.&lt;br&gt;Another option to bring in your own items is to export the demo db, modify it, clear db, them import the modified file.To do this:Import items and recipes as described above. Go back to &apos;Manage Application&apos; page and click on &apos;Import Export&apos; buttonGo back to shopping list page and select &apos;Export Import&apos; from push up menu.Select location (internal / external storage), define a file name and click export.Navigate to the path, copy file to your pc, modify it according to your needs (it is self explaining), copy back to your phone.Now drop the database, select the file and click import.&lt;h1&gt;Pages&lt;/h1&gt;&lt;h2&gt;Shopping list&lt;/h2&gt;This page shows the current shopping list. Items are grouped by categories.&lt;br&gt;Click on an item will strike it through.&lt;br&gt;A second click will unstrike it again.&lt;br&gt;PressAndHold an item will remove this item from shopping list (with remorse).&lt;br&gt;Select items from Food/Household/Recipes/Anything pages to fill shopping list.&lt;br&gt;PullDownMenu &apos;Food&apos; will open &apos;Food&apos; page.&lt;br&gt;PullDownMenu &apos;Household &apos; will open &apos;Household&apos; page. &lt;br&gt;PullDownMenu &apos;Recipes&apos; will open &apos;Recipes&apos; page. &lt;br&gt;PullDownMenu &apos;Anything&apos; allows you to add &apos;free-text&apos; to your shopping list. &lt;br&gt;PullDownMenu &apos;Clear&apos; will clear whole shopping list and uncheck the items in the corresponding sub pages (with remorse).&lt;br&gt;PushUpMenu &apos;Share&apos; brings up ShareUI. It is possible to the list as text to sms, e-mail.. &lt;br&gt;PushUpMenu &apos;Help&apos; did open this help page. &lt;br&gt;PushUpMenu &apos;Manage&apos; will open Manage Application page. &lt;br&gt;&lt;h2&gt;Food / Household Page&lt;/h2&gt;This page allows to add items to shopping list.&lt;br&gt;A click will add an item to shopping list. A second click will increases the total count in shopping list.&lt;br&gt;A PressAndHold will remove item from shopping list.&lt;br&gt;PullDownMenu &apos;Manage&apos; will show &apos;Manage Store&apos; page where you can add / remove items to your local db.&lt;h2&gt;Recipes Page&lt;/h2&gt;Shows all your favorite recipes. A click on any recipe will add it&apos;s ingredients to shopping list. A second click with double all increadients.&lt;br&gt;A PressAndHold will remove the recipe from shopping list.PullDownMenu &apos;Manage&apos; will show &apos;Manage Recipes&apos; page where you can add / edit / remove recipes in your local db.&lt;h2&gt;Managing Recipes Page&lt;/h2&gt;PullDownMenu &apos;Add&apos; to add a new recipe. PressAndHold to delete one recipe from db.Click on an recipe to view/edit the details: Name, servings, ingredients ...The page is a dialog, so swipe back to cancel.&apos;rename&apos; recipe not tested. Changing services and ingredients is working fine, but will not change your current shopping list.To delete an ingredient, just PressAndHold it. To Add an ingredient, click on add, edit ... etc.To properly select an ingredient, click on the the browse button, do not type it manually.PressAndHold the ingredient in the dialog to commit your selection.
+        <source>A native shopping list app with recipe support.&lt;br&gt;&lt;h1&gt;The idea&lt;/h1&gt;Navigate to 'Recipes page' and click on a recipe: all needed ingredients will be added to your shopping list.Click again on the same recipe and shopping list will now show the needed amount for two dishes.Clicked on the wrong recipe ?Press and hold the recipe to remove all the ingredients again.Swipe back to check the shopping list.You do not need an igredient, cause it's already in house ?Press and hold it to remove it from shopping list.Want to buy some other stuff ? Navigate to 'Food' or 'Household' page and select further items from your db.Want to buy something so rare that is not in your db ? Navigate to 'Anything', type in the text and amount, done.&lt;h1&gt;Getting started&lt;/h1&gt;Import demo items:&lt;br&gt;Select 'Manage' from PushUp menu, click on 'Category' button to reach 'Manage Category' page. Select 'Import Category Db' from PushUp. &lt;br&gt;Swipe back to 'Manage Application' page then click on 'Food' button to reach 'Manage Store' page. Select 'Import Items Db' from PushUp. &lt;br&gt;This will import food and household items into your db.&lt;br&gt;Swipe back or forward to go back to 'Manage Application' page and click on 'Recipes' button. Select 'Import Recipes Db' from PushUp. &lt;br&gt;This will import demo recipes. The correct order is important, as recipes do depend on items.Demo items language depends on phone language. Translations do exist for german, spanish..  Default language is english.If you run your phone i.e. in english, but want german db, switch phone to german before import. You can switch back to english afterwards&lt;br&gt;You can remove demo items from local storage using 'Clear' PushUp menu item on 'Manage' pages. You can also remove single Food/Household and Recipes with a long press.It is possible to Add/Remove Food and Household items on 'Manage Items' page.It is possible to Add/Edit/Remove 'Recipes' on 'Manage Recipes' page.&lt;br&gt;Another option to bring in your own items is to export the demo db, modify it, clear db, them import the modified file.To do this:Import items and recipes as described above. Go back to 'Manage Application' page and click on 'Import Export' buttonGo back to shopping list page and select 'Export Import' from push up menu.Select location (internal / external storage), define a file name and click export.Navigate to the path, copy file to your pc, modify it according to your needs (it is self explaining), copy back to your phone.Now drop the database, select the file and click import.&lt;h1&gt;Pages&lt;/h1&gt;&lt;h2&gt;Shopping list&lt;/h2&gt;This page shows the current shopping list. Items are grouped by categories.&lt;br&gt;Click on an item will strike it through.&lt;br&gt;A second click will unstrike it again.&lt;br&gt;PressAndHold an item will remove this item from shopping list (with remorse).&lt;br&gt;Select items from Food/Household/Recipes/Anything pages to fill shopping list.&lt;br&gt;PullDownMenu 'Food' will open 'Food' page.&lt;br&gt;PullDownMenu 'Household ' will open 'Household' page. &lt;br&gt;PullDownMenu 'Recipes' will open 'Recipes' page. &lt;br&gt;PullDownMenu 'Anything' allows you to add 'free-text' to your shopping list. &lt;br&gt;PullDownMenu 'Clear' will clear whole shopping list and uncheck the items in the corresponding sub pages (with remorse).&lt;br&gt;PushUpMenu 'Share' brings up ShareUI. It is possible to the list as text to sms, e-mail.. &lt;br&gt;PushUpMenu 'Help' did open this help page. &lt;br&gt;PushUpMenu 'Manage' will open Manage Application page. &lt;br&gt;&lt;h2&gt;Food / Household Page&lt;/h2&gt;This page allows to add items to shopping list.&lt;br&gt;A click will add an item to shopping list. A second click will increases the total count in shopping list.&lt;br&gt;A PressAndHold will remove item from shopping list.&lt;br&gt;PullDownMenu 'Manage' will show 'Manage Store' page where you can add / remove items to your local db.&lt;h2&gt;Recipes Page&lt;/h2&gt;Shows all your favorite recipes. A click on any recipe will add it's ingredients to shopping list. A second click with double all increadients.&lt;br&gt;A PressAndHold will remove the recipe from shopping list.PullDownMenu 'Manage' will show 'Manage Recipes' page where you can add / edit / remove recipes in your local db.&lt;h2&gt;Managing Recipes Page&lt;/h2&gt;PullDownMenu 'Add' to add a new recipe. PressAndHold to delete one recipe from db.Click on an recipe to view/edit the details: Name, servings, ingredients ...The page is a dialog, so swipe back to cancel.'rename' recipe not tested. Changing services and ingredients is working fine, but will not change your current shopping list.To delete an ingredient, just PressAndHold it. To Add an ingredient, click on add, edit ... etc.To properly select an ingredient, click on the the browse button, do not type it manually.PressAndHold the ingredient in the dialog to commit your selection.
 &lt;h2&gt;Manage Page&lt;/h2&gt;Quick access to all db related pages.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Eine native Einkaufslisten-App mit Unterstützung von Rezepten.&amp;lt;br&amp;gt;&amp;lt;h1&amp;gt;Die Idee&amp;lt;/h1gt;Navigiere zur Seite &amp;apos;Rezepte&amp;apos; und klicke auf ein Rezept: Alle benötigen Zutaten werden zu deiner Einkaufsliste hinzugefügt. Klicke erneut auf das selbe Rezept und in der Einkaufsliste wird die benötigte Menge für zwei Gerichte angezeigt. Das falsche Rezept ausgewählt? Drücke und halte das Rezept, um die Zutaten wieder zu entfernen. Wische zurück, um die Einkaufsliste zu überprüfen. Benötigst du eine Zutat nicht, weil du sie schon zuhause hast? Drücke und halte die Zutat, um sie von der Einkaufsliste zu entfernen. Möchtest du ein paar andere Sachen kaufen? Navigiere zu den Seiten &amp;apos;Lebensmittel&amp;apos; oder &amp;apos;Haushalt&amp;apos; und wähle weitere Dinge aus deiner Datenbank aus. Möchtest du etwas Seltenes einkaufen, dass sich nicht in deiner Datenbank befindet? Navigiere zu &amp;apos;Irgendwas&amp;apos; und gib Bezeichnung und Menge ein. Fertig. &amp;lt;h1&amp;gt;Erste Schritte&amp;lt;/h1&amp;gt;Den lokalen Speicher mit Demo-Artikel füllen: &amp;lt;br&amp;gt;Wähle &amp;apos;Verwalten&amp;apos; im Pullup-Menü, dannach drücke auf &amp;apos;Kategorie&amp;apos; um die Seite &amp;apos;Kategorie verwalten&amp;apos; zu erreichen. Wähle &amp;apos;Kategorie-DB importieren&amp;apos; aus dem Pullup-Menü, danach wische zurück zur &amp;apos;Applikation Verwalten&amp;apos; Seite und drücke auf &amp;apos;Lebensmittel&amp;apos;. Wähle &amp;apos;Lebensmittel-DB importieren&amp;apos; vom Pullup-Menü. &amp;lt;br&amp;gt;Dies wird Lebensmittel und Haushaltsgegenstände in deine Datenbank importieren.&amp;lt;br&amp;gt;Wische zurück und drücke  &amp;apos;Rezepte&amp;apos;, anschließend &amp;apos;Rezepte-DB Importieren..&amp;apos; im Pullup-Menü. &amp;lt;br&amp;gt;Dies wird Demo-Rezepte importieren. Die Reihenfolge ist wichtig, da Rezepte von Zutaten abhängen und diese von Kategorien. Alle Rezepte sind auf Deutsch und benötigen deutsche Zutaten. &amp;lt;br&amp;gt;Die Sprache der Demo Artikel hängt von der Telefonsprache ab. Übersetzungen gibt es für Deutsch, Spanish.. Falls eine Sprache nicht existiert, werden englische Artikel importiert. Falls du dein Telefon auf englisch benützt aber z.B deutsche Artikel haben möchtest, wechsle die Sprache vor dem Import. Dannach kannst du die Telefonsprache wieder zurückstellen. &amp;lt;br&amp;gt;Du kannst die Demo-Artikel aus dem lokalen Speicher über den Eintrag &amp;apos;Leeren&amp;apos; im Pullup-Menü der Seiten &amp;apos;Verwalten&amp;apos; entfernen. &amp;lt;h1&amp;gt;Seiten&amp;lt;/h1&amp;gt;&amp;lt;h2&amp;gt;Einkaufsliste&amp;lt;/h2&amp;gt;Diese Seite zeigt die derzeitige Einkaufsliste. &amp;lt;br&amp;gt;Durch Klicken auf einen Artikel wird dieser durchgestrichen. &amp;lt;br&amp;gt;Ein zweiter Klick entfernt das Durchgestrichene wieder.&amp;lt;br&amp;gt;Drücken und Halten eines Artikels entfernt diesen von der Einkaufsliste (mit Abbruch-Timer).&amp;lt;br&amp;gt;Um die Einkaufsliste zu befüllen, wähle Artikel aus den Rubriken Lebensmittel / Haushalt / Rezepte / Irgendetwas aus.&amp;lt;br&amp;gt;Über das Pulldown-Menü lassen sich die entsprechenden Rubrikseiten öffnen.&amp;lt;br&amp;gt;Das Pulldown-Menü &amp;apos;Irgendetwas&amp;apos; erlaubt es einen Freitext zur Einkaufsliste hinzuzufügen.&amp;lt;br&amp;gt;Der Menüpunkt &amp;apos;Liste löschen&amp;apos; löscht die komplette Einkaufsliste und löscht die Artikelauswahl auf den entsprechenden Unterseiten (mit Abbruch-Timer). &amp;lt;br&amp;gt;Das Pushup-Menü &amp;apos;Teilen&amp;apos; bietet die Möglichkeit, die Liste als Text per SMS, E-Mail, ... zu versenden. &amp;lt;br&amp;gt; Der Menüpunkt &amp;apos;Hilfe&amp;apos; öffnet diese Hilfeseite.&amp;lt;br&amp;gt; Über den Eintrag &amp;apos;Export / Import&amp;apos; öffnet sich die Seite zum Sichern/Wiederherstellen der Datenbank. Weiterhin kann hier die Datenbank auch komplett gelöscht werden.&amp;lt;br&amp;gt;&amp;lt;h2&amp;gt;Lebensmittel / Haushalt&amp;lt;/h2&amp;gt;Diese Seite ermöglicht das Hinzufügen von Artikeln zur Einkaufsliste. &amp;lt;br&amp;gt;Ein Klick fügt den Artikel einmal zur Liste hinzu, ein zweiter Klick ein weiteres Mal hinzu usw. (inkrementiert die Anzahl).&amp;lt;br&amp;gt;Drücken und Halten löscht den Artikel von der Einkaufsliste. &amp;lt;br&amp;gt;Das Pulldown-Menü &amp;apos;Verwalten&amp;apos; zeigt die Seite an, über die sich Artikel der lokalen Datenbank hinzufügen oder löschen lassen.&amp;lt;h2&amp;gt;Zutaten&amp;lt;/h2&amp;gt;Zeigt alle Lieblingsrezepte an. Ein Klick auf ein Rezept fügt alle Zutaten der Einkaufsliste hinzu. Ein zweiter Klick verdoppelt die Anzahl aller Zutaten.&amp;lt;br&amp;gt;Durch Halten und Drücken wird das Rezept von der Einkaufsliste entfernt. Über das Pulldown-Menü &amp;apos;Verwalten&amp;apos; öffnet sich die Seite zum Hinzufügen, Ändern und Löschen von Rezepten der lokalen Datenbank.&amp;lt;h2&amp;gt;Rezepte verwalten&amp;lt;/h2&amp;gt;Pulldown-Menü Hinzufügen erstellt ein neues Rezept. Drücke und halte um ein Rezept aus der DB zu löschen. Drücke ein Rezept um es zu ändern: Name, Portionen, Zutaten .. Die Seite ist ein Dialog, wische zu zurück um abzubrechen. Rezept umbenennen ist nicht  getestet. Ändern der Portionen und Zutaten funktioniert, hat aber keinen Einfluss auf die aktuelle Einkaufsliste. Um eine Zutat zu löschen, drücke und halte diese. Zutaten sollten über die Schaltfläche geändert werden, nicht über das Textfeld.&amp;lt;br&amp;gt;&amp;lt;h2&amp;gt;Applikation Verwalten&amp;lt;/h2&amp;gt;Schneller Zugang zu allen DB relevanten Seiten
+</translation>
     </message>
 </context>
 <context>
@@ -372,17 +407,17 @@ nothing to shop ?!</source>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="93"/>
         <source>Item category</source>
-        <translation type="unfinished"></translation>
+        <translation>Artikel Kategorie</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="97"/>
         <source>Set category</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorie festlegen</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="106"/>
         <source>Change Category</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorie ändern</translation>
     </message>
 </context>
 <context>
@@ -409,13 +444,13 @@ nothing to shop ?!</source>
     </message>
     <message>
         <location filename="../qml/Items.js" line="11"/>
-        <source>dairy</source>
-        <translation type="unfinished"></translation>
+        <source>dairy products</source>
+        <translation>Milchprodukte</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="12"/>
-        <source>meat</source>
-        <translation type="unfinished"></translation>
+        <source>meat products</source>
+        <translation>Fleisch und Wurst</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="13"/>
@@ -435,6 +470,10 @@ nothing to shop ?!</source>
         <location filename="../qml/Items.js" line="71"/>
         <location filename="../qml/Items.js" line="74"/>
         <location filename="../qml/Items.js" line="76"/>
+        <location filename="../qml/Items.js" line="77"/>
+        <location filename="../qml/Items.js" line="78"/>
+        <location filename="../qml/Items.js" line="80"/>
+        <location filename="../qml/Items.js" line="81"/>
         <location filename="../qml/Items.js" line="85"/>
         <location filename="../qml/Items.js" line="88"/>
         <location filename="../qml/Items.js" line="89"/>
@@ -446,53 +485,53 @@ nothing to shop ?!</source>
         <location filename="../qml/Items.js" line="133"/>
         <location filename="../qml/Items.js" line="135"/>
         <location filename="../qml/Items.js" line="138"/>
-        <source>fresh</source>
-        <translation type="unfinished"></translation>
+        <source>fresh produce</source>
+        <translation>Obst und Gemüse</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="14"/>
-        <source>bakery</source>
-        <translation type="unfinished"></translation>
+        <source>bakery products</source>
+        <translation>Backwaren</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="15"/>
-        <source>frosted</source>
-        <translation type="unfinished"></translation>
+        <source>frozen food</source>
+        <translation>Tiefkühlwaren</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="16"/>
-        <source>canned</source>
-        <translation type="unfinished"></translation>
+        <source>canned food</source>
+        <translation>Konserven</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="17"/>
-        <source>hygiene</source>
-        <translation type="unfinished"></translation>
+        <source>personal hygiene</source>
+        <translation>Körperpflege</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="18"/>
-        <source>cleaning</source>
-        <translation type="unfinished"></translation>
+        <source>cleaning supplies</source>
+        <translation>Reinigungsmittel</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="19"/>
         <source>magazines</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeitschriften</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="20"/>
         <source>hardware</source>
-        <translation type="unfinished"></translation>
+        <translation>Baumarkt</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="22"/>
         <source>automotive</source>
-        <translation type="unfinished"></translation>
+        <translation>Auto Motor</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="23"/>
         <source>others</source>
-        <translation type="unfinished"></translation>
+        <translation>Verschiedenes</translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="36"/>
@@ -1238,22 +1277,22 @@ nothing to shop ?!</source>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="78"/>
         <source>Please fill store with items</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte den Speicher mit Artikel füllen</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="84"/>
         <source>Clear Categories Db</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorie-DB leeren</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="97"/>
         <source>Import Categories Db</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorie-DB importieren</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="108"/>
         <source>Add</source>
-        <translation type="unfinished">Hinzufügen</translation>
+        <translation>Hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -1284,37 +1323,37 @@ nothing to shop ?!</source>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="56"/>
         <source>Help</source>
-        <translation type="unfinished">Hilfe</translation>
+        <translation>Hilfe</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="100"/>
         <source>Food</source>
-        <translation type="unfinished">Lebensmittel</translation>
+        <translation>Lebensmittel</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="107"/>
         <source>Household</source>
-        <translation type="unfinished">Haushalt</translation>
+        <translation>Haushalt</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="113"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorie</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="88"/>
         <source>Recipes</source>
-        <translation type="unfinished">Rezepte</translation>
+        <translation>Rezepte</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="119"/>
         <source>Import Export</source>
-        <translation type="unfinished">Import Export</translation>
+        <translation>Import Export</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="66"/>
         <source>Manage Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Applikation verwalten</translation>
     </message>
 </context>
 <context>
