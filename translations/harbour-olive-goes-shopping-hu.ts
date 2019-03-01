@@ -2,6 +2,34 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="hu">
 <context>
+    <name>About</name>
+    <message>
+        <location filename="../qml/pages/About.qml" line="27"/>
+        <source>a native shopping list</source>
+        <translation type="unfinished">natív bevásárlólista</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="34"/>
+        <source>License</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="44"/>
+        <source>Source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="55"/>
+        <source>Localization</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="66"/>
+        <source>Translators</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>AnyItemDialog</name>
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="42"/>
@@ -78,9 +106,7 @@
     <name>CoverPage</name>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="96"/>
-        <source>Olive
-goes
- shoppin&apos;</source>
+        <source>Olive &lt;br&gt;goes &lt;br&gt; shoppin&apos;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -247,53 +273,57 @@ goes
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="129"/>
+        <location filename="../qml/pages/FirstPage.qml" line="137"/>
         <source>Clear</source>
         <translation>Törlés</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="141"/>
+        <location filename="../qml/pages/FirstPage.qml" line="149"/>
         <source>Anything</source>
         <translation>Bármi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="145"/>
+        <location filename="../qml/pages/FirstPage.qml" line="153"/>
         <source>Recipes</source>
         <translation>Receptek</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="149"/>
+        <location filename="../qml/pages/FirstPage.qml" line="157"/>
         <source>Household</source>
         <translation>Háztartás</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="153"/>
+        <location filename="../qml/pages/FirstPage.qml" line="161"/>
         <source>Food</source>
         <translation>Élelem</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="161"/>
+        <location filename="../qml/pages/FirstPage.qml" line="169"/>
         <source>Share</source>
         <translation>Megosztás</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="175"/>
+        <location filename="../qml/pages/FirstPage.qml" line="183"/>
         <source>Manage</source>
         <translation type="unfinished">Kezelés</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="195"/>
-        <source>Oh dear,
-nothing to shop ?!</source>
+        <location filename="../qml/pages/FirstPage.qml" line="209"/>
+        <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="181"/>
+        <location filename="../qml/pages/FirstPage.qml" line="189"/>
         <source>Help</source>
         <translation>Súgó</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="189"/>
+        <location filename="../qml/pages/FirstPage.qml" line="195"/>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FirstPage.qml" line="203"/>
         <source>Shopping List</source>
         <translation>Bevásárlólista</translation>
     </message>
@@ -302,9 +332,7 @@ nothing to shop ?!</source>
     <name>HelpMainPage</name>
     <message>
         <location filename="../qml/pages/HelpMainPage.qml" line="7"/>
-        <source>A native shopping list app with recipe support.&lt;br&gt;&lt;h1&gt;The idea&lt;/h1&gt;Navigate to &apos;Recipes page&apos; and click on a recipe: all needed ingredients will be added to your shopping list.Click again on the same recipe and shopping list will now show the needed amount for two dishes.Clicked on the wrong recipe ?Press and hold the recipe to remove all the ingredients again.Swipe back to check the shopping list.You do not need an igredient, cause it&apos;s already in house ?Press and hold it to remove it from shopping list.Want to buy some other stuff ? Navigate to &apos;Food&apos; or &apos;Household&apos; page and select further items from your db.Want to buy something so rare that is not in your db ? Navigate to &apos;Anything&apos;, type in the text and amount, done.&lt;h1&gt;Getting started&lt;/h1&gt;Import demo items:&lt;br&gt;Select &apos;Manage&apos; from PushUp menu, click on &apos;Category&apos; button to reach &apos;Manage Category&apos; page. Select &apos;Import Category Db&apos; from PushUp. &lt;br&gt;Swipe back to &apos;Manage Application&apos; page then click on &apos;Food&apos; button to reach &apos;Manage Store&apos; page. Select &apos;Import Items Db&apos; from PushUp. &lt;br&gt;This will import food and household items into your db.&lt;br&gt;Swipe back or forward to go back to &apos;Manage Application&apos; page and click on &apos;Recipes&apos; button. Select &apos;Import Recipes Db&apos; from PushUp. &lt;br&gt;This will import demo recipes. The correct order is important, as recipes do depend on items.Demo items language depends on phone language. Translations do exist for german, spanish..  Default language is english.If you run your phone i.e. in english, but want german db, switch phone to german before import. You can switch back to english afterwards&lt;br&gt;You can remove demo items from local storage using &apos;Clear&apos; PushUp menu item on &apos;Manage&apos; pages. You can also remove single Food/Household and Recipes with a long press.It is possible to Add/Remove Food and Household items on &apos;Manage Items&apos; page.It is possible to Add/Edit/Remove &apos;Recipes&apos; on &apos;Manage Recipes&apos; page.&lt;br&gt;Another option to bring in your own items is to export the demo db, modify it, clear db, them import the modified file.To do this:Import items and recipes as described above. Go back to &apos;Manage Application&apos; page and click on &apos;Import Export&apos; buttonGo back to shopping list page and select &apos;Export Import&apos; from push up menu.Select location (internal / external storage), define a file name and click export.Navigate to the path, copy file to your pc, modify it according to your needs (it is self explaining), copy back to your phone.Now drop the database, select the file and click import.&lt;h1&gt;Pages&lt;/h1&gt;&lt;h2&gt;Shopping list&lt;/h2&gt;This page shows the current shopping list. Items are grouped by categories.&lt;br&gt;Click on an item will strike it through.&lt;br&gt;A second click will unstrike it again.&lt;br&gt;PressAndHold an item will remove this item from shopping list (with remorse).&lt;br&gt;Select items from Food/Household/Recipes/Anything pages to fill shopping list.&lt;br&gt;PullDownMenu &apos;Food&apos; will open &apos;Food&apos; page.&lt;br&gt;PullDownMenu &apos;Household &apos; will open &apos;Household&apos; page. &lt;br&gt;PullDownMenu &apos;Recipes&apos; will open &apos;Recipes&apos; page. &lt;br&gt;PullDownMenu &apos;Anything&apos; allows you to add &apos;free-text&apos; to your shopping list. &lt;br&gt;PullDownMenu &apos;Clear&apos; will clear whole shopping list and uncheck the items in the corresponding sub pages (with remorse).&lt;br&gt;PushUpMenu &apos;Share&apos; brings up ShareUI. It is possible to the list as text to sms, e-mail.. &lt;br&gt;PushUpMenu &apos;Help&apos; did open this help page. &lt;br&gt;PushUpMenu &apos;Manage&apos; will open Manage Application page. &lt;br&gt;&lt;h2&gt;Food / Household Page&lt;/h2&gt;This page allows to add items to shopping list.&lt;br&gt;A click will add an item to shopping list. A second click will increases the total count in shopping list.&lt;br&gt;A PressAndHold will remove item from shopping list.&lt;br&gt;PullDownMenu &apos;Manage&apos; will show &apos;Manage Store&apos; page where you can add / remove items to your local db.&lt;h2&gt;Recipes Page&lt;/h2&gt;Shows all your favorite recipes. A click on any recipe will add it&apos;s ingredients to shopping list. A second click with double all increadients.&lt;br&gt;A PressAndHold will remove the recipe from shopping list.PullDownMenu &apos;Manage&apos; will show &apos;Manage Recipes&apos; page where you can add / edit / remove recipes in your local db.&lt;h2&gt;Managing Recipes Page&lt;/h2&gt;PullDownMenu &apos;Add&apos; to add a new recipe. PressAndHold to delete one recipe from db.Click on an recipe to view/edit the details: Name, servings, ingredients ...The page is a dialog, so swipe back to cancel.&apos;rename&apos; recipe not tested. Changing services and ingredients is working fine, but will not change your current shopping list.To delete an ingredient, just PressAndHold it. To Add an ingredient, click on add, edit ... etc.To properly select an ingredient, click on the the browse button, do not type it manually.PressAndHold the ingredient in the dialog to commit your selection.
-&lt;h2&gt;Manage Page&lt;/h2&gt;Quick access to all db related pages.
-</source>
+        <source>A native shopping list app with recipe support.&lt;br&gt;&lt;h1&gt;The idea&lt;/h1&gt;Navigate to &apos;Recipes page&apos; and click on a recipe: all needed ingredients will be added to your shopping list. Click again on the same recipe and shopping list will now show the needed amount for two servings. Clicked on the wrong recipe? Press and hold the recipe to remove all the ingredients again. Swipe back to check the shopping list. You do not need an igredient, cause you have it already? Click on it will mark it as done. If you press and hold it afterwards, it will be removed from shopping list completely. Want to buy some additional stuff ? Navigate to &apos;Food&apos; or &apos;Household&apos; page and select further items from your db. Want to buy something so rare that is not in your db? Navigate to &apos;Anything&apos;, type in the text and amount, done.&lt;h1&gt;Getting started&lt;/h1&gt;Import demo items:&lt;br&gt;Select &apos;Manage&apos; from PushUp menu, click on &apos;Category&apos; button to reach &apos;Manage Category&apos; page. Select &apos;Import Category Db&apos; from PushUp. &lt;br&gt;Swipe back to &apos;Manage Application&apos; page then click on &apos;Food&apos; button to reach &apos;Manage Store&apos; page. Select &apos;Import Items Db&apos; from PushUp. &lt;br&gt;This will import food and household items into your db.&lt;br&gt;Swipe back or forward to go back to &apos;Manage Application&apos; page and click on &apos;Recipes&apos; button. Select &apos;Import Recipes Db&apos; from PushUp. &lt;br&gt;This will import demo recipes. The correct order is important, as recipes do depend on items.Demo items language depends on phone language. Translations do exist for german, spanish..  Default language is english.If you run your phone i.e. in english, but want german db, switch phone to german before import. You can switch back to english afterwards&lt;br&gt;You can remove demo items from local storage using &apos;Clear&apos; PushUp menu item on &apos;Manage&apos; pages. You can also remove single Food/Household and Recipes with a long press.It is possible to Add/Remove Food and Household items on &apos;Manage Items&apos; page.It is possible to Add/Edit/Remove &apos;Recipes&apos; on &apos;Manage Recipes&apos; page.&lt;br&gt;Another option to bring in your own items is to export the demo db, modify it, clear db, them import the modified file.To do this:Import items and recipes as described above. Go back to &apos;Manage Application&apos; page and click on &apos;Import Export&apos; buttonGo back to shopping list page and select &apos;Export Import&apos; from push up menu.Select location (internal / external storage), define a file name and click export.Navigate to the path, copy file to your pc, modify it according to your needs (it is self explaining), copy back to your phone.Now drop the database, select the file and click import.&lt;h1&gt;Pages&lt;/h1&gt;&lt;h2&gt;Shopping list&lt;/h2&gt;This page shows the current shopping list. Items are grouped by categories.&lt;br&gt;Click on an item will strike it through.&lt;br&gt;A second click will unstrike it again.&lt;br&gt;PressAndHold an item will remove this item from shopping list (with remorse).&lt;br&gt;Select items from Food/Household/Recipes/Anything pages to fill shopping list.&lt;br&gt;PullDownMenu &apos;Food&apos; will open &apos;Food&apos; page.&lt;br&gt;PullDownMenu &apos;Household &apos; will open &apos;Household&apos; page. &lt;br&gt;PullDownMenu &apos;Recipes&apos; will open &apos;Recipes&apos; page. &lt;br&gt;PullDownMenu &apos;Anything&apos; allows you to add &apos;free-text&apos; to your shopping list. &lt;br&gt;PullDownMenu &apos;Clear&apos; will clear whole shopping list and uncheck the items in the corresponding sub pages (with remorse).&lt;br&gt;PushUpMenu &apos;Share&apos; brings up ShareUI. It is possible to the list as text to sms, e-mail.. &lt;br&gt;PushUpMenu &apos;Help&apos; did open this help page. &lt;br&gt;PushUpMenu &apos;Manage&apos; will open Manage Application page. &lt;br&gt;&lt;h2&gt;Food / Household Page&lt;/h2&gt;This page allows to add items to shopping list.&lt;br&gt;A click will add an item to shopping list. A second click will increases the total count in shopping list.&lt;br&gt;A PressAndHold will remove item from shopping list.&lt;br&gt;PullDownMenu &apos;Manage&apos; will show &apos;Manage Store&apos; page where you can add / remove items to your local db.&lt;h2&gt;Recipes Page&lt;/h2&gt;Shows all your favorite recipes. A click on any recipe will add it&apos;s ingredients to shopping list. A second click with double all increadients.&lt;br&gt;A PressAndHold will remove the recipe from shopping list.PullDownMenu &apos;Manage&apos; will show &apos;Manage Recipes&apos; page where you can add / edit / remove recipes in your local db.&lt;h2&gt;Managing Recipes Page&lt;/h2&gt;PullDownMenu &apos;Add&apos; to add a new recipe. PressAndHold to delete one recipe from db.Click on an recipe to view/edit the details: Name, servings, ingredients ...The page is a dialog, so swipe back to cancel.&apos;rename&apos; recipe not tested. Changing services and ingredients is working fine, but will not change your current shopping list.To delete an ingredient, just PressAndHold it. To Add an ingredient, click on add, edit ... etc.To properly select an ingredient, click on the the browse button, do not type it manually.PressAndHold the ingredient in the dialog to commit your selection.&lt;h2&gt;Manage Page&lt;/h2&gt;Quick access to all db related pages.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -408,12 +436,12 @@ nothing to shop ?!</source>
     </message>
     <message>
         <location filename="../qml/Items.js" line="11"/>
-        <source>dairy</source>
+        <source>dairy products</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="12"/>
-        <source>meat</source>
+        <source>meat products</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -434,6 +462,10 @@ nothing to shop ?!</source>
         <location filename="../qml/Items.js" line="71"/>
         <location filename="../qml/Items.js" line="74"/>
         <location filename="../qml/Items.js" line="76"/>
+        <location filename="../qml/Items.js" line="77"/>
+        <location filename="../qml/Items.js" line="78"/>
+        <location filename="../qml/Items.js" line="80"/>
+        <location filename="../qml/Items.js" line="81"/>
         <location filename="../qml/Items.js" line="85"/>
         <location filename="../qml/Items.js" line="88"/>
         <location filename="../qml/Items.js" line="89"/>
@@ -445,32 +477,32 @@ nothing to shop ?!</source>
         <location filename="../qml/Items.js" line="133"/>
         <location filename="../qml/Items.js" line="135"/>
         <location filename="../qml/Items.js" line="138"/>
-        <source>fresh</source>
+        <source>fresh produce</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="14"/>
-        <source>bakery</source>
+        <source>bakery products</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="15"/>
-        <source>frosted</source>
+        <source>frozen food</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="16"/>
-        <source>canned</source>
+        <source>canned food</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="17"/>
-        <source>hygiene</source>
+        <source>personal hygiene</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/Items.js" line="18"/>
-        <source>cleaning</source>
+        <source>cleaning supplies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
