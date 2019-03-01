@@ -205,29 +205,35 @@ Page {
 
 
         ViewPlaceholder {
-            enabled: shoppingModel.count === 0 // show placeholder text when no locations/artists are tracked
-            text: qsTr("Oh dear,
-nothing to shop ?!")
+            enabled: shoppingModel.count === 0
+            text: qsTr("Oh dear, <br>nothing to shop ?!")
         }
 
-        // try to have sections by date
+        // have sections by category
         section {
             property: "category"
             criteria: ViewSection.FullString
-            delegate: Rectangle {
-                color: Theme.highlightColor
-                opacity: 0.4
-                width: parent.width
-                height: childrenRect.height + 10
-                Text {
-                    id: childrenRect
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    anchors.verticalCenter: parent.verticalCenter
-                    // anchors.leftMargin: Theme.paddingLarge
-                    font.pixelSize: Theme.fontSizeMedium
-                    font.bold: true
+            delegate: SectionHeader {
+                // background: parent
+                // opacity: 1.0
+                // width: parent.width
+                // height: childrenRect.height + 10
+                // Label {
+                //    id: childrenRect
+                //    opacity: 1.0
+                //    color: Theme.highlightColor
+                //    anchors.horizontalCenter: parent.horizontalCenter
+                //    anchors.verticalCenter: parent.verticalCenter
+                //    width: parent.width - 20
+                //    anchors.leftMargin: Theme.paddingLarge
+                //    font.pixelSize: Theme.fontSizeLarge
+                //    font.bold: true
+                //    font.italic: true
                     text: section
-                }
+                    font.pixelSize: Theme.fontSizeLarge
+                    // font.italic: true
+                //    horizontalAlignment: TextEdit.AlignRight
+                //}
             }
         }
 
