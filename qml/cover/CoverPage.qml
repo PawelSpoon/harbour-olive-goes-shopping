@@ -93,14 +93,13 @@ CoverBackground {
         anchors.centerIn: parent
         anchors.verticalCenterOffset: 2 * Theme.paddingLarge
         //font: Font.Bold
-        text: qsTr("Olive
-goes
+        text: qsTr("Olive <br>\
+goes <br>\
  shoppin'")
     }
 
     ListModel {
         id: shoppingListModel
-        //ListElement { title : "Title"; type : "Type"; date: "Date"} //; venue: "Venue"; uri: "uri"}
     }
 
     SilicaListView  {
