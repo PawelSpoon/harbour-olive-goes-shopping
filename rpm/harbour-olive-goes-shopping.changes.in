@@ -8,6 +8,32 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Fri Mar 01 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.3-1
+- managed page in landscape
+- about page in landscape, shows now all translators
+- updated translations (fi_FI)
+- shopping list will not show amount and unit when 1 -
+- more space between amount and unit in shopping list page
+
+
+* Fri Mar 01 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.1-2
+- fixed localization
+
+* Fri Mar 01 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.0-1
+- fix cover page
+- sharing in open repos
+
+* Thu Feb 28 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.0-0
+- build against new sdk
+- removed sharing
+
+* Wed Nov 08 2018 Jack Tar <pawel@ich-habe-fertig.com> 0.1.5-7
+- updated chinese translation
+- using section headers for shopping list instead of the rectangle
+
+* Wed Nov 08 2018 Jack Tar <pawel@ich-habe-fertig.com> 0.1.5-6
+- updated spanish translation
+
 * Wed Nov 08 2018 Jack Tar <pawel@ich-habe-fertig.com> 0.1.5-5
 - edit shopping list item
 

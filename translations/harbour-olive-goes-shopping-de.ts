@@ -1319,27 +1319,27 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
         <translation>Hilfe</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="100"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="101"/>
         <source>Food</source>
         <translation>Lebensmittel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="107"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="108"/>
         <source>Household</source>
         <translation>Haushalt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="113"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="114"/>
         <source>Categories</source>
         <translation>Kategorie</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="88"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="89"/>
         <source>Recipes</source>
         <translation>Rezepte</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="119"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="120"/>
         <source>Import Export</source>
         <translation>Import Export</translation>
     </message>
@@ -1528,19 +1528,6 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
         <location filename="../qml/pages/SearchPageHeader.qml" line="36"/>
         <source>Search ..</source>
         <translation>Suchen ..</translation>
-    </message>
-</context>
-<context>
-    <name>ShareWithPage</name>
-    <message>
-        <location filename="../qml/pages/ShareWithPage.qml" line="17"/>
-        <source>Done</source>
-        <translation>Erledigt</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
-        <source>Discard</source>
-        <translation>Verwerfen</translation>
     </message>
 </context>
 </TS>

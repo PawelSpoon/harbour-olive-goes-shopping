@@ -121,14 +121,17 @@ MouseArea {
             anchors.centerIn: parent
             text: amount_
             color: highlighted ? Theme.highlightColor : (checked ? Theme.primaryColor : Theme.secondaryColor)
+            opacity: (amount_ == 1 && unit_ == "-") ? 0 : 1
         }
 
         Label {
             id: unitLabel
             anchors.top : amountLabel.top
             anchors.left : amountLabel.right
+            anchors.leftMargin: Theme.paddingSmall
             //text: unit_
             color: highlighted ? Theme.highlightColor : (checked ? Theme.primaryColor : Theme.secondaryColor)
+            opacity: (amount_ == 1 && unit_ == "-") ? 0 : 1
         }
 
         Label {
@@ -160,7 +163,7 @@ MouseArea {
         checked = !checked
         // DB.setShoppingListItem(uid_,name,amount,unit,checked,category)
         DB.updateShoppingListItemChecked(uid_, checked)
-        parent.parent.parent.updatePage()
+        // parent.parent.parent.updatePage()
     }
 
     onPressAndHold: {

@@ -17,35 +17,10 @@ CONFIG += sailfishapp
 SOURCES += src/harbour-olive-goes-shopping.cpp \
     src/importexport.cpp
 
-OTHER_FILES += qml/harbour-olive-goes-shopping.qml \
-    qml/cover/CoverPage.qml \
-    qml/pages/FirstPage.qml \
-    rpm/harbour-olive-goes-shopping.changes.in \
-    rpm/harbour-olive-goes-shopping.spec \
-    rpm/harbour-olive-goes-shopping.yaml \
-    translations/*.ts \
-    harbour-olive-goes-shopping.desktop
-    icons/*.png
+HEADERS += \
+    src/importexport.h
 
-SAILFISHAPP_ICONS = 86x86 108x108 128x128 256x256
-
-# to disable building translations every time, comment out the
-# following CONFIG line
-CONFIG += sailfishapp_i18n
-
-# German translation is enabled as an example. If you aren't
-# planning to localize your app, remember to comment out the
-# following TRANSLATIONS line. And also do not forget to
-# modify the localized app name in the the .desktop file.
-TRANSLATIONS += translations/harbour-olive-goes-shopping-de.ts \
-                translations/harbour-olive-goes-shopping-en.ts \
-                translations/harbour-olive-goes-shopping-es.ts \
-                translations/harbour-olive-goes-shopping-cs.ts \
-                translations/harbour-olive-goes-shopping-hu.ts \
-                translations/harbour-olive-goes-shopping-nl.ts \
-                translations/harbour-olive-goes-shopping-pl.ts
-
-DISTFILES += \
+DISTFILES += qml/harbour-olive-goes-shopping.qml \
     qml/Persistance.js \
     qml/pages/ItemsPage.qml \
     qml/pages/StoreListItem.qml \
@@ -72,7 +47,33 @@ DISTFILES += \
     qml/pages/ManageEnumsPage.qml \
     qml/pages/EnumPicker.qml \
     qml/pages/EnumDialog.qml \
-    qml/pages/About.qml
+    qml/pages/About.qml \
+    qml/pages/FirstPage.qml \
+    qml/cover/CoverPage.qml \
+    rpm/harbour-olive-goes-shopping.changes.in \
+    rpm/harbour-olive-goes-shopping.spec \
+    rpm/harbour-olive-goes-shopping.yaml \
+    translations/*.ts \
+    harbour-olive-goes-shopping.desktop \
+    icons/*.png
 
-HEADERS += \
-    src/importexport.h
+SAILFISHAPP_ICONS = 86x86 108x108 128x128 256x256
+
+# to disable building translations every time, comment out the
+# following CONFIG line
+CONFIG += sailfishapp_i18n
+
+# German translation is enabled as an example. If you aren't
+# planning to localize your app, remember to comment out the
+# following TRANSLATIONS line. And also do not forget to
+# modify the localized app name in the the .desktop file.
+TRANSLATIONS += translations/harbour-olive-goes-shopping-de.ts \
+                translations/harbour-olive-goes-shopping-en.ts \
+                translations/harbour-olive-goes-shopping-es.ts \
+                translations/harbour-olive-goes-shopping-cs.ts \
+                translations/harbour-olive-goes-shopping-hu.ts \
+                translations/harbour-olive-goes-shopping-nl.ts \
+                translations/harbour-olive-goes-shopping-pl.ts \
+                translations/harbour-olive-goes-shopping-zh_CN.ts \
+                translations/harbour-olive-goes-shopping-fi_FI.ts
+
