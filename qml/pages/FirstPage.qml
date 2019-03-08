@@ -214,8 +214,8 @@ Page {
             property: "category"
             criteria: ViewSection.FullString
             delegate: SectionHeader {
-                    text: section
-                    font.pixelSize: Theme.fontSizeLarge
+                text: section
+                font.pixelSize: Theme.fontSizeLarge
             }
         }
 
