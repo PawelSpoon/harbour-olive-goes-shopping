@@ -6,24 +6,24 @@ import Sailfish.Silica 1.0
 
 Page {
     id: aboutPage
-
-    //allowedOrientations: applicationWindow.orientationSetting
+    allowedOrientations: Orientation.All
 
     SilicaFlickable {
+        id: aboutOlive
         anchors.fill: parent
-        contentWidth: parent.width
-        contentHeight: col.height
+        contentHeight: aboutRectangle.height
 
-        // Show a scollbar when the view is flicked, place this over all other content
-        VerticalScrollDecorator {}
+        VerticalScrollDecorator { flickable: aboutOlive }
 
         Column {
-            id: col
+            id: aboutRectangle
+            anchors.horizontalCenter: parent.horizontalCenter
             width: parent.width
+
             spacing: Theme.paddingLarge
 
             PageHeaderExtended {
-                title: "Olive's goes shoppin'"
+                title: "Olive goes shoppin'"
                 subTitle: qsTr("a native shopping list")
                 subTitleOpacity: 0.5
             }
@@ -69,43 +69,41 @@ Page {
 
             ListModel {
                 id: translatorsModel
-                ListElement {language: "spanish"; trans: "carmenfdezb"}
-                ListElement {language: "czech";   trans: "PawelSpoon"}
-                ListElement {language: "dutch";   trans: "pljmn"}
-                ListElement {language: "german";  trans: "Unreasonable_Behaviour"}
-                ListElement {language: "german";  trans: "jumPM"}
-                ListElement {language: "german";  trans: "PawelSpoon"}
-                ListElement {language: "hungarian";  trans: "g.szabotamas"}
-                ListElement {language: "hungarian";  trans: "leoka"}
-                ListElement {language: "polish";  trans: "pemekcz"}
-                ListElement {language: "polish";  trans: "atlochowski"}
+                ListElement {trans: "spanish:"}
+                ListElement {trans: "     carmenfdezb"}
+                ListElement {trans: "czech:"}
+                ListElement {trans: "     PawelSpoon"}
+                ListElement {trans: "dutch:"}
+                ListElement {trans: "     pljmn"}
+                ListElement {trans: "german:"}
+                ListElement {trans: "     Unreasonable_Behaviour"}
+                ListElement {trans: "     jumPM"}
+                ListElement {trans: "     PawelSpoon"}
+                ListElement {trans: "hungarian:"}
+                ListElement {trans: "     g.szabotamas"}
+                ListElement {trans: "     leoka"}
+                ListElement {trans: "polish:"}
+                ListElement {trans: "     pemekcz"}
+                ListElement {trans: "     atlochowski"}
+                ListElement {trans: "finnish:"}
+                ListElement {trans: "     jakke"}
             }
 
-            SilicaListView {
-                id: itemList
-                anchors.left: translatorLabel.left
-                anchors.top: translatorLabel.bottom
-                anchors.topMargin: Theme.paddingLarge
+            Repeater {
                 model: translatorsModel
-                height: 600
 
-                delegate: ListItem {
-                    id: listItem
-
-                    Label {
-                        id: languageLabel
-                        text: language
-                        anchors.leftMargin: Theme.paddingMedium
-                        color: Theme.primaryColor
-                    }
-                    Label {
-                        id: transeLabel
-                        text: trans
-                        anchors.left: languageLabel.right
-                        anchors.leftMargin: Theme.paddingMedium
-                        color: Theme.primaryColor
-                    }
+                delegate: Label {
+                    text: trans
+                    width: parent.width - Theme.horizontalPageMargin * 2
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    font.pixelSize: Theme.fontSizeSmall
                 }
+            }
+
+            Rectangle {
+                width: parent.width
+                height: Theme.paddingLarge
+                color: "transparent"
             }
         }
     }

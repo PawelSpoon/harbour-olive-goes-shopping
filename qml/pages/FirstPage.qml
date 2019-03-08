@@ -214,26 +214,8 @@ Page {
             property: "category"
             criteria: ViewSection.FullString
             delegate: SectionHeader {
-                // background: parent
-                // opacity: 1.0
-                // width: parent.width
-                // height: childrenRect.height + 10
-                // Label {
-                //    id: childrenRect
-                //    opacity: 1.0
-                //    color: Theme.highlightColor
-                //    anchors.horizontalCenter: parent.horizontalCenter
-                //    anchors.verticalCenter: parent.verticalCenter
-                //    width: parent.width - 20
-                //    anchors.leftMargin: Theme.paddingLarge
-                //    font.pixelSize: Theme.fontSizeLarge
-                //    font.bold: true
-                //    font.italic: true
-                    text: section
-                    font.pixelSize: Theme.fontSizeLarge
-                    // font.italic: true
-                //    horizontalAlignment: TextEdit.AlignRight
-                //}
+                text: section
+                font.pixelSize: Theme.fontSizeLarge
             }
         }
 

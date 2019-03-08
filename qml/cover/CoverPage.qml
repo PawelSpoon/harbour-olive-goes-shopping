@@ -92,7 +92,9 @@ CoverBackground {
         id: label
         anchors.centerIn: parent
         anchors.verticalCenterOffset: 2 * Theme.paddingLarge
-        //font: Font.Bold
+        /*text: qsTr("Olive
+goes
+ shoppin'")*/
         text: qsTr("Olive <br>\
 goes <br>\
  shoppin'")

@@ -66,20 +66,21 @@ Page {
             title: qsTr("Manage Application")
         }
 
+        VerticalScrollDecorator {}
 
+        // REM: add a slider in case you put more buttons into this column !
         Column {
             id: col
             width: parent.width
             spacing: Theme.paddingLarge
-            //anchors.leftMargin: Theme.paddingLarge
-            anchors.topMargin: Theme.paddingLarge
+            // could be f(orientation)
+            anchors.topMargin: Theme.paddingLarge * 3.5 * Theme.pixelRatio
             anchors.fill: shoppingList
             anchors.horizontalCenter: parent.horizontalCenter
 
             TextArea {
                 id: explain
-                width: parent.width
-                text: " \n \n \n"
+                text: "\n \n"
                 readOnly: true
             }
 
