@@ -74,15 +74,15 @@ Page {
     }
 
     function scanTargets() {
-        var internalStorage = "/media/sdcard/"
+        var externalStorage = "/run/media/nemo/"
         targetModel.clear()
         //% "Internal storage"
         targetModel.append({"name": qsTr("internal-storage-label"), "path": StandardPaths.documents})
-        var sdcardArray = exporter.sdcardPath(internalStorage)
+        var sdcardArray = exporter.sdcardPath(externalStorage)
         for (var i = 0; i < sdcardArray.length; i++)
             //: Label for SD-Cards where %1 represents the increasing number for each card
             //% "SD-Card %1"
-            targetModel.append({"name": qsTr("sdcard-label").arg(i + 1), "path": internalStorage + sdcardArray[i]})
+            targetModel.append({"name": qsTr("sdcard-label").arg(i + 1), "path": externalStorage + sdcardArray[i]})
     }
 
     onDirectoryChanged: {
