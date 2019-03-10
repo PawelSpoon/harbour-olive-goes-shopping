@@ -69,24 +69,26 @@ Page {
 
             ListModel {
                 id: translatorsModel
-                ListElement {trans: "spanish:"}
-                ListElement {trans: "     carmenfdezb"}
-                ListElement {trans: "czech:"}
-                ListElement {trans: "     PawelSpoon"}
+                ListElement {trans: "spanish: incl. DB"}
+                ListElement {trans: "       carmenfdezb"}
+                ListElement {trans: "chinese: incl. DB"}
+                ListElement {trans: "       Historyscholar"}
+                ListElement {trans: "czech: incl. DB"}
+                ListElement {trans: "       PawelSpoon"}
                 ListElement {trans: "dutch:"}
-                ListElement {trans: "     pljmn"}
-                ListElement {trans: "german:"}
-                ListElement {trans: "     Unreasonable_Behaviour"}
-                ListElement {trans: "     jumPM"}
-                ListElement {trans: "     PawelSpoon"}
+                ListElement {trans: "       pljmn"}
+                ListElement {trans: "german: incl. DB"}
+                ListElement {trans: "       Unreasonable_Behaviour"}
+                ListElement {trans: "       jumPM"}
+                ListElement {trans: "       PawelSpoon"}
                 ListElement {trans: "hungarian:"}
-                ListElement {trans: "     g.szabotamas"}
-                ListElement {trans: "     leoka"}
-                ListElement {trans: "polish:"}
-                ListElement {trans: "     pemekcz"}
-                ListElement {trans: "     atlochowski"}
-                ListElement {trans: "finnish:"}
-                ListElement {trans: "     jakke"}
+                ListElement {trans: "       g.szabotamas"}
+                ListElement {trans: "       leoka"}
+                ListElement {trans: "polish: incl. DB"}
+                ListElement {trans: "       pemekcz"}
+                ListElement {trans: "       atlochowski"}
+                ListElement {trans: "finnish: incl. DB"}
+                ListElement {trans: "       jakke"}
             }
 
             Repeater {
