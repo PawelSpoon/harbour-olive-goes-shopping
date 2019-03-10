@@ -8,12 +8,18 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Fri Mar 01 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.3-1
+* Sun Mar 10 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.4-1
+- fixed cover action, mark as done
+
+* Fri Mar 01 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.3-3
 - managed page in landscape
 - about page in landscape, shows now all translators
 - updated translations (fi_FI)
 - shopping list will not show amount and unit when 1 -
 - more space between amount and unit in shopping list page
+- fixed import export from sd card
+- about page now shows available translated items db's
+
 
 * Fri Mar 01 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.1-2
 - fixed localization
