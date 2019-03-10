@@ -70,9 +70,9 @@ Page {
     }
 
 
-    function markAsDone(uid,name,amount,unit,done)
+    function markAsDone(uid,name,amount,unit,category,done)
     {
-        DB.setShoppingListItem(uid,name,amount,unit,true)
+        DB.setShoppingListItem(uid,name,amount,unit,true,category)
         initPage()
     }
 

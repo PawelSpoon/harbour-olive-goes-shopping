@@ -13,7 +13,7 @@ Name:       harbour-olive-goes-shopping
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Olive goes shopping
-Version:    2.3
+Version:    2.4
 Release:    1
 Group:      Qt/Qt
 License:    LICENSE

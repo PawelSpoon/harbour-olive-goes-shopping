@@ -54,7 +54,7 @@ CoverBackground {
             var unit = items.get(i).unit
             var done = items.get(i).done
             var category = items.get(i).category
-            if (!done) shoppingListModel.append({"uid": uid, "name": name, "amount": amount, "unit": unit, "done":done });
+            if (!done) shoppingListModel.append({"uid": uid, "name": name, "amount": amount, "unit": unit, "done":done, "category":category });
             console.debug(uid + " " + name + " " + amount + " " + unit + " " + done + " " + category)
             if (shoppingListModel.count == maxcount) break
         }
@@ -74,9 +74,10 @@ CoverBackground {
         var amount = shoppingListModel.get(0).amount
         var unit = shoppingListModel.get(0).unit
         var done = shoppingListModel.get(0).done
+        var category = shoppingListModel.get(0).category
         if (controller == null)
             controller = applicationWindow.page
-        controller.markAsDone(uid,name,amount,unit,true)
+        controller.markAsDone(uid,name,amount,unit,category,true)
     }
 
     Image {
