@@ -1,1 +1,3 @@
-./DBLayer/node_modules
+/DBLayer/node_modules/**/*.*
+/DbLayer/out/**/*.*
+/DbLayer/harbour-olive-goes-shopping
