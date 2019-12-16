@@ -15,22 +15,21 @@ var OliveDb = /** @class */ (function () {
     // First, let's create a short helper function to get the database connection
     OliveDb.prototype.checkDatabase = function () {
     };
-    // upserts an item in invetoy
-    OliveDb.prototype.setItem = function (uid, name, amount, unit, type, howMany, category, ordernr, co2) {
+    // upserts an item in inventory
+    /*setItem_(uid,name,amount,unit,type,howMany,category,ordernr,co2) {
         this.checkDatabase();
-        var rs = this.db.executeWithParams('INSERT OR REPLACE INTO items VALUES (?,?,?,?,?,?,?,?,?);', [uid, name, amount, unit, type, howMany, category, ordernr, co2]);
+        var rs = this.db.executeWithParams('INSERT OR REPLACE INTO items VALUES (?,?,?,?,?,?,?,?,?);',[uid,name,amount,unit,type,howMany,category,ordernr,co2]);
         var res = "";
-        if (rs) {
-            res = "OK";
-            console.log("Saved to database: uid:" + uid + ", name:" + name + ", unit:" + unit + ", type:" + type + ", howmany: " + howMany + ", category: " + category);
-        }
-        else {
-            res = "Error";
-            console.log("Error saving to database");
-        }
+            if (rs) {
+                res = "OK";
+                console.log ("Saved to database: uid:" + uid + ", name:" + name + ", unit:" + unit + ", type:" + type + ", howmany: " + howMany + ", category: " + category);
+            } else {
+                res = "Error";
+                console.log ("Error saving to database");
+            }
         // The function returns “OK” if it was successful, or “Error” if it wasn't
         return res;
-    };
+    }*/
     OliveDb.prototype.getItemPerName = function (itemName) {
         var items = [];
         this.checkDatabase();
@@ -267,7 +266,7 @@ var OliveDb = /** @class */ (function () {
         for (var i = 0; i < items.length; i++) {
             var item = items[i];
             //todo: needs to support category and co2
-            this.setItem(this.db.getUniqueId(), item.name, item.amount, item.unit, item.type, 0, this.tryGetCategory(item), this.tryGetOrderNr(item), this.tryGetCo2(item));
+            this.setItem(this.db.getUniqueId(), item.name, item.amount, item.unit, item.type, 0, this.tryGetCategory(item), this.tryGetCo2(item));
         }
     };
     OliveDb.prototype.importCategoriesFromJson = function () {
@@ -568,7 +567,7 @@ var OliveDb = /** @class */ (function () {
         return res;
     };
     // pre order
-    OliveDb.prototype.setItem_ = function (uid, name, amount, unit, type, howMany, category, co2) {
+    OliveDb.prototype.setItem = function (uid, name, amount, unit, type, howMany, category, co2) {
         //uid LONGVARCHAR UNIQUE, name TEXT, amount integer, unit TEXT, type TEXT, howMany integer
         this.checkDatabase();
         var res = "";
@@ -645,12 +644,16 @@ var OliveDb = /** @class */ (function () {
         items = this.getItems("");
         var recipes = [];
         recipes = this.getRecipes();
+        var shoppingList = [];
+        shoppingList = this.getShoppingList();
         var version = this.db.getVersion();
+        console.log();
         var data = {
             "version": version,
             "categories": categories,
             "items": items,
-            "recipes": recipes
+            "recipes": recipes,
+            "shoppingList": shoppingList
         };
         return JSON.stringify(data);
     };
@@ -683,7 +686,7 @@ var OliveDb = /** @class */ (function () {
                     uid = this.db.getUniqueId();
                     if (item.uid !== null)
                         uid = item.uid;
-                    this.setItem(uid, item.name, item.amount, item.unit, item.type, item.howMany, this.tryGetCategory(item), this.tryGetOrderNr(item), this.tryGetCo2(item));
+                    this.setItem(uid, item.name, item.amount, item.unit, item.type, item.howMany, this.tryGetCategory(item), this.tryGetCo2(item));
                 }
             }
         }

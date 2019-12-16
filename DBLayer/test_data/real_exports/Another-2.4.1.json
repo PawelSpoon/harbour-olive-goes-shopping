@@ -1,0 +1,1463 @@
+{
+    "categories": [
+        {
+            "name": "Junk",
+            "uid": "2019981570490983879"
+        },
+        {
+            "name": "automotive",
+            "uid": "2019981570491248212"
+        },
+        {
+            "name": "bakery products",
+            "uid": "2019981570491248149"
+        },
+        {
+            "name": "canned food",
+            "uid": "2019981570491248169"
+        },
+        {
+            "name": "cleaning supplies",
+            "uid": "2019981570491248187"
+        },
+        {
+            "name": "dairy products",
+            "uid": "2019981570491248110"
+        },
+        {
+            "name": "fresh produce",
+            "uid": "2019981570491248139"
+        },
+        {
+            "name": "frozen food",
+            "uid": "2019981570491248157"
+        },
+        {
+            "name": "hardware",
+            "uid": "2019981570491248204"
+        },
+        {
+            "name": "magazines",
+            "uid": "2019981570491248195"
+        },
+        {
+            "name": "meat products",
+            "uid": "2019981570491248129"
+        },
+        {
+            "name": "others",
+            "uid": "2019981570491248219"
+        },
+        {
+            "name": "personal hygiene",
+            "uid": "2019981570491248178"
+        }
+    ],
+    "items": [
+        {
+            "amount": 1000,
+            "category": "",
+            "howMany": 0,
+            "name": "Flour - general purpose",
+            "type": "food",
+            "uid": "2019981570491230099",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": "bakery products",
+            "howMany": 0,
+            "name": "Flour - self raising",
+            "type": "food",
+            "uid": "2019981570491647121",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": "frozen food",
+            "howMany": 0,
+            "name": "Ice cream ",
+            "type": "food",
+            "uid": "2019981570492346095",
+            "unit": "g"
+        },
+        {
+            "amount": 4,
+            "category": "frozen food",
+            "howMany": 0,
+            "name": "Meat pies",
+            "type": "food",
+            "uid": "2019981570490883815",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": "dairy products",
+            "howMany": 0,
+            "name": "Museli",
+            "type": "food",
+            "uid": "201911111576037902997",
+            "unit": "g"
+        },
+        {
+            "amount": 100,
+            "category": "Junk",
+            "howMany": 0,
+            "name": "Popcorn",
+            "type": "food",
+            "uid": "20199171571273926173",
+            "unit": "g"
+        },
+        {
+            "amount": null,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "Raddish",
+            "type": "food",
+            "uid": "20199141571020416082",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "Water",
+            "type": "food",
+            "uid": "20199141571020321803",
+            "unit": "ml"
+        },
+        {
+            "amount": 1000,
+            "category": "others",
+            "howMany": 0,
+            "name": "White vinegar",
+            "type": "food",
+            "uid": "201910121573502589168",
+            "unit": "ml"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "all purpose cleaner",
+            "type": "household",
+            "uid": "2019981570491087398",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "almonds",
+            "type": "food",
+            "uid": "2019981570491086840",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "aluminum foil",
+            "type": "household",
+            "uid": "2019981570491087407",
+            "unit": "-"
+        },
+        {
+            "amount": 4,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "apple",
+            "type": "food",
+            "uid": "2019981570491086243",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "apple cider vinegar",
+            "type": "food",
+            "uid": "2019981570491086267",
+            "unit": "ml"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "asian noodels",
+            "type": "food",
+            "uid": "2019981570491086281",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "avocado",
+            "type": "food",
+            "uid": "2019981570491086294",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "bacon",
+            "type": "food",
+            "uid": "2019981570491087252",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "baking paper",
+            "type": "household",
+            "uid": "2019981570491087416",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "balsamic vinegar",
+            "type": "food",
+            "uid": "2019981570491086312",
+            "unit": "ml"
+        },
+        {
+            "amount": 4,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "banana",
+            "type": "food",
+            "uid": "2019981570491086320",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "basmati rice",
+            "type": "food",
+            "uid": "2019981570491086327",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "bathroom cleaner",
+            "type": "household",
+            "uid": "2019981570491087425",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "beef",
+            "type": "food",
+            "uid": "2019981570491087082",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "bell pepper",
+            "type": "food",
+            "uid": "2019981570491086959",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "bread",
+            "type": "food",
+            "uid": "2019981570491086370",
+            "unit": "g"
+        },
+        {
+            "amount": 500,
+            "category": null,
+            "howMany": 0,
+            "name": "bread crumbs",
+            "type": "food",
+            "uid": "2019981570491086360",
+            "unit": "g"
+        },
+        {
+            "amount": 250,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "button mushrooms",
+            "type": "food",
+            "uid": "2019981570491086381",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "cabbage",
+            "type": "food",
+            "uid": "2019981570491086726",
+            "unit": "-"
+        },
+        {
+            "amount": 400,
+            "category": null,
+            "howMany": 0,
+            "name": "caned tomatoes",
+            "type": "food",
+            "uid": "2019981570491086406",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "capers berries",
+            "type": "food",
+            "uid": "2019981570491086627",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "carrots",
+            "type": "food",
+            "uid": "2019981570491086647",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "cauliflower",
+            "type": "food",
+            "uid": "2019981570491086636",
+            "unit": "-"
+        },
+        {
+            "amount": 500,
+            "category": null,
+            "howMany": 0,
+            "name": "cereal",
+            "type": "food",
+            "uid": "2019981570491086888",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "chickpea flour",
+            "type": "food",
+            "uid": "2019981570491086687",
+            "unit": "g"
+        },
+        {
+            "amount": 300,
+            "category": null,
+            "howMany": 0,
+            "name": "chickpeas",
+            "type": "food",
+            "uid": "2019981570491086675",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "children's toothpaste",
+            "type": "household",
+            "uid": "2019981570491087576",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "coffe decaf",
+            "type": "food",
+            "uid": "2019981570491086617",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "coffee",
+            "type": "food",
+            "uid": "2019981570491086607",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "condoms",
+            "type": "household",
+            "uid": "2019981570491087725",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "corn",
+            "type": "food",
+            "uid": "2019981570491086815",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "cornstarch",
+            "type": "food",
+            "uid": "2019981570491086825",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "cucumber",
+            "type": "food",
+            "uid": "2019981570491086545",
+            "unit": "-"
+        },
+        {
+            "amount": 150,
+            "category": null,
+            "howMany": 0,
+            "name": "curd",
+            "type": "food",
+            "uid": "2019981570491086596",
+            "unit": "g"
+        },
+        {
+            "amount": 250,
+            "category": null,
+            "howMany": 0,
+            "name": "curd cheese",
+            "type": "food",
+            "uid": "2019981570491087313",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "dishwasher - rinse aid",
+            "type": "household",
+            "uid": "2019981570491087505",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "dishwasher - salt",
+            "type": "household",
+            "uid": "2019981570491087515",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "dishwasher - tabs",
+            "type": "household",
+            "uid": "2019981570491087525",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "dishwashing liquid",
+            "type": "household",
+            "uid": "2019981570491087534",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "dishwashing sponge",
+            "type": "household",
+            "uid": "2019981570491087543",
+            "unit": "-"
+        },
+        {
+            "amount": 500,
+            "category": null,
+            "howMany": 0,
+            "name": "dumpling bread",
+            "type": "food",
+            "uid": "2019981570491086707",
+            "unit": "g"
+        },
+        {
+            "amount": 10,
+            "category": "",
+            "howMany": 0,
+            "name": "eggs",
+            "type": "food",
+            "uid": "2019981570491086415",
+            "unit": "-"
+        },
+        {
+            "amount": 100,
+            "category": null,
+            "howMany": 0,
+            "name": "emmental cheese",
+            "type": "food",
+            "uid": "2019981570491086425",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "fennel",
+            "type": "food",
+            "uid": "2019981570491086466",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "feta cheese",
+            "type": "food",
+            "uid": "2019981570491086477",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "fine detergent",
+            "type": "household",
+            "uid": "2019981570491087444",
+            "unit": "-"
+        },
+        {
+            "amount": 4,
+            "category": null,
+            "howMany": 0,
+            "name": "frankfurters",
+            "type": "food",
+            "uid": "2019981570491086487",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "freeze bag",
+            "type": "household",
+            "uid": "2019981570491087496",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "fruit tea",
+            "type": "food",
+            "uid": "2019981570491086498",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "garlic",
+            "type": "food",
+            "uid": "2019981570491086696",
+            "unit": "-"
+        },
+        {
+            "amount": 500,
+            "category": null,
+            "howMany": 0,
+            "name": "ghee",
+            "type": "food",
+            "uid": "2019981570491086535",
+            "unit": "g"
+        },
+        {
+            "amount": 100,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "ginger",
+            "type": "food",
+            "uid": "2019981570491086585",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "grapes",
+            "type": "food",
+            "uid": "2019981570491087335",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "greaseproof paper",
+            "type": "household",
+            "uid": "2019981570491087434",
+            "unit": "-"
+        },
+        {
+            "amount": 100,
+            "category": null,
+            "howMany": 0,
+            "name": "ham",
+            "type": "food",
+            "uid": "2019981570491087177",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "handkerchiefs",
+            "type": "household",
+            "uid": "2019981570491087744",
+            "unit": "-"
+        },
+        {
+            "amount": 100,
+            "category": null,
+            "howMany": 0,
+            "name": "hazelnuts",
+            "type": "food",
+            "uid": "2019981570491086922",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "honey",
+            "type": "food",
+            "uid": "2019981570491086574",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "hygienic rinse",
+            "type": "household",
+            "uid": "2019981570491087567",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "italian rice",
+            "type": "food",
+            "uid": "2019981570491086878",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "kitchen cleaner",
+            "type": "household",
+            "uid": "2019981570491087594",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "kitchen roll",
+            "type": "household",
+            "uid": "2019981570491087604",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "kohlrabi",
+            "type": "food",
+            "uid": "2019981570491086716",
+            "unit": "-"
+        },
+        {
+            "amount": 250,
+            "category": null,
+            "howMany": 0,
+            "name": "lassagne noodles",
+            "type": "food",
+            "uid": "2019981570491086748",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "laundry detergent",
+            "type": "household",
+            "uid": "2019981570491087753",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "leek",
+            "type": "food",
+            "uid": "2019981570491086765",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "lemon",
+            "type": "food",
+            "uid": "2019981570491087353",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "lens cleaner",
+            "type": "household",
+            "uid": "2019981570491087613",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "lentils green",
+            "type": "food",
+            "uid": "2019981570491086806",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "lentils red",
+            "type": "food",
+            "uid": "2019981570491086797",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "lentils yellow",
+            "type": "food",
+            "uid": "2019981570491086786",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "lighter",
+            "type": "household",
+            "uid": "2019981570491087478",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "lime",
+            "type": "food",
+            "uid": "2019981570491086775",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "liquid soap",
+            "type": "household",
+            "uid": "2019981570491087487",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "mango",
+            "type": "food",
+            "uid": "2019981570491086850",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "matches",
+            "type": "household",
+            "uid": "2019981570491087780",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "melanzani",
+            "type": "food",
+            "uid": "2019981570491086860",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "milk",
+            "type": "food",
+            "uid": "2019981570491086870",
+            "unit": "ml"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "millet",
+            "type": "food",
+            "uid": "2019981570491086565",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "moist toilet paper",
+            "type": "household",
+            "uid": "2019981570491087464",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "noodels",
+            "type": "food",
+            "uid": "2019981570491086898",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "oat milk",
+            "type": "food",
+            "uid": "2019981570491086555",
+            "unit": "ml"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "olive oil",
+            "type": "food",
+            "uid": "2019981570491086941",
+            "unit": "ml"
+        },
+        {
+            "amount": 250,
+            "category": null,
+            "howMany": 0,
+            "name": "olives",
+            "type": "food",
+            "uid": "2019981570491086932",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "onion",
+            "type": "food",
+            "uid": "2019981570491087382",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "oranges",
+            "type": "food",
+            "uid": "2019981570491086950",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "over fire starter",
+            "type": "household",
+            "uid": "2019981570491087645",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "panty liners",
+            "type": "household",
+            "uid": "2019981570491087698",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "parboiled rice",
+            "type": "food",
+            "uid": "2019981570491086968",
+            "unit": "g"
+        },
+        {
+            "amount": 100,
+            "category": null,
+            "howMany": 0,
+            "name": "parmesan cheese",
+            "type": "food",
+            "uid": "2019981570491086979",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "pastry",
+            "type": "food",
+            "uid": "2019981570491087281",
+            "unit": "-"
+        },
+        {
+            "amount": 4,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "pear",
+            "type": "food",
+            "uid": "2019981570491086336",
+            "unit": "-"
+        },
+        {
+            "amount": 300,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "peas",
+            "type": "food",
+            "uid": "2019981570491086435",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "pepper black",
+            "type": "food",
+            "uid": "2019981570491087035",
+            "unit": "g"
+        },
+        {
+            "amount": 50,
+            "category": null,
+            "howMany": 0,
+            "name": "pepper green",
+            "type": "food",
+            "uid": "2019981570491087015",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "pepper mix",
+            "type": "food",
+            "uid": "2019981570491087005",
+            "unit": "g"
+        },
+        {
+            "amount": 50,
+            "category": null,
+            "howMany": 0,
+            "name": "pepper pink",
+            "type": "food",
+            "uid": "2019981570491087025",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "pesto",
+            "type": "food",
+            "uid": "2019981570491086992",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "pickeled onions",
+            "type": "food",
+            "uid": "2019981570491087205",
+            "unit": "ml"
+        },
+        {
+            "amount": 250,
+            "category": null,
+            "howMany": 0,
+            "name": "pickled cabbage",
+            "type": "food",
+            "uid": "2019981570491087140",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "pickled cucumbers",
+            "type": "food",
+            "uid": "2019981570491086455",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "piles",
+            "type": "household",
+            "uid": "2019981570491087735",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "polenta",
+            "type": "food",
+            "uid": "2019981570491087045",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "potatoes",
+            "type": "food",
+            "uid": "2019981570491086659",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "puff pastry",
+            "type": "food",
+            "uid": "2019981570491086344",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "pumpkin",
+            "type": "food",
+            "uid": "2019981570491086735",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "quinoa",
+            "type": "food",
+            "uid": "2019981570491087055",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "raisins",
+            "type": "food",
+            "uid": "2019981570491087103",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "rapeseed oil",
+            "type": "food",
+            "uid": "2019981570491087067",
+            "unit": "ml"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "razor blades",
+            "type": "household",
+            "uid": "2019981570491087792",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "roll",
+            "type": "food",
+            "uid": "2019981570491087195",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "rubber rings",
+            "type": "household",
+            "uid": "2019981570491087558",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "rye flour",
+            "type": "food",
+            "uid": "2019981570491087092",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "salad",
+            "type": "food",
+            "uid": "2019981570491087111",
+            "unit": "-"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "salt",
+            "type": "food",
+            "uid": "2019981570491087120",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "salt coarse",
+            "type": "food",
+            "uid": "2019981570491087129",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "shampoo",
+            "type": "household",
+            "uid": "2019981570491087667",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "shaving cream",
+            "type": "household",
+            "uid": "2019981570491087655",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "soap",
+            "type": "household",
+            "uid": "2019981570491087687",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "soup noodles",
+            "type": "food",
+            "uid": "2019981570491087289",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "soup peas",
+            "type": "food",
+            "uid": "2019981570491086303",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "sour cream",
+            "type": "food",
+            "uid": "2019981570491087168",
+            "unit": "ml"
+        },
+        {
+            "amount": 500,
+            "category": null,
+            "howMany": 0,
+            "name": "soy cubes",
+            "type": "food",
+            "uid": "2019981570491087224",
+            "unit": "g"
+        },
+        {
+            "amount": 500,
+            "category": null,
+            "howMany": 0,
+            "name": "soy granules",
+            "type": "food",
+            "uid": "2019981570491087240",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "soy sauce",
+            "type": "food",
+            "uid": "2019981570491087214",
+            "unit": "ml"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "spelled flour",
+            "type": "food",
+            "uid": "2019981570491086393",
+            "unit": "g"
+        },
+        {
+            "amount": 400,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "spinach",
+            "type": "food",
+            "uid": "2019981570491087261",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "sponge wipes",
+            "type": "household",
+            "uid": "2019981570491087677",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "sticky rice",
+            "type": "food",
+            "uid": "2019981570491087271",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "strawberries",
+            "type": "food",
+            "uid": "2019981570491086445",
+            "unit": "g"
+        },
+        {
+            "amount": 100,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "string beans",
+            "type": "food",
+            "uid": "2019981570491086352",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "sugar",
+            "type": "food",
+            "uid": "2019981570491087373",
+            "unit": "g"
+        },
+        {
+            "amount": 200,
+            "category": null,
+            "howMany": 0,
+            "name": "sweet cream",
+            "type": "food",
+            "uid": "2019981570491087186",
+            "unit": "ml"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "tampons",
+            "type": "household",
+            "uid": "2019981570491087709",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "toilet paper",
+            "type": "household",
+            "uid": "2019981570491087586",
+            "unit": "-"
+        },
+        {
+            "amount": 4,
+            "category": "fresh produce",
+            "howMany": 0,
+            "name": "tomatoes",
+            "type": "food",
+            "uid": "2019981570491087301",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "toothbrush",
+            "type": "household",
+            "uid": "2019981570491087762",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "toothpaste",
+            "type": "household",
+            "uid": "2019981570491087770",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "tortillas",
+            "type": "food",
+            "uid": "2019981570491087325",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "trash bags",
+            "type": "household",
+            "uid": "2019981570491087623",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "trash bags - small",
+            "type": "household",
+            "uid": "2019981570491087634",
+            "unit": "-"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "vegetable stock",
+            "type": "food",
+            "uid": "2019981570491086513",
+            "unit": "g"
+        },
+        {
+            "amount": 100,
+            "category": null,
+            "howMany": 0,
+            "name": "walnuts",
+            "type": "food",
+            "uid": "2019981570491086911",
+            "unit": "g"
+        },
+        {
+            "amount": 1000,
+            "category": null,
+            "howMany": 0,
+            "name": "wheat flour",
+            "type": "food",
+            "uid": "2019981570491087344",
+            "unit": "g"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "window cleaner",
+            "type": "household",
+            "uid": "2019981570491087453",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "yeast",
+            "type": "food",
+            "uid": "2019981570491086525",
+            "unit": "-"
+        },
+        {
+            "amount": 1,
+            "category": null,
+            "howMany": 0,
+            "name": "zucchini",
+            "type": "food",
+            "uid": "2019981570491087364",
+            "unit": "-"
+        }
+    ],
+    "recipes": []
+}

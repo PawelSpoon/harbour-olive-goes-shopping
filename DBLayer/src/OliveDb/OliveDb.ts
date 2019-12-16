@@ -22,8 +22,8 @@ export class OliveDb {
     checkDatabase() {
     }
 
-    // upserts an item in invetoy
-    setItem(uid,name,amount,unit,type,howMany,category,ordernr,co2) {
+    // upserts an item in inventory
+    /*setItem_(uid,name,amount,unit,type,howMany,category,ordernr,co2) {
         this.checkDatabase();
         var rs = this.db.executeWithParams('INSERT OR REPLACE INTO items VALUES (?,?,?,?,?,?,?,?,?);',[uid,name,amount,unit,type,howMany,category,ordernr,co2]);
         var res = "";
@@ -36,7 +36,7 @@ export class OliveDb {
             }
         // The function returns “OK” if it was successful, or “Error” if it wasn't
         return res;
-    }
+    }*/
 
     getItemPerName(itemName)
     {
@@ -303,7 +303,7 @@ export class OliveDb {
             var item  = items[i];
             //todo: needs to support category and co2
             this.setItem(this.db.getUniqueId(), item.name,item.amount,item.unit,item.type,0,
-            this.tryGetCategory(item),this.tryGetOrderNr(item),this.tryGetCo2(item));
+            this.tryGetCategory(item),this.tryGetCo2(item));
         }
     }
 
@@ -615,7 +615,7 @@ function moveCategory(category,up)
     }
 
     // pre order
-    setItem_(uid,name,amount,unit,type,howMany,category,co2) {
+    setItem(uid,name,amount,unit,type,howMany,category,co2) {
         //uid LONGVARCHAR UNIQUE, name TEXT, amount integer, unit TEXT, type TEXT, howMany integer
         this.checkDatabase()
         var res = "";
@@ -705,13 +705,17 @@ function moveCategory(category,up)
         var recipes = []
         recipes = this.getRecipes()
 
+        var shoppingList = [];
+        shoppingList = this.getShoppingList();
+
         var version = this.db.getVersion()
 
         var data = {
             "version": version,
             "categories": categories,
             "items": items,
-            "recipes" : recipes
+            "recipes" : recipes,
+            "shoppingList" : shoppingList
         };
         return JSON.stringify(data);
     }
@@ -753,7 +757,7 @@ function moveCategory(category,up)
                     if (item.uid !== null)
                         uid = item.uid;
                     this.setItem(uid,item.name,item.amount,item.unit,item.type,item.howMany,
-                        this.tryGetCategory(item),this.tryGetOrderNr(item),this.tryGetCo2(item))
+                        this.tryGetCategory(item),this.tryGetCo2(item))
                 }
             }
         }
