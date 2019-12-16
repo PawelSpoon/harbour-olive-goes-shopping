@@ -14,14 +14,6 @@ after("destroy db", () => {
     console.log("destroying");
 })
 
-describe("Testing", () =>{
-    it("should pass", () =>{
-   let msg = "Welcome to TypeScript";
-    //I want to print the msg first like a log
-    expect(msg).equal("Welcome to TypeScript")
-    })
-})
-
 describe("getUniqueId works without wrapper", () =>{
     it("should pass", () =>{
         var dateObject = new Date();

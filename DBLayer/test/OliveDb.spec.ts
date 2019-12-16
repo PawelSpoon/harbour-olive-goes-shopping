@@ -30,15 +30,22 @@ describe("getUniqueId works", () =>{
     it("should pass", () =>{
         var dateObject = new Date();
         let expUnique =  dateObject.getFullYear();
-        let uniqueId = new oliveDb.db.getUniqueId();
-        //I want to print the msg first like a log
-        expect(uniqueId).contains(expUnique);
+        let uniqueId = oliveDb.db.getUniqueId();
     })
 })
 
+let exportedJson;
 describe("dumpData works", () =>{
     it("should pass", () =>{
-        let dbJson = oliveDb.dumpData();
+        exportedJson = oliveDb.dumpData();
         //I want to print the msg first like a log
     })
 })
+
+describe("immportData works", () =>{
+    it("should pass", () =>{
+        oliveDb.importData(exportedJson);
+        //I want to print the msg first like a log
+    })
+})
+

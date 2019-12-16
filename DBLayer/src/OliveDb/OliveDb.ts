@@ -721,7 +721,8 @@ function moveCategory(category,up)
     }
 
     // import data from json
-    importData(json) {
+    importData(json: string) {
+        console.log("importData() called.")
         this.checkDatabase()
         var parsed;
         try {
@@ -777,6 +778,22 @@ function moveCategory(category,up)
             }
         }
 
+        if (parsed.shoppingList !== null && parsed.shoppingList !== undefined)
+        {
+            if (parsed.shoppingList.length > 0)
+            {
+                for (i = 0; i < parsed.shoppingList.length; i++)
+                {
+                    var shoppingItem = parsed.shoppingList[i]
+                    uid = this.db.getUniqueId()
+                    if (shoppingItem.uid !== null)
+                        uid = shoppingItem.uid;
+                      // setShoppingListItem(uid,name,amount,unit,done,category)
+                    this.setShoppingListItem(uid,shoppingItem.name,
+                        shoppingItem.amount,shoppingItem.unit,shoppingItem.done,shoppingItem.category);
+                }
+            }
+        }
         return true;
     }
 }
