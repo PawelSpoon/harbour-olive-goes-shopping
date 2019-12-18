@@ -314,217 +314,216 @@ export class OliveDb {
         for (var i = 0; i < items.length; i++)
         {
             var item  = items[i];
-            this.setEnum("category",this.db.getUniqueId(), item.name, 0);
+            this.setEnum("category",this.db.getUniqueId(), item.name, item.ordernr);
         }
     }
 
-// false = down
-// true = up
-/*function moveCategoryInShoppingList(category,up)
-{
-    // 0 is top
-    // highest is lowest
-    // what is missing: check that no need to move up / down as already the lowest / topest
+    // false = down
+    // true = up
+    /*moveCategoryInShoppingList(category,up)
+    {
+        // 0 is top
+        // highest is lowest
+        // what is missing: check that no need to move up / down as already the lowest / topest
 
-    this.checkDatabase()
-    var res = "";
-    var delta = 1000;
+        this.checkDatabase()
+        var res = "";
+        var delta = 1000;
 
-    // get order of given category
-    // get category that has order+1000 value
-    // increase order value+1000 of given category
-    // decrease value of +1000 category by - 1
+        // get order of given category
+        // get category that has order+1000 value
+        // increase order value+1000 of given category
+        // decrease value of +1000 category by - 1
 
 
-    // 1)
-    var sql = "SELECT DISTINCT ordernr from shoppingList where category='" + category + "'";
-    console.log(sql)
-    var orgOrder
-    db.transaction(function(tx) {
-        var rs = tx.executeSql(sql);
-        orgOrder = Number(rs.rows.item(0).ordernr);
-        console.log('order of given category: ' + orgOrder);
-    })
+        // 1)
+        var sql = "SELECT DISTINCT ordernr from shoppingList where category='" + category + "'";
+        console.log(sql)
+        var orgOrder
+        db.transaction(function(tx) {
+            var rs = tx.executeSql(sql);
+            orgOrder = Number(rs.rows.item(0).ordernr);
+            console.log('order of given category: ' + orgOrder);
+        })
 
-    // don't get smaller then no-category = 0
-    if (orgOrder === 1000 && up) return;
+        // don't get smaller then no-category = 0
+        if (orgOrder === 1000 && up) return;
 
-    // 2) get category that has to switch places
-    var catToMoveDown;
-    var temp;
-    if (up) {
-        temp = orgOrder - 1000;
-    }
-    else {
-        temp = orgOrder + 1000;
-    }
-    if (temp !== 0) { // do not move no-category
-      sql = "SELECT DISTINCT category from shoppingList where ordernr=" + temp + ""
-      console.log(sql)
-
-      db.transaction(function(tx) {
-        var rs = tx.executeSql(sql);
-        if (rs.rows.length > 0)
-        catToMoveDown = rs.rows.item(0).category;
-        console.log('category to switch: ' + catToMoveDown);
-      })
-    }
-
-    if (catToMoveDown === "undefined") return; // category was last or first, nothing to switch
-    // 4) move the other
-    if (up) {
-        sql = "UPDATE shoppingList SET ordernr = ordernr + 1000 WHERE category = '" + catToMoveDown + "';"
-    }
-    else {
-        sql = "UPDATE shoppingList SET ordernr = ordernr - 1000 WHERE category = '" + catToMoveDown + "';"
-    }
-    console.log(sql);
-    db.transaction(function(tx) {
-        var rs = tx.executeSql(sql);
-        if (rs.rowsAffected > 0) {
-            res = "OK";
-            console.log ("the other category moved");
-        } else {
-            res = "Error";
-            console.log ("Error saving to database");
+        // 2) get category that has to switch places
+        var catToMoveDown;
+        var temp;
+        if (up) {
+            temp = orgOrder - 1000;
         }
-    }
-    );
-    // todo: if there is no catToMove, then no need to move me ?
-
-    // 3) move given category up or down
-    if (up) {
-        sql = "UPDATE shoppingList SET ordernr = ordernr - 1000 WHERE category = '" + category + "';"
-    }
-    else {
-        sql = "UPDATE shoppingList SET ordernr = ordernr + 1000 WHERE category = '" + category + "';"
-    }
-    console.log(sql);
-
-    db.transaction(function(tx) {
-        var rs = tx.executeSql(sql);
-        if (rs.rowsAffected > 0) {
-            res = "OK";
-            console.log ("category moved");
-        } else {
-            res = "Error";
-            console.log ("Error saving to database");
+        else {
+            temp = orgOrder + 1000;
         }
-    }
-    );
-}
+        if (temp !== 0) { // do not move no-category
+        sql = "SELECT DISTINCT category from shoppingList where ordernr=" + temp + ""
+        console.log(sql)
 
-function updateCategoryOrder(category, order)
-{
-    this.checkDatabase()
-    var res = "";
+        db.transaction(function(tx) {
+            var rs = tx.executeSql(sql);
+            if (rs.rows.length > 0)
+            catToMoveDown = rs.rows.item(0).category;
+            console.log('category to switch: ' + catToMoveDown);
+        })
+        }
 
-    var sql = "UPDATE shoppinglist set ordernr=" + order + " where category='" + category + "'";
-    console.log(sql)
-    var orgOrder
-    db.transaction(function(tx) {
-        var rs = tx.executeSql(sql);
-    });
-}
-
-// false = down
-// true = up
-function moveCategory(category,up)
-{
-    // 0 is top
-    // highest is lowest
-    // what is missing: check that no need to move up / topest
-
-    this.checkDatabase()
-    var res = "";
-    var delta = 1000;
-
-    // get order of given category
-    // get category that has order+/-1000 value
-    // increase order value+1000 of given category
-    // decrease value of +1000 category by - 1
-
-
-    // 1)
-    var sql = "SELECT DISTINCT ordernr from category where name='" + category + "'";
-    console.log(sql)
-    var orgOrder
-    db.transaction(function(tx) {
-        var rs = tx.executeSql(sql);
-        // todo: check for row-count first
-        orgOrder = Number(rs.rows.item(0).ordernr);
-        console.log('order of given category: ' + orgOrder);
-    })
-
-    // don't get smaller then no-category = 0
-    if (orgOrder === 1000 && up) return;
-
-    // 2) get category that has to switch places
-    var catToMove = undefined;
-    var temp;
-    if (up) {
-        temp = orgOrder - 1000;
-    }
-    else {
-        temp = orgOrder + 1000;
-    }
-    if (temp > 0) { // do not move no-category (=0), < 0 is an upgrade sideeffect where all categories are 0
-       sql = "SELECT DISTINCT name from category where ordernr=" + temp + ""
-      console.log(sql)
-
-      db.transaction(function(tx) {
-        var rs = tx.executeSql(sql);
-        if (rs.rows.length > 0)
-        catToMove = rs.rows.item(0).category;
-        console.log('category to switch: ' + catToMove);
-      })
-
-
-      if (catToMove !== undefined) { // category was last or first, nothing to switch
-         // 4) move the other
-         if (up) {
-           sql = "UPDATE category SET ordernr = ordernr + 1000 WHERE name = '" + catToMove + "';"
-         }
-         else {
-           sql = "UPDATE category SET ordernr = ordernr - 1000 WHERE name = '" + catToMove + "';"
-         }
-         console.log(sql);
- 
-          var rs = tx.executeSql(sql);
-          if (rs.rowsAffected > 0) {
-            res = "OK";
-            console.log ("the other category moved");
-          } else {
-            res = "Error";
-            console.log ("Error saving to database");
-          }
-         }
-         );
+        if (catToMoveDown === "undefined") return; // category was last or first, nothing to switch
+        // 4) move the other
+        if (up) {
+            sql = "UPDATE shoppingList SET ordernr = ordernr + 1000 WHERE category = '" + catToMoveDown + "';"
+        }
+        else {
+            sql = "UPDATE shoppingList SET ordernr = ordernr - 1000 WHERE category = '" + catToMoveDown + "';"
+        }
+        console.log(sql);
+        db.transaction(function(tx) {
+            var rs = tx.executeSql(sql);
+            if (rs.rowsAffected > 0) {
+                res = "OK";
+                console.log ("the other category moved");
+            } else {
+                res = "Error";
+                console.log ("Error saving to database");
+            }
+        }
+        );
         // todo: if there is no catToMove, then no need to move me ?
-      }
+
+        // 3) move given category up or down
+        if (up) {
+            sql = "UPDATE shoppingList SET ordernr = ordernr - 1000 WHERE category = '" + category + "';"
+        }
+        else {
+            sql = "UPDATE shoppingList SET ordernr = ordernr + 1000 WHERE category = '" + category + "';"
+        }
+        console.log(sql);
+
+        db.transaction(function(tx) {
+            var rs = tx.executeSql(sql);
+            if (rs.rowsAffected > 0) {
+                res = "OK";
+                console.log ("category moved");
+            } else {
+                res = "Error";
+                console.log ("Error saving to database");
+            }
+        }
+        );
+    }*/
+
+    updateCategoryOrder(category, order)
+    {
+        this.checkDatabase()
+        var res = "";
+
+        var sql = "UPDATE shoppinglist set ordernr=" + order + " where category='" + category + "'";
+        console.log(sql)
+        this.db.execute(sql);
     }
 
-      // 3) move given category up or down
-      if (up) {
-        sql = "UPDATE category SET ordernr = ordernr - 1000 WHERE name = '" + category + "';"
-      }
-      else {
-        sql = "UPDATE category SET ordernr = ordernr + 1000 WHERE name = '" + category + "';"
-      }
-      console.log(sql);
+    // false = down
+    // true = up
+    moveCategory(category,up)
+    {
+        // 0 is top
+        // highest is lowest
+        // what is missing: check that no need to move up / topest
 
-      db.transaction(function(tx) {
-        var rs = tx.executeSql(sql);
-        if (rs.rowsAffected > 0) {
-            res = "OK";
-            console.log ("category moved");
-        } else {
-            res = "Error";
-            console.log ("Error saving to database");
+        this.checkDatabase()
+        var res = "";
+        var delta = 1000;
+
+        // get ordernr of given category
+        // get category that has order+/-1000 value
+        // increase order value+1000 of given category
+        // decrease value of +1000 category by - 1
+
+
+        // 1)
+        var sql = "SELECT DISTINCT ordernr from category where name='" + category + "'";
+        console.log(sql)
+        var orgOrder
+        var selectResult = this.db.executeSelect(sql);
+        // todo: check for row-count first
+        orgOrder = Number(selectResult.rows[0].ordernr);
+        console.log('order nr of given category: ' + category + ' is: ' + orgOrder);
+
+        // don't get smaller then no-category = 0
+        if (orgOrder === 1000 && up) {
+            console.log("category has number 1000 == highest position, returning");
+            return false;
         }
-     }
-      );
-}*/
+        if (!up) {  // todo check that hightest lowest category cant' get lower
+            sql = "select max(ordernr) from category";
+            selectResult = this.db.executeSelect(sql);
+            console.log(selectResult);
+            if (selectResult.rows[0]['max(ordernr)'] == orgOrder) {
+                console.log('category is already in lowest position, returning');
+                return false;
+            }
+        }
+
+        // 2) get category that has to switch places
+        var catToMove = undefined;
+        var temp;
+        if (up) {
+            temp = orgOrder - 1000;
+        }
+        else {
+            temp = orgOrder + 1000;
+        }
+        if (temp > 0) { // do not move no-category (=0), < 0 is an upgrade sideeffect where all categories are 0
+            sql = "SELECT DISTINCT name from category where ordernr=" + temp + ""
+            console.log(sql)
+
+            var rs = this.db.executeSelect(sql);
+            if (rs.rows.length > 0) catToMove = rs.rows[0].name;
+            console.log('category to switch: ' + catToMove);
+
+            if (catToMove !== undefined) { // category was last or first, nothing to switch
+                // 4) move the other
+                if (up) {
+                   sql = "UPDATE category SET ordernr = ordernr + 1000 WHERE name = '" + catToMove + "';"
+                }
+                else {
+                   sql = "UPDATE category SET ordernr = ordernr - 1000 WHERE name = '" + catToMove + "';"
+                }
+            }
+            console.log(sql);
+            var updateResult = this.db.execute(sql);
+            /*if (rs.rowsAffected > 0) {
+                res = "OK";
+                console.log ("the other category moved");
+            } else {
+                res = "Error";
+                console.log ("Error saving to database");
+            }*/
+            // todo: if there is no catToMove, then no need to move me ?
+        }
+        
+
+        // 3) move given category up or down
+        if (up) {
+            sql = "UPDATE category SET ordernr = ordernr - 1000 WHERE name = '" + category + "';"
+        }
+        else {
+            sql = "UPDATE category SET ordernr = ordernr + 1000 WHERE name = '" + category + "';"
+        }
+        console.log(sql);
+
+        var updateResult = this.db.execute(sql);
+        /*if (rs.rowsAffected > 0) {
+                res = "OK";
+                console.log ("category moved");
+            } else {
+                res = "Error";
+                console.log ("Error saving to database");
+            }
+        }*/
+    }
 
     resetHowMany(tableName)
     {
@@ -543,7 +542,8 @@ function moveCategory(category,up)
     }
 
     setEnum(enumTable, uid, name, ordernr) {
-        console.debug("setEnum(enumTable,..) with enumTable:" + enumTable + ", uid:" + uid)
+        console.debug("setEnum(enumTable,..) with enumTable:" + enumTable + ", uid:" + uid 
+        + ", name: " + name + ", ordernr: " + ordernr);
         this.checkDatabase()
         var res = "";
 

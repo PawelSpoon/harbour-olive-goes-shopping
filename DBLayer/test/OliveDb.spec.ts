@@ -11,6 +11,7 @@ let oliveDb;
 let oliveInit;
 
 before("setup DbWrapperMock and dbAccess",() => {
+  console.log("before olivedb");
   console.log("creating dbwrappermock");
   wrapper = new DbWrapperMock("test-olivedb","1");
   console.log("creating dbaccess");
@@ -23,7 +24,7 @@ before("setup DbWrapperMock and dbAccess",() => {
 })
 
 after("destroy db", () => {
-    console.log("destroying");
+    console.log("destroying olivedb");
 })
 
 describe("getUniqueId works", () =>{

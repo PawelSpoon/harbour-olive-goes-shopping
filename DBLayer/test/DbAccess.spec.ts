@@ -6,6 +6,7 @@ import { DbAccess } from '../src/Db/DbAccess';
 let wrapper;
 
 before("setup DbWrapperMock",() => {
+  console.log("before dbaccess")
   console.log("creating dbwrappermock");
   wrapper = new DbWrapperMock("test-dbaccess","1");
 })
