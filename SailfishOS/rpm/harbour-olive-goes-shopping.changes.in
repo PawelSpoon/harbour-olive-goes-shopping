@@ -8,6 +8,20 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Thu May 23 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.3.0-0
+- rewritten backend
+
+* Thu May 23 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.6-1
+- add version to export dump
+- rewrite db script. contains now a clean install and a update path
+
+* Tue May 20 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.6-0
+- co2 footprint in items
+
+* Sun Mar 10 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.5-2
+- db versioned
+- ordering of sections
+
 * Sun Mar 10 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.4-1
 - fixed cover action, mark as done
 

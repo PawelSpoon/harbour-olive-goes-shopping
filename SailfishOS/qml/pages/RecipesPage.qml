@@ -61,7 +61,7 @@ Dialog {
 
     function initPage()
     {
-        var items = DB.getRecipes()//itemType)
+        var items = DB.getDatabase().getRecipes()//itemType)
         itemModel.clear()
         fillItemsModel(items)
     }

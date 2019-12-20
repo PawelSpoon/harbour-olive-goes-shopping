@@ -40,14 +40,16 @@ import "../Persistance.js" as DB
 
 Page {
     id: firstPage
+    property string selectedCategory
 
     // The effective value will be restricted by ApplicationWindow.allowedOrientationso
     allowedOrientations: Orientation.All
 
     Component.onCompleted:
     {
+        DB.getDatabase();
         DB.initialize();
-        initPage()
+        initPage();
     }
 
     function updatePage()
@@ -63,7 +65,7 @@ Page {
 
     function editCurrent(name)
     {
-        var current = DB.getShoppingListItemPerName(name)
+        var current = DB.getDatabase().getShoppingListItemPerName(name)
         pageStack.push(Qt.resolvedUrl("AnyItemDialog.qml"),
                         {shoppingListPage: firstPage, uid_: current[0].uid , name_: current[0].name, amount_: current[0].howMany, unit_: current[0].unit, category_: current[0].category })
  //       property string itemType
@@ -72,7 +74,7 @@ Page {
 
     function markAsDone(uid,name,amount,unit,category,done)
     {
-        DB.setShoppingListItem(uid,name,amount,unit,true,category)
+        DB.getDatabase().setShoppingListItem(uid,name,amount,unit,true,category)
         initPage()
     }
 
@@ -83,7 +85,7 @@ Page {
 
     function initPage()
     {
-        var items = DB.getShoppingList()
+        var items = DB.getDatabase().getShoppingList()
         shoppingModel.clear()
         fillShoppingListModel(items)
         applicationWindow.updateCoverList(shoppingModel)
@@ -109,6 +111,7 @@ Page {
 
     function sortModel()
     {
+        // not needed, done in db
         print("sorting")
         for(var i=0; i< shoppingModel.count; i++)
         {
@@ -141,7 +144,7 @@ Page {
                 RemorsePopup {id: remorse }
                 function deleteShoppingList()
                 {
-                    DB.clearShoppingList() // this also clear the checked flag on recipes and items
+                    DB.getDatabase().clearShoppingList() // this also clear the checked flag on recipes and items
                     shoppingModel.clear()
                 }
             }
@@ -214,10 +217,49 @@ Page {
             property: "category"
             criteria: ViewSection.FullString
             delegate: SectionHeader {
+                id: secHead
                 text: section
                 font.pixelSize: Theme.fontSizeLarge
+                height: li.menuOpen ? li.contextMenu.height + 100 : 100
+
+                ListItem {
+                  id: li
+                  property Item contextMenu
+                  property bool menuOpen: contextMenu != null// && contextMenu.parent === shoppingList
+
+                  onPressAndHold: {
+                    page.selectedCategory = secHead.text;
+                    if (!contextMenu)
+                        contextMenu = contextMenuComponent.createObject(shoppingList)
+                    contextMenu.open(secHead) // not good but ..
+                  }
+                }
             }
         }
+
+        Component {
+            id: contextMenuComponent
+            ContextMenu {
+                id: menu
+                MenuItem {
+                    text: "Move up"
+                    onClicked: {
+                       DB.getDatabase().moveCategoryInShoppingList(page.selectedCategory, true);
+                       page.selectedCategory = "";
+                       page.updatePage();
+                    }
+                }
+                MenuItem {
+                    text: "Move down"
+                    onClicked: {
+                        DB.getDatabase().moveCategoryInShoppingList(page.selectedCategory, false);
+                        page.selectedCategory = "";
+                        page.updatePage();
+                    }
+                }
+            }
+        }
+
 
         delegate:
             ShoppingListItem {
@@ -228,12 +270,13 @@ Page {
             unit_: unit
             checked: done
             category: category
+            // order_: order
         }
 
 
         ListModel {
             id: shoppingModel
-            ListElement {uid:""; name: "dummy"; amount: 1; unit: "g"; done: false; category: ""}
+            ListElement {uid:""; name: "dummy"; amount: 1; unit: "g"; done: false; category: ""; order_: "1" }
 
             function contains(uid) {
                 for (var i=0; i<count; i++) {
@@ -245,7 +288,7 @@ Page {
             }
         }
 
-
     }
+
 }
 

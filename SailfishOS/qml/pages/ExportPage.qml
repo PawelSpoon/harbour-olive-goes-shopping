@@ -164,7 +164,7 @@ Page {
                 enabled: exportName.acceptableInput
 
                 onClicked: {
-                    var json = DB.dumpData()
+                    var json = DB.getDatabase().dumpData()
                     var ret = exporter.save(json)
                     if (ret) {
                         //: informational notification about the successful eported data
@@ -264,7 +264,7 @@ Page {
                         if (selectedFileName.length === 0)
                             return
                         var json = exporter.load(composeFullPath(selectedFileName));
-                        if (DB.importData(json)) {
+                        if (DB.getDatabase().importData(json)) {
                             //: informational notification about the successful eported data
                             //% "Successfully imported all data."
                             /*taskListWindow.pushNotification("INFO", qsTr("data-import-success"),
@@ -323,7 +323,7 @@ Page {
                 enabled: dropDBconfirmation.checked
 
                 onClicked: {
-                    if (DB.dropDB())
+                    if (DB.getDatabase().dropDB())
                         //: informational notification about the successful dropped data tables
                         //% "Successfully dropped all data."
                         taskListWindow.pushNotification("WARNING", qsTr("drop-database-success"),

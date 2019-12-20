@@ -182,7 +182,7 @@ MouseArea {
         howMany_ ++
         checked = (howMany_ > 0)
         print(uid + " " + name + " " + howMany_ + " " + type)
-        DB.setRecipe(uid,name,servings_,instruction_,ingredient_,howMany_,type_)
+        Db.getDatabase().setRecipe(uid,name,servings_,instruction_,ingredient_,howMany_,type_)
         addRecipeToShoppingList(ingredient_)
     }
 
@@ -190,7 +190,7 @@ MouseArea {
         removeRecipeFromShoppingList(ingredient_,howMany_)
         howMany_ = 0
         checked = false
-        DB.setRecipe(uid,name,servings_,instruction_,ingredient_,howMany_,type_)
+        DB.getDatabase().setRecipe(uid,name,servings_,instruction_,ingredient_,howMany_,type_)
     }
 
     // adds ingredients for 1 recipe
@@ -218,8 +218,8 @@ MouseArea {
         {
             var ing = ingre[i]
             print(ing.name + " " + ing.amount)
-            var dbItem = DB.getItemPerName(ing.name);
-            var uid = DB.getUniqueId()
+            var dbItem = Db.getDatabase().getItemPerName(ing.name);
+            var uid = Db.getDatabase().db.getUniqueId()
             var unit = ing.unit
             var category = ""
             if (dbItem.length > 0) // to make it stable while no sync between recipes->ingredients and items
@@ -231,17 +231,17 @@ MouseArea {
             //if (dbItem == null) continue
             //if (dbItem.length == 0) continue
             // check if shoppinglist already contains that item, insert or update
-            var shopIngres = DB.getShoppingListItemPerName(ing.name)
+            var shopIngres = Db.getDatabase().getShoppingListItemPerName(ing.name)
             if (shopIngres.length > 0)
             {
                 uid = shopIngres[0].uid // this should fix the case, where ingredient does not fit to item in store
                 var menge = shopIngres[0].amount
                 // check for unit is missing
                 menge = menge + ing.amount
-                DB.setShoppingListItem(uid,ing.name,menge,unit,false,category);
+                Db.getDatabase().setShoppingListItem(uid,ing.name,menge,unit,false,category);
             }
             else {
-              DB.setShoppingListItem(uid,ing.name,ing.amount,unit,false,category);
+              Db.getDatabase().setShoppingListItem(uid,ing.name,ing.amount,unit,false,category);
             }
         }
     }
@@ -271,8 +271,8 @@ MouseArea {
         {
             var ing = ingre[i]
             print(ing.name + " " + ing.amount)
-            var dbItem = DB.getItemPerName(ing.name);
-            var uid = DB.getUniqueId()
+            var dbItem = DB.getDatabase().getItemPerName(ing.name);
+            var uid = DB.getDatabase().db.getUniqueId()
             var unit = ing.unit
             if (dbItem.length > 0) // to make it stable while no sync between recipes->ingredients and items
             {
@@ -282,7 +282,7 @@ MouseArea {
             //if (dbItem == null) continue
             //if (dbItem.length == 0) continue
             // check if shoppinglist already contains that item, insert or update
-            var shopIngres = DB.getShoppingListItemPerName(ing.name)
+            var shopIngres = DB.getDatabase().getShoppingListItemPerName(ing.name)
             if (shopIngres.length > 0)
             {
                 uid = shopIngres[0].uid // this should fix the case, where ingredient does not fit to item in store
@@ -291,12 +291,12 @@ MouseArea {
                 menge = menge - (ing.amount * howMany_)
                 if (menge < 0) menge = 0
                 if (menge > 0)
-                   DB.setShoppingListItem(uid,ing.name,menge,unit,false);
+                   DB.getDatabase().setShoppingListItem(uid,ing.name,menge,unit,false);
                 else
-                   DB.removeShoppingListItem(uid,ing.name,menge,unit,false);
+                   DB.getDatabase().removeShoppingListItem(uid,ing.name,menge,unit,false);
             }
             else {
-                DB.removeShoppingListItem(uid,ing.name,ing.amount,false);
+                DB.getDatabase().removeShoppingListItem(uid,ing.name,ing.amount,false);
             }
         }
     }

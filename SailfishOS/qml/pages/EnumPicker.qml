@@ -64,7 +64,7 @@ Dialog {
     function initPage()
     {
         orgItemName = itemName;
-        var items = DB.getEnums(itemType)
+        var items = DB.getDatabase().getEnums(itemType)
         itemModel.clear()
         fillItemsModel(items)
     }

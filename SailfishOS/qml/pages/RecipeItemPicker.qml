@@ -64,14 +64,14 @@ Dialog {
     function initPage()
     {
         orgItemName = itemName;
-        var items = DB.getItems("food") // currently only food enabled
+        var items = DB.getDatabase().getItems("food") // currently only food enabled
         itemModel.clear()
         fillItemsModel(items)
     }
 
     function filterPage(nameFilter)
     {
-        var items = DB.filterItemsPerName(nameFilter)
+        var items = DB.getDatabase().filterItemsPerName(nameFilter)
         itemModel.clear()
         fillItemsModel(items)
     }

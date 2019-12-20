@@ -27,7 +27,7 @@ Dialog {
 
     function initPage()
     {
-        var items = DB.getRecipes()
+        var items = DB.getDatabase().getRecipes()
         itemModel.clear()
         fillItemsModel(items)
     }
@@ -88,15 +88,15 @@ Dialog {
                 RemorsePopup {id: remorse }
                 function deleteRecipesDb()
                 {
-                    DB.cleanTable("recipes")
-                    initPage()
+                    DB.getDatabase().db.cleanTable("recipes");
+                    initPage();
                 }
             }
 
             MenuItem {
                 text: qsTr("Import Recipes Db")
                 onClicked: {
-                    DB.importRecipesFromJson()
+                    DB.getDatabase().importRecipesFromJson()
                     initPage()
                 }
             }
@@ -125,7 +125,7 @@ Dialog {
                 ListView.remove.connect(removal.deleteAnimation.start)
                 removal.execute(contentItem, "Deleting", function() {
                     print("u:" + uid + ",n:"+name)
-                    DB.removeRecipe(uid,name);
+                    DB.getDatabase().removeRecipe(uid,name);
                     itemModel.remove(index); }
                 )
             }

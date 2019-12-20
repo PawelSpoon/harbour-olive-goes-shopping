@@ -176,25 +176,23 @@ MouseArea {
         howMany_ ++
         checked = (howMany_ > 0)
         print(uid + " " + name + " " + howMany_ + " " + type + " " + category_)
-        //DB.setItem(uid,name,amount,unit,type,howMany_,category_)
-        DB.updateItemSetHowMany(uid,howMany_)
-        var shopListItems = DB.getShoppingListItemPerName(name)
+        DB.getDatabase().updateItemSetHowMany(uid,howMany_)
+        var shopListItems = DB.getDatabase().getShoppingListItemPerName(name)
         if (shopListItems.length > 0) {
             var newAmount = shopListItems[0].amount + amount
-            DB.updateShoppingListItemSetAmount(shopListItems[0].uid,newAmount);
-            //DB.setShoppingListItem(uid,name,newAmount,unit,false,category_)
+            DB.getDatabase().updateShoppingListItemSetAmount(shopListItems[0].uid,newAmount);
+            //DB.getDatabase().setShoppingListItem(uid,name,newAmount,unit,false,category_)
         }
         else {
-            DB.setShoppingListItem(uid,name,amount,unit,false,category_)
+            DB.getDatabase().setShoppingListItem(uid,name,amount,unit,false,category_)
         }
     }
 
     onPressAndHold: {
         howMany_ = 0
         checked = false
-        DB.updateItemSetHowMany(uid,howMany_);
-        //DB.setItem(uid,name,amount,unit,type,howMany_,category)
-        DB.removeShoppingListItem(uid,name,amount,unit,false)
+        DB.getDatabase().updateItemSetHowMany(uid,howMany_);
+        DB.getDatabase().removeShoppingListItem(uid,name,amount,unit,false)
     }
 
 }

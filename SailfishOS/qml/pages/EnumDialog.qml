@@ -72,8 +72,9 @@ Dialog {
 
     onAccepted: {
         // save to db and reload the prev page to make the new item visible
-        if (uid_ == "" ) uid_ = DB.getUniqueId()
-        DB.setEnum(itemType,uid_,itemName.text);
+        if (uid_ == "" ) uid_ = DB.getDatabase().db.getUniqueId()
+        var orderNr = DB.getDatabase().db.executeSelect("select max(ordernr) from category");
+        DB.getDatabase().setEnum(itemType,uid_,itemName.text, Number(orderNr.rows[0]['max(ordernr)']) + 1000);
         itemsPage.initPage()
     }
     // user has rejected editing entry data, check if there are unsaved details

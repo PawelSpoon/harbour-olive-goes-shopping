@@ -27,7 +27,7 @@ Dialog {
 
     function initPage()
     {
-        var items = DB.getEnums(enumType)
+        var items = DB.getDatabase().getEnums(enumType)
         itemModel.clear()
         fillItemsModel(items)
     }
@@ -38,13 +38,23 @@ Dialog {
         for (var i = 0; i < items.length; i++)
         {
             print(items[i].uid + " " + items[i].name)
-            itemModel.append({"uid": items[i].uid, "name": items[i].name})
+            itemModel.append({"uid": items[i].uid, "name": items[i].name, "ordernr" : items[i].ordernr })
+        }
+    }
+
+    function updateCategoriesInShoppingList()
+    {
+        for (var i=0; i < itemModel.count; i++)
+        {
+            var current = itemModel.get(i);
+            if (current.ordernr === 0) continue;
+            DB.getDatabase().updateCategoryOrder(current.name, current.ordernr)
         }
     }
 
     ListModel {
         id: itemModel
-        ListElement {uid: "123"; name: "dummy"}
+        ListElement {uid: "123"; name: "dummy"; ordernr: 0}
 
         function contains(uid) {
             for (var i=0; i<count; i++) {
@@ -88,7 +98,7 @@ Dialog {
                 RemorsePopup {id: remorse }
                 function cleanEnumsTable()
                 {
-                    DB.cleanTable("category")
+                    DB.getDatabase().db.cleanTable("category")
                     initPage()
                 }
             }
@@ -96,7 +106,7 @@ Dialog {
             MenuItem {
                 text: qsTr("Import Categories Db")
                 onClicked: {
-                    DB.importCategoriesFromJson()
+                    DB.getDatabase().importCategoriesFromJson()
                     initPage()
                 }
             }
@@ -105,9 +115,15 @@ Dialog {
         PullDownMenu {
 
             MenuItem {
-                text: qsTr("Add")
+                text: qsTr("Update shopping list");
+                onClicked: { updateCategoriesInShoppingList();}
+            }
+
+            MenuItem {
+                text: qsTr("Add");
                 onClicked: pageStack.push(Qt.resolvedUrl("EnumDialog.qml"), {itemType:enumType, itemsPage: page})
             }
+
         }
         VerticalScrollDecorator {}
 
@@ -125,7 +141,7 @@ Dialog {
                 ListView.remove.connect(removal.deleteAnimation.start)
                 removal.execute(contentItem, "Deleting", function() {
                     print("u:" + uid + ",n:"+name)
-                    DB.removeEnum(enumType, uid);
+                    DB.getDatabase().removeEnum(enumType, uid);
                     itemModel.remove(index); }
                 )
             }
@@ -137,7 +153,7 @@ Dialog {
                 onPressAndHold: {
                     if (!contextMenu)
                         contextMenu = contextMenuComponent.createObject(itemList)
-                    contextMenu.show(myListItem)
+                    contextMenu.open(myListItem)
                 }
                 onClicked: {
                     //console.log("Clicked " + title)
@@ -157,6 +173,7 @@ Dialog {
                     width: height
                 }
                 Label {
+                    id: nameLabel
                     text: name
                     anchors.left: typeIcon.right
                     anchors.leftMargin: Theme.paddingMedium
@@ -167,11 +184,12 @@ Dialog {
                     color: contentItem.down || menuOpen ? Theme.highlightColor : Theme.primaryColor
                 }
                 /*Label {
-                    text: type
-                    anchors.left: typeIcon.right
+                    id: orderLabel
+                    text: ordernr
+                    anchors.left: nameLabel.right
                     anchors.leftMargin: Theme.paddingMedium
-                    anchors.verticalCenter: parent.verticalCenter
-                    font.capitalization: Font.Capitalize
+                    //anchors.verticalCenter: parent.verticalCenter
+                    fontSizeMode: Theme.fontSizeTiny
                     truncationMode: TruncationMode.Elide
                     elide: Text.ElideRight
                     color: contentItem.down || menuOpen ? Theme.highlightColor : Theme.primaryColor
@@ -198,9 +216,23 @@ Dialog {
                 ContextMenu {
                     id: menu
                     MenuItem {
-                        text: "Delete"
+                        text: qsTr("Delete");
                         onClicked: {
                             menu.parent.remove();
+                        }
+                    }
+                    MenuItem {
+                        text: qsTr("Move up");
+                        onClicked: {
+                            DB.getDatabase().moveCategory(name, true);
+                            page.initPage();
+                        }
+                    }
+                    MenuItem {
+                        text: qsTr("Move down");
+                        onClicked: {
+                            DB.getDatabase().moveCategory(name, false);
+                            page.initPage();
                         }
                     }
                 }

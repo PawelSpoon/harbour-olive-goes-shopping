@@ -27,7 +27,7 @@ Dialog {
 
     function initPage()
     {
-        var items = DB.getItems(itemType)
+        var items = DB.getDatabase().getItems(itemType)
         itemModel.clear()
         fillItemsModel(items)
     }
@@ -88,14 +88,14 @@ Dialog {
                 RemorsePopup {id: remorse }
                 function deleteItemsDb()
                 {
-                    DB.cleanTable("items")
+                    DB.getDatabase().db.cleanTable("items")
                     initPage()
                 }
             }
             MenuItem {
                 text: qsTr("Import Items Db")
                 onClicked: {
-                    DB.importItemsFromJson()
+                    DB.getDatabase().importItemsFromJson()
                     initPage()
                 }
             }
@@ -124,7 +124,7 @@ Dialog {
                 ListView.remove.connect(removal.deleteAnimation.start)
                 removal.execute(contentItem, "Deleting", function() {
                     print("u:" + uid + ",n:"+name)
-                    DB.removeItem(uid,name);
+                    DB.getDatabase().removeItem(uid,name);
                     itemModel.remove(index); }
                 )
             }

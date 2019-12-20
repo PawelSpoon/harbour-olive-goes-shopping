@@ -21,7 +21,6 @@ HEADERS += \
     src/importexport.h
 
 DISTFILES += qml/harbour-olive-goes-shopping.qml \
-    qml/Persistance.js \
     qml/pages/ItemsPage.qml \
     qml/pages/StoreListItem.qml \
     qml/Items.js \
@@ -55,7 +54,13 @@ DISTFILES += qml/harbour-olive-goes-shopping.qml \
     rpm/harbour-olive-goes-shopping.yaml \
     translations/*.ts \
     harbour-olive-goes-shopping.desktop \
-    icons/*.png
+    icons/*.png \
+    qml/OliveDb.js \
+    qml/OliveInit.js \
+    qml/DbAccess.js \
+    qml/Persistance.js \
+    qml/IDbWrapper.js \
+    qml/DbLayer.js
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 256x256
 

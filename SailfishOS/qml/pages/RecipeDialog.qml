@@ -121,7 +121,7 @@ Dialog {
                         ListView.remove.connect(removal.deleteAnimation.start)
                         removal.execute(contentItem, "Deleting", function() {
                             print("n:"+name)
-                            //DB.removeItem(uid,name,amount,unit,done);
+                            //DB.getDatabase().removeItem(uid,name,amount,unit,done);
                             ingredientsModel.remove(index);
                             //todo: this should be a reusabel fu
                             storeIndredientModelToItem()
@@ -235,8 +235,8 @@ Dialog {
 
     onAccepted: {
         // save to db and reload the prev page to make the new item visible
-        if (uid_ == "" ) uid_ = DB.getUniqueId()
-        DB.setRecipe(uid_, name_, servings_,"",ingredients_, howMany_, itemType)
+        if (uid_ == "" ) uid_ = DB.getDatabase().getUniqueId()
+        DB.getDatabase().setRecipe(uid_, name_, servings_,"",ingredients_, howMany_, itemType)
 
         itemsPage.initPage()
     }

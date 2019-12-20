@@ -124,6 +124,18 @@ Dialog {
                     MenuItem { text: "food" }
                 }
             }
+            TextField {
+                id: co2
+                width: parent.width
+                inputMethodHints: Qt.ImhDigitsOnly
+                label: qsTr("co2 in []")
+                text: "1"
+                placeholderText: qsTr("Set co2 footprint")
+                errorHighlight: text.length === 0 // not mandatory
+                EnterKey.enabled: !errorHighlight
+                EnterKey.iconSource: "image://theme/icon-m-enter-next"
+                EnterKey.onClicked: unit.focus = true
+            }
 
             Button {
                 id: addButton
@@ -132,11 +144,11 @@ Dialog {
                 anchors.leftMargin: Theme.paddingLarge
                 onClicked: {
                     // adds item to household/food db !
-                    var isThereAny = DB.getItemPerName(itemName.text)
+                    var isThereAny = DB.getDatabase().getItemPerName(itemName.text)
                     if (isThereAny.length < 1)
                     {
-                      var freshUid = DB.getUniqueId()
-                      DB.setItem(freshUid,itemName.text,parseInt(defaultAmount.text), unit.value,type.value,0,categoryName.text);
+                      var freshUid = DB.getDatabase().db.getUniqueId()
+                      DB.getDatabase().setItem(freshUid,itemName.text,parseInt(defaultAmount.text), unit.value,type.value,0,categoryName.text,co2.text);
                       uid_ = freshUid
                     }
                     //todo: show pop up error that aready there
@@ -178,10 +190,10 @@ Dialog {
         // ignore accept if no name was entered
         if (itemName.text == null || itemName.text == "") return;
         // make sure that this 'new' item is really new, if not, use uid from db
-        var isThereAny = DB.getItemPerName(itemName.text)
+        var isThereAny = DB.getDatabase().getItemPerName(itemName.text)
         if (isThereAny.length < 1)
         {
-          if (uid_ == "" ) uid_ = DB.getUniqueId()
+          if (uid_ == "" ) uid_ = DB.getDatabase().db.getUniqueId()
         }
         else
         {
@@ -189,7 +201,7 @@ Dialog {
           // in case of the unlikely usecase, that item exists in db AND in shoppinglist an new add will reset the counter in shoppinglist
         }
         // save to db and reload the prev page to make the new item visible
-        DB.setShoppingListItem(uid_,itemName.text,parseInt(defaultAmount.text),unit.value,0,categoryName.text)
+        DB.getDatabase().setShoppingListItem(uid_,itemName.text,parseInt(defaultAmount.text),unit.value,0,categoryName.text)
         shoppingListPage.initPage()
     }
     // user has rejected editing entry data, check if there are unsaved details

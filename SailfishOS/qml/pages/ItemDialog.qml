@@ -113,6 +113,18 @@ Dialog {
                         categoryName.text = dialog.itemName});
                 }
             }
+            TextField {
+                id: co2
+                width: parent.width
+                inputMethodHints: Qt.ImhDigitsOnly
+                label: qsTr("co2 in []")
+                text: ""
+                placeholderText: qsTr("Set co2 footprint")
+                errorHighlight: text.length === 0 // not mandatory
+                EnterKey.enabled: !errorHighlight
+                EnterKey.iconSource: "image://theme/icon-m-enter-next"
+                EnterKey.onClicked: unit.focus = true
+            }
             // nearly working combobox solution with an listmodel, only the loading into the listmodel is missing
             /*ComboBox {
                         id: categoryCombo
@@ -164,8 +176,8 @@ Dialog {
 
     onAccepted: {
         // save to db and reload the prev page to make the new item visible
-        if (uid_ == "" ) uid_ = DB.getUniqueId()
-        DB.setItem(uid_,itemName.text,parseInt(defaultAmount.text),unit.value,itemType,0,categoryName.text);
+        if (uid_ == "" ) uid_ = DB.getDatabase().db.getUniqueId()
+        DB.getDatabase().setItem(uid_,itemName.text,parseInt(defaultAmount.text),unit.value,itemType,0,categoryName.text,co2.text);
         itemsPage.initPage()
     }
     // user has rejected editing entry data, check if there are unsaved details

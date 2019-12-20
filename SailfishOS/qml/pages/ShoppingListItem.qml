@@ -47,6 +47,7 @@ MouseArea {
     property alias unit_: unitLabel.text
     property bool checked
     property alias category : categoryLabel.text
+    property string order_
 
     property real leftMargin
     property real rightMargin: Theme.paddingLarge
@@ -161,8 +162,8 @@ MouseArea {
 
     onClicked: {
         checked = !checked
-        // DB.setShoppingListItem(uid_,name,amount,unit,checked,category)
-        DB.updateShoppingListItemChecked(uid_, checked)
+        // DB.getDatabase().setShoppingListItem(uid_,name,amount,unit,checked,category)
+        DB.getDatabase().updateShoppingListItemChecked(uid_, checked)
         // parent.parent.parent.updatePage()
     }
 
@@ -181,11 +182,11 @@ MouseArea {
         var removal = removalComponent.createObject() // should it be shoppingListItem ?
         //ListView.remove.connect(removal.deleteAnimation.start)
         removal.execute(shoppingListItem, "Deleting", function() {
-            var dbItem = DB.getItemPerName(name)
-            if (dbItem.length > 0) {
-              DB.setItem(dbItem[0].uid,name,dbItem[0].amount,dbItem[0].unit,dbItem[0].type,0,dbItem[0].category)
+            var dbItem = DB.getDatabase().getItemPerName(name)
+            if (dbItem.length > 0) { // why do i do that ?
+              DB.getDatabase().setItem(dbItem[0].uid,name,dbItem[0].amount,dbItem[0].unit,dbItem[0].type,0,dbItem[0].category,dbItem[0].co2)
             }
-            DB.removeShoppingListItem(uid_,name,0,unit,false)
+            DB.getDatabase().removeShoppingListItem(uid_,name,0,unit,false)
             parent.parent.parent.initPage()}
         )
     }

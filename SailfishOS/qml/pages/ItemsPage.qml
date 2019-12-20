@@ -62,14 +62,14 @@ Dialog {
 
     function initPage()
     {
-        var items = DB.getItems(itemType)
+        var items = DB.getDatabase().getItems(itemType)
         itemModel.clear()
         fillItemsModel(items)
     }
 
     function filterPage(nameFilter)
     {
-        var items = DB.filterItemsPerName(nameFilter)
+        var items = DB.getDatabase().filterItemsPerName(nameFilter)
         itemModel.clear()
         fillItemsModel(items)
     }
