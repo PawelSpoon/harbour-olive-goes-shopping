@@ -108,7 +108,7 @@ var OliveDb = /** @class */ (function () {
         var items = [];
         this.checkDatabase();
         var respath = "";
-        var sql = "SELECT DISTINCT uid, name, amount, unit, done, category, ordernr from shoppingList order by ordernr, category";
+        var sql = "SELECT DISTINCT uid, name, amount, unit, done, category, ordernr from shoppingList order by ordernr"; //, category";
         if (itemName !== "")
             sql = "SELECT DISTINCT uid, name, amount, unit, done, category, ordernr from shoppingList where name='" + itemName + "'";
         var rs = this.db.executeSelect(sql);
@@ -274,104 +274,36 @@ var OliveDb = /** @class */ (function () {
         var items = Imp.getCategories();
         for (var i = 0; i < items.length; i++) {
             var item = items[i];
+            //todo: check for existing, implement upsert
             this.setEnum("category", this.db.getUniqueId(), item.name, item.ordernr);
+        }
+    };
+    // will init the ordernr of category
+    OliveDb.prototype.initCategoryOrderNrs = function () {
+        var maxOrderNr = this.db.executeSelect("select max(orderNr) from category");
+        if (maxOrderNr.rows[0]['max(orderNr)'] === 0) {
+            var categories = this.getEnums("category");
+            for (var i = 0; i < categories.length; i++) {
+                var item = categories[i];
+                this.setEnum("category", item.uid, item.name, (i + 1) * 1000);
+            }
         }
     };
     // false = down
     // true = up
-    /*moveCategoryInShoppingList(category,up)
-    {
-        // 0 is top
-        // highest is lowest
-        // what is missing: check that no need to move up / down as already the lowest / topest
-
-        this.checkDatabase()
-        var res = "";
-        var delta = 1000;
-
-        // get order of given category
-        // get category that has order+1000 value
-        // increase order value+1000 of given category
-        // decrease value of +1000 category by - 1
-
-
-        // 1)
-        var sql = "SELECT DISTINCT ordernr from shoppingList where category='" + category + "'";
-        console.log(sql)
-        var orgOrder
-        db.transaction(function(tx) {
-            var rs = tx.executeSql(sql);
-            orgOrder = Number(rs.rows.item(0).ordernr);
-            console.log('order of given category: ' + orgOrder);
-        })
-
-        // don't get smaller then no-category = 0
-        if (orgOrder === 1000 && up) return;
-
-        // 2) get category that has to switch places
-        var catToMoveDown;
-        var temp;
-        if (up) {
-            temp = orgOrder - 1000;
+    OliveDb.prototype.moveCategoryInShoppingList = function (category, up) {
+        // this works fine, if all cats are present in shopping list
+        // when not, then you need to select the move multiple times
+        // to see some reaction on the shopping list 
+        // (in category it works fine)
+        // final solution would be to check the diff between selected category and the next visible
+        // in shopping list and then execute the move x times
+        this.moveCategory(category, up);
+        var categories = this.getEnums("category");
+        for (var i = 0; i < categories.length; i++) {
+            this.updateCategoryOrder(categories[i].name, categories[i].ordernr);
         }
-        else {
-            temp = orgOrder + 1000;
-        }
-        if (temp !== 0) { // do not move no-category
-        sql = "SELECT DISTINCT category from shoppingList where ordernr=" + temp + ""
-        console.log(sql)
-
-        db.transaction(function(tx) {
-            var rs = tx.executeSql(sql);
-            if (rs.rows.length > 0)
-            catToMoveDown = rs.rows.item(0).category;
-            console.log('category to switch: ' + catToMoveDown);
-        })
-        }
-
-        if (catToMoveDown === "undefined") return; // category was last or first, nothing to switch
-        // 4) move the other
-        if (up) {
-            sql = "UPDATE shoppingList SET ordernr = ordernr + 1000 WHERE category = '" + catToMoveDown + "';"
-        }
-        else {
-            sql = "UPDATE shoppingList SET ordernr = ordernr - 1000 WHERE category = '" + catToMoveDown + "';"
-        }
-        console.log(sql);
-        db.transaction(function(tx) {
-            var rs = tx.executeSql(sql);
-            if (rs.rowsAffected > 0) {
-                res = "OK";
-                console.log ("the other category moved");
-            } else {
-                res = "Error";
-                console.log ("Error saving to database");
-            }
-        }
-        );
-        // todo: if there is no catToMove, then no need to move me ?
-
-        // 3) move given category up or down
-        if (up) {
-            sql = "UPDATE shoppingList SET ordernr = ordernr - 1000 WHERE category = '" + category + "';"
-        }
-        else {
-            sql = "UPDATE shoppingList SET ordernr = ordernr + 1000 WHERE category = '" + category + "';"
-        }
-        console.log(sql);
-
-        db.transaction(function(tx) {
-            var rs = tx.executeSql(sql);
-            if (rs.rowsAffected > 0) {
-                res = "OK";
-                console.log ("category moved");
-            } else {
-                res = "Error";
-                console.log ("Error saving to database");
-            }
-        }
-        );
-    }*/
+    };
     OliveDb.prototype.updateCategoryOrder = function (category, order) {
         this.checkDatabase();
         var res = "";

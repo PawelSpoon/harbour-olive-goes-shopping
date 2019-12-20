@@ -7,7 +7,7 @@
     "build": "tsc ./typescript-tut.ts",
     "build2": "tsc --project .",
     "start": "node ./typescript-tut.js",
-    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+    "test": "mocha --timeout 10000 -r ts-node/register test/**/*.spec.ts"
   },
   "repository": {
     "type": "git",

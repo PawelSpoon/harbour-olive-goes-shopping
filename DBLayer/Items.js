@@ -8,19 +8,19 @@ function qsTr(str) { return str; }
 function getCategories() {
     var retItems = [];
     // categories for food and household
-    retItems.push({ "name": qsTr("dairy products") });
-    retItems.push({ "name": qsTr("meat products") });
-    retItems.push({ "name": qsTr("fresh produce") });
-    retItems.push({ "name": qsTr("bakery products") });
-    retItems.push({ "name": qsTr("frozen food") });
-    retItems.push({ "name": qsTr("canned food") });
-    retItems.push({ "name": qsTr("personal hygiene") });
-    retItems.push({ "name": qsTr("cleaning supplies") });
-    retItems.push({ "name": qsTr("magazines") });
-    retItems.push({ "name": qsTr("hardware") });
+    retItems.push({ "name": qsTr("dairy products"), "ordernr": 1000 });
+    retItems.push({ "name": qsTr("meat products"), "ordernr": 2000 });
+    retItems.push({ "name": qsTr("fresh produce"), "ordernr": 3000 });
+    retItems.push({ "name": qsTr("bakery products"), "ordernr": 4000 });
+    retItems.push({ "name": qsTr("frozen food"), "ordernr": 5000 });
+    retItems.push({ "name": qsTr("canned food"), "ordernr": 6000 });
+    retItems.push({ "name": qsTr("personal hygiene"), "ordernr": 7000 });
+    retItems.push({ "name": qsTr("cleaning supplies"), "ordernr": 8000 });
+    retItems.push({ "name": qsTr("magazines"), "ordernr": 9000 });
+    retItems.push({ "name": qsTr("hardware"), "ordernr": 10000 });
     // car and bikes
-    retItems.push({ "name": qsTr("automotive") });
-    retItems.push({ "name": qsTr("others") });
+    retItems.push({ "name": qsTr("automotive"), "ordernr": 11000 });
+    retItems.push({ "name": qsTr("others"), "ordernr": 12000 });
     return retItems;
 }
 exports.getCategories = getCategories;
