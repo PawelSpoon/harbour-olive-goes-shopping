@@ -31,7 +31,14 @@ export class DbAccess implements DbA.IDbAccess {
     getVersion(): String {
         console.log("getVersion() called.")
         var version = "1";
-        var temp = this.executeSelect("SELECT version FROM VERSION order by version")
+        var temp;
+        try {
+             temp = this.executeSelect("SELECT version FROM VERSION order by version");
+        }
+        catch(err){
+            console.log("seems table version does not exist. return ''.")
+            return "";
+        }
         console.log("return version object: " + temp);
         if (temp == undefined) {
             console.log("empty array  -> version empty");
