@@ -1,5 +1,12 @@
+This folder 
 contains the backend of olive-goes-shopping app
-contains the common db layer 
+contains the common db layer
+you should be able to open this folder in visual studio code and run npm install
+run npm build to compile the ts to js
+run npm test to run the testcases
+After the build you need to copy the js files into SailfishOs folder.
+The generated js files are containing export statements that are not supported by qml. 
+So you have to commment those out. see the checked in js files 
 
 DbWrapper layer
   operates with db
