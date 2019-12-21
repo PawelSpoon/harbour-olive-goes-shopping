@@ -212,7 +212,7 @@
         <location filename="../qml/pages/ExportPage.qml" line="161"/>
         <source>Export data</source>
         <extracomment>headline for the data export section</extracomment>
-        <translation>Vientitiedot</translation>
+        <translation>Vie tiedot</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="184"/>
@@ -320,7 +320,8 @@
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="212"/>
         <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
-        <translation type="unfinished"></translation>
+                <translation>Ohhoh,
+ei mitään ostettavaa ?!</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="192"/>
@@ -1574,12 +1575,12 @@
     <message>
         <location filename="../qml/pages/ShareWithPage.qml" line="17"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Tehty</translation>
     </message>
     <message>
         <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
         <source>Discard</source>
-        <translation type="unfinished">Hylkää</translation>
+        <translation>Hylkää</translation>
     </message>
 </context>
 </TS>
