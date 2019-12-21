@@ -6,27 +6,27 @@
     <message>
         <location filename="../qml/pages/About.qml" line="27"/>
         <source>a native shopping list</source>
-        <translation type="unfinished"></translation>
+        <translation>SFOS aplikace nákupního seznamu</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="34"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>licence</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="44"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Kód</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="55"/>
         <source>Localization</source>
-        <translation type="unfinished"></translation>
+        <translation>Lokalizace</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="66"/>
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>Překladatelé</translation>
     </message>
 </context>
 <context>
@@ -84,17 +84,17 @@
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="70"/>
         <source>Item category</source>
-        <translation type="unfinished"></translation>
+        <translation>Název druhu</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="73"/>
         <source>Set category</source>
-        <translation type="unfinished"></translation>
+        <translation>upravit položku</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="83"/>
         <source>Change Category</source>
-        <translation type="unfinished"></translation>
+        <translation>upravit položku</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="131"/>
@@ -117,7 +117,9 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="99"/>
         <source>Olive &lt;br&gt;goes &lt;br&gt; shoppin&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Oliv
+jde
+nakoupit&apos;</translation>
     </message>
 </context>
 <context>
@@ -125,32 +127,32 @@
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="37"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložit</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="38"/>
         <source>Discard</source>
-        <translation type="unfinished">Zavrhnout</translation>
+        <translation>Zavrhnout</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="42"/>
         <source>New item</source>
-        <translation type="unfinished"></translation>
+        <translation>Nová položka</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="43"/>
         <source>Edit item</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit položku</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="53"/>
         <source>Item name</source>
-        <translation type="unfinished">Název položky</translation>
+        <translation>Název položky</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="55"/>
         <source>Set item name</source>
-        <translation type="unfinished">Nastavit název položky</translation>
+        <translation>Nastavit název položky</translation>
     </message>
 </context>
 <context>
@@ -158,12 +160,12 @@
     <message>
         <location filename="../qml/pages/EnumPicker.qml" line="91"/>
         <source>Press &amp; hold to accept</source>
-        <translation type="unfinished"></translation>
+        <translation>podržte stisknuté tlačítko pro potvrzení</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumPicker.qml" line="96"/>
         <source>No items</source>
-        <translation type="unfinished"></translation>
+        <translation>žádné položky</translation>
     </message>
 </context>
 <context>
@@ -183,60 +185,60 @@
         <location filename="../qml/pages/ExportPage.qml" line="85"/>
         <source>sdcard-label</source>
         <extracomment>Label for SD-Cards where %1 represents the increasing number for each card</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>štítek sd karty</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="114"/>
         <source>Export / Import</source>
         <extracomment>export/import page headline</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Exportovat / importovat</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="120"/>
         <source>Export target</source>
         <extracomment>headline for exports</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Cíl exportu</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="126"/>
         <source>Choose target</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvolte cíl</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="145"/>
         <source>Enter a file name for export</source>
         <extracomment>placeholder message to remind the user that he has to enter a name for the data export</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Zadejte název souboru pro export</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="161"/>
         <source>Export data</source>
         <extracomment>headline for the data export section</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Exportovat data</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="184"/>
         <source>select-file-header</source>
         <extracomment>headline for imports</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte soubor</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="240"/>
         <source>delete-file-button</source>
         <extracomment>Button to delete the selected data file</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Smazat soubor</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="260"/>
         <source>import-button</source>
         <extracomment>Button to import data form the selected file</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Importovat</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="281"/>
         <source>information-label</source>
         <extracomment>headline for information about import/export mechanism</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="290"/>
@@ -320,7 +322,7 @@
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="212"/>
         <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
-        <translation type="unfinished"></translation>
+        <translation>Bože, nic k nakoupení?</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="192"/>
@@ -351,7 +353,7 @@
     <message>
         <location filename="../qml/pages/HelpPage.qml" line="29"/>
         <source>a native shopping list</source>
-        <translation type="unfinished"></translation>
+        <translation>SFOS aplikace nákupního seznamu</translation>
     </message>
     <message>
         <location filename="../qml/pages/HelpPage.qml" line="37"/>
@@ -364,7 +366,7 @@
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="40"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložit</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="41"/>
@@ -374,12 +376,12 @@
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="45"/>
         <source>New item</source>
-        <translation type="unfinished"></translation>
+        <translation>Nová položka</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="46"/>
         <source>Edit item</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit položku</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="56"/>
@@ -409,17 +411,17 @@
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="93"/>
         <source>Item category</source>
-        <translation type="unfinished"></translation>
+        <translation>Druh položky</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="97"/>
         <source>Set category</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit položku</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="106"/>
         <source>Change Category</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit položku</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="120"/>
@@ -437,12 +439,12 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="11"/>
         <source>dairy products</source>
-        <translation type="unfinished"></translation>
+        <translation>Mléčné výrobky</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="12"/>
         <source>meat products</source>
-        <translation type="unfinished"></translation>
+        <translation>Maso</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="13"/>
@@ -478,37 +480,37 @@
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="135"/>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="138"/>
         <source>fresh produce</source>
-        <translation type="unfinished"></translation>
+        <translation>Zelenina</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="14"/>
         <source>bakery products</source>
-        <translation type="unfinished"></translation>
+        <translation>Pečivo</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="15"/>
         <source>frozen food</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmrazené</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="16"/>
         <source>canned food</source>
-        <translation type="unfinished"></translation>
+        <translation>Konservy</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="17"/>
         <source>personal hygiene</source>
-        <translation type="unfinished"></translation>
+        <translation>Hygiena</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="18"/>
         <source>cleaning supplies</source>
-        <translation type="unfinished"></translation>
+        <translation>čestícý prostředky</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="19"/>
         <source>magazines</source>
-        <translation type="unfinished"></translation>
+        <translation>Časopisy</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="20"/>
@@ -548,7 +550,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="36"/>
         <source>soup peas</source>
-        <translation type="unfinished"></translation>
+        <translation>hrášek do polévky </translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="37"/>
@@ -1113,32 +1115,32 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="151"/>
         <source>freeze bag</source>
-        <translation type="unfinished"></translation>
+        <translation>mrazící vak</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="152"/>
         <source>dishwasher - rinse aid</source>
-        <translation type="unfinished"></translation>
+        <translation>myčka nádobí - leštidlo</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="153"/>
         <source>dishwasher - salt</source>
-        <translation type="unfinished"></translation>
+        <translation>myčka nádobí - sůl</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="154"/>
         <source>dishwasher - tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>myčka nádobí - tablety</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="155"/>
         <source>dishwashing liquid</source>
-        <translation type="unfinished"></translation>
+        <translation>prostředek na mytí nádobí</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="156"/>
         <source>dishwashing sponge</source>
-        <translation type="unfinished"></translation>
+        <translation>mycí houba</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="157"/>
@@ -1148,12 +1150,12 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="158"/>
         <source>hygienic rinse</source>
-        <translation type="unfinished"></translation>
+        <translation>hygienické oplachování</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="159"/>
         <source>children&apos;s toothpaste</source>
-        <translation type="unfinished"></translation>
+        <translation>dětská zubní pasta</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="160"/>
@@ -1168,97 +1170,97 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="162"/>
         <source>kitchen roll</source>
-        <translation type="unfinished"></translation>
+        <translation>kuchyňský rolák</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="163"/>
         <source>lens cleaner</source>
-        <translation type="unfinished"></translation>
+        <translation>čistič čočkek</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="164"/>
         <source>trash bags</source>
-        <translation type="unfinished"></translation>
+        <translation>pytel na odpadky</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="165"/>
         <source>trash bags - small</source>
-        <translation type="unfinished"></translation>
+        <translation>pytel na odpadky - malý</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="166"/>
         <source>over fire starter</source>
-        <translation type="unfinished"></translation>
+        <translation>podpalovač</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="167"/>
         <source>shaving cream</source>
-        <translation type="unfinished"></translation>
+        <translation>pěna na holení</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="168"/>
         <source>shampoo</source>
-        <translation type="unfinished"></translation>
+        <translation>šampon</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="169"/>
         <source>sponge wipes</source>
-        <translation type="unfinished"></translation>
+        <translation>houbové ubrousky</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="170"/>
         <source>soap</source>
-        <translation type="unfinished"></translation>
+        <translation>mýdlo</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="171"/>
         <source>panty liners</source>
-        <translation type="unfinished"></translation>
+        <translation>vložky na kalhoty</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="172"/>
         <source>tampons</source>
-        <translation type="unfinished"></translation>
+        <translation>tampóny</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="173"/>
         <source>condoms</source>
-        <translation type="unfinished"></translation>
+        <translation>prezervativy</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="174"/>
         <source>piles</source>
-        <translation type="unfinished"></translation>
+        <translation>prevence pilulka</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="175"/>
         <source>handkerchiefs</source>
-        <translation type="unfinished"></translation>
+        <translation>kapesníky</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="176"/>
         <source>laundry detergent</source>
-        <translation type="unfinished"></translation>
+        <translation>prací prášek</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="177"/>
         <source>toothbrush</source>
-        <translation type="unfinished"></translation>
+        <translation>kartáček na zuby</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="178"/>
         <source>toothpaste</source>
-        <translation type="unfinished"></translation>
+        <translation>zubní pasta</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="179"/>
         <source>matches</source>
-        <translation type="unfinished"></translation>
+        <translation>sirky</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="180"/>
         <source>razor blades</source>
-        <translation type="unfinished"></translation>
+        <translation>žiletky</translation>
     </message>
 </context>
 <context>
@@ -1266,22 +1268,22 @@
     <message>
         <location filename="../qml/pages/ItemsPage.qml" line="107"/>
         <source>Store</source>
-        <translation type="unfinished"></translation>
+        <translation>Databáze</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemsPage.qml" line="116"/>
         <source>Search ..</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledat ..</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemsPage.qml" line="144"/>
         <source>Manage</source>
-        <translation type="unfinished"></translation>
+        <translation>Spravovat</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemsPage.qml" line="154"/>
         <source>No items</source>
-        <translation type="unfinished"></translation>
+        <translation>žádné položky</translation>
     </message>
 </context>
 <context>
@@ -1289,42 +1291,22 @@
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="88"/>
         <source>Please fill store with items</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyplňte prosím obchod s položkami</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="94"/>
         <source>Clear Categories Db</source>
-        <translation type="unfinished"></translation>
+        <translation>Vymazat databázu druhů</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="107"/>
         <source>Import Categories Db</source>
-        <translation type="unfinished"></translation>
+        <translation>Importovat databázi druhů</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="123"/>
         <source>Add</source>
-        <translation type="unfinished">Přidat</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ManageEnumsPage.qml" line="118"/>
-        <source>Update shopping list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ManageEnumsPage.qml" line="219"/>
-        <source>Delete</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ManageEnumsPage.qml" line="225"/>
-        <source>Move up</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ManageEnumsPage.qml" line="232"/>
-        <source>Move down</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat</translation>
     </message>
 </context>
 <context>
@@ -1332,22 +1314,22 @@
     <message>
         <location filename="../qml/pages/ManageItemsPage.qml" line="78"/>
         <source>Please fill store with items</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyplňte prosím obchod s položkami</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageItemsPage.qml" line="84"/>
         <source>Clear Items Db</source>
-        <translation type="unfinished"></translation>
+        <translation>Vymazat databázu polozek</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageItemsPage.qml" line="96"/>
         <source>Import Items Db</source>
-        <translation type="unfinished"></translation>
+        <translation>Importovat databázi polozek</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageItemsPage.qml" line="107"/>
         <source>Add</source>
-        <translation type="unfinished">Přidat</translation>
+        <translation>Přidat</translation>
     </message>
 </context>
 <context>
@@ -1355,37 +1337,37 @@
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="56"/>
         <source>Help</source>
-        <translation type="unfinished">Pomoc</translation>
+        <translation>Pomoc</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="101"/>
         <source>Food</source>
-        <translation type="unfinished">Jídlo</translation>
+        <translation>Jídlo</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="108"/>
         <source>Household</source>
-        <translation type="unfinished">Domácností</translation>
+        <translation>Domácností</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="114"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Druhy</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="89"/>
         <source>Recipes</source>
-        <translation type="unfinished">Recepty</translation>
+        <translation>Recepty</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="120"/>
         <source>Import Export</source>
-        <translation type="unfinished"></translation>
+        <translation>Import Export</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="66"/>
         <source>Manage Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Spravovat aplikaci</translation>
     </message>
 </context>
 <context>
@@ -1393,22 +1375,22 @@
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="78"/>
         <source>Please fill store with items</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyplňte prosím obchod s položkami</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="83"/>
         <source>Clear Recipes Db</source>
-        <translation type="unfinished"></translation>
+        <translation>Vymazat databázu receptů</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="97"/>
         <source>Import Recipes Db</source>
-        <translation type="unfinished"></translation>
+        <translation>Importovat databázu receptů</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="108"/>
         <source>Add</source>
-        <translation type="unfinished">Přidat</translation>
+        <translation>Přidat</translation>
     </message>
 </context>
 <context>
@@ -1416,52 +1398,52 @@
     <message>
         <location filename="../qml/pages/RecipeDialog.qml" line="44"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložit</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeDialog.qml" line="45"/>
         <source>Discard</source>
-        <translation type="unfinished">Zavrhnout</translation>
+        <translation>Zavrhnout</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeDialog.qml" line="49"/>
         <source>New recipe</source>
-        <translation type="unfinished"></translation>
+        <translation>Novy recept</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeDialog.qml" line="50"/>
         <source>Recipe</source>
-        <translation type="unfinished"></translation>
+        <translation>Recept</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeDialog.qml" line="60"/>
         <source>Recipe name</source>
-        <translation type="unfinished"></translation>
+        <translation>Název receptu</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeDialog.qml" line="62"/>
         <source>Set recipe name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit název receptu</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeDialog.qml" line="74"/>
         <source>Servings</source>
-        <translation type="unfinished"></translation>
+        <translation>Porce</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeDialog.qml" line="76"/>
         <source>Set number of servings</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavte počet porcí</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeDialog.qml" line="86"/>
         <source>Add ingredient</source>
-        <translation type="unfinished"></translation>
+        <translation>přidat přísadu</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeDialog.qml" line="107"/>
         <source>Please add ingredient</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidejte přísadu</translation>
     </message>
 </context>
 <context>
@@ -1469,52 +1451,52 @@
     <message>
         <location filename="../qml/pages/RecipeItemDialog.qml" line="41"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložit</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeItemDialog.qml" line="42"/>
         <source>Discard</source>
-        <translation type="unfinished">Zavrhnout</translation>
+        <translation>Zavrhnout</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeItemDialog.qml" line="46"/>
         <source>New item</source>
-        <translation type="unfinished"></translation>
+        <translation>Nová položka</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeItemDialog.qml" line="47"/>
         <source>Edit item</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit položku</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeItemDialog.qml" line="57"/>
         <source>Item name</source>
-        <translation type="unfinished">Název položky</translation>
+        <translation>Název položky</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeItemDialog.qml" line="60"/>
         <source>Set item name</source>
-        <translation type="unfinished">Nastavit název položky</translation>
+        <translation>Nastavit název položky</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeItemDialog.qml" line="69"/>
         <source>Browse for items</source>
-        <translation type="unfinished"></translation>
+        <translation>Pátrat po </translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeItemDialog.qml" line="84"/>
         <source>Standard package size</source>
-        <translation type="unfinished">Std. velikost balení</translation>
+        <translation>Std. velikost balení</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeItemDialog.qml" line="86"/>
         <source>Set standard package size</source>
-        <translation type="unfinished">Nastavte standardní velikost balení</translation>
+        <translation>Nastavte standardní velikost balení</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeItemDialog.qml" line="95"/>
         <source>Unit</source>
-        <translation type="unfinished">Jednotka</translation>
+        <translation>Jednotka</translation>
     </message>
 </context>
 <context>
@@ -1522,17 +1504,17 @@
     <message>
         <location filename="../qml/pages/RecipeItemPicker.qml" line="107"/>
         <source>Press &amp; hold to accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Podržte stisknuté tlačítko pro potvrzení</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeItemPicker.qml" line="116"/>
         <source>Search ..</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledat ..</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeItemPicker.qml" line="141"/>
         <source>No items</source>
-        <translation type="unfinished"></translation>
+        <translation>žádné položky k zobrazení</translation>
     </message>
 </context>
 <context>
@@ -1540,7 +1522,7 @@
     <message>
         <location filename="../qml/pages/RecipeListItem.qml" line="138"/>
         <source>servings</source>
-        <translation type="unfinished"></translation>
+        <translation>Porce</translation>
     </message>
 </context>
 <context>
@@ -1548,17 +1530,17 @@
     <message>
         <location filename="../qml/pages/RecipesPage.qml" line="87"/>
         <source>Recipes</source>
-        <translation type="unfinished">Recepty</translation>
+        <translation>Recepty</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipesPage.qml" line="93"/>
         <source>Manage</source>
-        <translation type="unfinished"></translation>
+        <translation>Spravovat</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipesPage.qml" line="103"/>
         <source>No recipes</source>
-        <translation type="unfinished"></translation>
+        <translation>žádné recepty</translation>
     </message>
 </context>
 <context>
@@ -1566,7 +1548,7 @@
     <message>
         <location filename="../qml/pages/SearchPageHeader.qml" line="36"/>
         <source>Search ..</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledat ..</translation>
     </message>
 </context>
 <context>
@@ -1574,12 +1556,12 @@
     <message>
         <location filename="../qml/pages/ShareWithPage.qml" line="17"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Hotovo</translation>
     </message>
     <message>
         <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
         <source>Discard</source>
-        <translation type="unfinished">Zavrhnout</translation>
+        <translation>Zavrhnout</translation>
     </message>
 </context>
 </TS>
