@@ -41,7 +41,7 @@ var DbAccess = /** @class */ (function () {
         }
         var v = temp.rows[0]['version'];
         console.log("returning version: " + v);
-        return v;
+        return v.toString();
     };
     DbAccess.prototype.getUniqueId = function () {
         console.log("getUniqueId() called.");
