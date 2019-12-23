@@ -23,7 +23,6 @@ HEADERS += \
 DISTFILES += qml/harbour-olive-goes-shopping.qml \
     qml/pages/ItemsPage.qml \
     qml/pages/StoreListItem.qml \
-    qml/Items.js \
     qml/pages/ShoppingListItem.qml \
     qml/pages/ItemDialog.qml \
     qml/pages/ManageItemsPage.qml \
@@ -55,12 +54,13 @@ DISTFILES += qml/harbour-olive-goes-shopping.qml \
     translations/*.ts \
     harbour-olive-goes-shopping.desktop \
     icons/*.png \
-    qml/OliveDb.js \
-    qml/OliveInit.js \
-    qml/DbAccess.js \
-    qml/Persistance.js \
-    qml/IDbWrapper.js \
-    qml/DbLayer.js
+    qml/DbLayer/OliveDb/OliveDb.js \
+    qml/DbLayer/OliveDb/OliveInit.js \
+    qml/DbLayer/OliveDb/Persistance.js \
+    qml/DbLayer/OliveDb/Items.js \
+    qml/DbLayer/Db/IDbWrapper.js \
+    qml/DbLayer/Db/DbWrapper.js \
+    qml/DbLayer/Db/DbAccess.js
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 256x256
 

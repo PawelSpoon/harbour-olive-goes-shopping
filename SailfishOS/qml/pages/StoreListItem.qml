@@ -37,8 +37,7 @@
 
 import QtQuick 2.1
 import Sailfish.Silica 1.0
-import "../Persistance.js" as DB
-
+import "../DbLayer/OliveDb/Persistance.js" as DB
 
 //short click will increase howMany by one
 //long press will clear

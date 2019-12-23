@@ -8,7 +8,10 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Thu May 23 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.3.0-0
+* Thu Dec 23 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.3.0-1
+- updated translations for cz, es, fi
+
+* Sat Dec 20 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.3.0-0
 - rewritten backend
 
 * Thu May 23 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.2.6-1

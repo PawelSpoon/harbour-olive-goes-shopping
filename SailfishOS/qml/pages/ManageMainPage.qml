@@ -30,7 +30,7 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import "../Persistance.js" as DB
+import "../DbLayer/OliveDb/Persistance.js" as DB
 
 //this page allows to manage all the lists and settings
 

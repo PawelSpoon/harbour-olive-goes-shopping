@@ -445,6 +445,37 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="13"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="32"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="35"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="38"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="40"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="42"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="45"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="50"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="51"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="53"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="60"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="64"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="69"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="70"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="71"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="74"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="76"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="77"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="78"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="80"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="81"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="85"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="88"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="89"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="98"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="99"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="113"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="126"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="130"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="133"/>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="135"/>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="138"/>
         <source>fresh produce</source>
         <translation type="unfinished"></translation>

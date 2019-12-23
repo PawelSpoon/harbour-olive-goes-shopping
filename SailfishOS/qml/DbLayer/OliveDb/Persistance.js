@@ -2,8 +2,8 @@
 
 .import "OliveDb.js" as OliveDB
 .import "OliveInit.js" as OliveInit
-.import "DbAccess.js" as DbAccess
-.import "DbLayer.js" as DB
+.import "./../Db/DbAccess.js" as DbAccess
+.import "./../Db/DbWrapper.js" as DB
 
 // this files is a wrapper to the object oriented model from Qt
 

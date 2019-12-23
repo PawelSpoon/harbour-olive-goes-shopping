@@ -20,7 +20,7 @@ import QtQuick 2.1
 import Sailfish.Silica 1.0
 import harbour.olivegoesshopping.import_export 1.0
 
-import "../Persistance.js" as DB
+import "../DbLayer/OliveDb/Persistance.js" as DB
 
 
 Page {

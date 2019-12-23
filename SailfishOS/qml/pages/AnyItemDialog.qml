@@ -4,7 +4,7 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 //import QtQuick.Controls 2.0
 
-import "../Persistance.js" as DB
+import "../DbLayer/OliveDb/Persistance.js" as DB
 
 // This dialog is invoked on shoppingListPage (FirstPage)
 // it allows to add an item to shopping list that does not exist in db

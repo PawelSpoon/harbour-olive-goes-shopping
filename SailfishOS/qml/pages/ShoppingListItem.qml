@@ -36,7 +36,7 @@
 
 import QtQuick 2.1
 import Sailfish.Silica 1.0
-import "../Persistance.js" as DB
+import "../DbLayer/OliveDb/Persistance.js" as DB
 
 MouseArea {
     id: root

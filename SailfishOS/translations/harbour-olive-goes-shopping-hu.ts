@@ -1287,22 +1287,22 @@
 <context>
     <name>ManageEnumsPage</name>
     <message>
-        <location filename="../qml/pages/ManageEnumsPage.qml" line="78"/>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="88"/>
         <source>Please fill store with items</source>
         <translation type="unfinished">Kérlek töltsd fel az áruházat elemekkel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageEnumsPage.qml" line="84"/>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="94"/>
         <source>Clear Categories Db</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageEnumsPage.qml" line="97"/>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="107"/>
         <source>Import Categories Db</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageEnumsPage.qml" line="108"/>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="123"/>
         <source>Add</source>
         <translation type="unfinished">Hozzáadás</translation>
     </message>

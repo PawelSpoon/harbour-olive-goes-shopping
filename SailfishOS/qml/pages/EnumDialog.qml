@@ -3,7 +3,7 @@
 import QtQuick 2.2
 import Sailfish.Silica 1.0
 
-import "../Persistance.js" as DB
+import "../DbLayer/OliveDb/Persistance.js" as DB
 
 // alows the creation and edit of an Enum item
 // will be triggered from ManageEnumsPage

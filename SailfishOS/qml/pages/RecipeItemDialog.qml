@@ -4,7 +4,7 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 //import QtQuick.Controls 2.0
 
-import "../Persistance.js" as DB
+import "../DbLayer/OliveDb/Persistance.js" as DB
 
 // dialog to select item and amount of an ingredient of an recipe
 
