@@ -54,7 +54,7 @@ export class DbAccess implements DbA.IDbAccess {
         }
         var v = temp.rows[0]['version'];
         console.log("returning version: " + v);
-        return v;
+        return v.toString();
     }
 
     getUniqueId(): String {

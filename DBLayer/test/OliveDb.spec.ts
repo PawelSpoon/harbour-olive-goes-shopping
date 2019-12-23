@@ -4,6 +4,8 @@ import { DbWrapperMock } from '../src/Db/DbWrapperMock';
 import { DbAccess } from '../src/Db/DbAccess';
 import { OliveDb } from '../src/OliveDb/OliveDb';
 import { OliveInit } from '../src/OliveDb/OliveInit';
+import a from '../test_data/real_exports/Olive-2.4.1.json';
+import b from '../test_data/real_exports/Another-2.4.1.json';
 
 let wrapper;
 let dbAccess;
@@ -50,3 +52,16 @@ describe("immportData works", () =>{
     })
 })
 
+describe("immportData from export", () =>{
+
+    it("should pass", () =>{
+        oliveDb.importData(a);
+    })
+})
+
+describe("immportData from export", () =>{
+
+    it("should pass", () =>{
+        oliveDb.importData(b);
+    })
+})

@@ -94,12 +94,15 @@ describe("create version table", () =>{
 
 describe("getVersion() empty version table", () =>{
     it("should pass", () =>{
+        // clean table - for some reason it wrapper is null outside of it
+        let result = new DbAccess(wrapper).execute('DELETE from version');  
+        // act
         let version2 =new DbAccess(wrapper).getVersion();
         expect(version2).equal("");
     })
 })
 
-let version = "12"
+let version = '12';
 describe("setVersion()", () =>{
     it("should pass", () =>{
         new DbAccess(wrapper).setVersion(version);
@@ -109,6 +112,7 @@ describe("setVersion()", () =>{
 describe("getVersion()", () =>{
     it("should pass", () =>{
         let version2 =new DbAccess(wrapper).getVersion();
+        console.log('retrieved version:' + version2);
         expect(version2).equal(version);
     })
 })
