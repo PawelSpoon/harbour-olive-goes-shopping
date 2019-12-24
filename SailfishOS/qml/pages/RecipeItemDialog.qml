@@ -96,7 +96,9 @@ Dialog {
                 menu: ContextMenu {
                     MenuItem { text: "-" }
                     MenuItem { text: "g" }
+                    MenuItem { text: "kg" }
                     MenuItem { text: "ml" }
+                    MenuItem { text: "l" }
                 }
             }
 

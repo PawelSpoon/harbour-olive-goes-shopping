@@ -237,7 +237,7 @@ MouseArea {
                 uid = shopIngres[0].uid // this should fix the case, where ingredient does not fit to item in store
                 var menge = shopIngres[0].amount
                 // check for unit is missing
-                menge = menge + ing.amount
+                menge = Db.getDatabase().convertTo(ing.amount,unit,menge,shopIngres[0].unit);
                 Db.getDatabase().setShoppingListItem(uid,ing.name,menge,unit,false,category);
             }
             else {

@@ -14,21 +14,6 @@ var OliveDb = /** @class */ (function () {
     // First, let's create a short helper function to get the database connection
     OliveDb.prototype.checkDatabase = function () {
     };
-    // upserts an item in inventory
-    /*setItem_(uid,name,amount,unit,type,howMany,category,ordernr,co2) {
-        this.checkDatabase();
-        var rs = this.db.executeWithParams('INSERT OR REPLACE INTO items VALUES (?,?,?,?,?,?,?,?,?);',[uid,name,amount,unit,type,howMany,category,ordernr,co2]);
-        var res = "";
-            if (rs) {
-                res = "OK";
-                console.log ("Saved to database: uid:" + uid + ", name:" + name + ", unit:" + unit + ", type:" + type + ", howmany: " + howMany + ", category: " + category);
-            } else {
-                res = "Error";
-                console.log ("Error saving to database");
-            }
-        // The function returns “OK” if it was successful, or “Error” if it wasn't
-        return res;
-    }*/
     OliveDb.prototype.getItemPerName = function (itemName) {
         var items = [];
         this.checkDatabase();
@@ -157,6 +142,68 @@ var OliveDb = /** @class */ (function () {
         }
         // The function returns “OK” if it was successful, or “Error” if it wasn't
         return res;
+    };
+    // this method considers the unit in shopping list and of added item (as those may differ due to
+    // charatecteristics of the db )
+    OliveDb.prototype.updateShoppingListItemSetAmountEx = function (ing) {
+        // should have name, amount and unit
+        // check it with unit in shopping list
+        // if same fine
+        console.log("item with name, amount and unit: " + ing.name + "," + ing.amount + "," + ing.unit);
+        // if not try to convert g->kg g->l or vice versa
+        // var dbItem = this.getItemPerName(ing.name)
+        var shopIngres = this.getShoppingListItemPerName(ing.name);
+        var uid, unit, category = "";
+        unit = ing.unit;
+        category = ing.category;
+        if (shopIngres.length == 0) {
+            "item not yet in shopping list: easy";
+            uid = shopIngres[0].uid;
+            this.setShoppingListItem(uid, ing.name, ing.amount, unit, false, category);
+            return;
+        }
+        // found in shopping list now we need to calculate
+        uid = shopIngres[0].uid; // this should fix the case, where ingredient does not fit to item in store
+        var menge = shopIngres[0].amount;
+        var shopListUnit = shopIngres[0].unit;
+        var newValue = this.convertTo(ing.amount, ing.unit, shopIngres[0].amount, shopIngres[0].unit);
+        this.setShoppingListItem(uid, ing.name, newValue, shopListUnit, false, category);
+    };
+    OliveDb.prototype.convertTo = function (amount, unit, shopAmount, shopUnit) {
+        if (unit === shopUnit) {
+            console.log("both units same: " + unit);
+            return amount + shopAmount;
+        }
+        console.log("units are not equal. unit: " + unit + ", shopUnit: " + shopUnit);
+        if (unit === "g") {
+            console.log("am in g");
+            if (shopUnit === "kg") {
+                return shopAmount + amount / 1000;
+            }
+            console.log("could not convert, incompatible");
+            return;
+        }
+        if (unit === "kg") {
+            if (shopUnit === "g") {
+                return shopAmount + amount * 1000;
+            }
+            console.log("could not convert, incompatible");
+            return;
+        }
+        if (unit === "ml") {
+            if (shopUnit === "l") {
+                return shopAmount + amount / 1000;
+            }
+            console.log("could not convert, incompatible");
+            return;
+        }
+        if (unit === "l") {
+            if (shopUnit === "ml") {
+                return shopAmount + amount * 1000;
+            }
+            console.log("could not convert, incompatible");
+            return;
+        }
     };
     // upserts one shopping list item
     OliveDb.prototype.setShoppingListItem = function (uid, name, amount, unit, done, category) {
