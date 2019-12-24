@@ -65,3 +65,60 @@ describe("immportData from export", () =>{
         oliveDb.importData(b);
     })
 })
+
+describe("try add, no conversion needed, both g", () =>{
+
+    it("should pass", () =>{
+        let summ = oliveDb.convertTo(1,"g",2,"g");
+        expect(summ).equal(3);
+    })
+})
+
+describe("try add, no conversion needed, both units are empty", () =>{
+
+    it("should pass", () =>{
+        let summ = oliveDb.convertTo(1,"",2,"");
+        expect(summ).equal(3);
+    })
+})
+
+describe("try add, convert g to kg", () =>{
+
+    it("should pass", () =>{
+        let summ = oliveDb.convertTo(100,"g",2,"kg");
+        expect(summ).equal(2.1);
+    })
+})
+
+describe("try add, convert kg to g", () =>{
+
+    it("should pass", () =>{
+        let summ = oliveDb.convertTo(100,"kg",200,"g");
+        expect(summ).equal(100200);
+    })
+})
+
+describe("try add, no conversion needed, both ml", () =>{
+
+    it("should pass", () =>{
+        let summ = oliveDb.convertTo(1,"ml",2,"ml");
+        expect(summ).equal(3);
+    })
+})
+
+
+describe("try add, convert ml to l", () =>{
+
+    it("should pass", () =>{
+        let summ = oliveDb.convertTo(100,"ml",2,"l");
+        expect(summ).equal(2.1);
+    })
+})
+
+describe("try add, convert l to ml", () =>{
+
+    it("should pass", () =>{
+        let summ = oliveDb.convertTo(100,"l",200,"ml");
+        expect(summ).equal(100200);
+    })
+})
