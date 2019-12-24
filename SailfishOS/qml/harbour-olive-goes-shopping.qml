@@ -30,6 +30,7 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import Nemo.KeepAlive 1.2
 
 import "pages"
 import "cover"
@@ -37,6 +38,7 @@ import "cover"
 ApplicationWindow
 {
     id: applicationWindow
+    property bool on: false
     property FirstPage page
 
     initialPage: Component {
@@ -49,6 +51,16 @@ ApplicationWindow
     }
 
     allowedOrientations: defaultAllowedOrientations
+
+    KeepAlive {
+        id: keepAlive
+        enabled: on
+    }
+
+    DisplayBlanking {
+        id: display
+        preventBlanking: on
+    }
 
     CoverPage {
         id: coverPage

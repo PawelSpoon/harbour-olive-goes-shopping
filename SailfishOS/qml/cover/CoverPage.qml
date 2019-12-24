@@ -143,9 +143,19 @@ goes <br>\
     CoverActionList {
         id: coverAction
 
-        // strike through the first item
+        // keep alive
         CoverAction {
-            iconSource: "image://theme/icon-cover-next"
+            iconSource: applicationWindow.on ? "image://theme/icon-cover-pause" : "image://theme/icon-cover-play"
+            onTriggered: {
+                applicationWindow.on = !applicationWindow.on
+                console.log("keep alive: " + applicationWindow.on)
+            }
+        }
+
+        // strike through the first item
+        // https://sailfishos.org/develop/docs/jolla-ambient/
+        CoverAction {
+            iconSource: "image://theme/icon-s-installed"
             onTriggered: markFirstAsDone()
         }
 

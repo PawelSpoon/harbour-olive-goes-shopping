@@ -238,7 +238,7 @@ nakoupit&apos;</translation>
         <location filename="../qml/pages/ExportPage.qml" line="281"/>
         <source>information-label</source>
         <extracomment>headline for information about import/export mechanism</extracomment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="290"/>
@@ -317,7 +317,7 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="186"/>
         <source>Manage</source>
-        <translation type="unfinished"></translation>
+        <translation>Spravovat</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="212"/>
@@ -1304,9 +1304,29 @@ nakoupit&apos;</translation>
         <translation>Importovat databázi druhů</translation>
     </message>
     <message>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="118"/>
+        <source>Update shopping list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="123"/>
         <source>Add</source>
         <translation>Přidat</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="219"/>
+        <source>Delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="225"/>
+        <source>Move up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="232"/>
+        <source>Move down</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
