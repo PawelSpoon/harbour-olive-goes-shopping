@@ -235,7 +235,7 @@ Dialog {
 
     onAccepted: {
         // save to db and reload the prev page to make the new item visible
-        if (uid_ == "" ) uid_ = DB.getDatabase().getUniqueId()
+        if (uid_ == "" ) uid_ = DB.getDatabase().db.getUniqueId()
         DB.getDatabase().setRecipe(uid_, name_, servings_,"",ingredients_, howMany_, itemType)
 
         itemsPage.initPage()

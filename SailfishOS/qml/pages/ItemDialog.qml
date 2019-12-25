@@ -165,9 +165,17 @@ Dialog {
                 print("g")
                 unit.currentIndex = 1
             }
+            else if (unit_ == "kg") {
+                print("kg")
+                unit.currentIndex = 2
+            }
             else if (unit_ == "ml") {
                 print("ml")
-                unit.currentIndex = 2
+                unit.currentIndex = 3
+            }
+            else if (unit_ == "l") {
+                print("l")
+                unit.currentIndex = 4
             }
         }
     }
