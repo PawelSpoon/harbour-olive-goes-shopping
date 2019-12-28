@@ -9,6 +9,7 @@ let oliveInitWrapper;
 let oliveInitDbAccess;
 let oliveInitOliveDb;
 let oliveInitOliveInit;
+//https://stackoverflow.com/questions/10561598/global-before-and-beforeeach-for-mocha
 
 before("setup for oliveinit.spec",() => {
   console.log("before oliveinit");
