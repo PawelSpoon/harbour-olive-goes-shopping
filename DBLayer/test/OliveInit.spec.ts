@@ -25,6 +25,9 @@ before("setup for oliveinit.spec",() => {
 
 after("destroy db", () => {
     console.log("destroying oliveinit.spec");
+    console.log("destroying olivedb.movecategory.spec");
+    oliveInitOliveDb.dropDB();
+    oliveInitOliveDb.db.cleanTable("version");
 })
 
 
