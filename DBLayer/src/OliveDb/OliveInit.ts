@@ -9,7 +9,7 @@ export class OliveInit {
     oliveDb: Db.OliveDb;
     swVersion: String;
 
-    doInstall(swVersion: string)
+    doInstall(swVersion: string) : void
     {
         this.swVersion = swVersion;
         // this.oliveDb.checkDatabase();

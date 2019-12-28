@@ -4,6 +4,8 @@ import * as DbInterface from "./IDbWrapper";
 export class DbWrapperMock implements DbInterface.IDbWrapper {
 
     constructor(name: String, vers: String) {
+        this.dbName = name;
+        this.dbVersion = vers;
         this.getDataBase(this.dbName,this.dbVersion);
     }
     
@@ -52,6 +54,7 @@ export class DbWrapperMock implements DbInterface.IDbWrapper {
 
     getDataBase(name: String, version: String): Object {
         
+        console.log("connecting to: " + name);
         sqlite.connect(name);
         this.dbOpen = true;
         this.dbName = name;

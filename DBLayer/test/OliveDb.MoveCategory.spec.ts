@@ -10,7 +10,7 @@ let moveCatDbAccess;
 let moveCatOliveDb;
 let moveCatOliveInit;
 
-before("setup DbWrapperMock and dbAccess for move-cat",() => {
+before("setup for olivedb.movecat.spec",() => {
   console.log("before olivedb.movecategory");
   console.log("creating dbwrappermock");
   moveCatWrapper = new DbWrapperMock("test-olivedbmove","1");
@@ -21,16 +21,17 @@ before("setup DbWrapperMock and dbAccess for move-cat",() => {
   console.log("creating oliveInit and run doInstall")
   moveCatOliveInit = new OliveInit(moveCatOliveDb);
   moveCatOliveInit.doInstall("26");
-  // moveCatOliveDb.importCategoriesFromJson();
 })
 
 after("destroy db", () => {
-    console.log("destroying olivedb.movecategory");
+    console.log("destroying olivedb.movecategory.spec");
+    moveCatOliveDb.dropDB();
+    moveCatOliveDb.db.cleanTable("version");
 })
 
 describe("try to move highest category up and fail", () =>{
     it("should pass", () =>{
-        // just check they are there
+        // this call does not work in before() -> no clue why
         moveCatOliveDb.importCategoriesFromJson();
         let highestCat = moveCatOliveDb.db.executeSelect("select * from category where ordernr=1000");
         //let meatCat = moveCatOliveDb.getEnums("category");

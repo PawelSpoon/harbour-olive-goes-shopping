@@ -4,15 +4,13 @@ import { DbWrapperMock } from '../src/Db/DbWrapperMock';
 import { DbAccess } from '../src/Db/DbAccess';
 import { OliveDb } from '../src/OliveDb/OliveDb';
 import { OliveInit } from '../src/OliveDb/OliveInit';
-import a from '../test_data/real_exports/Olive-2.4.1.json';
-import b from '../test_data/real_exports/Another-2.4.1.json';
 
 let wrapper;
 let dbAccess;
 let oliveDb;
 let oliveInit;
 
-before("setup DbWrapperMock and dbAccess",() => {
+before("setup for olivedb.spec",() => {
   console.log("before olivedb");
   console.log("creating dbwrappermock");
   wrapper = new DbWrapperMock("test-olivedb","1");
@@ -22,11 +20,11 @@ before("setup DbWrapperMock and dbAccess",() => {
   oliveDb = new OliveDb(dbAccess);
   console.log("creating oliveInit and run doInstall")
   oliveInit = new OliveInit(oliveDb);
-  oliveInit.doInstall("26");
+  oliveInit.doInstall("30");
 })
 
 after("destroy db", () => {
-    console.log("destroying olivedb");
+    console.log("destroying olivedb.spec");
 })
 
 describe("getUniqueId works", () =>{
@@ -49,20 +47,6 @@ describe("immportData works", () =>{
     it("should pass", () =>{
         oliveDb.importData(exportedJson);
         //I want to print the msg first like a log
-    })
-})
-
-describe("immportData from export", () =>{
-
-    it("should pass", () =>{
-        oliveDb.importData(a);
-    })
-})
-
-describe("immportData from export", () =>{
-
-    it("should pass", () =>{
-        oliveDb.importData(b);
     })
 })
 

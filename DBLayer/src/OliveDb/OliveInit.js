@@ -36,7 +36,7 @@ var OliveInit = /** @class */ (function () {
         // clean install
         console.log('executing clean install');
         try {
-            this.oliveDb.db.execute('CREATE TABLE IF NOT EXISTS items(uid LONGVARCHAR UNIQUE, name TEXT, amount integer, unit TEXT, type TEXT, howMany integer, category TEXT, co2 dec(5,2) DEFAULT 0.0)');
+            this.oliveDb.db.execute('CREATE TABLE IF NOT EXISTS items(uid LONGVARCHAR UNIQUE, name TEXT, amount integer, unit TEXT, type TEXT, howMany integer, category TEXT, ordernr INTEGER DEFAULT 0, co2 dec(5,2) DEFAULT 0.0)');
             this.oliveDb.db.execute('CREATE TABLE IF NOT EXISTS shoppingList(uid LONGVARCHAR UNIQUE, name TEXT, amount integer, unit TEXT, done boolean, category TEXT, ordernr INTEGER DEFAULT 0)');
             this.oliveDb.db.execute('CREATE TABLE IF NOT EXISTS recipes(uid LONGVARCHAR UNIQUE, name TEXT, servings integer, instruction TEXT, ingredients TEXT, howMany integer, type TEXT)');
             this.oliveDb.db.execute('CREATE TABLE IF NOT EXISTS category(uid LONGVARCHAR UNIQUE, name TEXT, ordernr INTEGER DEFAULT 0)');

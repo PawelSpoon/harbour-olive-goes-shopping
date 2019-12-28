@@ -1,3 +1,7 @@
 /DBLayer/node_modules/**/*.*
 /DbLayer/out/**/*.*
 **/node_modules/**/*
+DBLayer/test-dbaccess
+DBLayer/test-olivedb
+DBLayer/test-olivedbmove
+DBLayer/test-oliveinit

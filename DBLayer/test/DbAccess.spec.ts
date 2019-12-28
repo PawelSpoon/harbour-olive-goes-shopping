@@ -3,16 +3,16 @@ import 'mocha';
 import { DbWrapperMock } from '../src/Db/DbWrapperMock';
 import { DbAccess } from '../src/Db/DbAccess';
 
-let wrapper;
+let dbAccessWrapper;
 
-before("setup DbWrapperMock",() => {
+before("setup for dbaccess.spec",() => {
   console.log("before dbaccess")
   console.log("creating dbwrappermock");
-  wrapper = new DbWrapperMock("test-dbaccess","1");
+  dbAccessWrapper = new DbWrapperMock("test-dbaccess","1");
 })
 
 after("destroy db", () => {
-    console.log("destroying");
+    console.log("destroying dbaccess.spec");
 })
 
 describe("getUniqueId works without wrapper", () =>{
@@ -29,8 +29,8 @@ describe("getUniqueId works with wrapper", () =>{
     it("should pass", () =>{
         var dateObject = new Date();
         let expUnique =  dateObject.getFullYear();
-        console.log(wrapper);
-        let uniqueId = new DbAccess(wrapper).getUniqueId();
+        console.log(dbAccessWrapper);
+        let uniqueId = new DbAccess(dbAccessWrapper).getUniqueId();
         //I want to print the msg first like a log
         expect(uniqueId).contains(expUnique);
     })
@@ -38,66 +38,66 @@ describe("getUniqueId works with wrapper", () =>{
 
 describe("create items table", () =>{
     it("should pass", () =>{
-        console.log(wrapper);
-        let result = new DbAccess(wrapper).execute('CREATE TABLE IF NOT EXISTS items(uid LONGVARCHAR UNIQUE, name TEXT, amount integer, unit TEXT, type TEXT, howMany integer, category TEXT, ordernr INTEGER DEFAULT 0, co2 dec(5,2) DEFAULT 0.0)');
+        console.log(dbAccessWrapper);
+        let result = new DbAccess(dbAccessWrapper).execute('CREATE TABLE IF NOT EXISTS items(uid LONGVARCHAR UNIQUE, name TEXT, amount integer, unit TEXT, type TEXT, howMany integer, category TEXT, ordernr INTEGER DEFAULT 0, co2 dec(5,2) DEFAULT 0.0)');
     })
 })
 
 
 describe("insert a record", () =>{
     it("should pass", () =>{
-        console.log(wrapper);
-        let result = new DbAccess(wrapper).execute("INSERT INTO items(uid, name) values (1,'2')");
+        console.log(dbAccessWrapper);
+        let result = new DbAccess(dbAccessWrapper).execute("INSERT INTO items(uid, name) values (1,'2')");
     })
 })
 
 
 describe("read a record", () =>{
     it("should pass", () =>{
-        console.log(wrapper);
-        let result = new DbAccess(wrapper).executeSelect("select * from items");
+        console.log(dbAccessWrapper);
+        let result = new DbAccess(dbAccessWrapper).executeSelect("select * from items");
         expect(result.rows.length).equal(1);
     })
 })
 
 describe("cleanTable()", () =>{
     it("should pass", () =>{
-        let result = new DbAccess(wrapper).cleanTable("items");
+        let result = new DbAccess(dbAccessWrapper).cleanTable("items");
     })
 })
 
 describe("read empty table", () =>{
     it("should pass", () =>{
-        let result = new DbAccess(wrapper).executeSelect("SELECT * FROM items");
+        let result = new DbAccess(dbAccessWrapper).executeSelect("SELECT * FROM items");
         expect(result.rows.length).equal(0);
     })
 })
 
 describe("setVersion() on empty db", () =>{
     it("should fail", () =>{
-        new DbAccess(wrapper).setVersion("12");
+        new DbAccess(dbAccessWrapper).setVersion("12");
     })
 })
 
 describe("getVersion() on empty db", () =>{
     it("should fail", () =>{
-        new DbAccess(wrapper).getVersion();
+        new DbAccess(dbAccessWrapper).getVersion();
     })
 })
 
 describe("create version table", () =>{
     it("should pass", () =>{
-        console.log(wrapper);
-        let result = new DbAccess(wrapper).execute('CREATE TABLE IF NOT EXISTS version(version INTEGER)');
+        console.log(dbAccessWrapper);
+        let result = new DbAccess(dbAccessWrapper).execute('CREATE TABLE IF NOT EXISTS version(version INTEGER)');
     })
 })
 
 describe("getVersion() empty version table", () =>{
     it("should pass", () =>{
         // clean table - for some reason it wrapper is null outside of it
-        let result = new DbAccess(wrapper).execute('DELETE from version');  
+        let result = new DbAccess(dbAccessWrapper).execute('DELETE from version');  
         // act
-        let version2 =new DbAccess(wrapper).getVersion();
+        let version2 =new DbAccess(dbAccessWrapper).getVersion();
         expect(version2).equal("");
     })
 })
@@ -105,13 +105,13 @@ describe("getVersion() empty version table", () =>{
 let version = '12';
 describe("setVersion()", () =>{
     it("should pass", () =>{
-        new DbAccess(wrapper).setVersion(version);
+        new DbAccess(dbAccessWrapper).setVersion(version);
     })
 })
 
 describe("getVersion()", () =>{
     it("should pass", () =>{
-        let version2 =new DbAccess(wrapper).getVersion();
+        let version2 =new DbAccess(dbAccessWrapper).getVersion();
         console.log('retrieved version:' + version2);
         expect(version2).equal(version);
     })

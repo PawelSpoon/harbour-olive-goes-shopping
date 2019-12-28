@@ -4,6 +4,8 @@ var sqlite = require("sqlite-sync");
 var DbInterface = require("./IDbWrapper");
 var DbWrapperMock = /** @class */ (function () {
     function DbWrapperMock(name, vers) {
+        this.dbName = name;
+        this.dbVersion = vers;
         this.getDataBase(this.dbName, this.dbVersion);
     }
     DbWrapperMock.prototype.execute = function (stmt) {
@@ -39,6 +41,7 @@ var DbWrapperMock = /** @class */ (function () {
         return this.convertResult(rows);
     };
     DbWrapperMock.prototype.getDataBase = function (name, version) {
+        console.log("connecting to: " + name);
         sqlite.connect(name);
         this.dbOpen = true;
         this.dbName = name;
