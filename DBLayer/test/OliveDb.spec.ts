@@ -106,3 +106,24 @@ describe("try add, convert l to ml", () =>{
         expect(summ).equal(100200);
     })
 })
+
+describe("set item", () =>{
+    it("should pass", () =>{
+        oliveDb.setItem(oliveDb.db.getUniqueId(), "my-name", "1", "-", "household", 0, "cat1", 0);
+    })
+    it ("should pass", () => {
+        let result = oliveDb.getItemPerName("my-name");
+        console.log("result: " + result);
+    })
+})
+
+
+describe("set item with appostrophe", () =>{
+    it("should pass", () =>{
+        oliveDb.setItem(oliveDb.db.getUniqueId(), "my'name", "1", "-", "household", 0, "cat1", 0);
+    })
+    it ("should pass", () => {
+        let result = oliveDb.getItemPerName("my-name");
+        console.log("result: " + result);
+    })
+})

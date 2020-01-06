@@ -437,7 +437,7 @@ var OliveDb = /** @class */ (function () {
             sql = "UPDATE category SET ordernr = ordernr + 1000 WHERE name = '" + category + "';";
         }
         console.log(sql);
-        updateResult = this.db.execute(sql);
+        var updateResult = this.db.execute(sql);
         /*if (rs.rowsAffected > 0) {
                 res = "OK";
                 console.log ("category moved");

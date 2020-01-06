@@ -73,6 +73,22 @@ describe("read empty table", () =>{
     })
 })
 
+describe("insert with params an item with appostrophe", () =>{
+    it("should pass", () =>{
+        let result = new DbAccess(dbAccessWrapper).executeWithParams("INSERT INTO items (uid,name) values(?,?)", [1,"o'clock"]);
+        console.log("appo " + result);
+    })
+})
+
+describe("read a record with appostrophe", () =>{
+    it("should pass", () =>{
+        console.log(dbAccessWrapper);
+        let result = new DbAccess(dbAccessWrapper).executeSelect("select * from items");
+        expect(result.rows.length).equal(1);
+        expect(result.rows[0].name,"o'clock");
+    })
+})
+
 describe("setVersion() on empty db", () =>{
     it("should fail", () =>{
         new DbAccess(dbAccessWrapper).setVersion("12");
