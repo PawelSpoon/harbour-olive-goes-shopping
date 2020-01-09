@@ -40,6 +40,12 @@ var DbWrapperMock = /** @class */ (function () {
         console.log(rows);
         return this.convertResult(rows);
     };
+    DbWrapperMock.prototype.executeSelectWithParams = function (selectStmt, params) {
+        console.log("executing statement: " + selectStmt + " with params: " + JSON.stringify(params));
+        var rows = sqlite.run(selectStmt, params);
+        console.log(rows);
+        return this.convertResult(rows);
+    };
     DbWrapperMock.prototype.getDataBase = function (name, version) {
         console.log("connecting to: " + name);
         sqlite.connect(name);

@@ -73,6 +73,23 @@ class DbWrapper implements DbInterface.IDbWrapper {
         );
         return result;
     }
+    executeSelectWithParams(selectStmt: String, params: any[]): DbInterface.SelectResult {
+        if (!this.dbOpen) {
+            console.log("db not opened");
+            return null;
+        }
+        var result;
+        this.db.transaction(function(tx) {
+            var rs = tx.executeSql(selectStmt,params);
+            if (!(rs.rowsAffected > 0)) {              
+                console.log ("no rows affected: " + selectStmt);
+            }
+            result = rs;
+            return; // this.convertResult(rs);
+        }
+        );
+        return result;
+    }
     // not used, thedb is injected in constructor
     getDataBase(name: String, version: String): Object {
         this.dbName = name;

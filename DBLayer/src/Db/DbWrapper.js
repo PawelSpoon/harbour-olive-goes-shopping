@@ -66,6 +66,22 @@ var DbWrapper = /** @class */ (function () {
         });
         return result;
     };
+    DbWrapper.prototype.executeSelectWithParams = function (selectStmt, params) {
+        if (!this.dbOpen) {
+            console.log("db not opened");
+            return null;
+        }
+        var result;
+        this.db.transaction(function (tx) {
+            var rs = tx.executeSql(selectStmt, params);
+            if (!(rs.rowsAffected > 0)) {
+                console.log("no rows affected: " + selectStmt);
+            }
+            result = rs;
+            return; // this.convertResult(rs);
+        });
+        return result;
+    };
     // not used, thedb is injected in constructor
     DbWrapper.prototype.getDataBase = function (name, version) {
         this.dbName = name;

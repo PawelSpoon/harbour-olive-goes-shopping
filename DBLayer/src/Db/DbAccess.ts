@@ -16,7 +16,9 @@ export class DbAccess implements DbA.IDbAccess {
     executeSelect(selectStmt: String): Db.ISelectResult {
         return this.dbWrap.executeSelect(selectStmt);
     }
-
+    executeSelectWithParams(selectStmt: String, params: any[]): Db.ISelectResult {
+        return this.dbWrap.executeSelectWithParams(selectStmt, params);
+    }
     dbWrap: Db.IDbWrapper;
     constructor(dbWrapper: Db.IDbWrapper) {
       this.dbWrap = dbWrapper;

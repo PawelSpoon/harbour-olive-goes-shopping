@@ -7,6 +7,7 @@ export interface IDbWrapper {
     execute(stmt: String): boolean;
     executeWithParams(stmt: String, params: any[]): boolean;
     executeSelect(selectStmt : String) : ISelectResult;
+    executeSelectWithParams(selectStmt : String, params: any[]) : ISelectResult;
 }
 
 // rs.rows.item(i).uid

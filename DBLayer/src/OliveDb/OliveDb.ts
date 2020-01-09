@@ -22,14 +22,19 @@ export class OliveDb {
     checkDatabase() {
     }
 
-    getItemPerName(itemName)
+    getItemPerName(itemName: String)
     {
         var items = []
         this.checkDatabase();
         var respath="";
-        var sql = "SELECT DISTINCT uid, name, amount, unit, type, howMany, category, co2 from items where name='" + itemName + "'";
+        console.log("itemName: " + itemName);
 
-        var rs = this.db.executeSelect(sql);
+        //var sql = "SELECT DISTINCT uid, name, amount, unit, type, howMany, category, co2 from items where name=\"" + itemName + "\"";
+        // var rs = this.db.executeSelect(sql);
+        var sql = "SELECT DISTINCT uid, name, amount, unit, type, howMany, category, co2 from items where name=?";
+        var params = new Array(itemName); 
+        var rs = this.db.executeSelectWithParams(sql,params);
+
         for (var i = 0; i < rs.length; i++) {
             var trackedItem = {uid: rs.rows[i].uid, name: rs.rows[i].name, amount: rs.rows[i].amount,
                  unit: rs.rows[i].unit, type: rs.rows[i].type, howMany: rs.rows[i].howMany,
@@ -115,9 +120,14 @@ export class OliveDb {
         this.checkDatabase();
         var respath="";
         var sql = "SELECT DISTINCT uid, name, amount, unit, done, category, ordernr from shoppingList order by ordernr"; //, category";
-        if (itemName !== "") sql = "SELECT DISTINCT uid, name, amount, unit, done, category, ordernr from shoppingList where name='" + itemName + "'";
-
-        var rs = this.db.executeSelect(sql);
+        var rs;
+        if (itemName !== "") {
+          sql = "SELECT DISTINCT uid, name, amount, unit, done, category, ordernr from shoppingList where name=?";
+          rs = this.db.executeSelectWithParams(sql,[itemName]);
+        }
+        else {
+            rs = this.db.executeSelect(sql);
+        }
         for (var i = 0; i < rs.rows.length; i++) {
             var trackedItem = {uid: rs.rows[i].uid, name: rs.rows[i].name, amount: rs.rows[i].amount, unit: rs.rows[i].unit, done: rs.rows[i].done, category: rs.rows[i].category}
             console.debug("get: " + rs.rows[i].name + " with id:" + rs.rows[i].uid + " done: " + rs.rows[i].done + " category: " + rs.rows[i].category + " order: " + rs.rows[i].ordernr)
@@ -183,7 +193,7 @@ export class OliveDb {
         unit = ing.unit;
         category = ing.category;
         if (shopIngres.length == 0) {
-            "item not yet in shopping list: easy";
+            // "item not yet in shopping list: easy";
             uid = shopIngres[0].uid
             this.setShoppingListItem(uid,ing.name,ing.amount,unit,false,category);
             return;
@@ -241,8 +251,8 @@ export class OliveDb {
         if (category !== "") {
             console.log("looking up category order.")
             // get actual order
-            var sql = "SELECT DISTINCT ordernr from shoppingList where category='" + category + "'";
-            var rs = this.db.executeSelect(sql);
+            var sql = "SELECT DISTINCT ordernr from shoppingList where category=?";
+            var rs = this.db.executeSelectWithParams(sql,[category]);
             if (rs.rows.length > 0) {
                 ordernr = rs.rows[0].ordernr;
                 console.log('got category order-nr from shopping list: ' + ordernr);
@@ -250,8 +260,8 @@ export class OliveDb {
             if (ordernr == 0) {
                 console.log("looking into category table for: " + category)
                 // category is not in shopping list -> get it from category table
-                sql = "SELECT DISTINCT ordernr from category where name='" + category + "'";
-                rs = this.db.executeSelect(sql);
+                sql = "SELECT DISTINCT ordernr from category where name=?";
+                rs = this.db.executeSelectWithParams(sql,[category]);
                 if (rs.rows.length > 0) {
                     ordernr = rs.rows[0].ordernr;
                     console.log('got category order-nr from category table: ' + ordernr);

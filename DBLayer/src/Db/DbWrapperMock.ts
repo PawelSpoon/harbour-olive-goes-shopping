@@ -51,6 +51,13 @@ export class DbWrapperMock implements DbInterface.IDbWrapper {
         return this.convertResult(rows);
     }
     
+    executeSelectWithParams(selectStmt: String, params: any[]): DbInterface.ISelectResult {
+
+        console.log("executing statement: " + selectStmt + " with params: " + JSON.stringify(params));
+        var rows = sqlite.run(selectStmt, params);
+        console.log(rows);
+        return this.convertResult(rows);
+    }
 
     getDataBase(name: String, version: String): Object {
         

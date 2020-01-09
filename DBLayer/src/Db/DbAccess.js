@@ -17,6 +17,9 @@ var DbAccess = /** @class */ (function () {
     DbAccess.prototype.executeSelect = function (selectStmt) {
         return this.dbWrap.executeSelect(selectStmt);
     };
+    DbAccess.prototype.executeSelectWithParams = function (selectStmt, params) {
+        return this.dbWrap.executeSelectWithParams(selectStmt, params);
+    };
     DbAccess.prototype.setVersion = function (version) {
         console.log("setVersion() called.");
         this.execute('DELETE from version');

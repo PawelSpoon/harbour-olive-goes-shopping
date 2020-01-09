@@ -107,7 +107,7 @@ describe("try add, convert l to ml", () =>{
     })
 })
 
-describe("set item", () =>{
+describe(" item", () =>{
     it("should pass", () =>{
         oliveDb.setItem(oliveDb.db.getUniqueId(), "my-name", "1", "-", "household", 0, "cat1", 0);
     })
@@ -123,7 +123,30 @@ describe("set item with appostrophe", () =>{
         oliveDb.setItem(oliveDb.db.getUniqueId(), "my'name", "1", "-", "household", 0, "cat1", 0);
     })
     it ("should pass", () => {
-        let result = oliveDb.getItemPerName("my-name");
+        let result = oliveDb.getItemPerName("my'name");
+        expect(result.legth,"one my'name item").equal(1);
+    })
+})
+
+describe("setShoppingListItem with appostrophe", () =>{
+    let uid;
+    let itemName = "your'name";
+    it("should pass", () =>{
+        uid = oliveDb.db.getUniqueId();
+        console.log('log uid after retrieve: ' + uid);
+        oliveDb.setItem(uid, itemName, "1", "-", "household", 0, "cat1", 0);
+    })
+    it ("should pass", () => {
+        console.log('log uid for: ' + uid);
+        let result = oliveDb.getItemPerName(itemName);
+        expect(result.length, "one your'name item").equal(1);
+        expect(result[0].name,"your'name equals to your'name").equal("your\'name");
+    })
+    it ("should pass", () => {
+        let result = oliveDb.removeItem(uid);
+        result = oliveDb.getItemPerName(itemName);
+        expect(result.length).equal(0);
         console.log("result: " + result);
     })
+    
 })
