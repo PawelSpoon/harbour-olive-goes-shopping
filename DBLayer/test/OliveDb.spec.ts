@@ -124,7 +124,7 @@ describe("set item with appostrophe", () =>{
     })
     it ("should pass", () => {
         let result = oliveDb.getItemPerName("my'name");
-        expect(result.legth,"one my'name item").equal(1);
+        expect(result.length,"one my'name item").equal(1);
     })
 })
 
@@ -145,7 +145,7 @@ describe("setShoppingListItem with appostrophe", () =>{
     it ("should pass", () => {
         let result = oliveDb.removeItem(uid);
         result = oliveDb.getItemPerName(itemName);
-        expect(result.length).equal(0);
+        expect(result.length,"your'name items should have been deleted").equal(0);
         console.log("result: " + result);
     })
     

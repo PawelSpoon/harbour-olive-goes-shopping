@@ -84,6 +84,7 @@ export class DbWrapperMock implements DbInterface.IDbWrapper {
     {
         var converted = new DbInterface.SelectResult();
         converted.rows = result;
+        converted.length = converted.rows.length;
         return converted;
     }
 }
