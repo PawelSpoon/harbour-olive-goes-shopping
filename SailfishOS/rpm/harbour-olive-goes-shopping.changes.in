@@ -8,8 +8,21 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Tue Jan 15 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.2-0
+- added french translation: thanks to lturpinat
+
+* Tue Jan 12 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.1-0
+- fix bug: on delete an shopping list item, the item would not be reseted in food/household db
+- fix bug: appostrophe in name would break the functionality
+
+* Tue Dec 24 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.3.0-3
+- remove order column from items table during fresh install
+
 * Tue Dec 24 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.3.0-2
 - keep alive
+- add kg and l to units including unit coversion
+- fixed defect in adding a recipe to a shopping list
+- fixed defect when creating a new recipe
 
 * Mon Dec 23 2019 Jack Tar <pawel@ich-habe-fertig.com> 0.3.0-1
 - updated translations for cz, es, fi

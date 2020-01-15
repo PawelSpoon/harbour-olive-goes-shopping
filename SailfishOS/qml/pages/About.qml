@@ -89,8 +89,8 @@ Page {
                 ListElement {trans: "       atlochowski"}
                 ListElement {trans: "finnish: incl. DB"}
                 ListElement {trans: "       jakke"}
-		ListElement {trans: "french: incl. DB"}
-		ListElement {trans: "       lturpinat"}
+		        ListElement {trans: "french: incl. DB"}
+		        ListElement {trans: "       lturpinat"}
             }
 
             Repeater {

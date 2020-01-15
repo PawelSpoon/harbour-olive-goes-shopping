@@ -37,7 +37,7 @@ Dialog {
         print('number of items: ' +  items.length)
         for (var i = 0; i < items.length; i++)
         {
-            print(items[i].uid + " " + items[i].name)
+            // print(items[i].uid + " " + items[i].name)
             itemModel.append({"uid": items[i].uid, "name": items[i].name, "ordernr" : items[i].ordernr })
         }
     }
