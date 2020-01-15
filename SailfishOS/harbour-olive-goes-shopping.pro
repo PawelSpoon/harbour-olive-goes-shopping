@@ -80,5 +80,6 @@ TRANSLATIONS += translations/harbour-olive-goes-shopping-de.ts \
                 translations/harbour-olive-goes-shopping-nl.ts \
                 translations/harbour-olive-goes-shopping-pl.ts \
                 translations/harbour-olive-goes-shopping-zh_CN.ts \
-                translations/harbour-olive-goes-shopping-fi_FI.ts
+                translations/harbour-olive-goes-shopping-fi_FI.ts \
+	        translations/harbour-olive-goes-shopping-fr.ts
 
