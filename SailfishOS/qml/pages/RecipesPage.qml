@@ -71,7 +71,7 @@ Dialog {
         print('number of items: ' +  items.length)
         for (var i = 0; i < items.length; i++)
         {
-            print(items[i].uid + " " + items[i].name + " " + items[i].type + " " + items[i].ingredients)
+            // print(items[i].uid + " " + items[i].name + " " + items[i].type + " " + items[i].ingredients)
             itemModel.append({"uid": items[i].uid, "name": items[i].name, "servings": items[i].servings, "instruction": items[i].instruction, "ingredients": items[i].ingredients, "howMany": items[i].howMany, "type": items[i].type })
         }
     }

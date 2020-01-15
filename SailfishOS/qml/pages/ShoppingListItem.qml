@@ -182,10 +182,14 @@ MouseArea {
         var removal = removalComponent.createObject() // should it be shoppingListItem ?
         //ListView.remove.connect(removal.deleteAnimation.start)
         removal.execute(shoppingListItem, "Deleting", function() {
-            var dbItem = DB.getDatabase().getItemPerName(name)
+            var dbItem = DB.getDatabase().getItemPerName(name);
             if (dbItem.length > 0) { // why do i do that ?
               DB.getDatabase().setItem(dbItem[0].uid,name,dbItem[0].amount,dbItem[0].unit,dbItem[0].type,0,dbItem[0].category,dbItem[0].co2)
             }
+            else {
+                console.log('item not found: ' + name)
+            }
+
             DB.getDatabase().removeShoppingListItem(uid_,name,0,unit,false)
             parent.parent.parent.initPage()}
         )
