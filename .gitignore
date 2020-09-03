@@ -5,3 +5,5 @@ DBLayer/test-dbaccess
 DBLayer/test-olivedb
 DBLayer/test-olivedbmove
 DBLayer/test-oliveinit
+build-harbour-olive-*
+

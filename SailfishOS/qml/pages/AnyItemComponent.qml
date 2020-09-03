@@ -6,16 +6,15 @@ import Sailfish.Silica 1.0
 
 import "../DbLayer/OliveDb/Persistance.js" as DB
 
-// This dialog is invoked on shoppingListPage (FirstPage)
-// it allows to add an item to shopping list that does not exist in db
+// hosting container is TabedAddDialog
+// this component allows to add an item to shopping list that does not exist in db
 // it allows also to quickly add one item to db
-Dialog {
-    id: settings
+SilicaListView {
 
-    // The effective value will be restricted by ApplicationWindow.allowedOrientations
-    allowedOrientations: Orientation.All
+    id: anyItemComponent
+
     property string uid_ : ""
-    property FirstPage shoppingListPage: null
+    property FirstPage shoppingListPage
     property string itemType
     property alias name_ : itemName.text
     property alias amount_ : defaultAmount.text
@@ -24,7 +23,7 @@ Dialog {
 
     SilicaFlickable{
 
-        id: settingsFlickable
+        id: anyItemFlickable
         onActiveFocusChanged: print(activeFocus)
         anchors.fill: parent
         contentWidth: parent.width
@@ -37,11 +36,6 @@ Dialog {
             id: col
             width: parent.width
             spacing: Theme.paddingLarge
-
-            DialogHeader {
-                acceptText: qsTr("Add")
-                cancelText: qsTr("Discard")
-            }
 
             Label {
                 text: qsTr("Item")
@@ -63,39 +57,50 @@ Dialog {
                 font.capitalization: Font.MixedCase
                 EnterKey.onClicked: changeCategory.focus = true
             }
-            TextField {
-                id: categoryName
-                width: parent.width
-                readOnly: true
-                label: qsTr("Item category")
-                property string orgText: ""
-                text: ""
-                placeholderText: qsTr("Set category")
-                errorHighlight: text.length === 0
-                EnterKey.enabled: !errorHighlight
-                EnterKey.iconSource: "image://theme/icon-m-enter-next"
-                font.capitalization: Font.MixedCase
-                EnterKey.onClicked: defaultAmount.focus = true
-            }
-
-            Button {
-                id: changeCategory
-                text: qsTr("Change Category")
+            // Rectangle {
+            Item {
+                id: categoryGroupItem
+                //anchors.top: itemName.bottom
+                // anchors.topMargin:
                 anchors.left: parent.left
-                anchors.leftMargin: Theme.paddingLarge
-                  onClicked: {
-                   var dialog = pageStack.push(Qt.resolvedUrl("EnumPicker.qml"), {itemType: "category"} )
-                   dialog.accepted.connect(function() {
-                       categoryName.text = dialog.itemName});
+                width: parent.width
+                height: categoryName.height
+                //color: Theme._coverOverlayColor
+                TextField {
+                    id: categoryName
+                    width: parent.width * 2 / 3
+                    readOnly: true
+                    label: qsTr("Item category")
+                    property string orgText: ""
+                    text: ""
+                    opacity: itemName.opacity
+                    placeholderText: qsTr("Set category")
+                    // errorHighlight: text.length === 0
+                    EnterKey.enabled: !errorHighlight
+                    EnterKey.iconSource: "image://theme/icon-m-enter-next"
+                    font.capitalization: Font.MixedCase
+                    EnterKey.onClicked: defaultAmount.focus = true
+
+                }
+
+                Button {
+                    id: changeCategory
+                    text: qsTr("Select")
+                    anchors.top: categoryName.top
+                    anchors.left: categoryName.right
+                    anchors.right: parent.right
+                    anchors.rightMargin: Theme.paddingMedium
+                    // width: parent.width - categoryName.width
+                    anchors.leftMargin: Theme.paddingLarge
+                      onClicked: {
+                       var dialog = pageStack.push(Qt.resolvedUrl("EnumPicker.qml"), {itemType: "category"} )
+                       dialog.accepted.connect(function() {
+                           categoryName.text = dialog.itemName});
+                    }
                 }
             }
-            TextArea {
-                id: explain
-                width: parent.width
-                text: qsTr("All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.")
-                readOnly: true
-            }
             TextField {
+                // anchors.top: categoryGroupItem.bottom
                 id: defaultAmount
                 width: parent.width
                 inputMethodHints: Qt.ImhDigitsOnly
@@ -117,6 +122,12 @@ Dialog {
                     MenuItem { text: "ml" }
                     MenuItem { text: "l" }
                 }
+            }
+            TextArea {
+                id: explain
+                width: parent.width
+                text: qsTr("All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.")
+                readOnly: true
             }
             ComboBox {
                 id: type
@@ -171,23 +182,49 @@ Dialog {
            print (uid_)
        }
        else {
-           if (unit_ == "-") {
+           // set unit
+           if (unit_ === "-") {
                unit.currentIndex = 0
            }
-           else if (unit_ == "g") {
+           else if (unit_ === "g") {
                unit.currentIndex = 1
            }
-           else if (unit_ == "ml") {
+           else if (unit_ === "kg") {
                unit.currentIndex = 2
            }
+           else if (unit_ === "ml") {
+               unit.currentIndex = 3
+           }
+           else if (unit_ === "l") {
+               unit.currentIndex = 4
+           }
+           // set itemType
+           if (itemType === "household") {
+               type.currentIndex = 0
+
+           }
+           else if (itemType === "food") {
+               type.currentIndex = 1
+           }
        }
+       /*
+                    MenuItem { text: "-" }
+                    MenuItem { text: "g" }
+                    MenuItem { text: "kg" }
+                    MenuItem { text: "ml" }
+                    MenuItem { text: "l" }
+*/
+       /*
+                    MenuItem { text: "household" }
+                    MenuItem { text: "food" }
+*/
     }
 
     Component.onDestruction: {
 
     }
 
-    onAccepted: {
+    function doAccept() {
         // adds item to shopping list !
         // ignore accept if no name was entered
         if (itemName.text == null || itemName.text == "") return;
@@ -203,10 +240,8 @@ Dialog {
           // in case of the unlikely usecase, that item exists in db AND in shoppinglist an new add will reset the counter in shoppinglist
         }
         // save to db and reload the prev page to make the new item visible
+        // shoppinglist has no itemType column -> so item type can not be stored
         DB.getDatabase().setShoppingListItem(uid_,itemName.text,parseInt(defaultAmount.text),unit.value,0,categoryName.text)
-        shoppingListPage.initPage()
-    }
-    // user has rejected editing entry data, check if there are unsaved details
-    onRejected: {
+        applicationWindow.controller.updateShoppingListPage();
     }
 }

@@ -87,7 +87,7 @@ Page {
             Button {
                 id: manageRecipes
                 text: qsTr("Recipes")
-                anchors.top: head.bottom
+                // anchors.top: head.bottom -- not defined, guess i would need to reference col
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: {
                     pageStack.push(Qt.resolvedUrl("ManageRecipesPage.qml"), {itemType: "recipe", itemsPage: null})

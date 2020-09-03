@@ -30,86 +30,89 @@
     </message>
 </context>
 <context>
-    <name>AnyItemDialog</name>
+    <name>AnyItemComponent</name>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="42"/>
-        <source>Add</source>
-        <translation>Lisää</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="43"/>
-        <source>Discard</source>
-        <translation>Hylkää</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="47"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="41"/>
         <source>Item</source>
-        <translation>Nimike</translation>
+        <translation type="unfinished">Nimike</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="57"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="51"/>
         <source>Item name</source>
-        <translation>Nimikkeen nimi</translation>
+        <translation type="unfinished">Nimikkeen nimi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="59"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="53"/>
         <source>Set item name</source>
-        <translation>Aseta nimikkeen nimi</translation>
+        <translation type="unfinished">Aseta nimikkeen nimi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="95"/>
-        <source>All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.</source>
-        <translation>Kaikki seuraavat kentät ovat pakollisia vain, jos haluat lisätä ne omaan tietokantaasi. Muussa tapauksessa pyyhkäise hyväksyäksesi.</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="102"/>
-        <source>Standard package size</source>
-        <translation>Vakiopakkauksen koko</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="104"/>
-        <source>Set standard package size</source>
-        <translation>Aseta vakiopakkauksen koko</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="112"/>
-        <source>Unit</source>
-        <translation>Yksikkö</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="121"/>
-        <source>Type</source>
-        <translation>Tyyppi</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="70"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="73"/>
         <source>Item category</source>
-        <translation>Nimikkeen kategoria</translation>
+        <translation type="unfinished">Nimikkeen kategoria</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="73"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="77"/>
         <source>Set category</source>
-        <translation>Aseta kategoria</translation>
+        <translation type="unfinished">Aseta kategoria</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="83"/>
-        <source>Change Category</source>
-        <translation>Vaihda kategoriaa</translation>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="129"/>
+        <source>All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.</source>
+        <translation type="unfinished">Kaikki seuraavat kentät ovat pakollisia vain, jos haluat lisätä ne omaan tietokantaasi. Muussa tapauksessa pyyhkäise hyväksyäksesi.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="131"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="107"/>
+        <source>Standard package size</source>
+        <translation type="unfinished">Oletuspakkauskoko</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="88"/>
+        <source>Select</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="109"/>
+        <source>Set standard package size</source>
+        <translation type="unfinished">Aseta oletuspakkauskoko</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="117"/>
+        <source>Unit</source>
+        <translation type="unfinished">Yksikkö</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="134"/>
+        <source>Type</source>
+        <translation type="unfinished">Tyyppi</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="144"/>
         <source>co2 in []</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="133"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="146"/>
         <source>Set co2 footprint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemDialog.qml" line="142"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="155"/>
         <source>Add this item to DB</source>
-        <translation>Lisää tämä nimike tietokantaan</translation>
+        <translation type="unfinished">Lisää tämä nimike tietokantaan</translation>
+    </message>
+</context>
+<context>
+    <name>AnyItemDialog</name>
+    <message>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="32"/>
+        <source>Save</source>
+        <translation type="unfinished">Tallenna</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AnyItemDialog.qml" line="33"/>
+        <source>Discard</source>
+        <translation type="unfinished">Hylkää</translation>
     </message>
 </context>
 <context>
@@ -283,60 +286,59 @@
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="140"/>
+        <location filename="../qml/pages/FirstPage.qml" line="137"/>
         <source>Clear</source>
-        <translation>Tyhjennä</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="152"/>
-        <source>Anything</source>
-        <translation>Mitä vain</translation>
+        <location filename="../qml/pages/FirstPage.qml" line="139"/>
+        <source>Deleting shopping list</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="156"/>
-        <source>Recipes</source>
-        <translation>Reseptit</translation>
+        <location filename="../qml/pages/FirstPage.qml" line="149"/>
+        <source>Clear done</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="160"/>
-        <source>Household</source>
-        <translation>Kotitalous</translation>
+        <location filename="../qml/pages/FirstPage.qml" line="151"/>
+        <source>Removing done entries</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="164"/>
-        <source>Food</source>
-        <translation>Ruoka</translation>
+        <location filename="../qml/pages/FirstPage.qml" line="184"/>
+        <source>Modify</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="172"/>
+        <location filename="../qml/pages/FirstPage.qml" line="191"/>
         <source>Share</source>
-        <translation>Jaa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="186"/>
+        <location filename="../qml/pages/FirstPage.qml" line="205"/>
         <source>Manage</source>
-        <translation>Ylläpidä</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="212"/>
-        <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
-        <translation>Ohhoh,
-ei mitään ostettavaa ?!</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="192"/>
+        <location filename="../qml/pages/FirstPage.qml" line="211"/>
         <source>Help</source>
-        <translation>Apua</translation>
+        <translation type="unfinished">Apua</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="198"/>
+        <location filename="../qml/pages/FirstPage.qml" line="217"/>
         <source>About</source>
-        <translation>Lisätietoja</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="206"/>
+        <location filename="../qml/pages/FirstPage.qml" line="225"/>
         <source>Shopping List</source>
-        <translation>Ostoslista</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FirstPage.qml" line="231"/>
+        <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -409,27 +411,27 @@ ei mitään ostettavaa ?!</translation>
         <translation>Yksikkö</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="93"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="95"/>
         <source>Item category</source>
         <translation>Nimikkeen kategoria</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="97"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="99"/>
         <source>Set category</source>
         <translation>Aseta kategoria</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="106"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="108"/>
         <source>Change Category</source>
         <translation>Vaihda kategoria</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="120"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="122"/>
         <source>co2 in []</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ItemDialog.qml" line="122"/>
+        <location filename="../qml/pages/ItemDialog.qml" line="124"/>
         <source>Set co2 footprint</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1264,26 +1266,11 @@ ei mitään ostettavaa ?!</translation>
     </message>
 </context>
 <context>
-    <name>ItemsPage</name>
+    <name>ItemsComponent</name>
     <message>
-        <location filename="../qml/pages/ItemsPage.qml" line="107"/>
-        <source>Store</source>
-        <translation>Tallennustila</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ItemsPage.qml" line="116"/>
-        <source>Search ..</source>
-        <translation>Etsi ..</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ItemsPage.qml" line="144"/>
-        <source>Manage</source>
-        <translation>Ylläpito</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ItemsPage.qml" line="154"/>
+        <location filename="../qml/pages/ItemsComponent.qml" line="127"/>
         <source>No items</source>
-        <translation>Ei nimikkeitä</translation>
+        <translation type="unfinished">Ei nimikkeitä</translation>
     </message>
 </context>
 <context>
@@ -1394,8 +1381,8 @@ ei mitään ostettavaa ?!</translation>
     <name>ManageRecipesPage</name>
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="78"/>
-        <source>Please fill store with items</source>
-        <translation>Ole hyvä ja lisää nimikkeitä</translation>
+        <source>Please add or import recipes</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="83"/>
@@ -1414,56 +1401,79 @@ ei mitään ostettavaa ?!</translation>
     </message>
 </context>
 <context>
+    <name>RecipeComponent</name>
+    <message>
+        <location filename="../qml/pages/RecipeComponent.qml" line="38"/>
+        <source>Save</source>
+        <translation type="unfinished">Tallenna</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/RecipeComponent.qml" line="39"/>
+        <source>Discard</source>
+        <translation type="unfinished">Hylkää</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/RecipeComponent.qml" line="43"/>
+        <source>New recipe</source>
+        <translation type="unfinished">Uusi resepti</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/RecipeComponent.qml" line="44"/>
+        <source>Recipe</source>
+        <translation type="unfinished">Resepti</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/RecipeComponent.qml" line="54"/>
+        <source>Recipe name</source>
+        <translation type="unfinished">Reseptin nimi</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/RecipeComponent.qml" line="56"/>
+        <source>Set recipe name</source>
+        <translation type="unfinished">Aseta reseptin nimi</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/RecipeComponent.qml" line="68"/>
+        <source>Servings</source>
+        <translation type="unfinished">Annosta</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/RecipeComponent.qml" line="70"/>
+        <source>Set number of servings</source>
+        <translation type="unfinished">Aseta annosten lukumäärä</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/RecipeComponent.qml" line="80"/>
+        <source>Add ingredient</source>
+        <translation type="unfinished">Lisää ainesosa</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/RecipeComponent.qml" line="101"/>
+        <source>Please add ingredient</source>
+        <translation type="unfinished">Ole hyvä ja lisää ainesosa</translation>
+    </message>
+</context>
+<context>
     <name>RecipeDialog</name>
     <message>
-        <location filename="../qml/pages/RecipeDialog.qml" line="44"/>
+        <location filename="../qml/pages/RecipeDialog.qml" line="43"/>
         <source>Save</source>
         <translation>Tallenna</translation>
     </message>
     <message>
-        <location filename="../qml/pages/RecipeDialog.qml" line="45"/>
+        <location filename="../qml/pages/RecipeDialog.qml" line="44"/>
         <source>Discard</source>
         <translation>Hylkää</translation>
     </message>
     <message>
-        <location filename="../qml/pages/RecipeDialog.qml" line="49"/>
+        <location filename="../qml/pages/RecipeDialog.qml" line="48"/>
         <source>New recipe</source>
         <translation>Uusi resepti</translation>
     </message>
     <message>
-        <location filename="../qml/pages/RecipeDialog.qml" line="50"/>
+        <location filename="../qml/pages/RecipeDialog.qml" line="49"/>
         <source>Recipe</source>
         <translation>Resepti</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/RecipeDialog.qml" line="60"/>
-        <source>Recipe name</source>
-        <translation>Reseptin nimi</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/RecipeDialog.qml" line="62"/>
-        <source>Set recipe name</source>
-        <translation>Aseta reseptin nimi</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/RecipeDialog.qml" line="74"/>
-        <source>Servings</source>
-        <translation>Annosta</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/RecipeDialog.qml" line="76"/>
-        <source>Set number of servings</source>
-        <translation>Aseta annosten lukumäärä</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/RecipeDialog.qml" line="86"/>
-        <source>Add ingredient</source>
-        <translation>Lisää ainesosa</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/RecipeDialog.qml" line="107"/>
-        <source>Please add ingredient</source>
-        <translation>Ole hyvä ja lisää ainesosa</translation>
     </message>
 </context>
 <context>
@@ -1546,21 +1556,11 @@ ei mitään ostettavaa ?!</translation>
     </message>
 </context>
 <context>
-    <name>RecipesPage</name>
+    <name>RecipesComponent</name>
     <message>
-        <location filename="../qml/pages/RecipesPage.qml" line="87"/>
-        <source>Recipes</source>
-        <translation>Reseptit</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/RecipesPage.qml" line="93"/>
-        <source>Manage</source>
-        <translation>Ylläpidä</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/RecipesPage.qml" line="103"/>
+        <location filename="../qml/pages/RecipesComponent.qml" line="110"/>
         <source>No recipes</source>
-        <translation>Ei reseptejä</translation>
+        <translation type="unfinished">Ei reseptejä</translation>
     </message>
 </context>
 <context>
@@ -1582,6 +1582,42 @@ ei mitään ostettavaa ?!</translation>
         <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
         <source>Discard</source>
         <translation>Hylkää</translation>
+    </message>
+</context>
+<context>
+    <name>TabedAddDialogX</name>
+    <message>
+        <location filename="../qml/pages/TabedAddDialogX.qml" line="18"/>
+        <source>Save</source>
+        <translation type="unfinished">Tallenna</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/TabedAddDialogX.qml" line="19"/>
+        <source>Discard</source>
+        <translation type="unfinished">Hylkää</translation>
+    </message>
+</context>
+<context>
+    <name>harbour-olive-goes-shopping</name>
+    <message>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="91"/>
+        <source>Any</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="96"/>
+        <source>Household</source>
+        <translation type="unfinished">Kotitalous</translation>
+    </message>
+    <message>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="101"/>
+        <source>Food</source>
+        <translation type="unfinished">Ruoka</translation>
+    </message>
+    <message>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="106"/>
+        <source>Recipes</source>
+        <translation type="unfinished">Reseptit</translation>
     </message>
 </context>
 </TS>

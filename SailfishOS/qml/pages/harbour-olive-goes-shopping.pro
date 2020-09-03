@@ -21,13 +21,7 @@ HEADERS += \
     src/importexport.h
 
 DISTFILES += qml/harbour-olive-goes-shopping.qml \
-    qml/ApplicationController.qml \
-    qml/pages/AnyItemComponent.qml \
-    qml/pages/AnyItemDialog.qml \
-    qml/pages/ItemsComponent.qml \
     qml/pages/ItemsPage.qml \
-    qml/pages/RecipeComponent.qml \
-    qml/pages/RecipesComponent.qml \
     qml/pages/StoreListItem.qml \
     qml/pages/ShoppingListItem.qml \
     qml/pages/ItemDialog.qml \
@@ -42,6 +36,8 @@ DISTFILES += qml/harbour-olive-goes-shopping.qml \
     qml/pages/PageHeaderExtended.qml \
     qml/pages/SilicaLabel.qml \
     qml/pages/SearchPageHeader.qml \
+    qml/pages/AnyItemDialog.qml \
+    qml/pages/TabedAddDialog.qml \
     qml/pages/ExportPage.qml \
     qml/pages/RecipeItemDialog.qml \
     qml/pages/ShareWithPage.qml \
@@ -53,7 +49,6 @@ DISTFILES += qml/harbour-olive-goes-shopping.qml \
     qml/pages/About.qml \
     qml/pages/FirstPage.qml \
     qml/cover/CoverPage.qml \
-    qml/pages/TabedAddDialogX.qml \
     rpm/harbour-olive-goes-shopping.changes.in \
     rpm/harbour-olive-goes-shopping.spec \
     rpm/harbour-olive-goes-shopping.yaml \

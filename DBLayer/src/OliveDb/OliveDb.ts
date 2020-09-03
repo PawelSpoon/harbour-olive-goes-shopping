@@ -340,8 +340,6 @@ export class OliveDb {
         return res;
     }
     
-    
-
     importRecipesFromJson()
     {
         this.db.cleanTable("recipes");

@@ -34,12 +34,22 @@ import Nemo.KeepAlive 1.2
 
 import "pages"
 import "cover"
+import "sf-docked-tab-bar"
 
 ApplicationWindow
 {
     id: applicationWindow
+    property ApplicationController controller: myController
+
     property bool on: false
     property FirstPage page
+
+    // from tab sample
+    property alias tabBar: _tabBar
+
+    ApplicationController {
+        id: myController
+    }
 
     initialPage: Component {
         FirstPage {
@@ -50,7 +60,7 @@ ApplicationWindow
         }
     }
 
-    allowedOrientations: defaultAllowedOrientations
+    allowedOrientations: Orientation.All
 
     KeepAlive {
         id: keepAlive
@@ -67,9 +77,37 @@ ApplicationWindow
 
         Component.onCompleted:  {
             applicationWindow.cover = coverPage
-            controller = applicationWindow.page
+            // controller = applicationWindow.page
         }
     }
+
+    DockedTabBar {
+        id: _tabBar
+        enabledOnPage: "TabedAddDialogX"
+        currentSelection: 0
+
+        DockedTabButton {
+            icon.source: "image://theme/icon-m-wizard"
+            label: qsTr("Any")
+            fontSize: Theme.fontSizeTiny
+        }
+        DockedTabButton {
+            icon.source: "image://theme/icon-m-home"
+            label: qsTr("Household")
+            fontSize: Theme.fontSizeTiny
+        }
+        DockedTabButton {
+            icon.source: "image://theme/icon-m-media-albums"
+            label: qsTr("Food")
+            fontSize: Theme.fontSizeTiny
+        }
+        DockedTabButton {
+            icon.source: "image://theme/icon-m-lan"
+            label: qsTr("Recipes")
+            fontSize: Theme.fontSizeTiny
+        }
+    }
+
 
     function updateCoverList(model) {
         coverPage.fillModel(model)

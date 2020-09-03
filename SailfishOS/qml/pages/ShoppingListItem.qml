@@ -162,9 +162,8 @@ MouseArea {
 
     onClicked: {
         checked = !checked
-        // DB.getDatabase().setShoppingListItem(uid_,name,amount,unit,checked,category)
         DB.getDatabase().updateShoppingListItemChecked(uid_, checked)
-        // parent.parent.parent.updatePage()
+        parent.parent.parent.markAsDoneInShoppingList(text)
     }
 
     onPressAndHold: {

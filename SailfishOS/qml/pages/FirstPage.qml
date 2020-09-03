@@ -32,12 +32,6 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import "../DbLayer/OliveDb/Persistance.js" as DB
 
-//this page will show the real-calculated shopping list
-//page2 will have all the recipes
-//page3 will have all the items
-//you can click on them in p2 and p3
-
-
 Page {
     id: firstPage
     property string selectedCategory
@@ -68,19 +62,25 @@ Page {
         var current = DB.getDatabase().getShoppingListItemPerName(name)
         pageStack.push(Qt.resolvedUrl("AnyItemDialog.qml"),
                         {shoppingListPage: firstPage, uid_: current[0].uid , name_: current[0].name, amount_: current[0].howMany, unit_: current[0].unit, category_: current[0].category })
- //       property string itemType
     }
 
+    function markAsDoneInShoppingList(name)
+    {
+        for(var i=0; i< shoppingModel.count; i++)
+        {
+          console.debug(shoppingModel.get(i).name)
+          if(shoppingModel.get(i).name === name) {
+            shoppingModel.get(i).done = true;
+            break
+          }
+        }
+    }
 
+    // currently not used by should be from ShoppingListItem to inform
     function markAsDone(uid,name,amount,unit,category,done)
     {
         DB.getDatabase().setShoppingListItem(uid,name,amount,unit,true,category)
         initPage()
-    }
-
-    function invokeAddDialog()
-    {
-         pageStack.push(Qt.resolvedUrl("AnyItemDialog.qml"), {shoppingListPage: firstPage, itemType: "-"})
     }
 
     function initPage()
@@ -132,14 +132,11 @@ Page {
         model: shoppingModel
         VerticalScrollDecorator { flickable: shoppingList }
 
-
-
-        // PullDownMenu and PushUpMenu must be declared in SilicaFlickable, SilicaListView or SilicaGridView
         PullDownMenu {
             MenuItem {
                 text: qsTr("Clear")
                 onClicked: {
-                    remorse.execute("Deleting shopping list", deleteShoppingList);
+                    remorse.execute(qsTr("Deleting shopping list"), deleteShoppingList);
                 }
                 RemorsePopup {id: remorse }
                 function deleteShoppingList()
@@ -149,22 +146,44 @@ Page {
                 }
             }
             MenuItem {
-                text: qsTr("Anything")
-                onClicked: pageStack.push(Qt.resolvedUrl("AnyItemDialog.qml"), {shoppingListPage: firstPage, itemType: "recipe"})
-            }
-            MenuItem {
-                text: qsTr("Recipes")
-                onClicked: pageStack.push(Qt.resolvedUrl("RecipesPage.qml"), {mainPage: firstPage, itemType: "recipe"})
-            }
-            MenuItem {
-                text: qsTr("Household")
-                onClicked: pageStack.push(Qt.resolvedUrl("ItemsPage.qml"), {mainPage: firstPage, itemType: "household"})
-            }
-            MenuItem {
-                text: qsTr("Food")
-                onClicked: pageStack.push(Qt.resolvedUrl("ItemsPage.qml"), {mainPage: firstPage, itemType: "food"})
-            }
+                text: qsTr("Clear done")
+                onClicked: {
+                    remorse.execute(qsTr("Removing done entries"), clearDoneFromShoppingList);
+                }
+                RemorsePopup {id: remorse2 }
+                function clearDoneFromShoppingList()
+                {
+                    console.log('clearDoneFromShoppingList..')
+                    console.log(shoppingModel.count)
+                    for (var i= 0; i < shoppingModel.count; i++ )
+                    {
+                        console.log(shoppingModel.get(i).name + shoppingModel.get(i).done)
+                        if (shoppingModel.get(i).done === true)
+                        {
+                            var uid = shoppingModel.get(i).uid
+                            var name = shoppingModel.get(i).name
+                            var amount = shoppingModel.get(i).amount
+                            var unit = shoppingModel.get(i).unit
+                            var done = 1
+                            console.log('cleaning ' + name);
+                            var dbItem = DB.getDatabase().getItemPerName(name);
+                            if (dbItem.length > 0) { // why do i do that ? -- could be a non household / food ..hasOwnProperty()
+                              DB.getDatabase().setItem(dbItem[0].uid,name,dbItem[0].amount,dbItem[0].unit,dbItem[0].type,0,dbItem[0].category,dbItem[0].co2)
+                            }
+                            else {
+                                console.log('nothing to clear from items db')
+                            }
 
+                            DB.getDatabase().removeShoppingListItem(uid, name, amount, unit, done)
+                        }
+                     }
+                    initPage();
+                }
+            }
+            MenuItem {
+                text: qsTr("Modify")
+                onClicked: applicationWindow.controller.openAddDialog();
+            }
         }
 
         PushUpMenu {
@@ -185,19 +204,19 @@ Page {
             MenuItem {
                 text: qsTr("Manage")
                 onClicked: {
-                    pageStack.push(Qt.resolvedUrl("ManageMainPage.qml"))
+                    controller.openManagePage();
                 }
             }
             MenuItem {
                 text: qsTr("Help")
                 onClicked: {
-                    pageStack.push(Qt.resolvedUrl("HelpMainPage.qml"))
+                    controller.openHelpPage();
                 }
             }
             MenuItem {
                 text: qsTr("About")
                 onClicked: {
-                    pageStack.push(Qt.resolvedUrl("About.qml"))
+                    controller.openAboutPage();
                 }
             }
         }

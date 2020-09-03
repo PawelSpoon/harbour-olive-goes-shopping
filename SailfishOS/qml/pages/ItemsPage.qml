@@ -36,7 +36,6 @@ import "../DbLayer/OliveDb/Persistance.js" as DB
 //each click increases howMany by 1
 //longpress shows context menu with reset to 0
 //swipe to left or right (cancel / ok) will store items to db and update shoppingList
-//problem: searchtext looses the focus
 
 Dialog {
     id: page
@@ -45,11 +44,6 @@ Dialog {
 
     // The effective value will be restricted by ApplicationWindow.allowedOrientationso
     allowedOrientations: Orientation.All
-
-    Component.onCompleted:
-    {
-        initPage()
-    }
 
     onAccepted: {
         mainPage.initPage()
@@ -60,129 +54,11 @@ Dialog {
         mainPage.initPage()
     }
 
-    function initPage()
-    {
-        var items = DB.getDatabase().getItems(itemType)
-        itemModel.clear()
-        fillItemsModel(items)
-    }
 
-    function filterPage(nameFilter)
-    {
-        var items = DB.getDatabase().filterItemsPerName(nameFilter)
-        itemModel.clear()
-        fillItemsModel(items)
-    }
-
-    function filterItemsModel(texti)
-    {
-        if (texti.length > 0) {
-            filterPage(texti)
-        } else {
-            initPage()
-        }
-    }
-
-    function fillItemsModel(items)
-    {
-        print('number of items: ' +  items.length)
-        for (var i = 0; i < items.length; i++)
-        {
-            // print(items[i].uid + " " + items[i].name + " " + items[i].type + " " + " " + items[i].howMany + " " + items[i].category)
-            itemModel.append({"uid": items[i].uid, "name": items[i].name, "amount": items[i].amount, "unit": items[i].unit, "howMany": items[i].howMany, "type": items[i].type, "category": items[i].category })
-        }
-    }
-
-
-    // To enable PullDownMenu, place our content in a SilicaFlickable
-    SilicaListView {
-        id: itemList
+    ItemsComponent {
+        id: itemsComponent
+        itemType: itemType
         anchors.fill: parent
-        model: itemModel
-
-
-        header: PageHeader {
-            //SearchPageHeader {
-            id: pageHeader
-            title: qsTr("Store")
-        }
-
-        SearchField {
-                id: searchText
-                anchors.top: parent.top
-                opacity: 1
-                anchors.topMargin: Theme.paddingMedium
-                width: parent.width - 120
-                placeholderText: qsTr("Search ..")
-                EnterKey.iconSource: "image://theme/icon-m-enter-next" // -close
-                EnterKey.onClicked: itemList.focus = true
-                inputMethodHints: Qt.ImhNoPredictiveText;
-
-                Keys.onPressed: {
-                    if (event.key === 16777220)  {
-                        filterItemsModel(searchText.text)
-                        forceActiveFocus()
-                        _editor.forceActiveFocus()
-                    }
-                }
-
-                onFocusChanged: {
-                    _editor.forceActiveFocus()
-                }
-
-                onTextChanged: {
-                    if (searchText.text == "") {
-                      filterItemsModel(searchText.text)
-                      forceActiveFocus()
-                      _editor.forceActiveFocus()
-                    }
-                }
-        }
-
-        PullDownMenu {
-            MenuItem {
-                text: qsTr("Manage")
-                onClicked: {
-                    onClicked: pageStack.push(Qt.resolvedUrl("ManageItemsPage.qml"), {itemType:itemType, itemsPage: page})
-                }
-            }
-
-        }
-
-        ViewPlaceholder {
-            enabled: itemModel.count === 0 // show placeholder text when no locations/artists are tracked
-            text: qsTr("No items")
-        }
-
-        delegate: ListItem {
-            id: listItem
-
-            StoreListItem {
-                uid_: uid
-                text: name
-                amount_: amount
-                unit_: unit
-                type_: type
-                howMany_: howMany
-                category_: category
-            }
-        }
-
-
-        ListModel {
-            id: itemModel
-            ListElement {uid: "123"; name: "dummy"; amount: 0; unit:""; howMany:0; type:"dummy"; category:""}
-
-            function contains(uid) {
-                for (var i=0; i<count; i++) {
-                    if (get(i).uid === uid)  {
-                        return [true, i];
-                    }
-                }
-                return [false, i];
-            }
-        }
-
     }
 }
 

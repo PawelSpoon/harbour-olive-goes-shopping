@@ -8,6 +8,21 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Thu Sep 3 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.3-4
+- fix category selection background colour
+
+* Wed Sep 2 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.3-3
+- fix landscape issue in add page
+
+* Tue Aug 25 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.3-1
+- new tabed add page
+- fix unit on edit item
+- fit itemtype (household / food) on edit item
+- clear done items
+
+* Tue Aug 25 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.3-0
+- compiled against new sdk
+
 * Tue Jan 15 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.2-0
 - added french translation: thanks to lturpinat
 

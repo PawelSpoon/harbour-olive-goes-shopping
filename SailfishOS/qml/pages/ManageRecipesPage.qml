@@ -75,7 +75,7 @@ Dialog {
         header: PageHeader { title: "Manage Recipes" }
         ViewPlaceholder {
             enabled: itemList.count == 0
-            text: qsTr("Please fill store with items")
+            text: qsTr("Please add or import recipes")
         }
 
         PushUpMenu {

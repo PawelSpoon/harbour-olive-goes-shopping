@@ -44,7 +44,7 @@ CoverBackground {
         shoppingListModel.clear()
         var maxcount = 7
         if (items.count < maxcount) maxcount = items.count
-        if (maxcount == 0) { label.visible = true; return } // show Olive goes shoppin again
+        if (maxcount === 0) { label.visible = true; return } // show Olive goes shoppin again
         label.visible = false; // hide Olive goes shoppin
         for (var i = 0; i < items.count; i++)
         {            
@@ -56,7 +56,7 @@ CoverBackground {
             var category = items.get(i).category
             if (!done) shoppingListModel.append({"uid": uid, "name": name, "amount": amount, "unit": unit, "done":done, "category":category });
             console.debug(uid + " " + name + " " + amount + " " + unit + " " + done + " " + category)
-            if (shoppingListModel.count == maxcount) break
+            if (shoppingListModel.count === maxcount) break
         }
         if (shoppingListModel.count > 0) {
             shoppingListModel.append({"name": ".."});
@@ -155,7 +155,7 @@ goes <br>\
         // strike through the first item
         // https://sailfishos.org/develop/docs/jolla-ambient/
         CoverAction {
-            iconSource: "image://theme/icon-s-installed"
+            iconSource: "image://theme/icon-m-acknowledge"
             onTriggered: markFirstAsDone()
         }
 
@@ -165,7 +165,7 @@ goes <br>\
                 if (controller == null)
                     controller = applicationWindow.page
                 applicationWindow.activate()
-                controller.invokeAddDialog()
+                applicationWindow.controller.openAddDialog()
             }
         }
     }

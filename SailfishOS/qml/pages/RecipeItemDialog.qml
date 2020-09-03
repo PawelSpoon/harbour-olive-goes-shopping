@@ -142,11 +142,11 @@ Dialog {
 
     onAccepted: {
         if (uid_ == "1") {
-           recipeDialog.updateIngredient(itemName.text,parseInt(defaultAmount.text),unit.value, itemName.orgText)
+           recipeDialog.recipeComponent.updateIngredient(itemName.text,parseInt(defaultAmount.text),unit.value, itemName.orgText)
         }
 
         else {
-          recipeDialog.addIngredient(itemName.text,parseInt(defaultAmount.text),unit.value)
+          recipeDialog.recipeComponent.addIngredient(itemName.text,parseInt(defaultAmount.text),unit.value)
         }
     }
     // user has rejected editing entry data, check if there are unsaved details

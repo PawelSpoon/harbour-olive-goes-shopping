@@ -39,100 +39,25 @@ import "../DbLayer/OliveDb/Persistance.js" as DB
 
 Dialog {
     id: page
-    property FirstPage mainPage
-    property string itemType
+    property alias mainPage : recipesComponent.mainPage
+    property alias itemType : recipesComponent.itemType
 
     // The effective value will be restricted by ApplicationWindow.allowedOrientationso
     allowedOrientations: Orientation.All
 
-    Component.onCompleted:
-    {
-        initPage()
-    }
-
     onAccepted: {
-        mainPage.initPage()
+        recipesComponent.doAccept()
     }
 
     // user has rejected editing entry data, check if there are unsaved details
     onRejected: {
-        mainPage.initPage()
+        recipesComponent.doReject();
     }
 
-    function initPage()
-    {
-        var items = DB.getDatabase().getRecipes()//itemType)
-        itemModel.clear()
-        fillItemsModel(items)
-    }
-
-    function fillItemsModel(items)
-    {
-        print('number of items: ' +  items.length)
-        for (var i = 0; i < items.length; i++)
-        {
-            // print(items[i].uid + " " + items[i].name + " " + items[i].type + " " + items[i].ingredients)
-            itemModel.append({"uid": items[i].uid, "name": items[i].name, "servings": items[i].servings, "instruction": items[i].instruction, "ingredients": items[i].ingredients, "howMany": items[i].howMany, "type": items[i].type })
-        }
-    }
-
-    // To enable PullDownMenu, place our content in a SilicaFlickable
-    SilicaListView {
-        id: itemList
-        anchors.fill: parent
-        model: itemModel
-        VerticalScrollDecorator { flickable: itemList }
-
-        header: PageHeader {
-            title: qsTr("Recipes")
-        }
-
-        PullDownMenu {
-
-            MenuItem {
-                text: qsTr("Manage")
-                onClicked: {
-                    onClicked: pageStack.push(Qt.resolvedUrl("ManageRecipesPage.qml"), {itemType:itemType, itemsPage: page})
-                }
-            }
-
-        }
-
-        ViewPlaceholder {
-            enabled: itemModel.count === 0 // show placeholder text when no locations/artists are tracked
-            text: qsTr("No recipes")
-        }
-
-        delegate: ListItem {
-            id: listItem
-
-            RecipeListItem {
-                uid_: uid
-                text: name
-                servings_: servings
-                instruction_: "-"
-                type_: type
-                ingredient_: ingredients
-                howMany_: howMany
-            }
-        }
-
-
-        ListModel {
-            id: itemModel
-            ListElement {uid: "123"; name: "dummy"; instruction:""; howMany: 0; ingredients:""; servings:0; type:"dummy"}
-
-            function contains(uid) {
-                for (var i=0; i<count; i++) {
-                    if (get(i).uid === uid)  {
-                        return [true, i];
-                    }
-                }
-                return [false, i];
-            }
-        }
-
+    RecipesComponent {
+        id: recipesComponent
 
     }
+
 }
 
