@@ -63,6 +63,24 @@ export class OliveDb {
         return items
     }
 
+    filterRecipesByName(name)
+    {
+        console.debug("filterRecipesByName() " + name)
+        var items = []
+        this.checkDatabase();
+        // var respath="";
+        var sql = "SELECT DISTINCT uid, name, servings, instruction, ingredients, howMany, type from recipes where UPPER(name) like '%" + name + "%'";
+        var rs = this.db.executeSelect(sql);
+        for (var i = 0; i < rs.rows.length; i++) {
+            var trackedItem = {uid: rs.rows[i].uid, name: rs.rows[i].name,
+                    servings: rs.rows[i].servings, instruction: rs.rows[i].instruction,
+                    ingredients: rs.rows[i].ingredients, howMany: rs.rows[i].howMany, type: rs.rows[i].type}
+            //console.debug("get: " + rs.rows[i].name + " with id:" + rs.rows[i].uid + " done: " + rs.rows[i].done)
+            items.push(trackedItem)
+        }
+        return items
+    }
+
     // helpers for import of older files that do not contain some attributes
     tryGetOrderNr(item)
     {
@@ -675,7 +693,6 @@ export class OliveDb {
         }
         return items
     }
-
 
     dropDB()
     {

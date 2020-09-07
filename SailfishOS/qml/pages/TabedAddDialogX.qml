@@ -15,14 +15,13 @@ Dialog {
 
     DialogHeader {
         id: dialogHeader
-        acceptText: qsTr("Save")
-        cancelText: qsTr("Discard")
+        //acceptText: qsTr("Close")
+        //cancelText: qsTr("Close")
     }
 
     onAccepted: {
         applicationWindow.controller.doAccept();
     }
-
 
     function moveToTab(index)
     {

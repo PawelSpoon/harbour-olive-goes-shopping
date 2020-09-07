@@ -66,9 +66,11 @@ SilicaListView {
         fillItemsModel(items)
     }
 
-    function filterPage(string)
+    function filterPage(nameFilter)
     {
-       //tbd in db layer
+        var items = DB.getDatabase().filterRecipesByName(nameFilter)
+        itemModel.clear()
+        fillItemsModel(items)
     }
 
     function fillItemsModel(items)

@@ -66,3 +66,9 @@ npm install typescript is needed
 
 debuging with mocha
 https://saravanaj.github.io/2017/02/05/debugging-mocha-tests-written-in-typescript-with-visual-studio-code/
+
+--- installation on linux (elementaryos)
+install visual code or ide of your choice
+sudo apt-get install sqlite3
+sudo apt-get install node.js npm
+npm install --global typescript

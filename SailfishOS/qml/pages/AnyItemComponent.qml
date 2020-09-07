@@ -57,15 +57,11 @@ SilicaListView {
                 font.capitalization: Font.MixedCase
                 EnterKey.onClicked: changeCategory.focus = true
             }
-            // Rectangle {
             Item {
                 id: categoryGroupItem
-                //anchors.top: itemName.bottom
-                // anchors.topMargin:
                 anchors.left: parent.left
                 width: parent.width
                 height: categoryName.height
-                //color: Theme._coverOverlayColor
                 TextField {
                     id: categoryName
                     width: parent.width * 2 / 3
@@ -80,17 +76,14 @@ SilicaListView {
                     EnterKey.iconSource: "image://theme/icon-m-enter-next"
                     font.capitalization: Font.MixedCase
                     EnterKey.onClicked: defaultAmount.focus = true
-
                 }
-
                 Button {
                     id: changeCategory
                     text: qsTr("Select")
                     anchors.top: categoryName.top
                     anchors.left: categoryName.right
                     anchors.right: parent.right
-                    anchors.rightMargin: Theme.paddingMedium
-                    // width: parent.width - categoryName.width
+                    anchors.rightMargin: Theme.paddingLarge
                     anchors.leftMargin: Theme.paddingLarge
                       onClicked: {
                        var dialog = pageStack.push(Qt.resolvedUrl("EnumPicker.qml"), {itemType: "category"} )
@@ -100,7 +93,6 @@ SilicaListView {
                 }
             }
             TextField {
-                // anchors.top: categoryGroupItem.bottom
                 id: defaultAmount
                 width: parent.width
                 inputMethodHints: Qt.ImhDigitsOnly
@@ -116,11 +108,35 @@ SilicaListView {
                 id: unit
                 label: qsTr("Unit")
                 menu: ContextMenu {
+                    // missing qsTr ??
                     MenuItem { text: "-" }
                     MenuItem { text: "g" }
                     MenuItem { text: "kg" }
                     MenuItem { text: "ml" }
                     MenuItem { text: "l" }
+                }
+            }
+            /*Button {
+                id: saveAndClose
+                text: qsTr("Save and close")
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.rightMargin: Theme.paddingLarge
+                anchors.leftMargin: Theme.paddingLarge
+                  onClicked: {
+                      doAccept();
+                }
+            }*/
+            Button {
+                id: saveAndKeep
+                text: qsTr("Create another")
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.rightMargin: Theme.paddingLarge
+                anchors.leftMargin: Theme.paddingLarge
+                  onClicked: {
+                      doAccept();
+                      reset();
                 }
             }
             TextArea {
@@ -154,7 +170,9 @@ SilicaListView {
                 id: addButton
                 text: qsTr("Add this item to DB")
                 anchors.left: parent.left
+                anchors.right: parent.right
                 anchors.leftMargin: Theme.paddingLarge
+                anchors.rightMargin: Theme.paddingLarge
                 onClicked: {
                     // adds item to household/food db !
                     var isThereAny = DB.getDatabase().getItemPerName(itemName.text)
@@ -243,5 +261,15 @@ SilicaListView {
         // shoppinglist has no itemType column -> so item type can not be stored
         DB.getDatabase().setShoppingListItem(uid_,itemName.text,parseInt(defaultAmount.text),unit.value,0,categoryName.text)
         applicationWindow.controller.updateShoppingListPage();
+    }
+
+    function reset()
+    {
+        uid_ = "";
+        name_ = "";
+        amount_ = 1;
+        unit_ = "-";
+        category_ = "";
+        itemType = "household"
     }
 }

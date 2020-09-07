@@ -1,9 +1,12 @@
-/DBLayer/node_modules/**/*.*
-/DbLayer/out/**/*.*
+DBLayer/node_modules/**/*.*
 **/node_modules/**/*
+DBLayer/out
+DBLayer/src/Db/*.js
+DBLayer/src/OliveDb/*.js
 DBLayer/test-dbaccess
 DBLayer/test-olivedb
 DBLayer/test-olivedbmove
 DBLayer/test-oliveinit
 build-harbour-olive-*
+SailfishOS/harbour-olive-goes-shopping.pro.user
 

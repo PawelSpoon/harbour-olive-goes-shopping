@@ -8,6 +8,10 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Thu Sep 3 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.4-0
+- create another on any item page
+- working search on add recipe page
+
 * Thu Sep 3 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.3-4
 - fix category selection background colour
 

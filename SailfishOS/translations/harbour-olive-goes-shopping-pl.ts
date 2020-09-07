@@ -47,57 +47,62 @@
         <translation type="unfinished">Ustaw nazwę pozycji</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="73"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="69"/>
         <source>Item category</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="77"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="73"/>
         <source>Set category</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="129"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="132"/>
+        <source>Create another</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="145"/>
         <source>All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="107"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="99"/>
         <source>Standard package size</source>
         <translation type="unfinished">Standardowy rozmiar opakowania</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="88"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="82"/>
         <source>Select</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="109"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="101"/>
         <source>Set standard package size</source>
         <translation type="unfinished">Ustaw standardowy rozmiar opakowania</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="117"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="109"/>
         <source>Unit</source>
         <translation type="unfinished">Jednostka</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="134"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="150"/>
         <source>Type</source>
         <translation type="unfinished">Typ</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="144"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="160"/>
         <source>co2 in []</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="146"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="162"/>
         <source>Set co2 footprint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="155"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="171"/>
         <source>Add this item to DB</source>
         <translation type="unfinished">Dodaj tą pozycję do bazy danych</translation>
     </message>
@@ -1557,7 +1562,7 @@
 <context>
     <name>RecipesComponent</name>
     <message>
-        <location filename="../qml/pages/RecipesComponent.qml" line="110"/>
+        <location filename="../qml/pages/RecipesComponent.qml" line="112"/>
         <source>No recipes</source>
         <translation type="unfinished">Brak przepisów</translation>
     </message>
@@ -1579,19 +1584,6 @@
     </message>
     <message>
         <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
-        <source>Discard</source>
-        <translation type="unfinished">Odrzuć</translation>
-    </message>
-</context>
-<context>
-    <name>TabedAddDialogX</name>
-    <message>
-        <location filename="../qml/pages/TabedAddDialogX.qml" line="18"/>
-        <source>Save</source>
-        <translation type="unfinished">Zapisz</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/TabedAddDialogX.qml" line="19"/>
         <source>Discard</source>
         <translation type="unfinished">Odrzuć</translation>
     </message>
