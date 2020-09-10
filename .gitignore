@@ -7,6 +7,6 @@ DBLayer/test-dbaccess
 DBLayer/test-olivedb
 DBLayer/test-olivedbmove
 DBLayer/test-oliveinit
+DBLayer/init-oivedb
 build-harbour-olive-*
 SailfishOS/harbour-olive-goes-shopping.pro.user
-

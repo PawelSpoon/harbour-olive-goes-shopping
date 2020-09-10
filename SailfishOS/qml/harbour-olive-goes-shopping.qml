@@ -31,6 +31,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import Nemo.KeepAlive 1.2
+import harbour.olivegoesshopping.ogssettings 1.0
 
 import "pages"
 import "cover"
@@ -40,7 +41,7 @@ ApplicationWindow
 {
     id: applicationWindow
     property ApplicationController controller: myController
-
+    property OGSSettings settings: settings
     property bool on: false
     property FirstPage page
 
@@ -50,6 +51,14 @@ ApplicationWindow
     ApplicationController {
         id: myController
     }
+
+    OGSSettings {
+        id: settings
+        onModuleChanged: {
+            console.log('settings did change -> need to update visibility')
+        }
+    }
+
 
     initialPage: Component {
         FirstPage {
@@ -92,22 +101,24 @@ ApplicationWindow
             fontSize: Theme.fontSizeTiny
         }
         DockedTabButton {
+            visible: settings.useHousehold
             icon.source: "image://theme/icon-m-home"
             label: qsTr("Household")
             fontSize: Theme.fontSizeTiny
         }
         DockedTabButton {
+            visible: settings.useFood
             icon.source: "image://theme/icon-m-media-albums"
             label: qsTr("Food")
             fontSize: Theme.fontSizeTiny
         }
         DockedTabButton {
+            visible: settings.useRecipes
             icon.source: "image://theme/icon-m-lan"
             label: qsTr("Recipes")
             fontSize: Theme.fontSizeTiny
         }
     }
-
 
     function updateCoverList(model) {
         coverPage.fillModel(model)

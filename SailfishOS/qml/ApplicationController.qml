@@ -1,9 +1,5 @@
 import QtQuick 2.0
-// import Sailfish.Silica 1.0
-
-// import "AppController.js" as Helper
 import "pages"
-// import "Persistance.js" as DB
 
 
 Item {
@@ -68,7 +64,12 @@ Item {
 
     function openShareDialog()
     {
-        pageStack.push(Qt.resolvedUrl("/pages/ShareWithPage.qml"), { })
+        pageStack.push(Qt.resolvedUrl("pages/ShareWithPage.qml"), { })
+    }
+
+    function openSettingsPage()
+    {
+        pageStack.push(Qt.resolvedUrl("pages/Settings.qml"), { })
     }
 
     function setCurrentPage(pageName) {

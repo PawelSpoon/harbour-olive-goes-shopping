@@ -30,6 +30,8 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import harbour.olivegoesshopping.ogssettings 1.0
+
 import "../DbLayer/OliveDb/Persistance.js" as DB
 
 //this page shows items to shop
@@ -94,6 +96,26 @@ SilicaListView {
             // print(items[i].uid + " " + items[i].name + " " + items[i].type + " " + " " + items[i].howMany + " " + items[i].category)
             itemModel.append({"uid": items[i].uid, "name": items[i].name, "amount": items[i].amount, "unit": items[i].unit, "howMany": items[i].howMany, "type": items[i].type, "category": items[i].category })
         }
+        if (applicationWindow.settings.categorizeItems) {
+            console.log('soring items')
+            sortModel();
+        }
+    }
+
+    function sortModel()
+    {
+        // not needed, done in db
+        print("sorting")
+        for(var i=0; i< itemModel.count; i++)
+        {
+            for(var j=0; j<i; j++)
+            {
+                // console.debug(shoppingModel.get(i).category)
+                if(itemModel.get(i).category === itemModel.get(j).category)
+                   itemModel.move(i,j,1)
+                // break
+            }
+        }
     }
 
     Column {
@@ -126,6 +148,33 @@ SilicaListView {
             enabled: itemModel.count === 0 // show placeholder text when no locations/artists are tracked
             text: qsTr("No items")
         }
+
+        // have sections by category
+        // ExpandingSectionGroup and ExpandingSection might be better
+        section {
+            property: applicationWindow.settings.categorizeItems ? "category": ""
+            criteria: ViewSection.FullString
+            delegate: SectionHeader {
+                id: secHead
+                text: section
+                font.pixelSize: Theme.fontSizeLarge
+                height: li.menuOpen ? li.contextMenu.height + 100 : 100
+
+                ListItem {
+                  id: li
+                  property Item contextMenu
+                  property bool menuOpen: contextMenu != null// && contextMenu.parent === shoppingList
+
+                  onPressAndHold: {
+                    page.selectedCategory = secHead.text;
+                    if (!contextMenu)
+                        contextMenu = contextMenuComponent.createObject(shoppingList)
+                    contextMenu.open(secHead) // not good but ..
+                  }
+                }
+            }
+        }
+
 
         delegate: ListItem {
             id: listItem

@@ -42,6 +42,8 @@
 #include <QQuickView>
 #include <QSettings>
 #include "importexport.h"
+#include "settings.h"
+#include "ogssettings.h"
 
 
 int main(int argc, char *argv[])
@@ -62,6 +64,8 @@ int main(int argc, char *argv[])
     // To display the view, call "show()" (will show fullscreen on device).
 
     qmlRegisterType<ImportExport>("harbour.olivegoesshopping.import_export", 1, 0, "ImportExport");
+    qmlRegisterType<OGSSettings>("harbour.olivegoesshopping.ogssettings", 1, 0, "OGSSettings");
+    qmlRegisterType<Settings>("harbour.olivegoesshopping.settings", 1, 0, "Settings");
 
     return SailfishApp::main(argc, argv);
 }

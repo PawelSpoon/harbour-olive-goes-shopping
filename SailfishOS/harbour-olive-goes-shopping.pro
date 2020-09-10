@@ -15,10 +15,14 @@ TARGET = harbour-olive-goes-shopping
 CONFIG += sailfishapp
 
 SOURCES += src/harbour-olive-goes-shopping.cpp \
-    src/importexport.cpp
+    src/importexport.cpp \
+    src/ogssettings.cpp \
+    src/settings.cpp
 
 HEADERS += \
-    src/importexport.h
+    src/importexport.h \
+    src/ogssettings.h \
+    src/settings.h
 
 DISTFILES += qml/harbour-olive-goes-shopping.qml \
     qml/ApplicationController.qml \
@@ -28,6 +32,7 @@ DISTFILES += qml/harbour-olive-goes-shopping.qml \
     qml/pages/ItemsPage.qml \
     qml/pages/RecipeComponent.qml \
     qml/pages/RecipesComponent.qml \
+    qml/pages/Settings.qml \
     qml/pages/StoreListItem.qml \
     qml/pages/ShoppingListItem.qml \
     qml/pages/ItemDialog.qml \

@@ -2,6 +2,7 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import harbour.olivegoesshopping.ogssettings 1.0
 import "."
 
 //Page {
@@ -18,6 +19,7 @@ Dialog {
         //acceptText: qsTr("Close")
         //cancelText: qsTr("Close")
     }
+
 
     onAccepted: {
         applicationWindow.controller.doAccept();
@@ -84,7 +86,7 @@ Dialog {
 
                     }
                 }
-                  Loader {
+                Loader {
                     id: recipeContent
                     width: viewsSlideshow.width; height: viewsSlideshow.height
                     source: Qt.resolvedUrl("RecipesComponent.qml")

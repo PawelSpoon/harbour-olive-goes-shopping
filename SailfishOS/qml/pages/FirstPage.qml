@@ -30,6 +30,8 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import harbour.olivegoesshopping.ogssettings 1.0
+
 import "../DbLayer/OliveDb/Persistance.js" as DB
 
 Page {
@@ -233,7 +235,7 @@ Page {
 
         // have sections by category
         section {
-            property: "category"
+            property: applicationWindow.settings.categorizeShoppingList ? "category": ""
             criteria: ViewSection.FullString
             delegate: SectionHeader {
                 id: secHead

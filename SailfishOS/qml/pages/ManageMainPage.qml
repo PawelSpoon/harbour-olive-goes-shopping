@@ -30,10 +30,11 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import harbour.olivegoesshopping.ogssettings 1.0
+
 import "../DbLayer/OliveDb/Persistance.js" as DB
 
 //this page allows to manage all the lists and settings
-
 Page {
     id: managePage
 
@@ -42,6 +43,7 @@ Page {
 
     Component.onCompleted:
     {
+        // applicationWindow.settings.onModuleChanged : { console.log('test') }
     }
 
 
@@ -55,10 +57,9 @@ Page {
             MenuItem {
                 text: qsTr("Help")
                 onClicked: {
-                    pageStack.push(Qt.resolvedUrl("HelpMainPage.qml"))
+                    applicationWindow.controller.openHelpPage();
                 }
             }
-
         }
 
         header: PageHeader {
@@ -85,7 +86,18 @@ Page {
             }
 
             Button {
+                id: settings
+                text: qsTr("Settings")
+                // anchors.top: head.bottom -- not defined, guess i would need to reference col
+                anchors.horizontalCenter: parent.horizontalCenter
+                onClicked: {
+                    applicationWindow.controller.openSettingsPage();
+                }
+            }
+
+            Button {
                 id: manageRecipes
+                visible: applicationWindow.settings.useRecipes
                 text: qsTr("Recipes")
                 // anchors.top: head.bottom -- not defined, guess i would need to reference col
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -96,8 +108,7 @@ Page {
             }
             Button {
                 id: manageFood
-                /*anchors.left: parent.left
-            anchors.leftMargin: Theme.paddingLarge*/
+                visible: applicationWindow.settings.useFood
                 text: qsTr("Food")
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: pageStack.push(Qt.resolvedUrl("ManageItemsPage.qml"), {itemType: "food"})
@@ -105,12 +116,14 @@ Page {
             }
             Button {
                 id: manageHouseHold
+                visible: applicationWindow.settings.useHousehold
                 text: qsTr("Household")
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: pageStack.push(Qt.resolvedUrl("ManageItemsPage.qml"), {itemType: "household"})
             }
             Button {
                 id: manageCategories
+                visible: applicationWindow.settings.useCategories
                 text: qsTr("Categories")
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: pageStack.push(Qt.resolvedUrl("ManageEnumsPage.qml"), {enumType: "category"})
@@ -123,7 +136,6 @@ Page {
                     pageStack.push(Qt.resolvedUrl("ExportPage.qml"))
                 }
             }
-
         }
     }
 }

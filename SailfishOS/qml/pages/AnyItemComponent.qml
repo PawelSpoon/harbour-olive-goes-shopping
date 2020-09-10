@@ -59,6 +59,7 @@ SilicaListView {
             }
             Item {
                 id: categoryGroupItem
+                visible: applicationWindow.settings.useCategories
                 anchors.left: parent.left
                 width: parent.width
                 height: categoryName.height
@@ -104,6 +105,7 @@ SilicaListView {
                 EnterKey.iconSource: "image://theme/icon-m-enter-next"
                 EnterKey.onClicked: unit.focus = true
             }
+            // the next part could be shown only if household xor's food
             ComboBox {
                 id: unit
                 label: qsTr("Unit")
