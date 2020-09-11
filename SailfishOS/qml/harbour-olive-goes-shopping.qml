@@ -55,7 +55,10 @@ ApplicationWindow
     OGSSettings {
         id: settings
         onModuleChanged: {
-            console.log('settings did change -> need to update visibility')
+            console.log('module settings did change -> need to update visibility')
+        }
+        onCategoryChanged: {
+            console.log('category settings did change -> need to update visibility')
         }
     }
 

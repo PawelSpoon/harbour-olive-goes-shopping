@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Thu Sep 10 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.6-0
+- no restart needed after change of settings
+
 * Thu Sep 10 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.5-0
 - settings page -> allows to show / hide the modules:
   - recipes

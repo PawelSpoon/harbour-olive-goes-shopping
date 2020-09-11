@@ -28,18 +28,21 @@ void OGSSettings::setRecipes(const bool value)
 {
     QSettings settings;
     settings.setValue("recipes", value);
+    emit moduleChanged();
 }
 
 bool OGSSettings::household()
 {
     QSettings settings;
     return settings.value("household", "").toBool();
+    emit moduleChanged();
 }
 
 void OGSSettings::setHousehold(const bool value)
 {
     QSettings settings;
     settings.setValue("household", value);
+    emit moduleChanged();
 }
 
 bool OGSSettings::food()
@@ -52,6 +55,7 @@ void OGSSettings::setFood(const bool value)
 {
     QSettings settings;
     settings.setValue("food", value);
+    emit moduleChanged();
 }
 
 bool OGSSettings::categories()
@@ -64,6 +68,7 @@ void OGSSettings::setCategories(const bool value)
 {
     QSettings settings;
     settings.setValue("categories", value);
+    emit categoryChanged();
 }
 
 bool OGSSettings::categorizeShoppingList()
@@ -76,6 +81,7 @@ void OGSSettings::setCategorizeShoppingList(const bool value)
 {
     QSettings settings;
     settings.setValue("categorizeShoppingList", value);
+    emit categoryChanged();
 }
 
 bool OGSSettings::categorizeItems()
@@ -88,4 +94,5 @@ void OGSSettings::setCategorizeItems(const bool value)
 {
     QSettings settings;
     settings.setValue("categorizeItems", value);
+    emit categoryChanged();
 }

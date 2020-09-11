@@ -1612,22 +1612,22 @@
 <context>
     <name>harbour-olive-goes-shopping</name>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="100"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="103"/>
         <source>Any</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="106"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="109"/>
         <source>Household</source>
         <translation type="unfinished">家庭</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="112"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="115"/>
         <source>Food</source>
         <translation type="unfinished">食品</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="118"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="121"/>
         <source>Recipes</source>
         <translation type="unfinished">食谱</translation>
     </message>
