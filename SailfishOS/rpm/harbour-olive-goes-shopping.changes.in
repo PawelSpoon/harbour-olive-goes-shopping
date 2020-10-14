@@ -8,6 +8,13 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Thu Sep 10 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.8-0
+- updated finish translation
+
+* Thu Sep 10 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.7-0
+- set focus on textfield on add another
+- updated french translation
+
 * Thu Sep 10 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.6-0
 - no restart needed after change of settings
 

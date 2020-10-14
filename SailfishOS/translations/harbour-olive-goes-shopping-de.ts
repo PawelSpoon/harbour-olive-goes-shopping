@@ -47,62 +47,62 @@
         <translation type="unfinished">Artikelname festlegen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="70"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="78"/>
         <source>Item category</source>
         <translation type="unfinished">Artikel Kategorie</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="74"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="82"/>
         <source>Set category</source>
         <translation type="unfinished">Kategorie festlegen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="134"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="142"/>
         <source>Create another</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="147"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="157"/>
         <source>All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.</source>
         <translation type="unfinished">Alle nachfolgenden Felder werden nur benötigt, wenn du den Artikel zusätzlich zu deiner Datenbank hinzufügen möchtest. Falls nicht, wische zum Akzeptieren.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="100"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="108"/>
         <source>Standard package size</source>
         <translation type="unfinished">Standardpackgröße</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="83"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="91"/>
         <source>Select</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="102"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="110"/>
         <source>Set standard package size</source>
         <translation type="unfinished">Standardpackgröße festlegen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="111"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="119"/>
         <source>Unit</source>
         <translation type="unfinished">Einheit</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="152"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="162"/>
         <source>Type</source>
         <translation type="unfinished">Typ</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="162"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="172"/>
         <source>co2 in []</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="164"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="174"/>
         <source>Set co2 footprint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="173"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="183"/>
         <source>Add this item to DB</source>
         <translation type="unfinished">Diesen Artikel zur DB hinzufügen</translation>
     </message>
@@ -1607,6 +1607,19 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
         <location filename="../qml/pages/Settings.qml" line="63"/>
         <source>Use food items</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ShareWithPage</name>
+    <message>
+        <location filename="../qml/pages/ShareWithPage.qml" line="17"/>
+        <source>Done</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
+        <source>Discard</source>
+        <translation type="unfinished">Verwerfen</translation>
     </message>
 </context>
 <context>

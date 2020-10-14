@@ -33,25 +33,21 @@ Dialog {
         cancelText: qsTr("Discard")
     }
 
-    //Rectangle { // just to work with parent.fill within the any-item-dialog
-    //    anchors.fill: parent
-    //    anchors.topMargin: dialogHeader.height
-        AnyItemComponent {
-            id:  anyItemDialog
+    AnyItemComponent {
+        id:  anyItemDialog
 
-            anchors.fill: parent
-            anchors.topMargin: dialogHeader.height
+        anchors.fill: parent
+        anchors.topMargin: dialogHeader.height
 
-            shoppingListPage: shoppingListPage
-            itemType: itemType
-            uid_: uid_
-            name_: name_
-            amount_: amount_
-            unit_: unit_
-            category_: category_
+        shoppingListPage: shoppingListPage
+        itemType: itemType
+        uid_: uid_
+        name_: name_
+        amount_: amount_
+        unit_: unit_
+        category_: category_
 
-        }
-    //}
+    }
 
 
     onAccepted: {

@@ -55,7 +55,15 @@ SilicaListView {
                 EnterKey.enabled: !errorHighlight
                 EnterKey.iconSource: "image://theme/icon-m-enter-next"
                 font.capitalization: Font.MixedCase
-                EnterKey.onClicked: changeCategory.focus = true
+                focus: true
+                EnterKey.onClicked: {
+                    if (applicationWindow.settings.useCategories) {
+                       changeCategory.forceActiveFocus()
+                    }
+                    else {
+                       defaultAmount.forceActiveFocus()
+                    }
+                }
             }
             Item {
                 id: categoryGroupItem
@@ -66,7 +74,7 @@ SilicaListView {
                 TextField {
                     id: categoryName
                     width: parent.width * 2 / 3
-                    readOnly: true
+                    readOnly: categoryName.text !== "" ? false: true
                     label: qsTr("Item category")
                     property string orgText: ""
                     text: ""
@@ -137,8 +145,10 @@ SilicaListView {
                 anchors.rightMargin: Theme.paddingLarge
                 anchors.leftMargin: Theme.paddingLarge
                   onClicked: {
+                      saveAndKeep.forceActiveFocus();
                       doAccept();
                       reset();
+                      itemName.editor.forceActiveFocus();
                 }
             }
             TextArea {
@@ -238,6 +248,7 @@ SilicaListView {
                     MenuItem { text: "household" }
                     MenuItem { text: "food" }
 */
+       itemName.forceActiveFocus()
     }
 
     Component.onDestruction: {
