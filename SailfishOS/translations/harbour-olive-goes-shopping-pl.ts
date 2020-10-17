@@ -6,27 +6,27 @@
     <message>
         <location filename="../qml/pages/About.qml" line="27"/>
         <source>a native shopping list</source>
-        <translation type="unfinished">natywna lista zakupów</translation>
+        <translation>natywna lista zakupów</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="34"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licencja</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="44"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Źródło</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="55"/>
         <source>Localization</source>
-        <translation type="unfinished"></translation>
+        <translation>Tłumaczenie</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="66"/>
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>Tłumacze</translation>
     </message>
 </context>
 <context>
@@ -34,12 +34,12 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="41"/>
         <source>Item</source>
-        <translation type="unfinished">Pozycja</translation>
+        <translation>Pozycja</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="51"/>
         <source>Item name</source>
-        <translation type="unfinished">Nazwa pozycji</translation>
+        <translation>Nazwa pozycji</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="53"/>
@@ -49,12 +49,12 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="78"/>
         <source>Item category</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kategoria pozycji</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="82"/>
         <source>Set category</source>
-        <translation type="unfinished"></translation>
+        <translation>Ustaw kategorię</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="142"/>
@@ -69,27 +69,27 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="108"/>
         <source>Standard package size</source>
-        <translation type="unfinished">Standardowy rozmiar opakowania</translation>
+        <translation>Standardowy rozmiar opakowania</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="91"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="110"/>
         <source>Set standard package size</source>
-        <translation type="unfinished">Ustaw standardowy rozmiar opakowania</translation>
+        <translation>Ustaw standardowy rozmiar opakowania</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="119"/>
         <source>Unit</source>
-        <translation type="unfinished">Jednostka</translation>
+        <translation>Jednostka</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="162"/>
         <source>Type</source>
-        <translation type="unfinished">Typ</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="172"/>
@@ -104,7 +104,7 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="183"/>
         <source>Add this item to DB</source>
-        <translation type="unfinished">Dodaj tą pozycję do bazy danych</translation>
+        <translation>Dodaj tą pozycję do bazy danych</translation>
     </message>
 </context>
 <context>
@@ -112,12 +112,12 @@
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="32"/>
         <source>Save</source>
-        <translation type="unfinished">Zapisz</translation>
+        <translation>Zapisz</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="33"/>
         <source>Discard</source>
-        <translation type="unfinished">Odrzuć</translation>
+        <translation>Odrzuć</translation>
     </message>
 </context>
 <context>
@@ -133,32 +133,32 @@
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="37"/>
         <source>Save</source>
-        <translation type="unfinished">Zapisz</translation>
+        <translation>Zapisz</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="38"/>
         <source>Discard</source>
-        <translation type="unfinished">Odrzuć</translation>
+        <translation>Odrzuć</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="42"/>
         <source>New item</source>
-        <translation type="unfinished">Nowa pozycja</translation>
+        <translation>Nowa pozycja</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="43"/>
         <source>Edit item</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytuj pozycję</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="53"/>
         <source>Item name</source>
-        <translation type="unfinished">Nazwa pozycji</translation>
+        <translation>Nazwa pozycji</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="55"/>
         <source>Set item name</source>
-        <translation type="unfinished">Ustaw nazwę pozycji</translation>
+        <translation>Ustaw nazwę pozycji</translation>
     </message>
 </context>
 <context>
@@ -166,12 +166,12 @@
     <message>
         <location filename="../qml/pages/EnumPicker.qml" line="91"/>
         <source>Press &amp; hold to accept</source>
-        <translation type="unfinished">Przyciśnij i przytrzymaj aby zatwierdzić</translation>
+        <translation>Przyciśnij i przytrzymaj aby zatwierdzić</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumPicker.qml" line="96"/>
         <source>No items</source>
-        <translation type="unfinished">Brak pozycji</translation>
+        <translation>Brak pozycji</translation>
     </message>
 </context>
 <context>
@@ -180,7 +180,7 @@
         <location filename="../qml/pages/ExportPage.qml" line="63"/>
         <source>no-importfiles-placeholder</source>
         <extracomment>informing user that no former exports are available</extracomment>
-        <translation>brak_plikówdoimportu-placeholder</translation>
+        <translation>brak_plików do importu</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="80"/>
@@ -285,7 +285,7 @@
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="331"/>
         <source>drop-database-detail</source>
-        <translation>usuń-detal-bazydanych</translation>
+        <translation>usuń-detal-bazyd anych</translation>
     </message>
 </context>
 <context>
@@ -293,57 +293,57 @@
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="139"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyczyść</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="141"/>
         <source>Deleting shopping list</source>
-        <translation type="unfinished"></translation>
+        <translation>Usuwanie listy zakupów</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="151"/>
         <source>Clear done</source>
-        <translation type="unfinished"></translation>
+        <translation>Czyszczenie zakończone</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="153"/>
         <source>Removing done entries</source>
-        <translation type="unfinished"></translation>
+        <translation>Usuwanie wpisów zakończone</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="186"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Modyfikuj</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="193"/>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Udostępnij</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="207"/>
         <source>Manage</source>
-        <translation type="unfinished"></translation>
+        <translation>Zarządzaj</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="213"/>
         <source>Help</source>
-        <translation type="unfinished">Pomoc</translation>
+        <translation>Pomoc</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="219"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>O Olive goes shopping</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="227"/>
         <source>Shopping List</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista zakupów</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="233"/>
         <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ojej, nie ma nic do kupienia?!</translation>
     </message>
 </context>
 <context>
@@ -422,12 +422,12 @@
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="99"/>
         <source>Set category</source>
-        <translation type="unfinished"></translation>
+        <translation>Ustaw kategorię</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="108"/>
         <source>Change Category</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmień kategorię</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="122"/>
@@ -450,7 +450,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="12"/>
         <source>meat products</source>
-        <translation type="unfinished"></translation>
+        <translation>produkty mięsne</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="13"/>
@@ -491,17 +491,17 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="14"/>
         <source>bakery products</source>
-        <translation type="unfinished"></translation>
+        <translation>produkty piekarnicze</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="15"/>
         <source>frozen food</source>
-        <translation type="unfinished"></translation>
+        <translation>mrożonki</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="16"/>
         <source>canned food</source>
-        <translation type="unfinished"></translation>
+        <translation>jedzenie w puszkach</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="17"/>
@@ -1569,7 +1569,7 @@
     <message>
         <location filename="../qml/pages/RecipesComponent.qml" line="112"/>
         <source>No recipes</source>
-        <translation type="unfinished">Brak przepisów</translation>
+        <translation>Brak przepisów</translation>
     </message>
 </context>
 <context>
@@ -1613,12 +1613,12 @@
     <message>
         <location filename="../qml/pages/ShareWithPage.qml" line="17"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Zrobione</translation>
     </message>
     <message>
         <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
         <source>Discard</source>
-        <translation type="unfinished">Odrzuć</translation>
+        <translation>Odrzuć</translation>
     </message>
 </context>
 <context>
@@ -1631,17 +1631,17 @@
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="109"/>
         <source>Household</source>
-        <translation type="unfinished">Gospodarstwo domowe</translation>
+        <translation>Gospodarstwo domowe</translation>
     </message>
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="115"/>
         <source>Food</source>
-        <translation type="unfinished">Jedzenie</translation>
+        <translation>Jedzenie</translation>
     </message>
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="121"/>
         <source>Recipes</source>
-        <translation type="unfinished">Przepisy</translation>
+        <translation>Przepisy</translation>
     </message>
 </context>
 </TS>
