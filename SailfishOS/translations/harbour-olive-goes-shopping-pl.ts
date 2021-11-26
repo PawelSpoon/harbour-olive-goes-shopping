@@ -44,12 +44,12 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="53"/>
         <source>Set item name</source>
-        <translation type="unfinished">Ustaw nazwę pozycji</translation>
+        <translation>Ustaw nazwę pozycji</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="78"/>
         <source>Item category</source>
-        <translation type="unfinished">Kategoria pozycji</translation>
+        <translation>Kategoria pozycji</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="82"/>
@@ -417,7 +417,7 @@
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="95"/>
         <source>Item category</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kategoria pozycji</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="99"/>

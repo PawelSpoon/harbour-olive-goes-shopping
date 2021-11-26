@@ -84,7 +84,7 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="119"/>
         <source>Unit</source>
-        <translation>Jednotka</translation>
+        <translation>Jednotky</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="162"/>
@@ -214,7 +214,7 @@
         <location filename="../qml/pages/ExportPage.qml" line="145"/>
         <source>Enter a file name for export</source>
         <extracomment>placeholder message to remind the user that he has to enter a name for the data export</extracomment>
-        <translation>Zadať názov exportovacieho súboru</translation>
+        <translation>Zadať názov súboru pre export</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="161"/>
@@ -285,7 +285,7 @@
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="331"/>
         <source>drop-database-detail</source>
-        <translation>Podrobnosti odstránenenej databázy</translation>
+        <translation>Podrobnosti odstránenej databázy</translation>
     </message>
 </context>
 <context>
@@ -351,7 +351,7 @@
     <message>
         <location filename="../qml/pages/HelpMainPage.qml" line="7"/>
         <source>A native shopping list app with recipe support.&lt;br&gt;&lt;h1&gt;The idea&lt;/h1&gt;Navigate to &apos;Recipes page&apos; and click on a recipe: all needed ingredients will be added to your shopping list. Click again on the same recipe and shopping list will now show the needed amount for two servings. Clicked on the wrong recipe? Press and hold the recipe to remove all the ingredients again. Swipe back to check the shopping list. You do not need an igredient, cause you have it already? Click on it will mark it as done. If you press and hold it afterwards, it will be removed from shopping list completely. Want to buy some additional stuff ? Navigate to &apos;Food&apos; or &apos;Household&apos; page and select further items from your db. Want to buy something so rare that is not in your db? Navigate to &apos;Anything&apos;, type in the text and amount, done.&lt;h1&gt;Getting started&lt;/h1&gt;Import demo items:&lt;br&gt;Select &apos;Manage&apos; from PushUp menu, click on &apos;Category&apos; button to reach &apos;Manage Category&apos; page. Select &apos;Import Category Db&apos; from PushUp. &lt;br&gt;Swipe back to &apos;Manage Application&apos; page then click on &apos;Food&apos; button to reach &apos;Manage Store&apos; page. Select &apos;Import Items Db&apos; from PushUp. &lt;br&gt;This will import food and household items into your db.&lt;br&gt;Swipe back or forward to go back to &apos;Manage Application&apos; page and click on &apos;Recipes&apos; button. Select &apos;Import Recipes Db&apos; from PushUp. &lt;br&gt;This will import demo recipes. The correct order is important, as recipes do depend on items.Demo items language depends on phone language. Translations do exist for german, spanish..  Default language is english.If you run your phone i.e. in english, but want german db, switch phone to german before import. You can switch back to english afterwards&lt;br&gt;You can remove demo items from local storage using &apos;Clear&apos; PushUp menu item on &apos;Manage&apos; pages. You can also remove single Food/Household and Recipes with a long press.It is possible to Add/Remove Food and Household items on &apos;Manage Items&apos; page.It is possible to Add/Edit/Remove &apos;Recipes&apos; on &apos;Manage Recipes&apos; page.&lt;br&gt;Another option to bring in your own items is to export the demo db, modify it, clear db, them import the modified file.To do this:Import items and recipes as described above. Go back to &apos;Manage Application&apos; page and click on &apos;Import Export&apos; buttonGo back to shopping list page and select &apos;Export Import&apos; from push up menu.Select location (internal / external storage), define a file name and click export.Navigate to the path, copy file to your pc, modify it according to your needs (it is self explaining), copy back to your phone.Now drop the database, select the file and click import.&lt;h1&gt;Pages&lt;/h1&gt;&lt;h2&gt;Shopping list&lt;/h2&gt;This page shows the current shopping list. Items are grouped by categories.&lt;br&gt;Click on an item will strike it through.&lt;br&gt;A second click will unstrike it again.&lt;br&gt;PressAndHold an item will remove this item from shopping list (with remorse).&lt;br&gt;Select items from Food/Household/Recipes/Anything pages to fill shopping list.&lt;br&gt;PullDownMenu &apos;Food&apos; will open &apos;Food&apos; page.&lt;br&gt;PullDownMenu &apos;Household &apos; will open &apos;Household&apos; page. &lt;br&gt;PullDownMenu &apos;Recipes&apos; will open &apos;Recipes&apos; page. &lt;br&gt;PullDownMenu &apos;Anything&apos; allows you to add &apos;free-text&apos; to your shopping list. &lt;br&gt;PullDownMenu &apos;Clear&apos; will clear whole shopping list and uncheck the items in the corresponding sub pages (with remorse).&lt;br&gt;PushUpMenu &apos;Share&apos; brings up ShareUI. It is possible to the list as text to sms, e-mail.. &lt;br&gt;PushUpMenu &apos;Help&apos; did open this help page. &lt;br&gt;PushUpMenu &apos;Manage&apos; will open Manage Application page. &lt;br&gt;&lt;h2&gt;Food / Household Page&lt;/h2&gt;This page allows to add items to shopping list.&lt;br&gt;A click will add an item to shopping list. A second click will increases the total count in shopping list.&lt;br&gt;A PressAndHold will remove item from shopping list.&lt;br&gt;PullDownMenu &apos;Manage&apos; will show &apos;Manage Store&apos; page where you can add / remove items to your local db.&lt;h2&gt;Recipes Page&lt;/h2&gt;Shows all your favorite recipes. A click on any recipe will add it&apos;s ingredients to shopping list. A second click with double all increadients.&lt;br&gt;A PressAndHold will remove the recipe from shopping list.PullDownMenu &apos;Manage&apos; will show &apos;Manage Recipes&apos; page where you can add / edit / remove recipes in your local db.&lt;h2&gt;Managing Recipes Page&lt;/h2&gt;PullDownMenu &apos;Add&apos; to add a new recipe. PressAndHold to delete one recipe from db.Click on an recipe to view/edit the details: Name, servings, ingredients ...The page is a dialog, so swipe back to cancel.&apos;rename&apos; recipe not tested. Changing services and ingredients is working fine, but will not change your current shopping list.To delete an ingredient, just PressAndHold it. To Add an ingredient, click on add, edit ... etc.To properly select an ingredient, click on the the browse button, do not type it manually.PressAndHold the ingredient in the dialog to commit your selection.&lt;h2&gt;Manage Page&lt;/h2&gt;Quick access to all db related pages.</source>
-        <translation>Aplikácia nákupných zoznamov s podporou receptov.&lt;br&gt;&lt;h1&gt;Tip&lt;/h1&gt;Prejdite na „stránku Recepty“ a ťuknite na recept: všetky potrebné prísady sa pridajú do vášho nákupného zoznamu. Znova ťuknite na rovnaký recept a nákupný zoznam teraz zobrazí potrebné množstvo na dve porcie. Ťukli ste na nesprávny recept? Stlačte a podržte recept, aby ste opäť odstránili všetky prísady. Potiahnutím doprava skontrolujte nákupný zoznam. Nepotrebujete prísadu, pretože ju už máte? Ťuknutím na ňu sa označí ako vybavená. Ak ju potom stlačíte a podržíte, úplne sa odstráni z nákupného zoznamu. Chcete nakúpiť ďalšie veci? Prejdite na stránku „Jedlo“, alebo „Domácnosť“ a vyberte ďalšie položky databázy. Chcete nakúpiť niečo ojedinelé, čo nie je v databáze? Prejdite na „Čokoľvek“, zadajte text a množstvo a je hotovo.&lt;h1&gt;Začíname&lt;/h1&gt;Importovanie ukážkových položiek:&lt;br&gt;Zo sťahovacieho menu vyberte možnosť „Spravovať“, ťuknite na tlačidlo „Kategória“ a prejdite na stránku „Spravovať kategórie“. Zo sťahovacieho menu vyberte „Importovať kategórie z Db“.&lt;br&gt;Potiahnite doprava na stránku „Spravovať aplikáciu“ a potom ťuknite na tlačidlo „Jedlo“, aby ste sa dostali na stránku „Spravovať obchod“. Zo sťahovacieho menu vyberte „Importovať položky z Db“.&lt;br&gt;Týmto zapíšete potraviny a domáce potreby do databázy.&lt;br&gt;Potiahnutím prstom vľavo alebo vpravo sa vrátite na stránku „Spravovať aplikáciu“ a ťuknite na tlačidlo „Recepty“. Zo sťahovacieho menu vyberte „Importovať recepty z Db“ &lt;br&gt;Týmto sa importujú ukážkové recepty. Správne poradie je dôležité, pretože recepty závisia od položiek. Jazyk ukážkových položiek závisí od jazyka telefónu. Preklady existujú pre nemčinu a španielčinu.  Predvolený jazyk je angličtina. Ak telefón používate v angličtine, ale chcete nemeckú databázu, pred importom prepnite telefón na nemčinu. Potom sa môžete prepnúť späť do angličtiny&lt;br&gt;Ukážkové položky môžete z ukladacieho priestoru odstrániť pomocou položky sťahovacieho menu „Vymazať“ na stránkach „Spravovať“. Môžete tiež odstrániť položky v potraviny/domácnosť a recepty dlhým stlačením. Je možné pridať/odobrať potraviny a položky domácnosti na stránke „Spravovať položky“. Na stránke „Spravovať recepty“ je možné pridať/upraviť alebo odstrániť „Recepty“&lt;br&gt;Ďalšou možnosťou ako pridať svoje vlastné položky, je exportovať ukážkovú databázu, upraviť ju, vyčistiť a importovať upravený súbor. Urobíte to takto: Importujte položky a recepty, ako je popísané vyššie. Vráťte sa na stránku „Spravovať aplikáciu“ a ťuknite na tlačidlo „Importovať Exportovať“ Vráťte sa na stránku nákupného zoznamu a z ponuky vyberte „Exportovať Importovať“. Vyberte umiestnenie (interný/externý ukladací priestor), zadajte názov súboru a ťuknite na tlačidlo exportovať. Zvoľte cestu, uložte súbor do zariadenia, samozrejme, upravte ho podľa svojich potrieb, skopírujte ho späť do zariadenia. Teraz odstráňte databázu, vyberte súbor a ťuknite na import.&lt;h1&gt;Stránky&lt;/h1&gt;&lt;h2&gt;Nákupný zoznam&lt;/h2&gt;Táto stránka zobrazuje aktuálny nákupný zoznam. Položky sú zoskupené podľa kategórií.&lt;br&gt;Ťuknutím na položku ju prečiarknete.&lt;br&gt;Ďalším ťuknutím sa prečiarknutie zruší.&lt;br&gt;Stlačením a podržaním položky sa táto položka odstráni z nákupného zoznamu (nedá sa nič robiť).&lt;br&gt;Vyberte položky zo stránok Jedlo/Domácnosť/Recepty/Čokoľvek na vyplnenie nákupného zoznamu.&lt;br&gt;Rozbaľovacia ponuka „Jedlo“ otvorí stránku „Jedlo“.&lt;br&gt;Rozbaľovacia ponuka „Domácnosť“ otvorí stránku „Domácnosť“.&lt;br&gt;Rozbaľovacia ponuka „Recepty“ otvorí stránku „Recepty“.&lt;br&gt;Rozbaľovacia ponuka „Čokoľvek“ vám umožňuje pridať „voľný text“ do vášho nákupného zoznamu.&lt;br&gt;Rozbaľovacia ponuka „Vymazať“ vymaže celý nákupný zoznam a zruší označenie položiek na príslušných pod-stránkach (nedá sa nič robiť).&lt;br&gt;Položka sťahovacieho menu „Poskytnúť“ vyvolá okno funkcie poskytovania. V zozname môže byť SMS, e-mail.&lt;br&gt;Sťahovacie menu „Pomoc“ otvorí túto stránku pomocníka. &lt;br&gt;Položka sťahovacieho menu „Spravovať“ otvorí stránku Správa aplikácie.&lt;br&gt;&lt;h2&gt;Stránka Jedlo/Domácnosť&lt;/h2&gt;Táto stránka umožňuje pridať položky do nákupného zoznamu.&lt;br&gt;Ťuknutím pridáte položku do nákupného zoznamu. Druhé ťuknutie zvýši celkový počet v nákupnom zozname.&lt;br&gt;Stlačením a podržaním tlačidla odstránite položku z nákupného zoznamu.&lt;br&gt;Položka sťahovacieho menu „Spravovať“ zobrazí stránku „Spravovať obchod“, kde môžete pridávať/odstraňovať položky do vlastnej databázy.&lt;h2&gt;Stránka Recepty&lt;/h2&gt;Zobrazuje Vaše obľúbené recepty. Ťuknutím na akýkoľvek recept pridáte jeho prísady do nákupného zoznamu. Druhé ťuknutie zdvojnásobí množstvo prísad.&lt;br&gt;Stlačením a podržaním odstránite recept z nákupného zoznamu. Položka sťahovacieho menu „Spravovať“ zobrazí stránku „Spravovať recepty“, kde môžete pridávať/upravovať/odstraňovať recepty vo vašej databáze.&lt;h2&gt;Stránka Spravovať recepty&lt;/h2&gt;Položka sťahovacieho menu „Pridať“ pridá nový recept. Stlačením a podržaním vymažete jeden recept z databázy. Ťuknutím na recept zobrazíte/upravíte podrobnosti: názov, porcie, prísady... Stránka je dialógová, takže potiahnutím doprava sa zmena odvolá. Funkcia „Premenovať“ recept nebola testovaná. Zmena porcií a prísad funguje správne, ale nezmení váš aktuálny nákupný zoznam. Ak chcete prísadu vymazať, jednoducho ju stlačte a podržte. Ak chcete pridať prísadu, ťuknite na pridať, upraviť, atď. Ak chcete správne vybrať prísadu, ťuknite na tlačidlo Prehľadávať, nezadávajte ju ručne. Stlačením a podržaním prísady v dialógovom okne potvrďte svoj výber.&lt;h2&gt;Stránka Spravovať&lt;/h2&gt;Rýchly prístup ku všetkým stránkam súvisiacim s databázou.</translation>
+        <translation>Aplikácia nákupných zoznamov s podporou receptov.&lt;br&gt;&lt;h1&gt;Tip&lt;/h1&gt;Prejdite na „stránku Recepty“ a ťuknite na recept: všetky potrebné prísady sa pridajú do vášho nákupného zoznamu. Znova ťuknite na rovnaký recept a nákupný zoznam teraz zobrazí potrebné množstvo na dve porcie. Ťukli ste na nesprávny recept? Stlačte a podržte recept, aby ste opäť odstránili všetky prísady. Potiahnutím doprava skontrolujte nákupný zoznam. Nepotrebujete prísadu, pretože ju už máte? Ťuknutím na ňu sa označí ako vybavená. Ak ju potom stlačíte a podržíte, úplne sa odstráni z nákupného zoznamu. Chcete nakúpiť ďalšie veci? Prejdite na stránku „Potraviny“, alebo „Domácnosť“ a vyberte ďalšie položky databázy. Chcete nakúpiť niečo ojedinelé, čo nie je v databáze? Prejdite na „Všeličo“, zadajte text a množstvo a je hotovo.&lt;h1&gt;Začíname&lt;/h1&gt;Importovanie ukážkových položiek:&lt;br&gt;Zo sťahovacieho menu vyberte možnosť „Spravovať“, ťuknite na tlačidlo „Kategória“ a prejdite na stránku „Spravovať kategórie“. Zo sťahovacieho menu vyberte „Importovať kategórie z Db“.&lt;br&gt;Potiahnite doprava na stránku „Spravovať aplikáciu“ a potom ťuknite na tlačidlo „Potraviny“, aby ste sa dostali na stránku „Spravovať obchod“. Zo sťahovacieho menu vyberte „Importovať položky z Db“.&lt;br&gt;Týmto zapíšete potraviny a domáce potreby do databázy.&lt;br&gt;Potiahnutím prstom vľavo alebo vpravo sa vrátite na stránku „Spravovať aplikáciu“ a ťuknite na tlačidlo „Recepty“. Zo sťahovacieho menu vyberte „Importovať recepty z Db“ &lt;br&gt;Týmto sa importujú ukážkové recepty. Správne poradie je dôležité, pretože recepty závisia od položiek. Jazyk ukážkových položiek závisí od jazyka telefónu. Preklady existujú pre nemčinu a španielčinu.  Predvolený jazyk je angličtina. Ak telefón používate v angličtine, ale chcete nemeckú databázu, pred importom prepnite telefón na nemčinu. Potom sa môžete prepnúť späť do angličtiny&lt;br&gt;Ukážkové položky môžete z ukladacieho priestoru odstrániť pomocou položky sťahovacieho menu „Vymazať“ na stránkach „Spravovať“. Môžete tiež odstrániť položky v potraviny/domácnosť a recepty dlhým stlačením. Je možné pridať/odobrať potraviny a položky domácnosti na stránke „Spravovať položky“. Na stránke „Spravovať recepty“ je možné pridať/upraviť alebo odstrániť „Recepty“&lt;br&gt;Ďalšou možnosťou ako pridať svoje vlastné položky, je exportovať ukážkovú databázu, upraviť ju, vyčistiť a importovať upravený súbor. Urobíte to takto: Importujte položky a recepty, ako je popísané vyššie. Vráťte sa na stránku „Spravovať aplikáciu“ a ťuknite na tlačidlo „Importovať Exportovať“ Vráťte sa na stránku nákupného zoznamu a z ponuky vyberte „Exportovať Importovať“. Vyberte umiestnenie (interný/externý ukladací priestor), zadajte názov súboru a ťuknite na tlačidlo exportovať. Zvoľte cestu, uložte súbor do zariadenia, samozrejme, upravte ho podľa svojich potrieb, skopírujte ho späť do zariadenia. Teraz odstráňte databázu, vyberte súbor a ťuknite na import.&lt;h1&gt;Stránky&lt;/h1&gt;&lt;h2&gt;Nákupný zoznam&lt;/h2&gt;Táto stránka zobrazuje aktuálny nákupný zoznam. Položky sú zoskupené podľa kategórií.&lt;br&gt;Ťuknutím na položku ju prečiarknete.&lt;br&gt;Ďalším ťuknutím sa prečiarknutie zruší.&lt;br&gt;Stlačením a podržaním položky sa táto položka odstráni z nákupného zoznamu (čo už).&lt;br&gt;Vyberte položky zo stránok Potraviny/Domácnosť/Recepty/Všeličo na vyplnenie nákupného zoznamu.&lt;br&gt;Rozbaľovacia ponuka „Potraviny“ otvorí stránku „Potraviny“.&lt;br&gt;Rozbaľovacia ponuka „Domácnosť“ otvorí stránku „Domácnosť“.&lt;br&gt;Rozbaľovacia ponuka „Recepty“ otvorí stránku „Recepty“.&lt;br&gt;Rozbaľovacia ponuka „Všeličo“ vám umožňuje pridať „voľný text“ do vášho nákupného zoznamu.&lt;br&gt;Rozbaľovacia ponuka „Vymazať“ vymaže celý nákupný zoznam a zruší označenie položiek na príslušných pod-stránkach (čo už).&lt;br&gt;Položka sťahovacieho menu „Poskytnúť“ vyvolá okno funkcie poskytovania. V zozname môže byť SMS, e-mail.&lt;br&gt;Sťahovacie menu „Pomoc“ otvorí túto stránku pomocníka. &lt;br&gt;Položka sťahovacieho menu „Spravovať“ otvorí stránku Správa aplikácie.&lt;br&gt;&lt;h2&gt;Stránka Potraviny/Domácnosť&lt;/h2&gt;Táto stránka umožňuje pridať položky do nákupného zoznamu.&lt;br&gt;Ťuknutím pridáte položku do nákupného zoznamu. Druhé ťuknutie zvýši celkový počet v nákupnom zozname.&lt;br&gt;Stlačením a podržaním tlačidla odstránite položku z nákupného zoznamu.&lt;br&gt;Položka sťahovacieho menu „Spravovať“ zobrazí stránku „Spravovať obchod“, kde môžete pridávať/odstraňovať položky do vlastnej databázy.&lt;h2&gt;Stránka Recepty&lt;/h2&gt;Zobrazuje Vaše obľúbené recepty. Ťuknutím na akýkoľvek recept pridáte jeho prísady do nákupného zoznamu. Druhé ťuknutie zdvojnásobí množstvo prísad.&lt;br&gt;Stlačením a podržaním odstránite recept z nákupného zoznamu. Položka sťahovacieho menu „Spravovať“ zobrazí stránku „Spravovať recepty“, kde môžete pridávať/upravovať/odstraňovať recepty vo vašej databáze.&lt;h2&gt;Stránka Spravovať recepty&lt;/h2&gt;Položka sťahovacieho menu „Pridať“ pridá nový recept. Stlačením a podržaním vymažete jeden recept z databázy. Ťuknutím na recept zobrazíte/upravíte podrobnosti: názov, porcie, prísady... Stránka je dialógová, takže potiahnutím doprava sa zmena odvolá. Funkcia „Premenovať“ recept nebola testovaná. Zmena porcií a prísad funguje správne, ale nezmení váš aktuálny nákupný zoznam. Ak chcete prísadu vymazať, jednoducho ju stlačte a podržte. Ak chcete pridať prísadu, ťuknite na pridať, upraviť, atď. Ak chcete správne vybrať prísadu, ťuknite na tlačidlo Prehľadávať, nezadávajte ju ručne. Stlačením a podržaním prísady v dialógovom okne potvrďte svoj výber.&lt;h2&gt;Stránka Spravovať&lt;/h2&gt;Rýchly prístup ku všetkým stránkam súvisiacim s databázou.</translation>
     </message>
 </context>
 <context>
@@ -491,7 +491,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="14"/>
         <source>bakery products</source>
-        <translation>pečivo</translation>
+        <translation>pekárenské výrobky</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="15"/>
@@ -501,7 +501,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="16"/>
         <source>canned food</source>
-        <translation>konzervované jedlo</translation>
+        <translation>konzervované potraviny</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="17"/>
@@ -521,12 +521,12 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="20"/>
         <source>hardware</source>
-        <translation>železiarsky tovar</translation>
+        <translation>priemyselný tovar</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="22"/>
         <source>automotive</source>
-        <translation>automobilový priemysel</translation>
+        <translation>auto-moto</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="23"/>
@@ -544,14 +544,14 @@
         <translation>jablčný ocot</translation>
     </message>
     <message>
-        <location filename="../qml/DbLayer/OliveDb/Items.js" line="35"/>
-        <source>avocado</source>
-        <translation>avokádo</translation>
-    </message>
-    <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="34"/>
         <source>asian noodels</source>
         <translation>ázijské rezance</translation>
+    </message>
+    <message>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="35"/>
+        <source>avocado</source>
+        <translation>avokádo</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="36"/>
@@ -586,7 +586,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="42"/>
         <source>string beans</source>
-        <translation>fazuľové strúčky</translation>
+        <translation>fazuľové strúčiky</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="43"/>
@@ -726,7 +726,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="70"/>
         <source>carrots</source>
-        <translation>mrkve</translation>
+        <translation>mrkva</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="71"/>
@@ -761,7 +761,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="77"/>
         <source>cabbage</source>
-        <translation>kausta</translation>
+        <translation>kapusta</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="78"/>
@@ -781,7 +781,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="81"/>
         <source>lime</source>
-        <translation>limetka</translation>
+        <translation>limeta</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="82"/>
@@ -831,7 +831,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="91"/>
         <source>italian rice</source>
-        <translation>talianská ryža</translation>
+        <translation>talianska ryža</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="92"/>
@@ -901,7 +901,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="105"/>
         <source>pepper pink</source>
-        <translation>korenie ružové</translation>
+        <translation>korenie biele</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="106"/>
@@ -981,7 +981,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="121"/>
         <source>pickeled onions</source>
-        <translation>naladaná cibuľa</translation>
+        <translation>nakladaná cibuľa</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="122"/>
@@ -1036,7 +1036,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="132"/>
         <source>tortillas</source>
-        <translation>tortilly</translation>
+        <translation>tortilla</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="133"/>
@@ -1071,7 +1071,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="141"/>
         <source>all purpose cleaner</source>
-        <translation>univerzálny čistič</translation>
+        <translation>univerzálny čistiaci prostriedok</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="142"/>
@@ -1086,7 +1086,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="144"/>
         <source>bathroom cleaner</source>
-        <translation>čistič kúpeľne</translation>
+        <translation>čistiaci prostriedok na kúpeľne</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="145"/>
@@ -1101,7 +1101,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="147"/>
         <source>window cleaner</source>
-        <translation>čistič okien</translation>
+        <translation>čistiaci prostriedok na sklo</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="148"/>
@@ -1181,7 +1181,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="163"/>
         <source>lens cleaner</source>
-        <translation>čistič šošoviek</translation>
+        <translation>prostriedok na čistenie šošoviek</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="164"/>
@@ -1221,7 +1221,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="171"/>
         <source>panty liners</source>
-        <translation>slipové vložky</translation>
+        <translation>hygienické vložky</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="172"/>
@@ -1295,14 +1295,14 @@
         <translation>Importovať databázu kategórií</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageEnumsPage.qml" line="118"/>
-        <source>Update shopping list</source>
-        <translation>Aktualizovať nákupný zoznam</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="123"/>
         <source>Add</source>
         <translation>Pridať</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageEnumsPage.qml" line="118"/>
+        <source>Update shopping list</source>
+        <translation>Aktualizovať nákupný zoznam</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="219"/>
@@ -1368,7 +1368,7 @@
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="112"/>
         <source>Food</source>
-        <translation>Jedlo</translation>
+        <translation>Potraviny</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="120"/>
@@ -1454,7 +1454,7 @@
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="80"/>
         <source>Add ingredient</source>
-        <translation>Pridat prísadu</translation>
+        <translation>Pridať prísadu</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="101"/>
@@ -1535,7 +1535,7 @@
     <message>
         <location filename="../qml/pages/RecipeItemDialog.qml" line="95"/>
         <source>Unit</source>
-        <translation>Jednotka</translation>
+        <translation>Jednotky</translation>
     </message>
 </context>
 <context>
@@ -1605,7 +1605,7 @@
     <message>
         <location filename="../qml/pages/Settings.qml" line="63"/>
         <source>Use food items</source>
-        <translation>Použiť položky jedla</translation>
+        <translation>Použiť položky potravín</translation>
     </message>
 </context>
 <context>
@@ -1636,7 +1636,7 @@
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="115"/>
         <source>Food</source>
-        <translation>Jedlo</translation>
+        <translation>Potraviny</translation>
     </message>
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="121"/>

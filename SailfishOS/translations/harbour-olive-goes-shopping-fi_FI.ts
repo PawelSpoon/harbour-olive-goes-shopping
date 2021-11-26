@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi_FI" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="fi_FI">
 <context>
     <name>About</name>
     <message>
@@ -45,62 +47,62 @@
         <translation>Aseta nimikkeen nimi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="70"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="78"/>
         <source>Item category</source>
         <translation>Nimikkeen kategoria</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="74"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="82"/>
         <source>Set category</source>
         <translation>Aseta kategoria</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="134"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="142"/>
         <source>Create another</source>
         <translation>Luo toinen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="147"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="157"/>
         <source>All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.</source>
         <translation>Kaikki seuraavat kentät ovat pakollisia vain, jos haluat lisätä ne omaan tietokantaasi. Muussa tapauksessa pyyhkäise hyväksyäksesi.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="100"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="108"/>
         <source>Standard package size</source>
         <translation>Oletuspakkauskoko</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="83"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="91"/>
         <source>Select</source>
         <translation>Valitse</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="102"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="110"/>
         <source>Set standard package size</source>
         <translation>Aseta oletuspakkauskoko</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="111"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="119"/>
         <source>Unit</source>
         <translation>Yksikkö</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="152"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="162"/>
         <source>Type</source>
         <translation>Tyyppi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="162"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="172"/>
         <source>co2 in []</source>
         <translation>co2 []</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="164"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="174"/>
         <source>Set co2 footprint</source>
         <translation>Aseta co2-jalanjälki</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AnyItemComponent.qml" line="173"/>
+        <location filename="../qml/pages/AnyItemComponent.qml" line="183"/>
         <source>Add this item to DB</source>
         <translation>Lisää tämä nimike tietokantaan</translation>
     </message>
@@ -1605,6 +1607,19 @@
         <location filename="../qml/pages/Settings.qml" line="63"/>
         <source>Use food items</source>
         <translation>Käytä ruokatavaroita</translation>
+    </message>
+</context>
+<context>
+    <name>ShareWithPage</name>
+    <message>
+        <location filename="../qml/pages/ShareWithPage.qml" line="17"/>
+        <source>Done</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
+        <source>Discard</source>
+        <translation type="unfinished">Hylkää</translation>
     </message>
 </context>
 <context>

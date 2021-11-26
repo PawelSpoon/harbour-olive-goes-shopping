@@ -1632,17 +1632,17 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="109"/>
         <source>Household</source>
-        <translation type="unfinished">Haushalt</translation>
+        <translation>Domácnost</translation>
     </message>
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="115"/>
         <source>Food</source>
-        <translation type="unfinished">Lebensmittel</translation>
+        <translation>Potraviny</translation>
     </message>
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="121"/>
         <source>Recipes</source>
-        <translation type="unfinished">Rezepte</translation>
+        <translation>Recepty</translation>
     </message>
 </context>
 </TS>
