@@ -34,77 +34,77 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="41"/>
         <source>Item</source>
-        <translation type="unfinished">Artikel</translation>
+        <translation>Artikel</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="51"/>
         <source>Item name</source>
-        <translation type="unfinished">Artikelname</translation>
+        <translation>Artikelname</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="53"/>
         <source>Set item name</source>
-        <translation type="unfinished">Artikelname festlegen</translation>
+        <translation>Artikelname festlegen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="78"/>
         <source>Item category</source>
-        <translation type="unfinished">Artikel Kategorie</translation>
+        <translation>Artikel Kategorie</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="82"/>
         <source>Set category</source>
-        <translation type="unfinished">Kategorie festlegen</translation>
+        <translation>Kategorie festlegen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="142"/>
         <source>Create another</source>
-        <translation type="unfinished"></translation>
+        <translation>Weiteren erzeugen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="157"/>
         <source>All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.</source>
-        <translation type="unfinished">Alle nachfolgenden Felder werden nur benötigt, wenn du den Artikel zusätzlich zu deiner Datenbank hinzufügen möchtest. Falls nicht, wische zum Akzeptieren.</translation>
+        <translation>Alle nachfolgenden Felder werden nur benötigt, wenn du den Artikel zusätzlich zu deiner Datenbank hinzufügen möchtest. Falls nicht, wische zum Akzeptieren.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="108"/>
         <source>Standard package size</source>
-        <translation type="unfinished">Standardpackgröße</translation>
+        <translation>Standardpackgröße</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="91"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswählen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="110"/>
         <source>Set standard package size</source>
-        <translation type="unfinished">Standardpackgröße festlegen</translation>
+        <translation>Standardpackgröße festlegen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="119"/>
         <source>Unit</source>
-        <translation type="unfinished">Einheit</translation>
+        <translation>Einheit</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="162"/>
         <source>Type</source>
-        <translation type="unfinished">Typ</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="172"/>
         <source>co2 in []</source>
-        <translation type="unfinished"></translation>
+        <translation>Co2 in [}</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="174"/>
         <source>Set co2 footprint</source>
-        <translation type="unfinished"></translation>
+        <translation>Setze Co2 Abdruck</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="183"/>
         <source>Add this item to DB</source>
-        <translation type="unfinished">Diesen Artikel zur DB hinzufügen</translation>
+        <translation>Diesen Artikel zur DB hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -112,12 +112,12 @@
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="32"/>
         <source>Save</source>
-        <translation type="unfinished">Speichern</translation>
+        <translation>Speichern</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="33"/>
         <source>Discard</source>
-        <translation type="unfinished">Verwerfen</translation>
+        <translation>Verwerfen</translation>
     </message>
 </context>
 <context>
@@ -294,57 +294,57 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="139"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Löschen</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="141"/>
         <source>Deleting shopping list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lösche Einkaufsliste</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="151"/>
         <source>Clear done</source>
-        <translation type="unfinished"></translation>
+        <translation>Gelöscht</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="153"/>
         <source>Removing done entries</source>
-        <translation type="unfinished"></translation>
+        <translation>Entferne Erledigtes</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="186"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändern</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="193"/>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Teilen</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="207"/>
         <source>Manage</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwalten</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="213"/>
         <source>Help</source>
-        <translation type="unfinished">Hilfe</translation>
+        <translation>Hilfe</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="219"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Über</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="227"/>
         <source>Shopping List</source>
-        <translation type="unfinished"></translation>
+        <translation>Einkaufsliste</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="233"/>
         <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
-        <translation type="unfinished"></translation>
+        <translation>Oh mein Gott, &lt;br&gt;nichts einzukaufen ?!</translation>
     </message>
 </context>
 <context>
@@ -433,12 +433,12 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="122"/>
         <source>co2 in []</source>
-        <translation type="unfinished"></translation>
+        <translation>Co2 in []</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="124"/>
         <source>Set co2 footprint</source>
-        <translation type="unfinished"></translation>
+        <translation>Co2 Abdruck</translation>
     </message>
 </context>
 <context>
@@ -1275,7 +1275,7 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/ItemsComponent.qml" line="149"/>
         <source>No items</source>
-        <translation type="unfinished">Keine Artikel</translation>
+        <translation>Keine Artikel</translation>
     </message>
 </context>
 <context>
@@ -1303,22 +1303,22 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="118"/>
         <source>Update shopping list</source>
-        <translation type="unfinished"></translation>
+        <translation>Einkaufsliste updaten</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="219"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Löschen</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="225"/>
         <source>Move up</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinauf</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="232"/>
         <source>Move down</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinunter</translation>
     </message>
 </context>
 <context>
@@ -1349,42 +1349,42 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="58"/>
         <source>Help</source>
-        <translation type="unfinished">Hilfe</translation>
+        <translation>Hilfe</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="67"/>
         <source>Manage Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwalten</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="90"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="101"/>
         <source>Recipes</source>
-        <translation type="unfinished">Rezepte</translation>
+        <translation>Rezepte</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="112"/>
         <source>Food</source>
-        <translation type="unfinished">Lebensmittel</translation>
+        <translation>Lebensmittel</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="120"/>
         <source>Household</source>
-        <translation type="unfinished">Haushalt</translation>
+        <translation>Haushalt</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="127"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorien</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="133"/>
         <source>Import Export</source>
-        <translation type="unfinished"></translation>
+        <translation>Import Export</translation>
     </message>
 </context>
 <context>
@@ -1392,7 +1392,7 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="78"/>
         <source>Please add or import recipes</source>
-        <translation type="unfinished"></translation>
+        <translation>Rezepten erstellen oder importieren</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="83"/>
@@ -1415,52 +1415,52 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="38"/>
         <source>Save</source>
-        <translation type="unfinished">Speichern</translation>
+        <translation>Speichern</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="39"/>
         <source>Discard</source>
-        <translation type="unfinished">Verwerfen</translation>
+        <translation>Verwerfen</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="43"/>
         <source>New recipe</source>
-        <translation type="unfinished">Neues Rezept</translation>
+        <translation>Neues Rezept</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="44"/>
         <source>Recipe</source>
-        <translation type="unfinished">Rezept</translation>
+        <translation>Rezept</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="54"/>
         <source>Recipe name</source>
-        <translation type="unfinished">Rezept-Bezeichnung</translation>
+        <translation>Rezept-Bezeichnung</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="56"/>
         <source>Set recipe name</source>
-        <translation type="unfinished">Rezept-Bezeichnung festlegen</translation>
+        <translation>Rezept-Bezeichnung festlegen</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="68"/>
         <source>Servings</source>
-        <translation type="unfinished">Portionen</translation>
+        <translation>Portionen</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="70"/>
         <source>Set number of servings</source>
-        <translation type="unfinished">Anzahl der Portionen setzen</translation>
+        <translation>Anzahl der Portionen setzen</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="80"/>
         <source>Add ingredient</source>
-        <translation type="unfinished">Zutat hinzufügen</translation>
+        <translation>Zutat hinzufügen</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="101"/>
         <source>Please add ingredient</source>
-        <translation type="unfinished">Bitte Zutat hinzufügen</translation>
+        <translation>Bitte Zutat hinzufügen</translation>
     </message>
 </context>
 <context>
@@ -1570,7 +1570,7 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/RecipesComponent.qml" line="112"/>
         <source>No recipes</source>
-        <translation type="unfinished">Keine Rezepte</translation>
+        <translation>Keine Rezepte</translation>
     </message>
 </context>
 <context>
@@ -1586,27 +1586,27 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/Settings.qml" line="35"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="38"/>
         <source>Modules</source>
-        <translation type="unfinished"></translation>
+        <translation>Module</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="45"/>
         <source>Use recipes</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwende Rezepte</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="54"/>
         <source>Use household items</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwende Haushalt DB</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="63"/>
         <source>Use food items</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwende Lebensmittel DB</translation>
     </message>
 </context>
 <context>
@@ -1614,12 +1614,12 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/ShareWithPage.qml" line="17"/>
         <source>Done</source>
-        <translation type="unfinished"></translation>
+        <translation>Erledigt</translation>
     </message>
     <message>
         <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
         <source>Discard</source>
-        <translation type="unfinished">Verwerfen</translation>
+        <translation>Verwerfen</translation>
     </message>
 </context>
 <context>
@@ -1627,7 +1627,7 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="103"/>
         <source>Any</source>
-        <translation type="unfinished"></translation>
+        <translation>Etwas</translation>
     </message>
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="109"/>
