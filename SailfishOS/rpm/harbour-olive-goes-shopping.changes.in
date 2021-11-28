@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Wed Nov 24 2021 Jack Tar <pawel@ich-habe-fertig.com> 0.4.2-0
+- fix german translation
+
 * Wed Nov 24 2021 Jack Tar <pawel@ich-habe-fertig.com> 0.4.1-0
 - added slovak translation
 

@@ -304,7 +304,7 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="151"/>
         <source>Clear done</source>
-        <translation>Gelöscht</translation>
+        <translation>Erledigte löschen </translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="153"/>
@@ -1632,12 +1632,12 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="109"/>
         <source>Household</source>
-        <translation>Domácnost</translation>
+        <translation>Haushalt</translation>
     </message>
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="115"/>
         <source>Food</source>
-        <translation>Potraviny</translation>
+        <translation>Lebensmittel</translation>
     </message>
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="121"/>
