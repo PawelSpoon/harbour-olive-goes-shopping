@@ -49,7 +49,6 @@ DISTFILES += qml/harbour-olive-goes-shopping.qml \
     qml/pages/SearchPageHeader.qml \
     qml/pages/ExportPage.qml \
     qml/pages/RecipeItemDialog.qml \
-    qml/pages/ShareWithPage.qml \
     qml/pages/RecipeItemPicker.qml \
     qml/pages/ManageMainPage.qml \
     qml/pages/ManageEnumsPage.qml \

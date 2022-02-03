@@ -11,7 +11,7 @@
     <message>
         <location filename="../qml/pages/About.qml" line="34"/>
         <source>License</source>
-        <translation>licence</translation>
+        <translation>Licence</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="44"/>
@@ -59,12 +59,12 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="142"/>
         <source>Create another</source>
-        <translation></translation>
+        <translation>Vytvoř další</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="157"/>
         <source>All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.</source>
-        <translation>Přidat položku do db</translation>
+        <translation>Všechna následující pole jsou povinná, pouze pokud chcete přidat tuto položku také do své databáze. Pokud ne, přejeďte přejetím.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="108"/>
@@ -74,7 +74,7 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="91"/>
         <source>Select</source>
-        <translation></translation>
+        <translation>Vybrat</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="110"/>
@@ -94,17 +94,17 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="172"/>
         <source>co2 in []</source>
-        <translation></translation>
+        <translation>co2 v [}</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="174"/>
         <source>Set co2 footprint</source>
-        <translation></translation>
+        <translation>Nastav co2 stopu</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="183"/>
         <source>Add this item to DB</source>
-        <translation>Přidat tuto položku do db</translation>
+        <translation>Přidat položku do db</translation>
     </message>
 </context>
 <context>
@@ -182,12 +182,12 @@ nakoupit&apos;</translation>
         <location filename="../qml/pages/ExportPage.qml" line="63"/>
         <source>no-importfiles-placeholder</source>
         <extracomment>informing user that no former exports are available</extracomment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="80"/>
         <source>internal-storage-label</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="85"/>
@@ -246,106 +246,101 @@ nakoupit&apos;</translation>
         <location filename="../qml/pages/ExportPage.qml" line="281"/>
         <source>information-label</source>
         <extracomment>headline for information about import/export mechanism</extracomment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="290"/>
         <source>export-import-description</source>
         <extracomment>Explanation of how importing and exporting data works and where the files are/have to be located.</extracomment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="296"/>
         <source>drop-database-header</source>
         <extracomment>headline for the database purge</extracomment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="305"/>
         <source>drop-database-warning</source>
         <extracomment>warn user of destructive drop DB function</extracomment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="314"/>
         <source>drop-database-confirmation</source>
         <extracomment>let user confirm the database purge</extracomment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="322"/>
         <source>drop-database-button</source>
         <extracomment>Button to import data form the selected file</extracomment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="329"/>
         <source>drop-database-success</source>
         <extracomment>informational notification about the successful dropped data tables</extracomment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="331"/>
         <source>drop-database-detail</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="139"/>
+        <location filename="../qml/pages/FirstPage.qml" line="152"/>
         <source>Clear</source>
-        <translation></translation>
+        <translation>Vymazat</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="141"/>
+        <location filename="../qml/pages/FirstPage.qml" line="154"/>
         <source>Deleting shopping list</source>
-        <translation></translation>
+        <translation>Mazání nákupního seznamu</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="151"/>
+        <location filename="../qml/pages/FirstPage.qml" line="164"/>
         <source>Clear done</source>
-        <translation></translation>
+        <translation>Vymazat hotové</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="153"/>
+        <location filename="../qml/pages/FirstPage.qml" line="166"/>
         <source>Removing done entries</source>
-        <translation></translation>
+        <translation>Odstranění hotové</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="186"/>
+        <location filename="../qml/pages/FirstPage.qml" line="199"/>
         <source>Modify</source>
-        <translation></translation>
+        <translation>Upravit</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="193"/>
-        <source>Share</source>
-        <translation></translation>
+        <location filename="../qml/pages/FirstPage.qml" line="206"/>
+        <source>Copied to clipboard</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="207"/>
+        <location filename="../qml/pages/FirstPage.qml" line="212"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FirstPage.qml" line="249"/>
         <source>Manage</source>
-        <translation></translation>
+        <translation>Spravovat</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="213"/>
-        <source>Help</source>
-        <translation>Pomoc</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="219"/>
-        <source>About</source>
-        <translation>O</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="227"/>
+        <location filename="../qml/pages/FirstPage.qml" line="269"/>
         <source>Shopping List</source>
-        <translation></translation>
+        <translation>Nákupní seznam</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="233"/>
+        <location filename="../qml/pages/FirstPage.qml" line="275"/>
         <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
-        <translation></translation>
+        <translation>Proboha, &lt;br&gt;není co nakupovat</translation>
     </message>
 </context>
 <context>
@@ -353,7 +348,7 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/pages/HelpMainPage.qml" line="7"/>
         <source>A native shopping list app with recipe support.&lt;br&gt;&lt;h1&gt;The idea&lt;/h1&gt;Navigate to &apos;Recipes page&apos; and click on a recipe: all needed ingredients will be added to your shopping list. Click again on the same recipe and shopping list will now show the needed amount for two servings. Clicked on the wrong recipe? Press and hold the recipe to remove all the ingredients again. Swipe back to check the shopping list. You do not need an igredient, cause you have it already? Click on it will mark it as done. If you press and hold it afterwards, it will be removed from shopping list completely. Want to buy some additional stuff ? Navigate to &apos;Food&apos; or &apos;Household&apos; page and select further items from your db. Want to buy something so rare that is not in your db? Navigate to &apos;Anything&apos;, type in the text and amount, done.&lt;h1&gt;Getting started&lt;/h1&gt;Import demo items:&lt;br&gt;Select &apos;Manage&apos; from PushUp menu, click on &apos;Category&apos; button to reach &apos;Manage Category&apos; page. Select &apos;Import Category Db&apos; from PushUp. &lt;br&gt;Swipe back to &apos;Manage Application&apos; page then click on &apos;Food&apos; button to reach &apos;Manage Store&apos; page. Select &apos;Import Items Db&apos; from PushUp. &lt;br&gt;This will import food and household items into your db.&lt;br&gt;Swipe back or forward to go back to &apos;Manage Application&apos; page and click on &apos;Recipes&apos; button. Select &apos;Import Recipes Db&apos; from PushUp. &lt;br&gt;This will import demo recipes. The correct order is important, as recipes do depend on items.Demo items language depends on phone language. Translations do exist for german, spanish..  Default language is english.If you run your phone i.e. in english, but want german db, switch phone to german before import. You can switch back to english afterwards&lt;br&gt;You can remove demo items from local storage using &apos;Clear&apos; PushUp menu item on &apos;Manage&apos; pages. You can also remove single Food/Household and Recipes with a long press.It is possible to Add/Remove Food and Household items on &apos;Manage Items&apos; page.It is possible to Add/Edit/Remove &apos;Recipes&apos; on &apos;Manage Recipes&apos; page.&lt;br&gt;Another option to bring in your own items is to export the demo db, modify it, clear db, them import the modified file.To do this:Import items and recipes as described above. Go back to &apos;Manage Application&apos; page and click on &apos;Import Export&apos; buttonGo back to shopping list page and select &apos;Export Import&apos; from push up menu.Select location (internal / external storage), define a file name and click export.Navigate to the path, copy file to your pc, modify it according to your needs (it is self explaining), copy back to your phone.Now drop the database, select the file and click import.&lt;h1&gt;Pages&lt;/h1&gt;&lt;h2&gt;Shopping list&lt;/h2&gt;This page shows the current shopping list. Items are grouped by categories.&lt;br&gt;Click on an item will strike it through.&lt;br&gt;A second click will unstrike it again.&lt;br&gt;PressAndHold an item will remove this item from shopping list (with remorse).&lt;br&gt;Select items from Food/Household/Recipes/Anything pages to fill shopping list.&lt;br&gt;PullDownMenu &apos;Food&apos; will open &apos;Food&apos; page.&lt;br&gt;PullDownMenu &apos;Household &apos; will open &apos;Household&apos; page. &lt;br&gt;PullDownMenu &apos;Recipes&apos; will open &apos;Recipes&apos; page. &lt;br&gt;PullDownMenu &apos;Anything&apos; allows you to add &apos;free-text&apos; to your shopping list. &lt;br&gt;PullDownMenu &apos;Clear&apos; will clear whole shopping list and uncheck the items in the corresponding sub pages (with remorse).&lt;br&gt;PushUpMenu &apos;Share&apos; brings up ShareUI. It is possible to the list as text to sms, e-mail.. &lt;br&gt;PushUpMenu &apos;Help&apos; did open this help page. &lt;br&gt;PushUpMenu &apos;Manage&apos; will open Manage Application page. &lt;br&gt;&lt;h2&gt;Food / Household Page&lt;/h2&gt;This page allows to add items to shopping list.&lt;br&gt;A click will add an item to shopping list. A second click will increases the total count in shopping list.&lt;br&gt;A PressAndHold will remove item from shopping list.&lt;br&gt;PullDownMenu &apos;Manage&apos; will show &apos;Manage Store&apos; page where you can add / remove items to your local db.&lt;h2&gt;Recipes Page&lt;/h2&gt;Shows all your favorite recipes. A click on any recipe will add it&apos;s ingredients to shopping list. A second click with double all increadients.&lt;br&gt;A PressAndHold will remove the recipe from shopping list.PullDownMenu &apos;Manage&apos; will show &apos;Manage Recipes&apos; page where you can add / edit / remove recipes in your local db.&lt;h2&gt;Managing Recipes Page&lt;/h2&gt;PullDownMenu &apos;Add&apos; to add a new recipe. PressAndHold to delete one recipe from db.Click on an recipe to view/edit the details: Name, servings, ingredients ...The page is a dialog, so swipe back to cancel.&apos;rename&apos; recipe not tested. Changing services and ingredients is working fine, but will not change your current shopping list.To delete an ingredient, just PressAndHold it. To Add an ingredient, click on add, edit ... etc.To properly select an ingredient, click on the the browse button, do not type it manually.PressAndHold the ingredient in the dialog to commit your selection.&lt;h2&gt;Manage Page&lt;/h2&gt;Quick access to all db related pages.</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -434,12 +429,12 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="122"/>
         <source>co2 in []</source>
-        <translation></translation>
+        <translation>Co2</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="124"/>
         <source>Set co2 footprint</source>
-        <translation></translation>
+        <translation>Nastav co2 stopu</translation>
     </message>
 </context>
 <context>
@@ -523,17 +518,17 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="20"/>
         <source>hardware</source>
-        <translation></translation>
+        <translation>železářské zboží</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="22"/>
         <source>automotive</source>
-        <translation></translation>
+        <translation>Automobilový</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="23"/>
         <source>others</source>
-        <translation></translation>
+        <translation>Ostatní</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="32"/>
@@ -553,7 +548,7 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="34"/>
         <source>asian noodels</source>
-        <translation>zavrhnout</translation>
+        <translation>asiatické nudle</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="36"/>
@@ -1098,7 +1093,7 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="146"/>
         <source>fine detergent</source>
-        <translation></translation>
+        <translation>jemný prací prostředek</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="147"/>
@@ -1108,7 +1103,7 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="148"/>
         <source>moist toilet paper</source>
-        <translation></translation>
+        <translation>vlhký toaletní papír</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="149"/>
@@ -1276,7 +1271,7 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/pages/ItemsComponent.qml" line="149"/>
         <source>No items</source>
-        <translation></translation>
+        <translation>Žádné položky</translation>
     </message>
 </context>
 <context>
@@ -1299,7 +1294,7 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="118"/>
         <source>Update shopping list</source>
-        <translation></translation>
+        <translation>Aktualizuj nákupní seznam</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="123"/>
@@ -1309,17 +1304,17 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="219"/>
         <source>Delete</source>
-        <translation></translation>
+        <translation>Vymazat</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="225"/>
         <source>Move up</source>
-        <translation></translation>
+        <translation>Posunout nahoru</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="232"/>
         <source>Move down</source>
-        <translation></translation>
+        <translation>Posunout dolů</translation>
     </message>
 </context>
 <context>
@@ -1353,39 +1348,44 @@ nakoupit&apos;</translation>
         <translation>Pomoc</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="67"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="64"/>
+        <source>About</source>
+        <translation type="unfinished">O</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageMainPage.qml" line="73"/>
         <source>Manage Application</source>
-        <translation></translation>
+        <translation>Spravovat aplikaci</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="90"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="96"/>
         <source>Settings</source>
-        <translation></translation>
+        <translation>Nastavení</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="101"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="107"/>
         <source>Recipes</source>
         <translation>Recepty</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="112"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="118"/>
         <source>Food</source>
         <translation>Jídlo</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="120"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="126"/>
         <source>Household</source>
         <translation>Domácností</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="127"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="133"/>
         <source>Categories</source>
-        <translation></translation>
+        <translation>Druhy</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="133"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="139"/>
         <source>Import Export</source>
-        <translation></translation>
+        <translation>Import Export</translation>
     </message>
 </context>
 <context>
@@ -1393,7 +1393,7 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="78"/>
         <source>Please add or import recipes</source>
-        <translation></translation>
+        <translation>Přidej nebo importuj recepty</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="83"/>
@@ -1426,7 +1426,7 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="43"/>
         <source>New recipe</source>
-        <translation>Novy recept</translation>
+        <translation>Nový recept</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="44"/>
@@ -1456,12 +1456,12 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="80"/>
         <source>Add ingredient</source>
-        <translation>přidat přísadu</translation>
+        <translation>Přidejte přísady</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="101"/>
         <source>Please add ingredient</source>
-        <translation>Přidejte přísadu</translation>
+        <translation>Prosím přidej přísady</translation>
     </message>
 </context>
 <context>
@@ -1571,7 +1571,7 @@ nakoupit&apos;</translation>
     <message>
         <location filename="../qml/pages/RecipesComponent.qml" line="112"/>
         <source>No recipes</source>
-        <translation>žádné recepty</translation>
+        <translation>Žádné recepty</translation>
     </message>
 </context>
 <context>
@@ -1585,63 +1585,50 @@ nakoupit&apos;</translation>
 <context>
     <name>Settings</name>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="35"/>
+        <location filename="../qml/pages/Settings.qml" line="36"/>
         <source>Settings</source>
-        <translation></translation>
+        <translation>Nastavení</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="38"/>
+        <location filename="../qml/pages/Settings.qml" line="39"/>
         <source>Modules</source>
-        <translation></translation>
+        <translation>Moduly</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="45"/>
+        <location filename="../qml/pages/Settings.qml" line="46"/>
         <source>Use recipes</source>
-        <translation></translation>
+        <translation>Používat recepty</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="54"/>
+        <location filename="../qml/pages/Settings.qml" line="55"/>
         <source>Use household items</source>
-        <translation></translation>
+        <translation>Používat domácí potřeby</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="63"/>
+        <location filename="../qml/pages/Settings.qml" line="64"/>
         <source>Use food items</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>ShareWithPage</name>
-    <message>
-        <location filename="../qml/pages/ShareWithPage.qml" line="17"/>
-        <source>Done</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
-        <source>Discard</source>
-        <translation>Zavrhnout</translation>
+        <translation>Používejte potraviny</translation>
     </message>
 </context>
 <context>
     <name>harbour-olive-goes-shopping</name>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="103"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="106"/>
         <source>Any</source>
-        <translation></translation>
+        <translation>Jakýkoli</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="109"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="112"/>
         <source>Household</source>
         <translation>Domácností</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="115"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="118"/>
         <source>Food</source>
-        <translation>Jídlo</translation>
+        <translation>Potrava</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="121"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="124"/>
         <source>Recipes</source>
         <translation>Recepty</translation>
     </message>

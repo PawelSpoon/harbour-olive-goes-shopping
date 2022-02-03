@@ -117,6 +117,14 @@ Item {
         applicationWindow.cover.fillModel(model)*/
     }
 
+    function getCapitalization()
+    {
+        if (applicationWindow.settings.useCapitalization)
+            return Font.MixedCase
+        else
+            return Font.AllLowercase
+    }
+
     function showMyMenues(page)
     {
         // not needed in this app

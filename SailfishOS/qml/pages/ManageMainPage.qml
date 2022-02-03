@@ -60,6 +60,12 @@ Page {
                     applicationWindow.controller.openHelpPage();
                 }
             }
+            MenuItem {
+                text: qsTr("About")
+                onClicked: {
+                    controller.openAboutPage();
+                }
+            }
         }
 
         header: PageHeader {

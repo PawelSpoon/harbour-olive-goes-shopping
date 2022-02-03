@@ -38,9 +38,14 @@ public:
     bool categorizeItems();
     void setCategorizeItems(const bool value);
 
+    Q_PROPERTY(bool useCapitalization READ capitalization WRITE setCapitalization NOTIFY capitalizationChanged)
+    bool capitalization();
+    void setCapitalization(const bool value);
+
 signals:
     void moduleChanged();
     void categoryChanged();
+    void capitalizationChanged();
 
 };
 

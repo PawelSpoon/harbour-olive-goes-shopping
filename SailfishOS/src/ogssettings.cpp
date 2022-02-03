@@ -87,7 +87,7 @@ void OGSSettings::setCategorizeShoppingList(const bool value)
 bool OGSSettings::categorizeItems()
 {
     QSettings settings;
-    return settings.value("categorizeItems", "").toBool();
+    return settings.value("categorizeItems", true).toBool();
 }
 
 void OGSSettings::setCategorizeItems(const bool value)
@@ -95,4 +95,17 @@ void OGSSettings::setCategorizeItems(const bool value)
     QSettings settings;
     settings.setValue("categorizeItems", value);
     emit categoryChanged();
+}
+
+bool OGSSettings::capitalization()
+{
+    QSettings settings;
+    return settings.value("capitalization", "").toBool();
+}
+
+void OGSSettings::setCapitalization(const bool value)
+{
+    QSettings settings;
+    settings.setValue("capitalization", value);
+    emit capitalizationChanged();
 }

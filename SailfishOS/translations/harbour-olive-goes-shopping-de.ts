@@ -292,57 +292,52 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="139"/>
+        <location filename="../qml/pages/FirstPage.qml" line="152"/>
         <source>Clear</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="141"/>
+        <location filename="../qml/pages/FirstPage.qml" line="154"/>
         <source>Deleting shopping list</source>
         <translation>Lösche Einkaufsliste</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="151"/>
+        <location filename="../qml/pages/FirstPage.qml" line="164"/>
         <source>Clear done</source>
-        <translation>Erledigte löschen </translation>
+        <translation>Erledigte löschen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="153"/>
+        <location filename="../qml/pages/FirstPage.qml" line="166"/>
         <source>Removing done entries</source>
         <translation>Entferne Erledigtes</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="186"/>
+        <location filename="../qml/pages/FirstPage.qml" line="199"/>
         <source>Modify</source>
-        <translation>Ändern</translation>
+        <translation>Liste bearbeiten</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="193"/>
-        <source>Share</source>
-        <translation>Teilen</translation>
+        <location filename="../qml/pages/FirstPage.qml" line="206"/>
+        <source>Copied to clipboard</source>
+        <translation>In Zwischenablage kopiert</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="207"/>
+        <location filename="../qml/pages/FirstPage.qml" line="212"/>
+        <source>Copy to clipboard</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FirstPage.qml" line="249"/>
         <source>Manage</source>
         <translation>Verwalten</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="213"/>
-        <source>Help</source>
-        <translation>Hilfe</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="219"/>
-        <source>About</source>
-        <translation>Über</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="227"/>
+        <location filename="../qml/pages/FirstPage.qml" line="269"/>
         <source>Shopping List</source>
         <translation>Einkaufsliste</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="233"/>
+        <location filename="../qml/pages/FirstPage.qml" line="275"/>
         <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
         <translation>Oh mein Gott, &lt;br&gt;nichts einzukaufen ?!</translation>
     </message>
@@ -1352,37 +1347,42 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
         <translation>Hilfe</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="67"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="64"/>
+        <source>About</source>
+        <translation>Über</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageMainPage.qml" line="73"/>
         <source>Manage Application</source>
         <translation>Verwalten</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="90"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="96"/>
         <source>Settings</source>
         <translation>Einstellungen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="101"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="107"/>
         <source>Recipes</source>
         <translation>Rezepte</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="112"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="118"/>
         <source>Food</source>
         <translation>Lebensmittel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="120"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="126"/>
         <source>Household</source>
         <translation>Haushalt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="127"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="133"/>
         <source>Categories</source>
         <translation>Kategorien</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="133"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="139"/>
         <source>Import Export</source>
         <translation>Import Export</translation>
     </message>
@@ -1584,63 +1584,50 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
 <context>
     <name>Settings</name>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="35"/>
+        <location filename="../qml/pages/Settings.qml" line="36"/>
         <source>Settings</source>
         <translation>Einstellungen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="38"/>
+        <location filename="../qml/pages/Settings.qml" line="39"/>
         <source>Modules</source>
         <translation>Module</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="45"/>
+        <location filename="../qml/pages/Settings.qml" line="46"/>
         <source>Use recipes</source>
         <translation>Verwende Rezepte</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="54"/>
+        <location filename="../qml/pages/Settings.qml" line="55"/>
         <source>Use household items</source>
         <translation>Verwende Haushalt DB</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="63"/>
+        <location filename="../qml/pages/Settings.qml" line="64"/>
         <source>Use food items</source>
         <translation>Verwende Lebensmittel DB</translation>
     </message>
 </context>
 <context>
-    <name>ShareWithPage</name>
-    <message>
-        <location filename="../qml/pages/ShareWithPage.qml" line="17"/>
-        <source>Done</source>
-        <translation>Erledigt</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
-        <source>Discard</source>
-        <translation>Verwerfen</translation>
-    </message>
-</context>
-<context>
     <name>harbour-olive-goes-shopping</name>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="103"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="106"/>
         <source>Any</source>
         <translation>Etwas</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="109"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="112"/>
         <source>Household</source>
         <translation>Haushalt</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="115"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="118"/>
         <source>Food</source>
         <translation>Lebensmittel</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="121"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="124"/>
         <source>Recipes</source>
         <translation>Recepty</translation>
     </message>

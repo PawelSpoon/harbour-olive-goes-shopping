@@ -60,6 +60,9 @@ ApplicationWindow
         onCategoryChanged: {
             console.log('category settings did change -> need to update visibility')
         }
+        onCapitalizationChanged: {
+            console.log('capitalization changed')
+        }
     }
 
 

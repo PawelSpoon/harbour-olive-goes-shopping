@@ -31,6 +31,8 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.olivegoesshopping.ogssettings 1.0
+import Nemo.Notifications 1.0
+import Sailfish.Share 1.0
 
 import "../DbLayer/OliveDb/Persistance.js" as DB
 
@@ -127,6 +129,17 @@ Page {
         }
     }
 
+    // converts shopping list to shareable string
+    function convertListToShareAble()
+    {
+        var listToShare = "";
+        for (var i=0; i< shoppingModel.count; i++) {
+            var oneItemAsString = shoppingModel.get(i).name + " " + shoppingModel.get(i).amount
+            listToShare += "\n" + oneItemAsString // here newline instead
+        }
+        return listToShare;
+    }
+
     // To enable PullDownMenu, place our content in a SilicaFlickable
     SilicaListView {
         id: shoppingList
@@ -183,33 +196,62 @@ Page {
                 }
             }
             MenuItem {
-                text: qsTr("Modify")
+                text: qsTr("Modify");
                 onClicked: applicationWindow.controller.openAddDialog();
             }
         }
 
+        Notification {
+            id: notification
+            summary: qsTr("Copied to clipboard")
+        }
+
         PushUpMenu {
+
             MenuItem {
-                text: qsTr("Share")
+                text: qsTr("Copy to clipboard");
                 onClicked: {
-                    if (shoppingModel.count > 0)
-                    {
-                        var listToShare = "";
-                        for (var i=0; i< shoppingModel.count; i++) {
-                            var oneItemAsString = shoppingModel.get(i).name + " " + shoppingModel.get(i).amount
-                            listToShare += "\n" + oneItemAsString // here newline instead
-                        }
-                        pageStack.push(Qt.resolvedUrl("ShareWithPage.qml"), {destroyOnPop:true, mainPage: firstPage, sharedName: "My shopping list", sharedContent: listToShare, sharedType:"text/x-url" })
+                    if (shoppingModel.count > 0) {
+                      Clipboard.text = convertListToShareAble();
+                      //notification.body = clip;
+                      notification.publish()
                     }
                 }
             }
+            /*MenuItem {
+                text: qsTr("Share")
+                ShareAction {
+                    id: share
+                    title: qsTr("Share shopping list")
+                    mimeType: "text/x-"
+                }
+                onClicked: {
+                    if (shoppingModel.count > 0)
+                    {
+                        var listToShare = convertListToShareAble();
+                        var mimeType = "text/x-url";
+                        var he = {}
+                        he.data = listToShare
+                        he.name = "Buy this"
+                        he.type = mimeType
+                        he["linkTitle"] = listToShare// works in email body
+                        share.mimeType = "text/x-url";
+                        share.resources = [he]
+                        share.trigger()
+
+                        share.resources = ["listToShare"]
+                        share.trigger()
+                    }
+                }
+                //todo: else log do nothing
+            }*/
             MenuItem {
                 text: qsTr("Manage")
                 onClicked: {
                     controller.openManagePage();
                 }
             }
-            MenuItem {
+            /*MenuItem {
                 text: qsTr("Help")
                 onClicked: {
                     controller.openHelpPage();
@@ -220,7 +262,7 @@ Page {
                 onClicked: {
                     controller.openAboutPage();
                 }
-            }
+            }*/
         }
 
         header: PageHeader {

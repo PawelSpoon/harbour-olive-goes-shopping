@@ -21,6 +21,7 @@ Page {
             useCategories.checked = applicationWindow.settings.useCategories
             categorizeItems.checked = applicationWindow.settings.categorizeItems
             categorizeShoppingList.checked = applicationWindow.settings.categorizeShoppingList
+            useCapitalization.checked = applicationWindow.settings.useCapitalization
         }
 
         // Why is this necessary?
@@ -102,6 +103,22 @@ Page {
                 automaticCheck: true;
                 onCheckedChanged: {
                     applicationWindow.settings.categorizeItems = checked;
+                }
+            }
+            SectionHeader {
+                text: "Text input"
+            }
+            TextSwitch {
+                id: useCapitalization
+                text: "Capitalize items"
+                description: "all textfields will capitalize your input (after restart)"
+                automaticCheck: true;
+                onCheckedChanged: {
+                    applicationWindow.settings.useCapitalization = checked;
+                    /*if (checked === false) {
+                        categorizeItems.checked = false;
+                        categorizeShoppingList.checked = false;
+                    }*/
                 }
             }
         }

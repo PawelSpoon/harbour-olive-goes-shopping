@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.15.2, 2021-11-28T13:15:53. -->
+<!-- Written by QtCreator 4.15.2, 2021-12-20T12:37:27. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -8,7 +8,7 @@
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
-  <value type="int">1</value>
+  <value type="int">2</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.EditorSettings</variable>
@@ -89,11 +89,11 @@
   <variable>ProjectExplorer.Project.Target.0</variable>
   <valuemap type="QVariantMap">
    <value type="QString" key="DeviceType">Mer.Device.Type</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">SailfishOS-4.2.0.21-aarch64 (in Sailfish SDK Build Engine)</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">SailfishOS-4.2.0.21-aarch64 (in Sailfish SDK Build Engine)</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">SailfishOS-4.2.0.21-aarch64.default</value>
-   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">1</value>
-   <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">1</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">SailfishOS-4.3.0.12-i486 (in Sailfish SDK Build Engine)</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">SailfishOS-4.3.0.12-i486 (in Sailfish SDK Build Engine)</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">SailfishOS-4.3.0.12-i486.default</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">2</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="int" key="EnableQmlDebugging">0</value>
@@ -102,8 +102,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_aarch64_in_Sailfish_SDK_Build_Engine-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_aarch64_in_Sailfish_SDK_Build_Engine-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_i486_in_Sailfish_SDK_Build_Engine-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_i486_in_Sailfish_SDK_Build_Engine-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -159,8 +159,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_aarch64_in_Sailfish_SDK_Build_Engine-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_aarch64_in_Sailfish_SDK_Build_Engine-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_i486_in_Sailfish_SDK_Build_Engine-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_i486_in_Sailfish_SDK_Build_Engine-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -217,8 +217,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_aarch64_in_Sailfish_SDK_Build_Engine-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_aarch64_in_Sailfish_SDK_Build_Engine-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_i486_in_Sailfish_SDK_Build_Engine-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_i486_in_Sailfish_SDK_Build_Engine-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -273,7 +273,7 @@
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.DeployConfiguration.0">
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
-      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">false</value>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QmakeProjectManager.MerPrepareTargetStep</value>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
@@ -411,7 +411,7 @@
     <value type="QString" key="MerRunConfiguration.QmlLiveTargetWorkspace"></value>
     <value type="int" key="PE.EnvironmentAspect.Base">1</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">harbour-olive-goes-shopping</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">harbour-olive-goes-shopping (on %{Device:Name})</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QmakeProjectManager.MerRunConfiguration:/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/SailfishOS/harbour-olive-goes-shopping.pro</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/SailfishOS/harbour-olive-goes-shopping.pro</value>
     <value type="int" key="RemoteLinux.EnvironmentAspect.Version">1</value>
@@ -428,11 +428,11 @@
   <variable>ProjectExplorer.Project.Target.1</variable>
   <valuemap type="QVariantMap">
    <value type="QString" key="DeviceType">Mer.Device.Type</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">SailfishOS-4.2.0.21-armv7hl (in Sailfish SDK Build Engine)</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">SailfishOS-4.2.0.21-armv7hl (in Sailfish SDK Build Engine)</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">SailfishOS-4.2.0.21-armv7hl.default</value>
-   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">1</value>
-   <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">1</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">SailfishOS-4.3.0.12-aarch64 (in Sailfish SDK Build Engine)</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">SailfishOS-4.3.0.12-aarch64 (in Sailfish SDK Build Engine)</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">SailfishOS-4.3.0.12-aarch64.default</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="int" key="EnableQmlDebugging">0</value>
@@ -441,8 +441,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_armv7hl_in_Sailfish_SDK_Build_Engine-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_armv7hl_in_Sailfish_SDK_Build_Engine-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_aarch64_in_Sailfish_SDK_Build_Engine-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_aarch64_in_Sailfish_SDK_Build_Engine-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -498,8 +498,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_armv7hl_in_Sailfish_SDK_Build_Engine-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_armv7hl_in_Sailfish_SDK_Build_Engine-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_aarch64_in_Sailfish_SDK_Build_Engine-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_aarch64_in_Sailfish_SDK_Build_Engine-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -556,8 +556,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_armv7hl_in_Sailfish_SDK_Build_Engine-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_armv7hl_in_Sailfish_SDK_Build_Engine-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_aarch64_in_Sailfish_SDK_Build_Engine-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_aarch64_in_Sailfish_SDK_Build_Engine-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -767,9 +767,9 @@
   <variable>ProjectExplorer.Project.Target.2</variable>
   <valuemap type="QVariantMap">
    <value type="QString" key="DeviceType">Mer.Device.Type</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">SailfishOS-4.2.0.21-i486 (in Sailfish SDK Build Engine)</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">SailfishOS-4.2.0.21-i486 (in Sailfish SDK Build Engine)</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">SailfishOS-4.2.0.21-i486.default</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">SailfishOS-4.3.0.12-armv7hl (in Sailfish SDK Build Engine)</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">SailfishOS-4.3.0.12-armv7hl (in Sailfish SDK Build Engine)</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">SailfishOS-4.3.0.12-armv7hl.default</value>
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
@@ -780,8 +780,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_i486_in_Sailfish_SDK_Build_Engine-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_i486_in_Sailfish_SDK_Build_Engine-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_armv7hl_in_Sailfish_SDK_Build_Engine-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_armv7hl_in_Sailfish_SDK_Build_Engine-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -837,8 +837,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_i486_in_Sailfish_SDK_Build_Engine-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_i486_in_Sailfish_SDK_Build_Engine-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_armv7hl_in_Sailfish_SDK_Build_Engine-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_armv7hl_in_Sailfish_SDK_Build_Engine-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -895,8 +895,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_i486_in_Sailfish_SDK_Build_Engine-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_2_0_21_i486_in_Sailfish_SDK_Build_Engine-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_armv7hl_in_Sailfish_SDK_Build_Engine-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/pawel/Documents/SailfishProjects/Olive-Git/harbour-olive-goes-shopping/build-harbour-olive-goes-shopping-SailfishOS_4_3_0_12_armv7hl_in_Sailfish_SDK_Build_Engine-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>

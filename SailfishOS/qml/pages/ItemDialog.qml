@@ -59,7 +59,7 @@ Dialog {
                 errorHighlight: text.length === 0
                 EnterKey.enabled: !errorHighlight
                 EnterKey.iconSource: "image://theme/icon-m-enter-next"
-                font.capitalization: Font.MixedCase
+                font.capitalization: applicationWindow.controller.getCapitalization();//Font.MixedCase
                 EnterKey.onClicked: defaultAmount.focus = true
             }
 

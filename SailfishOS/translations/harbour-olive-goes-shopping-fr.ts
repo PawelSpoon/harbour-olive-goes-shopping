@@ -291,57 +291,52 @@
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="139"/>
+        <location filename="../qml/pages/FirstPage.qml" line="152"/>
         <source>Clear</source>
         <translation>Tout supprimer</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="141"/>
+        <location filename="../qml/pages/FirstPage.qml" line="154"/>
         <source>Deleting shopping list</source>
         <translation>Supprimer la liste de courses</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="151"/>
+        <location filename="../qml/pages/FirstPage.qml" line="164"/>
         <source>Clear done</source>
         <translation>Supprimer les éléments validés</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="153"/>
+        <location filename="../qml/pages/FirstPage.qml" line="166"/>
         <source>Removing done entries</source>
         <translation>Supprimer les éléments validés</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="186"/>
+        <location filename="../qml/pages/FirstPage.qml" line="199"/>
         <source>Modify</source>
         <translation>Modifier</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="193"/>
-        <source>Share</source>
-        <translation>Partager</translation>
+        <location filename="../qml/pages/FirstPage.qml" line="206"/>
+        <source>Copied to clipboard</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="207"/>
+        <location filename="../qml/pages/FirstPage.qml" line="212"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FirstPage.qml" line="249"/>
         <source>Manage</source>
         <translation>Gérer</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="213"/>
-        <source>Help</source>
-        <translation>Aide</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="219"/>
-        <source>About</source>
-        <translation>À propos</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="227"/>
+        <location filename="../qml/pages/FirstPage.qml" line="269"/>
         <source>Shopping List</source>
         <translation>Liste de Courses</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="233"/>
+        <location filename="../qml/pages/FirstPage.qml" line="275"/>
         <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
         <translation>Sapristi, &lt;br&gt;aucune course à faire ?!</translation>
     </message>
@@ -1351,37 +1346,42 @@
         <translation>Aide</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="67"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="64"/>
+        <source>About</source>
+        <translation type="unfinished">À propos</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ManageMainPage.qml" line="73"/>
         <source>Manage Application</source>
         <translation>Gérer l&apos;Application</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="90"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="96"/>
         <source>Settings</source>
         <translation>Paramètres</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="101"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="107"/>
         <source>Recipes</source>
         <translation>Recettes</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="112"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="118"/>
         <source>Food</source>
         <translation>Nourriture</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="120"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="126"/>
         <source>Household</source>
         <translation>Autre</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="127"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="133"/>
         <source>Categories</source>
         <translation>Catégories</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ManageMainPage.qml" line="133"/>
+        <location filename="../qml/pages/ManageMainPage.qml" line="139"/>
         <source>Import Export</source>
         <translation>Import Export</translation>
     </message>
@@ -1583,63 +1583,50 @@
 <context>
     <name>Settings</name>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="35"/>
+        <location filename="../qml/pages/Settings.qml" line="36"/>
         <source>Settings</source>
         <translation>Paramètres</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="38"/>
+        <location filename="../qml/pages/Settings.qml" line="39"/>
         <source>Modules</source>
         <translation>Modules</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="45"/>
+        <location filename="../qml/pages/Settings.qml" line="46"/>
         <source>Use recipes</source>
         <translation>Utiliser les recettes</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="54"/>
+        <location filename="../qml/pages/Settings.qml" line="55"/>
         <source>Use household items</source>
         <translation>Utiliser les éléments divers</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="63"/>
+        <location filename="../qml/pages/Settings.qml" line="64"/>
         <source>Use food items</source>
         <translation>Utiliser les éléments de nourriture</translation>
     </message>
 </context>
 <context>
-    <name>ShareWithPage</name>
-    <message>
-        <location filename="../qml/pages/ShareWithPage.qml" line="17"/>
-        <source>Done</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ShareWithPage.qml" line="18"/>
-        <source>Discard</source>
-        <translation type="unfinished">Annuler</translation>
-    </message>
-</context>
-<context>
     <name>harbour-olive-goes-shopping</name>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="103"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="106"/>
         <source>Any</source>
         <translation>Tout</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="109"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="112"/>
         <source>Household</source>
         <translation>Autre</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="115"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="118"/>
         <source>Food</source>
         <translation>Nourriture</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-olive-goes-shopping.qml" line="121"/>
+        <location filename="../qml/harbour-olive-goes-shopping.qml" line="124"/>
         <source>Recipes</source>
         <translation>Recettes</translation>
     </message>

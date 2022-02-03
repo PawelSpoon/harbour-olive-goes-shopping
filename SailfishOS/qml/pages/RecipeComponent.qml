@@ -57,7 +57,7 @@ import "../DbLayer/OliveDb/Persistance.js" as DB
                 errorHighlight: text.length === 0
                 EnterKey.enabled: !errorHighlight
                 EnterKey.iconSource: "image://theme/icon-m-enter-next"
-                font.capitalization: Font.MixedCase
+                font.capitalization: applicationWindow.controller.getCapitalization();//Font.MixedCase
                 EnterKey.onClicked: servings.focus = true
             }
 

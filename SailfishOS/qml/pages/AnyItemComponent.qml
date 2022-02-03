@@ -54,7 +54,7 @@ SilicaListView {
                 errorHighlight: text.length === 0
                 EnterKey.enabled: !errorHighlight
                 EnterKey.iconSource: "image://theme/icon-m-enter-next"
-                font.capitalization: Font.MixedCase
+                font.capitalization: applicationWindow.controller.getCapitalization();//Font.MixedCase
                 focus: true
                 EnterKey.onClicked: {
                     if (applicationWindow.settings.useCategories) {
@@ -258,9 +258,15 @@ SilicaListView {
     function doAccept() {
         // adds item to shopping list !
         // ignore accept if no name was entered
-        if (itemName.text == null || itemName.text == "") return;
+        var name = itemName.text;
+        if (itemName.text == null || itemName.text === "") return;
+        if (applicationWindow.settings.useCapitalization === false) {
+          name = name.toLowerCase();
+        }
+
+
         // make sure that this 'new' item is really new, if not, use uid from db
-        var isThereAny = DB.getDatabase().getItemPerName(itemName.text)
+        var isThereAny = DB.getDatabase().getItemPerName(name)
         if (isThereAny.length < 1)
         {
           if (uid_ == "" ) uid_ = DB.getDatabase().db.getUniqueId()
@@ -272,7 +278,7 @@ SilicaListView {
         }
         // save to db and reload the prev page to make the new item visible
         // shoppinglist has no itemType column -> so item type can not be stored
-        DB.getDatabase().setShoppingListItem(uid_,itemName.text,parseInt(defaultAmount.text),unit.value,0,categoryName.text)
+        DB.getDatabase().setShoppingListItem(uid_,name,parseInt(defaultAmount.text),unit.value,0,categoryName.text)
         applicationWindow.controller.updateShoppingListPage();
     }
 

@@ -8,13 +8,23 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* So Feb 5 2022 Jack Tar <pawel@ich-habe-fertig.com> 0.4.4-0
+- tempoarily removed sharing
+- add copy to clipboard instead
+- auto capitalization setting
+- cleaned up first page: remove help and about to manage page
+- rename modify pull to edit
+
+* So Dez 5 2021 Jack Tar <pawel@ich-habe-fertig.com> 0.4.3-0
+- fix sharing
+
 * Wed Nov 24 2021 Jack Tar <pawel@ich-habe-fertig.com> 0.4.2-0
 - fix german translation
 
 * Wed Nov 24 2021 Jack Tar <pawel@ich-habe-fertig.com> 0.4.1-0
 - added slovak translation
 
-Thu Okt 27 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.4.0-0
+* Thu Okt 27 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.4.0-0
 - updated spanish translation - muchas gracias carmenfdezb
 
 * Thu Sep 10 2020 Jack Tar <pawel@ich-habe-fertig.com> 0.3.8-0
