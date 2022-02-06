@@ -34,77 +34,77 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="41"/>
         <source>Item</source>
-        <translation type="unfinished">Artículo</translation>
+        <translation>Artículo</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="51"/>
         <source>Item name</source>
-        <translation type="unfinished">Nombre de artículo</translation>
+        <translation>Nombre de artículo</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="53"/>
         <source>Set item name</source>
-        <translation type="unfinished">Indica nombre del artículo</translation>
+        <translation>Indica nombre de artículo</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="78"/>
         <source>Item category</source>
-        <translation type="unfinished">Categoría</translation>
+        <translation>Categoría de artículo</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="82"/>
         <source>Set category</source>
-        <translation type="unfinished">Indicar categoría</translation>
+        <translation>Indica categoría</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="142"/>
         <source>Create another</source>
-        <translation type="unfinished"></translation>
+        <translation>Crear otro</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="157"/>
         <source>All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.</source>
-        <translation type="unfinished">Los siguientes campos sólo son necesarios si quieres añadir este artículo a tu bd, en caso contrario, desliza para aceptar.</translation>
+        <translation>Los siguientes campos sólo son obligatorios si también quieres añadir este artículo a tu bd. En caso contrario, desliza para aceptar.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="108"/>
         <source>Standard package size</source>
-        <translation type="unfinished">Tamaño estándar del paquete</translation>
+        <translation>Tamaño estándar del paquete</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="91"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="110"/>
         <source>Set standard package size</source>
-        <translation type="unfinished">Indica tamaño estándar del paquete</translation>
+        <translation>Indica tamaño estándar del paquete</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="119"/>
         <source>Unit</source>
-        <translation type="unfinished">Unidad</translation>
+        <translation>Unidad</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="162"/>
         <source>Type</source>
-        <translation type="unfinished">Tipo</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="172"/>
         <source>co2 in []</source>
-        <translation type="unfinished"></translation>
+        <translation>co2 en []</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="174"/>
         <source>Set co2 footprint</source>
-        <translation type="unfinished"></translation>
+        <translation>Indica huella de co2</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="183"/>
         <source>Add this item to DB</source>
-        <translation type="unfinished">Añadir este artículo a la BD</translation>
+        <translation>Añadir este artículo a BD</translation>
     </message>
 </context>
 <context>
@@ -112,12 +112,12 @@
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="32"/>
         <source>Save</source>
-        <translation type="unfinished">Guardar</translation>
+        <translation>Guardar</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemDialog.qml" line="33"/>
         <source>Discard</source>
-        <translation type="unfinished">Cancelar</translation>
+        <translation>Cancelar</translation>
     </message>
 </context>
 <context>
@@ -125,7 +125,7 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="99"/>
         <source>Olive &lt;br&gt;goes &lt;br&gt; shoppin&apos;</source>
-        <translation>Olivia &lt;br&gt; va de&lt;br&gt;compras</translation>
+        <translation>Olivia &lt;br&gt;va de &lt;br&gt; compras</translation>
     </message>
 </context>
 <context>
@@ -293,52 +293,52 @@
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="152"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Limpiar</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="154"/>
         <source>Deleting shopping list</source>
-        <translation type="unfinished"></translation>
+        <translation>Borrando lista de compra</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="164"/>
         <source>Clear done</source>
-        <translation type="unfinished"></translation>
+        <translation>Limpiar entradas realizadas</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="166"/>
         <source>Removing done entries</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminando entradas realizadas</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="199"/>
         <source>Modify</source>
-        <translation type="unfinished"></translation>
+        <translation>Modificar</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="206"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiado al portapapeles</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="212"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar al portapapeles</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="249"/>
         <source>Manage</source>
-        <translation type="unfinished"></translation>
+        <translation>Gestionar</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="269"/>
         <source>Shopping List</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de la compra</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="275"/>
         <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
-        <translation type="unfinished"></translation>
+        <translation>Oh querido, &lt;br&gt;¿no hay nada que comprar?</translation>
     </message>
 </context>
 <context>
@@ -346,7 +346,7 @@
     <message>
         <location filename="../qml/pages/HelpMainPage.qml" line="7"/>
         <source>A native shopping list app with recipe support.&lt;br&gt;&lt;h1&gt;The idea&lt;/h1&gt;Navigate to &apos;Recipes page&apos; and click on a recipe: all needed ingredients will be added to your shopping list. Click again on the same recipe and shopping list will now show the needed amount for two servings. Clicked on the wrong recipe? Press and hold the recipe to remove all the ingredients again. Swipe back to check the shopping list. You do not need an igredient, cause you have it already? Click on it will mark it as done. If you press and hold it afterwards, it will be removed from shopping list completely. Want to buy some additional stuff ? Navigate to &apos;Food&apos; or &apos;Household&apos; page and select further items from your db. Want to buy something so rare that is not in your db? Navigate to &apos;Anything&apos;, type in the text and amount, done.&lt;h1&gt;Getting started&lt;/h1&gt;Import demo items:&lt;br&gt;Select &apos;Manage&apos; from PushUp menu, click on &apos;Category&apos; button to reach &apos;Manage Category&apos; page. Select &apos;Import Category Db&apos; from PushUp. &lt;br&gt;Swipe back to &apos;Manage Application&apos; page then click on &apos;Food&apos; button to reach &apos;Manage Store&apos; page. Select &apos;Import Items Db&apos; from PushUp. &lt;br&gt;This will import food and household items into your db.&lt;br&gt;Swipe back or forward to go back to &apos;Manage Application&apos; page and click on &apos;Recipes&apos; button. Select &apos;Import Recipes Db&apos; from PushUp. &lt;br&gt;This will import demo recipes. The correct order is important, as recipes do depend on items.Demo items language depends on phone language. Translations do exist for german, spanish..  Default language is english.If you run your phone i.e. in english, but want german db, switch phone to german before import. You can switch back to english afterwards&lt;br&gt;You can remove demo items from local storage using &apos;Clear&apos; PushUp menu item on &apos;Manage&apos; pages. You can also remove single Food/Household and Recipes with a long press.It is possible to Add/Remove Food and Household items on &apos;Manage Items&apos; page.It is possible to Add/Edit/Remove &apos;Recipes&apos; on &apos;Manage Recipes&apos; page.&lt;br&gt;Another option to bring in your own items is to export the demo db, modify it, clear db, them import the modified file.To do this:Import items and recipes as described above. Go back to &apos;Manage Application&apos; page and click on &apos;Import Export&apos; buttonGo back to shopping list page and select &apos;Export Import&apos; from push up menu.Select location (internal / external storage), define a file name and click export.Navigate to the path, copy file to your pc, modify it according to your needs (it is self explaining), copy back to your phone.Now drop the database, select the file and click import.&lt;h1&gt;Pages&lt;/h1&gt;&lt;h2&gt;Shopping list&lt;/h2&gt;This page shows the current shopping list. Items are grouped by categories.&lt;br&gt;Click on an item will strike it through.&lt;br&gt;A second click will unstrike it again.&lt;br&gt;PressAndHold an item will remove this item from shopping list (with remorse).&lt;br&gt;Select items from Food/Household/Recipes/Anything pages to fill shopping list.&lt;br&gt;PullDownMenu &apos;Food&apos; will open &apos;Food&apos; page.&lt;br&gt;PullDownMenu &apos;Household &apos; will open &apos;Household&apos; page. &lt;br&gt;PullDownMenu &apos;Recipes&apos; will open &apos;Recipes&apos; page. &lt;br&gt;PullDownMenu &apos;Anything&apos; allows you to add &apos;free-text&apos; to your shopping list. &lt;br&gt;PullDownMenu &apos;Clear&apos; will clear whole shopping list and uncheck the items in the corresponding sub pages (with remorse).&lt;br&gt;PushUpMenu &apos;Share&apos; brings up ShareUI. It is possible to the list as text to sms, e-mail.. &lt;br&gt;PushUpMenu &apos;Help&apos; did open this help page. &lt;br&gt;PushUpMenu &apos;Manage&apos; will open Manage Application page. &lt;br&gt;&lt;h2&gt;Food / Household Page&lt;/h2&gt;This page allows to add items to shopping list.&lt;br&gt;A click will add an item to shopping list. A second click will increases the total count in shopping list.&lt;br&gt;A PressAndHold will remove item from shopping list.&lt;br&gt;PullDownMenu &apos;Manage&apos; will show &apos;Manage Store&apos; page where you can add / remove items to your local db.&lt;h2&gt;Recipes Page&lt;/h2&gt;Shows all your favorite recipes. A click on any recipe will add it&apos;s ingredients to shopping list. A second click with double all increadients.&lt;br&gt;A PressAndHold will remove the recipe from shopping list.PullDownMenu &apos;Manage&apos; will show &apos;Manage Recipes&apos; page where you can add / edit / remove recipes in your local db.&lt;h2&gt;Managing Recipes Page&lt;/h2&gt;PullDownMenu &apos;Add&apos; to add a new recipe. PressAndHold to delete one recipe from db.Click on an recipe to view/edit the details: Name, servings, ingredients ...The page is a dialog, so swipe back to cancel.&apos;rename&apos; recipe not tested. Changing services and ingredients is working fine, but will not change your current shopping list.To delete an ingredient, just PressAndHold it. To Add an ingredient, click on add, edit ... etc.To properly select an ingredient, click on the the browse button, do not type it manually.PressAndHold the ingredient in the dialog to commit your selection.&lt;h2&gt;Manage Page&lt;/h2&gt;Quick access to all db related pages.</source>
-        <translation>Una aplicación nativa de lista de la compra que admite recetas.&lt;br&gt;&lt;h1&gt;La idea&lt;/h1&gt;Ve a la página &apos;Recetas&apos; y haz clic en una receta: todos los ingredientes de la receta se añadirán a tu lista de la compra.Haz clic de nuevo en la misma receta y ahora la lista de la compra mostrará las cantidades necesarias para dos platos.¿Has hecho clic en la receta equivocada?Mantén pulsada la receta para eliminar todos los ingredientes de nuevo.Vuelve atrás para comprobar la lista de la compra.¿No necesitas un ingrediente, porque ya lo tienes en casa?Mantén pulsado el ingrediente para eliminarlo de la lista¿Quieres comprar otras cosa?Ve a la página &apos;Comida&apos; u &apos;Hogar&apos; y selecciona más artículos de tu bd.¿Quieres comprar algo tan raro que no está en tu bd?Ve a &apos;Cualquier cosa&apos;, escribe el texto y la cantidad, y hecho.&lt;h1&gt;Primeros pasos&lt;/h1&gt;Importa artículos de ejemplo:&lt;br&gt;Selecciona &apos;Gestionar&apos; desde el menú inferior, haz clic en el botón &apos;Categorías&apos; para acceder a la página &apos;Gestionar categorías&apos;. Selecciona &apos;Importar db categorías&apos; desde el menú inferior.&lt;br&gt;Desliza hacia atrás o hacia adelante para volver a &apos;Gestionar aplicación&apos; y haz clic en el botón &apos;Comida&apos; para acceder a la página &apos;Gestionar almacén&apos;. Selecciona &apos;Importar bd artículos&apos; desde el menú inferior.&lt;bt&gt;Esto importará la comida y artículos de hogar a tu bd.&lt;br&gt;Desliza hacia atrás o hacia adelante para volver a la página &apos;Gestionar aplicación&apos; y haz clic en el botón &apos;Recetas&apos;. Selecciona &apos;Importar bd recetas&apos; desde el menú inferior.&lt;br&gt;Esto importará las 	recetas de ejemplo. El orden correcto es importante, ya que las recetas dependen de los artículos. El idioma de los artículos de ejemplo depende del idioma del teléfono. Hay traducciones al alemán, español.. El idioma por defecto es el inglés. Si tu teléfono está p.e. en inglés, pero quieres usar la bd en alemán, cambia el idioma del teléfono antes de importar. Después puedes volver al inglés.&lt;br&gt;Puedes eliminar los artículos de ejemplo en el almacenamiento local usando &apos;Limpiar&apos; desde el menú inferior de las páginas &apos;Gestionar&apos;. También puedes eliminar artículos de Comida/Hogar y Recetas de manera individual al mantener pulsado sobre el artículo.Puedes añadir/eliminar artículos de Comida y Hogar desde la página &apos;Gestionar artículos&apos;.Puedes añadir/editar/eliminar &apos;Recetas&apos; desde la página &apos;Gestionar recetas&apos;.&lt;br&gt;Otra opción para traerte tus propios artículos es exportar la bd de ejemplo, modificarla, borrar registros de la bd, y después importar el fichero modificado.Para hacer esto:Importa los artículos y recetas como se describe arriba. Vuelve a la página &apos;Gestionar aplicación&apos; y haz clic en el botón &apos;Importar Exportar&apos;, Selecciona la ubicación (almacenamiento interno/externo), indica un nombre de archivo y haz clic en exportar.Ve a la ruta, copia el archivo a tu PC, modifícalo de acuerdo a tus necesidades (se explica por sí mismo), y cópialo de nuevo en tu teléfono.Ahora borra la base de datos, selecciona el archivo y haz clic en importar.&lt;h1&gt;Páginas&lt;/h1&gt;&lt;h2&gt;Lista de la compra&lt;/h2&gt;Esta página muestra la lista de la compra actual Los artículos están agrupados por categorías.&lt;br&gt;&lt;br&gt;Al hacer clic en un artículo se tacha.&lt;br&gt;Un segundo clic deshace el tachado.&lt;br&gt;Mantener pulsado un artículo lo elimina de la lista de la compra (con arrepentimiento).&lt;br&gt;Selecciona artículos desde las páginas Comida/Hogar/Recetas/Cualquier cosa para llenar la lista de la compra.&lt;br&gt;&apos;Comida&apos; en el menú superior abre la página &apos;Comida&apos;.&lt;br&gt;&apos;Hogar&apos; en el menú superior abre la página &apos;Hogar&apos;. &lt;br&gt;&apos;Recetas&apos; en el menú superior abre la página &apos;Recetas&apos;. &lt;br&gt;&apos;Cualquier cosa&apos; en el menú superior te permite añadir texto libre a tu lista de la compra. &lt;br&gt;&apos;Limpiar&apos; en el menú superior borra toda la lista de la compra y desmarca los artículos en las correspondientes subpáginas (con arrepentimiento).&lt;br&gt;&apos;Compartir&apos; en el menú inferior muestra las opciones compartir de la IU. Es posible enviar la lista como texto por SMS, e-mail.. &lt;br&gt;&apos;Ayuda&apos; en el menú inferior abre esta página de ayuda.&lt;br&gt;&apos;Gestionar&apos; en el menú inferior abre la página &apos;Gestionar aplicación&apos;.&lt;br&gt;&lt;h2&gt;Página Comida / Hogar&lt;/h2&gt;Esta página te permite añadir artículos a tu lista de la compra.&lt;br&gt;Con un clic se añade un artículo a la lista de la compra. Con un segundo clic aumenta el recuento total en la lista de la compra&lt;br&gt;Al mantener pulsado se elimina el artículo en la lista de la compra.&lt;br&gt;&apos;Gestionar&apos; desde el menú superior muestra la página &apos;Gestionar almacenamiento&apos; donde puedes añadir / eliminar artículos de tu bd local.&lt;h2&gt;Página de recetas&lt;/h2&gt;Muestra tus recetas favoritas. Con un clic en cualquier receta se añaden sus ingredientes a la lista de la compra. Un segundo clic duplica todos los ingredientes.&lt;br&gt;Al mantener pulsado se elimina la receta de la lista de la compra.&apos;Gestionar&apos; desde el menú superior muestra la página &apos;Gestionar recetas&apos; donde puedes añadir/editar/eliminar recetas en tu bd local.&lt;h2&gt;Página de gestión de recetas&lt;/h2&gt;&apos;Añadir&apos; desde el menú superior añade una nueva receta. Mantén pulsado para borrar la receta en la bd.Haz clic en una receta para ver/editar los detalles: nombre, raciones, ingredientes...La página es un diálogo, por tanto desliza hacia atrás para cancelar.No se ha probado la opción &apos;renombrar&apos; recetas. Modificar raciones e ingredientes funciona bien, pero no modificará tu actual lista de la compra.Para borrar un ingrediente mantenlo pulsado. Para añadir un ingrediente, haz clic en añadir, editar...etc.Para seleccionar correctamente un ingrediente, haz clic en el botón de explorar ingredientes, no lo escribas manualmente.En el explorador, mantén pulsado para confirmar tu selección.&lt;h2&gt;Página &apos;Gestionar&apos;&lt;/h2&gt;Acceso rápido a todas las páginas relacionadas con la bd.</translation>
+        <translation>Una aplicación nativa de lista de la compra que admite recetas.&lt;br&gt;&lt;h1&gt;La idea&lt;/h1&gt;Ve a la página &apos;Recetas&apos; y haz clic en una receta: todos los ingredientes de la receta se añadirán a tu lista de la compra. Haz clic de nuevo en la misma receta y la lista de la compra mostrará ahora las cantidades necesarias para dos platos. ¿Has hecho clic en la receta equivocada? Mantén pulsada la receta para eliminar todos los ingredientes de nuevo. Vuelve atrás para comprobar la lista de la compra. ¿No necesitas un ingrediente, porque ya lo tienes? Al hacer clic en él se tachará de la lista. Si lo mantienes pulsado, se eliminará de la lista completamente. ¿Quieres comprar alguna otra cosa? Ve a la página &apos;Comida&apos; u &apos;Hogar&apos; y selecciona más artículos de tu bd. ¿Quieres comprar algo tan raro que no está en tu bd? Ve a &apos;Cualquier cosa&apos;, escribe el texto y la cantidad, y hecho.&lt;br&gt;&lt;h1&gt;Primeros pasos&lt;/h1&gt;Importa artículos de ejemplo:&lt;br&gt;Selecciona &apos;Gestionar&apos; desde el menú inferior, haz clic en el botón &apos;Categorías&apos; para acceder a la página &apos;Gestionar categorías&apos;. Selecciona &apos;Importar bd categorías&apos; desde el menú inferior.&lt;br&gt;Vuelve atrás a la página &apos;Gestionar aplicación&apos; y haz clic en el botón &apos;Comida&apos; para acceder a la página &apos;Gestionar almacén&apos;. Selecciona &apos;Importar bd artículos&apos; desde el menú inferior.&lt;br&gt;Esto importará la comida y artículos de hogar a tu bd.&lt;br&gt;Desliza hacia atrás o hacia adelante para volver a la página &apos;Gestionar aplicación&apos; y haz clic en el botón &apos;Recetas&apos;. Selecciona &apos;Importar bd recetas&apos; desde el menú inferior.&lt;br&gt;Esto importará las recetas de ejemplo. El orden correcto es importante, ya que las recetas dependen de los artículos. El idioma de los artículos de ejemplo depende del idioma del teléfono. Hay traducciones al alemán, español.. El idioma por defecto es el inglés. Si tu teléfono está p.e. en inglés, pero quieres usar la bd en alemán, cambia el idioma del teléfono antes de importar. Después puedes volver al inglés.&lt;br&gt;Puedes eliminar los artículos de ejemplo en el almacenamiento local usando &apos;Limpiar&apos; desde el menú inferior en las páginas &apos;Gestionar&apos;. También puedes eliminar artículos de Comida/Hogar y Recetas de manera individual al mantener pulsado sobre el artículo. Es posible añadir/eliminar artículos de Comida y Hogar desde la página &apos;Gestionar artículos&apos;. Es posible añadir/editar/eliminar &apos;Recetas&apos; desde la página &apos;Gestionar recetas&apos;.&lt;br&gt;Otra opción para traerte tus propios artículos es exportar la bd de ejemplo, modificarla, borrar registros de la bd, y después importar el archivo modificado. Para hacer esto: Importa los artículos y recetas como se describe arriba. Vuelve a la página &apos;Gestionar aplicación&apos; y haz clic en el botón &apos;Importar Exportar&apos;, Selecciona la ubicación (almacenamiento interno/externo), indica un nombre de archivo y haz clic en exportar. Ve a la ruta, copia el archivo a tu PC, modifícalo de acuerdo a tus necesidades (se explica por sí sólo), y cópialo de nuevo en tu teléfono. Ahora borra la base de datos, selecciona el archivo y haz clic en importar.&lt;br&gt;&lt;h1&gt;Páginas&lt;/h1&gt;&lt;h2&gt;Lista de la compra&lt;/h2&gt;Esta página muestra la lista de la compra actual. Los artículos están agrupados por categorías. Al hacer clic en un artículo se tacha.&lt;br&gt;Un segundo clic deshace el tachado.&lt;br&gt;Mantener pulsado un artículo lo elimina de la lista de la compra (con arrepentimiento).&lt;br&gt;Selecciona artículos desde las páginas Comida/Hogar/Recetas/Cualquier cosa para llenar la lista de la compra.&lt;br&gt;&apos;Comida&apos; en el menú superior abre la página &apos;Comida&apos;.&lt;br&gt;&apos;Hogar&apos; en el menú superior abre la página &apos;Hogar&apos;.&lt;br&gt;&apos;Recetas&apos; en el menú superior abre la página &apos;Recetas&apos;.&lt;br&gt;&apos;Cualquier cosa&apos; en el menú superior te permite añadir texto libre a tu lista de la compra.&lt;br&gt;&apos;Limpiar&apos; en el menú superior borra toda la lista de la compra y desmarca los artículos en las correspondientes subpáginas (con arrepentimiento).&lt;br&gt;&apos;Compartir&apos; en el menú inferior muestra las opciones compartir de la IU. Es posible enviar la lista como texto por SMS, e-mail..&lt;br&gt;&apos;Ayuda&apos; en el menú inferior abre esta página de ayuda.&lt;br&gt;&apos;Gestionar&apos; en el menú inferior abre la página &apos;Gestionar aplicación&apos;.&lt;br&gt;&lt;h2&gt;Página Comida / Hogar&lt;/h2&gt;Esta página te permite añadir artículos a tu lista de la compra.&lt;br&gt;Con un clic se añade un artículo a la lista de la compra. Con un segundo clic aumenta el recuento total en la lista de la compra.&lt;br&gt;Al mantener pulsado se elimina el artículo en la lista de la compra.&lt;br&gt;&apos;Gestionar&apos; desde el menú superior muestra la página &apos;Gestionar almacenamiento&apos; donde puedes añadir / eliminar artículos de tu bd local.&lt;br&gt;&lt;h2&gt;Página de recetas&lt;/h2&gt;Muestra tus recetas favoritas. Con un clic en cualquier receta se añaden sus ingredientes a la lista de la compra. Un segundo clic duplica todos los ingredientes.&lt;br&gt;Al mantener pulsado se elimina la receta de la lista de la compra. &apos;Gestionar&apos; desde el menú superior muestra la página &apos;Gestionar recetas&apos; donde puedes añadir/editar/eliminar recetas en tu bd local.&lt;br&gt;&lt;h2&gt;Página de gestión de recetas&lt;/h2&gt;&apos;Añadir&apos; desde el menú superior añade una nueva receta. Mantén pulsado para borrar la receta en la bd.Haz clic en una receta para ver/editar los detalles: nombre, raciones, ingredientes...La página es un diálogo, por tanto desliza hacia atrás para cancelar. No se ha probado la opción &apos;renombrar&apos; recetas. Modificar raciones e ingredientes funciona bien, pero no modificará tu actual lista de la compra. Para borrar un ingrediente mantenlo pulsado. Para añadir un ingrediente, haz clic en añadir, editar...etc. Para seleccionar correctamente un ingrediente, haz clic en el botón de explorar ingredientes, no lo escribas manualmente. Mantén pulsado el ingrediente en el diálogo para confirmar tu selección.&lt;br&gt;&lt;h2&gt;Página &apos;Gestionar&apos;&lt;/h2&gt;Acceso rápido a todas las páginas relacionadas con la bd.</translation>
     </message>
 </context>
 <context>
@@ -417,7 +417,7 @@
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="99"/>
         <source>Set category</source>
-        <translation>Indicar categoría</translation>
+        <translation>Indica categoría</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="108"/>
@@ -427,12 +427,12 @@
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="122"/>
         <source>co2 in []</source>
-        <translation type="unfinished"></translation>
+        <translation>co2 en []</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="124"/>
         <source>Set co2 footprint</source>
-        <translation type="unfinished"></translation>
+        <translation>Indica huella de co2</translation>
     </message>
 </context>
 <context>
@@ -440,12 +440,12 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="11"/>
         <source>dairy products</source>
-        <translation>productos lácteos</translation>
+        <translation>lácteos</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="12"/>
         <source>meat products</source>
-        <translation>productos de carne</translation>
+        <translation>carnes</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="13"/>
@@ -491,7 +491,7 @@
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="15"/>
         <source>frozen food</source>
-        <translation>comida congelada</translation>
+        <translation>congelados</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="16"/>
@@ -539,14 +539,14 @@
         <translation>vinagre de manzana</translation>
     </message>
     <message>
-        <location filename="../qml/DbLayer/OliveDb/Items.js" line="35"/>
-        <source>avocado</source>
-        <translation>aguacate</translation>
-    </message>
-    <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="34"/>
         <source>asian noodels</source>
         <translation>fideos orientales</translation>
+    </message>
+    <message>
+        <location filename="../qml/DbLayer/OliveDb/Items.js" line="35"/>
+        <source>avocado</source>
+        <translation>aguacate</translation>
     </message>
     <message>
         <location filename="../qml/DbLayer/OliveDb/Items.js" line="36"/>
@@ -1269,7 +1269,7 @@
     <message>
         <location filename="../qml/pages/ItemsComponent.qml" line="149"/>
         <source>No items</source>
-        <translation type="unfinished">Sin artículos</translation>
+        <translation>No hay artículos</translation>
     </message>
 </context>
 <context>
@@ -1297,22 +1297,22 @@
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="118"/>
         <source>Update shopping list</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualizar lista de la compra</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="219"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="225"/>
         <source>Move up</source>
-        <translation type="unfinished"></translation>
+        <translation>Subir</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageEnumsPage.qml" line="232"/>
         <source>Move down</source>
-        <translation type="unfinished"></translation>
+        <translation>Bajar</translation>
     </message>
 </context>
 <context>
@@ -1343,47 +1343,47 @@
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="58"/>
         <source>Help</source>
-        <translation type="unfinished">Ayuda</translation>
+        <translation>Ayuda</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="64"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Acerca de</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="73"/>
         <source>Manage Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Gestionar aplicación</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="96"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustes</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="107"/>
         <source>Recipes</source>
-        <translation type="unfinished">Recetas</translation>
+        <translation>Recetas</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="118"/>
         <source>Food</source>
-        <translation type="unfinished">Comida</translation>
+        <translation>Comida</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="126"/>
         <source>Household</source>
-        <translation type="unfinished">Hogar</translation>
+        <translation>Hogar</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="133"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Categorías</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="139"/>
         <source>Import Export</source>
-        <translation type="unfinished"></translation>
+        <translation>Importar Exportar</translation>
     </message>
 </context>
 <context>
@@ -1391,7 +1391,7 @@
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="78"/>
         <source>Please add or import recipes</source>
-        <translation type="unfinished"></translation>
+        <translation>Añade o importa recetas</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageRecipesPage.qml" line="83"/>
@@ -1414,52 +1414,52 @@
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="38"/>
         <source>Save</source>
-        <translation type="unfinished">Guardar</translation>
+        <translation>Guardar</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="39"/>
         <source>Discard</source>
-        <translation type="unfinished">Cancelar</translation>
+        <translation>Cancelar</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="43"/>
         <source>New recipe</source>
-        <translation type="unfinished">Nueva receta</translation>
+        <translation>Nueva receta</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="44"/>
         <source>Recipe</source>
-        <translation type="unfinished">Receta</translation>
+        <translation>Receta</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="54"/>
         <source>Recipe name</source>
-        <translation type="unfinished">Nombre de receta</translation>
+        <translation>Nombre de receta</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="56"/>
         <source>Set recipe name</source>
-        <translation type="unfinished">Indica nombre de la receta</translation>
+        <translation>Indica nombre de receta</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="68"/>
         <source>Servings</source>
-        <translation type="unfinished">Raciones</translation>
+        <translation>Raciones</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="70"/>
         <source>Set number of servings</source>
-        <translation type="unfinished">Indica número de raciones</translation>
+        <translation>Indica número de raciones</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="80"/>
         <source>Add ingredient</source>
-        <translation type="unfinished">Añadir ingrediente</translation>
+        <translation>Añadir ingredientes</translation>
     </message>
     <message>
         <location filename="../qml/pages/RecipeComponent.qml" line="101"/>
         <source>Please add ingredient</source>
-        <translation type="unfinished">Por favor, añade ingredientes</translation>
+        <translation>Añade ingredientes</translation>
     </message>
 </context>
 <context>
@@ -1569,7 +1569,7 @@
     <message>
         <location filename="../qml/pages/RecipesComponent.qml" line="112"/>
         <source>No recipes</source>
-        <translation type="unfinished">Sin recetas</translation>
+        <translation>No hay recetas</translation>
     </message>
 </context>
 <context>
@@ -1585,27 +1585,27 @@
     <message>
         <location filename="../qml/pages/Settings.qml" line="36"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustes</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="39"/>
         <source>Modules</source>
-        <translation type="unfinished"></translation>
+        <translation>Módulos</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="46"/>
         <source>Use recipes</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar recetas</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="55"/>
         <source>Use household items</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar artículos de hogar</translation>
     </message>
     <message>
         <location filename="../qml/pages/Settings.qml" line="64"/>
         <source>Use food items</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar artículos de comida</translation>
     </message>
 </context>
 <context>
@@ -1613,22 +1613,22 @@
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="106"/>
         <source>Any</source>
-        <translation type="unfinished"></translation>
+        <translation>Cualquiera</translation>
     </message>
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="112"/>
         <source>Household</source>
-        <translation type="unfinished">Hogar</translation>
+        <translation>Hogar</translation>
     </message>
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="118"/>
         <source>Food</source>
-        <translation type="unfinished">Comida</translation>
+        <translation>Comida</translation>
     </message>
     <message>
         <location filename="../qml/harbour-olive-goes-shopping.qml" line="124"/>
         <source>Recipes</source>
-        <translation type="unfinished">Recetas</translation>
+        <translation>Recetas</translation>
     </message>
 </context>
 </TS>

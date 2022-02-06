@@ -6,7 +6,7 @@
     <message>
         <location filename="../qml/pages/About.qml" line="27"/>
         <source>a native shopping list</source>
-        <translation>Eine native Einkaufsliste</translation>
+        <translation>Einkaufslisten App</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="34"/>
@@ -21,7 +21,7 @@
     <message>
         <location filename="../qml/pages/About.qml" line="55"/>
         <source>Localization</source>
-        <translation>Lokalisierung</translation>
+        <translation>Übersetzung</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="66"/>
@@ -64,12 +64,12 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="157"/>
         <source>All following fields are only required, if you want to add this item also into your db. if not, swipe to accept.</source>
-        <translation>Alle nachfolgenden Felder werden nur benötigt, wenn du den Artikel zusätzlich zu deiner Datenbank hinzufügen möchtest. Falls nicht, wische zum Akzeptieren.</translation>
+        <translation>Alle nachfolgenden Felder werden nur benötigt, falls du den Artikel zusätzlich auch in deiner Datenbank speichern möchtest. Falls nicht, einfach Akzeptieren.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="108"/>
         <source>Standard package size</source>
-        <translation>Standardpackgröße</translation>
+        <translation>Standard-Paketgröße</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="91"/>
@@ -79,7 +79,7 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="110"/>
         <source>Set standard package size</source>
-        <translation>Standardpackgröße festlegen</translation>
+        <translation>Standard-Paketgröße festlegen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="119"/>
@@ -89,17 +89,17 @@
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="162"/>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>Art</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="172"/>
         <source>co2 in []</source>
-        <translation>Co2 in [}</translation>
+        <translation>CO2 in [}</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="174"/>
         <source>Set co2 footprint</source>
-        <translation>Setze Co2 Abdruck</translation>
+        <translation>Co2 Abdruck festlegen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AnyItemComponent.qml" line="183"/>
@@ -148,7 +148,7 @@
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="43"/>
         <source>Edit item</source>
-        <translation>Artikel ändern</translation>
+        <translation>Artikel bearbeiten</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumDialog.qml" line="53"/>
@@ -166,7 +166,7 @@
     <message>
         <location filename="../qml/pages/EnumPicker.qml" line="91"/>
         <source>Press &amp; hold to accept</source>
-        <translation>Drücken &amp; Halten zum Akzeptieren</translation>
+        <translation>Drücken &amp; Halten um zu übernehmen</translation>
     </message>
     <message>
         <location filename="../qml/pages/EnumPicker.qml" line="96"/>
@@ -191,7 +191,7 @@
         <location filename="../qml/pages/ExportPage.qml" line="85"/>
         <source>sdcard-label</source>
         <extracomment>Label for SD-Cards where %1 represents the increasing number for each card</extracomment>
-        <translation>Auf SD-Card speichern</translation>
+        <translation>SD-Karte</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="114"/>
@@ -208,13 +208,13 @@
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="126"/>
         <source>Choose target</source>
-        <translation>Ziel wählen</translation>
+        <translation>Datenträger wählen</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="145"/>
         <source>Enter a file name for export</source>
         <extracomment>placeholder message to remind the user that he has to enter a name for the data export</extracomment>
-        <translation>Gib einen Dateiname für den Export an</translation>
+        <translation>Gib einen Dateinamen für den Export an</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="161"/>
@@ -257,7 +257,7 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
         <location filename="../qml/pages/ExportPage.qml" line="296"/>
         <source>drop-database-header</source>
         <extracomment>headline for the database purge</extracomment>
-        <translation>Löschen der Datenbank</translation>
+        <translation>Datenbank löschen</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="305"/>
@@ -269,7 +269,7 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
         <location filename="../qml/pages/ExportPage.qml" line="314"/>
         <source>drop-database-confirmation</source>
         <extracomment>let user confirm the database purge</extracomment>
-        <translation>Datenbanklöschung aktivieren</translation>
+        <translation>Datenbanklöschung bestätigen</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="322"/>
@@ -304,12 +304,12 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="164"/>
         <source>Clear done</source>
-        <translation>Erledigte löschen</translation>
+        <translation>Erledigtes löschen</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="166"/>
         <source>Removing done entries</source>
-        <translation>Entferne Erledigtes</translation>
+        <translation>Lösche Erledigtes</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="199"/>
@@ -339,7 +339,7 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="275"/>
         <source>Oh dear, &lt;br&gt;nothing to shop ?!</source>
-        <translation>Oh mein Gott, &lt;br&gt;nichts einzukaufen ?!</translation>
+        <translation>Ach je, &lt;br&gt;nichts da zum Einkaufen ?!</translation>
     </message>
 </context>
 <context>
@@ -355,7 +355,7 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/HelpPage.qml" line="29"/>
         <source>a native shopping list</source>
-        <translation>Eine native Einkaufsliste</translation>
+        <translation>Einkaufslisten App</translation>
     </message>
     <message>
         <location filename="../qml/pages/HelpPage.qml" line="37"/>
@@ -383,7 +383,7 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="46"/>
         <source>Edit item</source>
-        <translation>Artikel ändern</translation>
+        <translation>Artikel bearbeiten</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="56"/>
@@ -398,12 +398,12 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="70"/>
         <source>Standard package size</source>
-        <translation>Standardpackgröße</translation>
+        <translation>Standard-Paketgröße</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="72"/>
         <source>Set standard package size</source>
-        <translation>Standardpackgröße festlegen</translation>
+        <translation>Standard-Paketgröße festlegen</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="81"/>
@@ -423,17 +423,17 @@ Zudem können Sie die Datenbank löschen. Alle Daten gehen dabei verloren.</tran
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="108"/>
         <source>Change Category</source>
-        <translation>Kategorie ändern</translation>
+        <translation>Kategorie bearbeiten</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="122"/>
         <source>co2 in []</source>
-        <translation>Co2 in []</translation>
+        <translation>CO2 in []</translation>
     </message>
     <message>
         <location filename="../qml/pages/ItemDialog.qml" line="124"/>
         <source>Set co2 footprint</source>
-        <translation>Co2 Abdruck</translation>
+        <translation>CO2 Abdruck</translation>
     </message>
 </context>
 <context>
