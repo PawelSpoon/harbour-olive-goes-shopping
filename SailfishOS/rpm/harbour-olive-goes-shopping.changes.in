@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Jun 19 2022 Jack Tar <pawel@ich-habe-fertig.com> 0.4.6-0
+- updated slovak translations and disable sailjail
+
 * Sat Feb 5 2022 Jack Tar <pawel@ich-habe-fertig.com> 0.4.5-0
 - updated german and spanish translations
 

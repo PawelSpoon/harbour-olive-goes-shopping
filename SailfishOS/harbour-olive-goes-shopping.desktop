@@ -13,3 +13,8 @@ Name=Olive goes shoppin'
 Name[de]=Olivia geht shoppen
 Name[cs]=Oliv jde nakoupit
 
++[X-Sailjail]
++#Permissions=UserDirs;Audio;MediaIndexing;Bluetooth;Internet;RemovableMedia
++#OrganizationName=oarg.pawelspoon
++#ApplicationName=deadbeef
++Sandboxing=Disabled

@@ -318,12 +318,12 @@
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="206"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Skopírované do schránky</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="212"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopírovať do schránky</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="249"/>
@@ -1348,7 +1348,7 @@
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="64"/>
         <source>About</source>
-        <translation type="unfinished">O aplikácii</translation>
+        <translation>O aplikácii</translation>
     </message>
     <message>
         <location filename="../qml/pages/ManageMainPage.qml" line="73"/>
