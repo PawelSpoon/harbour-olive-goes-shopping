@@ -323,7 +323,7 @@
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="212"/>
         <source>Copy to clipboard</source>
-        <translation>Kopírovať do scjránky</translation>
+        <translation>Kopírovať do schránky</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="249"/>
