@@ -13,8 +13,11 @@ Name=Olive goes shoppin'
 Name[de]=Olivia geht shoppen
 Name[cs]=Oliv jde nakoupit
 
-+[X-Sailjail]
-+#Permissions=UserDirs;Audio;MediaIndexing;Bluetooth;Internet;RemovableMedia
-+#OrganizationName=oarg.pawelspoon
-+#ApplicationName=deadbeef
-+Sandboxing=Disabled
+[X-Sailjail]
+Permissions=UserDirs;RemovableMedia
+OrganizationName=oarg.pawelspoon
+ApplicationName=harbour-olive-goes-shopping
+
+[X-HarbourBackup]
+BackupPathList=.local/share/oarg.pawelspoon/harbour-olive-goes-shopping/:.config/oarg.pawelspoon/harbour-olive-goes-shopping/
+BackupConfigList=

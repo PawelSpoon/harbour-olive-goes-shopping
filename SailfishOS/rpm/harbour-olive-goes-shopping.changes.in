@@ -8,6 +8,11 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Jun 26 2022 Jack Tar <pawel@ich-habe-fertig.com> 0.4.7-0
+- add to my backup support
+- enable sailjail
+- fix location of settings
+
 * Sun Jun 19 2022 Jack Tar <pawel@ich-habe-fertig.com> 0.4.6-0
 - updated slovak translations and disable sailjail
 

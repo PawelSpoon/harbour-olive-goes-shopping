@@ -20,92 +20,77 @@ OGSSettings::~OGSSettings()
 
 bool OGSSettings::recipes()
 {
-    QSettings settings;
-    return settings.value("recipes", "").toBool();
+    return getValue("recipes").toBool();
 }
 
 void OGSSettings::setRecipes(const bool value)
 {
-    QSettings settings;
-    settings.setValue("recipes", value);
+    setValue("recipes", value);
     emit moduleChanged();
 }
 
 bool OGSSettings::household()
 {
-    QSettings settings;
-    return settings.value("household", "").toBool();
-    emit moduleChanged();
+    return getValue("household").toBool();
 }
 
 void OGSSettings::setHousehold(const bool value)
 {
-    QSettings settings;
-    settings.setValue("household", value);
+    setValue("household", value);
     emit moduleChanged();
 }
 
 bool OGSSettings::food()
 {
-    QSettings settings;
-    return settings.value("food", "").toBool();
+    return getValue("food").toBool();
 }
 
 void OGSSettings::setFood(const bool value)
 {
-    QSettings settings;
-    settings.setValue("food", value);
+    setValue("food", value);
     emit moduleChanged();
 }
 
 bool OGSSettings::categories()
 {
-    QSettings settings;
-    return settings.value("categories", "").toBool();
+    return getValue("categories").toBool();
 }
 
 void OGSSettings::setCategories(const bool value)
 {
-    QSettings settings;
-    settings.setValue("categories", value);
+    setValue("categories", value);
     emit categoryChanged();
 }
 
 bool OGSSettings::categorizeShoppingList()
 {
-    QSettings settings;
-    return settings.value("categorizeShoppingList", "").toBool();
+    return getValue("categorizeShoppingList").toBool();
 }
 
 void OGSSettings::setCategorizeShoppingList(const bool value)
 {
-    QSettings settings;
-    settings.setValue("categorizeShoppingList", value);
+    setValue("categorizeShoppingList", value);
     emit categoryChanged();
 }
 
 bool OGSSettings::categorizeItems()
 {
-    QSettings settings;
-    return settings.value("categorizeItems", true).toBool();
+    return getValue("categorizeItems").toBool();
 }
 
 void OGSSettings::setCategorizeItems(const bool value)
 {
-    QSettings settings;
-    settings.setValue("categorizeItems", value);
+    setValue("categorizeItems", value);
     emit categoryChanged();
 }
 
 bool OGSSettings::capitalization()
 {
-    QSettings settings;
-    return settings.value("capitalization", "").toBool();
+    return getValue("capitalization").toBool();
 }
 
 void OGSSettings::setCapitalization(const bool value)
 {
-    QSettings settings;
-    settings.setValue("capitalization", value);
+    setValue("capitalization", value);
     emit capitalizationChanged();
 }

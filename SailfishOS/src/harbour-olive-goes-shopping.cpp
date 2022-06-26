@@ -46,13 +46,56 @@
 #include "ogssettings.h"
 
 
+
+void migrateSettings()
+{
+
+    // copy sql databae
+    // The new location of the LocalStorage database
+    QString pathOld = "/harbour-olive-goes-shopping/harbour-olive-goes-shopping/QML/OfflineStorage/Databases/";
+    QString pathNew = "/oarg.pawelspoon/harbour-olive-goes-shopping/QML/OfflineStorage/Databases/";
+
+    QDir newDbDir(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation) + pathNew);
+
+    if(newDbDir.exists())
+        return;
+
+    newDbDir.mkpath(newDbDir.path());
+
+    QString dbname = QString(QCryptographicHash::hash(("harbour-olive-goes-shopping"), QCryptographicHash::Md5).toHex());
+
+    qDebug() << "dbname: " + dbname;
+
+    // The old LocalStorage database
+    QFile oldDb(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation) +  pathOld + dbname + ".sqlite");
+    QFile oldIni(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation) + pathOld + dbname + ".ini");
+
+    oldDb.copy(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation) +  pathNew + dbname + ".sqlite");
+    oldIni.copy(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation) + pathNew + dbname + ".ini");
+
+    qDebug("migrating");
+
+    // config file
+
+    QFile oldSetting(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/harbour-olive-goes-shopping/harbour-olive-goes-shopping.conf");
+    QDir newConfDir(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/oarg.pawelspoon/harbour-olive-goes-shopping");
+
+    if(newConfDir.exists())
+        return;
+
+    newConfDir.mkpath(newConfDir.path());
+}
+
 int main(int argc, char *argv[])
 {
     QString appname = "Olive goes shopping";
     QString pkgname = "harbour-olive-goes-shopping";
 
-    QCoreApplication::setOrganizationName(pkgname);
-    QCoreApplication::setApplicationName(appname);
+    migrateSettings();
+
+    QCoreApplication::setOrganizationDomain("oarg.pawelspoon");
+    QCoreApplication::setOrganizationName("oarg.pawelspoon"); // needed for Sailjail
+    QCoreApplication::setApplicationName(pkgname);
 
     // SailfishApp::main() will display "qml/template.qml", if you need more
     // control over initialization, you can use:
@@ -67,5 +110,8 @@ int main(int argc, char *argv[])
     qmlRegisterType<OGSSettings>("harbour.olivegoesshopping.ogssettings", 1, 0, "OGSSettings");
     qmlRegisterType<Settings>("harbour.olivegoesshopping.settings", 1, 0, "Settings");
 
+
     return SailfishApp::main(argc, argv);
 }
+
+

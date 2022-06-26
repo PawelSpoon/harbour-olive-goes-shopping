@@ -18,8 +18,12 @@ public:
     QString language();
     void setLanguage(const QString &lang);*/
 
-    void setValue(const QString &key, const QString &value);
-    QString getValue(const QString &key);
+    void setValue(const QString &key, const QVariant &value);
+    void setStringValue(const QString &key, const QString &value);
+    QVariant getValue(const QString &key);
+    QString getStringValue(const QString &key);
+
+    void migrateSettings();
 
 };
 

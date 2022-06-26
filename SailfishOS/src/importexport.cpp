@@ -245,12 +245,12 @@ void ImportExport::exitDropbox()
 
 QString ImportExport::language()
 {
-    QSettings settings;
+   QSettings settings(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/oarg.pawelspoon/harbour-olive-goes-shopping/harbour-olive-goes-shopping.conf", QSettings::NativeFormat);
     return settings.value("language", "").toString();
 }
 
 void ImportExport::setLanguage(const QString &lang)
 {
-    QSettings settings;
+   QSettings settings(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/oarg.pawelspoon/harbour-olive-goes-shopping/harbour-olive-goes-shopping.conf", QSettings::NativeFormat);
     settings.setValue("language", lang);
 }
